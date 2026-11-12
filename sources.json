@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T22:58:07.676848+00:00",
+  "updated_at": "2026-11-12T23:01:48.293215+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -866,138 +866,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 21,
-      "stream_count": 21,
+      "match_count": 15,
+      "stream_count": 15,
       "leagues": [
-        {
-          "name": "CAF Africa Cup of Nations",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-23xmvkh675xzqg8",
-              "title": "Bờ Biển Ngà vs Gambia",
-              "home": "Bờ Biển Ngà",
-              "away": "Gambia",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzghv0xq82w/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h3987mojx/image/small",
-              "time": "2026-11-13T02:00:00+07:00",
-              "time_label": "13/11 02:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-dj2ryohl8oddq1z",
-              "title": "Benin vs CH Trung Phi",
-              "home": "Benin",
-              "away": "CH Trung Phi",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh9p9q82w/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohkx0yq1zp/image/small",
-              "time": "2026-11-13T02:00:00+07:00",
-              "time_label": "13/11 02:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-l5ergph4g15er8k",
-              "title": "Senegal vs Sudan",
-              "home": "Senegal",
-              "away": "Sudan",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghlx3m0ve/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phy96m2wd/image/small",
-              "time": "2026-11-13T02:00:00+07:00",
-              "time_label": "13/11 02:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-l7oqdehg7pe1r51",
-              "title": "Cameroon vs Namibia",
-              "home": "Cameroon",
-              "away": "Namibia",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryohod6q1zp/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh0l4omd7o/image/small",
-              "time": "2026-11-13T02:00:00+07:00",
-              "time_label": "13/11 02:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "CONCACAF Nations League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-318q66hxle0eqo9",
-              "title": "Barbados vs Guadeloupe",
-              "home": "Barbados",
-              "away": "Guadeloupe",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghzx2r6od/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hogloqo9j/image/small",
-              "time": "2026-11-13T02:00:00+07:00",
-              "time_label": "13/11 02:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-8yomo4h1npkvq0j",
-              "title": "Cayman Islands vs Guyana",
-              "home": "Cayman Islands",
-              "away": "Guyana",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkh30dlqg8n/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h349jmojx/image/small",
-              "time": "2026-11-13T02:00:00+07:00",
-              "time_label": "13/11 02:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-pxwrxlhyd4gvryk",
-              "title": "Bonaire vs Cuba",
-              "home": "Bonaire",
-              "away": "Cuba",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh4jx5qwzv/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7hvooqdyj/image/small",
-              "time": "2026-11-13T03:00:00+07:00",
-              "time_label": "13/11 03:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-2y8m4zhv3790ql0",
-              "title": "Aruba vs Martinique",
-              "home": "Aruba",
-              "away": "Martinique",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkw4gryox/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8y39mp1hl39mojx/image/small",
-              "time": "2026-11-13T05:00:00+07:00",
-              "time_label": "13/11 05:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-318q66h8o69vqo9",
-              "title": "Curacao vs Panama",
-              "home": "Curacao",
-              "away": "Panama",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7pho8v3m2wd/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zho2eql07/image/small",
-              "time": "2026-11-13T07:30:00+07:00",
-              "time_label": "13/11 07:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "UEFA Nations League",
           "logo": "",
@@ -1114,6 +985,51 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh3n0dqwzv/image/small",
               "time": "2026-11-13T03:00:00+07:00",
               "time_label": "13/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "CONCACAF Nations League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-pxwrxlhyd4gvryk",
+              "title": "Bonaire vs Cuba",
+              "home": "Bonaire",
+              "away": "Cuba",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh4jx5qwzv/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7hvooqdyj/image/small",
+              "time": "2026-11-13T03:00:00+07:00",
+              "time_label": "13/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-2y8m4zhv3790ql0",
+              "title": "Aruba vs Martinique",
+              "home": "Aruba",
+              "away": "Martinique",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkw4gryox/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8y39mp1hl39mojx/image/small",
+              "time": "2026-11-13T05:00:00+07:00",
+              "time_label": "13/11 05:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-318q66h8o69vqo9",
+              "title": "Curacao vs Panama",
+              "home": "Curacao",
+              "away": "Panama",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7pho8v3m2wd/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zho2eql07/image/small",
+              "time": "2026-11-13T07:30:00+07:00",
+              "time_label": "13/11 07:30",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
