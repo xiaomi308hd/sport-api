@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T09:57:25.775860+00:00",
+  "updated_at": "2026-11-12T10:00:56.328710+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -25,8 +25,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 75,
-      "stream_count": 154,
+      "match_count": 76,
+      "stream_count": 156,
       "leagues": [
         {
           "name": "Aus Champ",
@@ -859,6 +859,19 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Andorra vs Gibraltar",
+              "home": "Andorra",
+              "away": "Gibraltar",
+              "home_logo": "https://img.cltvap.cc/football/team/15fa1fad1fc582dd65403f6f950b1e21.png",
+              "away_logo": "https://img.cltvap.cc/football/team/275612d39c2aacdf7b64836df54b9229.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
             }
           ]
         },
@@ -1111,54 +1124,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 10,
-      "stream_count": 11,
+      "match_count": 9,
+      "stream_count": 10,
       "leagues": [
-        {
-          "name": "International Friendly",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-4wyrn4hyz2d0q86",
-              "title": "New Zealand vs Ấn Độ",
-              "home": "New Zealand",
-              "away": "Ấn Độ",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkk88ryox/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyhdk8r1ge/image/small",
-              "time": "2026-11-12T13:00:00+07:00",
-              "time_label": "12/11 13:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-4jwq2ghg401em0v",
-              "title": "Thái Lan U23 vs Qatar U23",
-              "home": "Thái Lan U23",
-              "away": "Qatar U23",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohk4jvq1zp/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh98vq82w/image/small",
-              "time": "2026-11-12T15:00:00+07:00",
-              "time_label": "12/11 15:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "mhd-match-dn1m1gh94xdzmoe",
-              "title": "Serbia U21 vs Bắc Macedonia U21",
-              "home": "Serbia U21",
-              "away": "Bắc Macedonia U21",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/jednm9wh4e9ryox/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hd84rz84/image/small",
-              "time": "2026-11-12T20:00:00+07:00",
-              "time_label": "12/11 20:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Chinese Football Assorciation U-20 League",
           "logo": "",
@@ -1185,6 +1153,38 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4h020vq0j6/image/small",
               "time": "2026-11-12T14:00:00+07:00",
               "time_label": "12/11 14:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "International Friendly",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-4jwq2ghg401em0v",
+              "title": "Thái Lan U23 vs Qatar U23",
+              "home": "Thái Lan U23",
+              "away": "Qatar U23",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohk4jvq1zp/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh98vq82w/image/small",
+              "time": "2026-11-12T15:00:00+07:00",
+              "time_label": "12/11 15:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "mhd-match-dn1m1gh94xdzmoe",
+              "title": "Serbia U21 vs Bắc Macedonia U21",
+              "home": "Serbia U21",
+              "away": "Bắc Macedonia U21",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/jednm9wh4e9ryox/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hd84rz84/image/small",
+              "time": "2026-11-12T20:00:00+07:00",
+              "time_label": "12/11 20:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
