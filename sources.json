@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T20:32:53.145971+00:00",
+  "updated_at": "2026-11-12T20:36:31.780137+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -46,7 +46,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "1h",
+              "status": "ht",
               "score": "",
               "stream_count": 9
             },
@@ -59,7 +59,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "1h",
+              "status": "ht",
               "score": "",
               "stream_count": 9
             },
@@ -72,7 +72,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "1h",
+              "status": "ht",
               "score": "",
               "stream_count": 9
             }
@@ -150,6 +150,19 @@
           "matches": [
             {
               "id": "",
+              "title": "Italy vs France",
+              "home": "Italy",
+              "away": "France",
+              "home_logo": "https://img.cltvap.cc/football/team/775bc655c77d679c193f1982dac04668.png",
+              "away_logo": "https://img.cltvap.cc/football/team/70ded7a479aa84ea26b4677f99485f88.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
               "title": "Czechia vs Spain",
               "home": "Czechia",
               "away": "Spain",
@@ -168,19 +181,6 @@
               "away": "Croatia",
               "home_logo": "https://img.cltvap.cc/football/team/70fd3d5ba9c841ef932fae2cf0d7f3e7.png",
               "away_logo": "https://img.cltvap.cc/football/team/a1b3eb19ca424555b5c61384059d21f7.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Italy vs France",
-              "home": "Italy",
-              "away": "France",
-              "home_logo": "https://img.cltvap.cc/football/team/775bc655c77d679c193f1982dac04668.png",
-              "away_logo": "https://img.cltvap.cc/football/team/70ded7a479aa84ea26b4677f99485f88.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
