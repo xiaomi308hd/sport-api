@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:18:38.994929+00:00",
+  "updated_at": "2026-11-12T18:22:20.247233+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -173,8 +173,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 64,
-      "stream_count": 130,
+      "match_count": 63,
+      "stream_count": 128,
       "leagues": [
         {
           "name": "UEFA Nations League",
@@ -407,19 +407,6 @@
           "name": "CAF Africa Cup of Nations",
           "logo": "",
           "matches": [
-            {
-              "id": "",
-              "title": "Equatorial Guinea vs Zimbabwe",
-              "home": "Equatorial Guinea",
-              "away": "Zimbabwe",
-              "home_logo": "https://img.cltvap.cc/football/team/3d9171993c26e3bbe878122a09435451.png",
-              "away_logo": "https://img.cltvap.cc/football/team/85040c47172a95869f1a82c180ae7701.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
             {
               "id": "",
               "title": "Guinea vs Eritrea",
