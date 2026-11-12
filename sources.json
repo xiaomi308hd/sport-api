@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:03:56.080577+00:00",
+  "updated_at": "2026-11-12T18:07:37.756961+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,28 +11,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 10,
-      "stream_count": 90,
+      "match_count": 9,
+      "stream_count": 81,
       "leagues": [
-        {
-          "name": "Africa Cup of Nations - Qualification",
-          "logo": "https://media.chuoichientv.net/media/20251115_120144_c5f585be.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Madagascar vs Guinea-Bissau",
-              "home": "Madagascar",
-              "away": "Guinea-Bissau",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134302_17a38444.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134306_c6162edd.png",
-              "time": "2026-11-12T23:00:00+07:00",
-              "time_label": "12/11 23:00",
-              "status": "ft",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
         {
           "name": "UEFA Nations League",
           "logo": "https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png",
@@ -46,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png",
               "time": "2026-11-13T00:00:00+07:00",
               "time_label": "13/11 00:00",
-              "status": "ht",
+              "status": "2h",
               "score": "",
               "stream_count": 9
             },
