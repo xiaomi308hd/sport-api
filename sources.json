@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T20:48:16.665761+00:00",
+  "updated_at": "2026-11-12T20:51:52.274078+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,28 +11,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 7,
-      "stream_count": 63,
+      "match_count": 6,
+      "stream_count": 54,
       "leagues": [
-        {
-          "name": "Copa del Rey",
-          "logo": "https://media.chuoichientv.net/media/20251115_115714_ac7e3867.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Navalcarnero vs Real Betis",
-              "home": "Navalcarnero",
-              "away": "Real Betis",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_143204_bf995317.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125626_d7a3c828.png",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "aet",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
         {
           "name": "UEFA Nations League",
           "logo": "https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png",
@@ -59,7 +40,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "ht",
+              "status": "2h",
               "score": "",
               "stream_count": 9
             },
@@ -72,7 +53,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "ht",
+              "status": "2h",
               "score": "",
               "stream_count": 9
             }
