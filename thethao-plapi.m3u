@@ -1,7 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-1l4rjnhny1wpm7v" tvg-name="Nữ Barcelona vs Nữ Arsenal - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h81p9q86p/image/small" group-title="UEFA Women's Champions League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ Barcelona vs Nữ Arsenal | 13/11 00:45 | Phá Làng TV | Live
-#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/fb55f8e9e22e1ea9257e065fcbbfe136/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-23xmvkh675xzqg8" tvg-name="Bờ Biển Ngà vs Gambia - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzghv0xq82w/image/small" group-title="CAF Africa Cup of Nations" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Bờ Biển Ngà vs Gambia | 13/11 02:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/b5d842c69eb6db296f546801689dce66/playlist.m3u8
@@ -32,9 +29,6 @@ https://lilive1.eu.cc/live/3c88318b234ed09f579bd14a47cc4183/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-8yomo4h1npkvq0j" tvg-name="Cayman Islands vs Guyana - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkh30dlqg8n/image/small" group-title="CONCACAF Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Cayman Islands vs Guyana | 13/11 02:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/23ec5fbc6d00a36bb8b13e9237ac245c/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-8yomo4h1yld5q0j" tvg-name="CH Séc vs Tây Ban Nha - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhy07md7o/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",CH Séc vs Tây Ban Nha | 13/11 02:45 | Phá Làng TV | HD1
-#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://pull.digitalcdn.net/live/b4d84d8ae61d4c9abdb7b459582dc846/index.m3u8
 #EXTINF:-1 tvg-id="mhd-match-8yomo4h1yld5q0j" tvg-name="CH Séc vs Tây Ban Nha - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhy07md7o/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",CH Séc vs Tây Ban Nha | 13/11 02:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/1929a9fba99fe49da7173e66101148e5/playlist.m3u8

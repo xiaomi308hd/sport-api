@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:43:46.290947+00:00",
+  "updated_at": "2026-11-12T21:47:24.151555+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -109,39 +109,13 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 59,
-      "stream_count": 120,
+      "match_count": 57,
+      "stream_count": 116,
       "leagues": [
         {
           "name": "UEFA Nations League",
           "logo": "",
           "matches": [
-            {
-              "id": "",
-              "title": "Italy vs France",
-              "home": "Italy",
-              "away": "France",
-              "home_logo": "https://img.cltvap.cc/football/team/775bc655c77d679c193f1982dac04668.png",
-              "away_logo": "https://img.cltvap.cc/football/team/70ded7a479aa84ea26b4677f99485f88.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Czechia vs Spain",
-              "home": "Czechia",
-              "away": "Spain",
-              "home_logo": "https://img.cltvap.cc/football/team/445f0bbb49694464b0fee3b1cbdfdafc.png",
-              "away_logo": "https://img.cltvap.cc/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
             {
               "id": "",
               "title": "England vs Croatia",
@@ -963,41 +937,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 28,
-      "stream_count": 29,
+      "match_count": 27,
+      "stream_count": 27,
       "leagues": [
-        {
-          "name": "UEFA Women's Champions League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-1l4rjnhny1wpm7v",
-              "title": "Nữ Barcelona vs Nữ Arsenal",
-              "home": "Nữ Barcelona",
-              "away": "Nữ Arsenal",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h81p9q86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohkj30q1zp/image/small",
-              "time": "2026-11-13T00:45:00+07:00",
-              "time_label": "13/11 00:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-965mkyh8l46vr1g",
-              "title": "Nữ Benfica vs Nữ Austria Wien",
-              "home": "Nữ Benfica",
-              "away": "Nữ Austria Wien",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh0l3xmd7o/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh3n0dqwzv/image/small",
-              "time": "2026-11-13T03:00:00+07:00",
-              "time_label": "13/11 03:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Argentine Reserve League",
           "logo": "",
@@ -1320,9 +1262,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4vgymoep/image/small",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
-              "stream_count": 2
+              "stream_count": 1
             },
             {
               "id": "mhd-match-pxwrxlhyl8keryk",
@@ -1363,6 +1305,25 @@
               "away": "Portmore United",
               "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhx78jqvy9/image/small",
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh4x9jr6od/image/small",
+              "time": "2026-11-13T03:00:00+07:00",
+              "time_label": "13/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "UEFA Women's Champions League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-965mkyh8l46vr1g",
+              "title": "Nữ Benfica vs Nữ Austria Wien",
+              "home": "Nữ Benfica",
+              "away": "Nữ Austria Wien",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh0l3xmd7o/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh3n0dqwzv/image/small",
               "time": "2026-11-13T03:00:00+07:00",
               "time_label": "13/11 03:00",
               "status": "scheduled",
