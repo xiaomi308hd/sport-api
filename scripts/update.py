@@ -1061,6 +1061,8 @@ _SPORT_RULES = [
     ("VOLLEYBALL", re.compile(r"\b(volleyball|volley|bong chuyen|vnl|fivb)\b")),
     ("TENNIS", re.compile(r"\b(tennis|atp|wta|wimbledon|roland garros|davis cup|billie jean king|grand slam|us open|australian open|itf)\b")),
     ("BADMINTON", re.compile(r"\b(badminton|cau long|bwf|all england|thomas cup|uber cup|sudirman)\b")),
+    ("BILLIARDS", re.compile(r"\b(billiards?|bida|bi[ -]a|snooker|carom|three cushion|3 cushion|nine ball|eight ball|ten ball|[89] ?-?ball|10 ?-?ball|pool billiards?|wpa|uk pool)\b")),
+    ("ESPORTS", re.compile(r"\b(esports?|e ?-?sports?|league of legends|lol|lck|lec|lcs|vcs|msi|dota ?2?|cs ?go|cs ?2|counter ?-?strike|valorant|vct|pubg|pmgc|mobile legends|mlbb|lien quan|aov|arena of valor|honor of kings|free fire|fortnite|overwatch|rainbow six|apex legends|starcraft|rocket league|tft|pgl|esl|iem|fifa online|ea fc online|fc online)\b")),
     ("FOOTBALL", re.compile(
         r"\b(football|soccer|bong da|premier league|epl|la ?liga|serie a|bundesliga|ligue 1|champions league|"
         r"europa league|conference league|uefa|fifa|world cup|v ?league|afc|copa|mls|j ?league|k ?league|"
@@ -1071,8 +1073,7 @@ _SPORT_RULES = [
 
 # Môn không có trong bộ lọc của app: không đoán bừa là bóng đá.
 _SPORT_OTHER = re.compile(
-    r"\b(cricket|ipl|t20|odi|bbl|psl|rugby|baseball|mlb|nfl|nhl|hockey|mma|ufc|boxing|golf|nascar|f1|formula 1|"
-    r"motogp|esports?|dota|lol|handball|table tennis|bong ban|snooker|darts|cycling|swimming)\b"
+    r"\b(cricket|ipl|t20|odi|bbl|psl|rugby|baseball|mlb|nfl|nhl|hockey|mma|ufc|boxing|golf|nascar|f1|formula 1|motogp|handball|table tennis|bong ban|darts|cycling|swimming)\b"
 )
 
 
@@ -1083,7 +1084,7 @@ def _fold_text(value):
 
 
 def detect_sport(*texts):
-    """Trả về FOOTBALL/BASKETBALL/VOLLEYBALL/TENNIS/BADMINTON, hoặc '' nếu không chắc."""
+    """Trả về FOOTBALL/BASKETBALL/VOLLEYBALL/TENNIS/BADMINTON/BILLIARDS/ESPORTS, hoặc '' nếu không chắc."""
     joined = _fold_text(" | ".join(t for t in texts if t))
 
     if not joined.strip():
