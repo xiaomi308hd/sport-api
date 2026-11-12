@@ -1,0 +1,163 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="mhd-match-994936" tvg-name="Pachuca W vs Monterrey W - Chuối Lá - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_113520_b20e2b37.png" group-title="Nữ Mexico" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Pachuca W vs Monterrey W | 12/11 10:00 | Chuối Lá | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-994936" tvg-name="Pachuca W vs Monterrey W - Chuối Lá - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_113520_b20e2b37.png" group-title="Nữ Mexico" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Pachuca W vs Monterrey W | 12/11 10:00 | Chuối Lá | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-994936" tvg-name="Pachuca W vs Monterrey W - Chuối Lá - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_113520_b20e2b37.png" group-title="Nữ Mexico" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Pachuca W vs Monterrey W | 12/11 10:00 | Chuối Lá | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1586134" tvg-name="New Zealand vs India - Chuối Tây - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",New Zealand vs India | 12/11 13:00 | 0-0 | Chuối Tây | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1586134" tvg-name="New Zealand vs India - Chuối Tây - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",New Zealand vs India | 12/11 13:00 | 0-0 | Chuối Tây | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1586134" tvg-name="New Zealand vs India - Chuối Tây - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",New Zealand vs India | 12/11 13:00 | 0-0 | Chuối Tây | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1649008" tvg-name="U23 Thailand  vs U23 Qatar - Chuối Lửa - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",U23 Thailand  vs U23 Qatar | 12/11 15:00 | 0-0 | Chuối Lửa | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1649008" tvg-name="U23 Thailand  vs U23 Qatar - Chuối Lửa - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",U23 Thailand  vs U23 Qatar | 12/11 15:00 | 0-0 | Chuối Lửa | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1649008" tvg-name="U23 Thailand  vs U23 Qatar - Chuối Lửa - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",U23 Thailand  vs U23 Qatar | 12/11 15:00 | 0-0 | Chuối Lửa | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1648253" tvg-name="Hwacheon KSPO vs Gyeongju - Chuối Sấy - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120041_1f64c9dc.png" group-title="WK-League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Hwacheon KSPO vs Gyeongju | 12/11 17:00 | 0-0 | Chuối Sấy | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1648253" tvg-name="Hwacheon KSPO vs Gyeongju - Chuối Sấy - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120041_1f64c9dc.png" group-title="WK-League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Hwacheon KSPO vs Gyeongju | 12/11 17:00 | 0-0 | Chuối Sấy | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1648253" tvg-name="Hwacheon KSPO vs Gyeongju - Chuối Sấy - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120041_1f64c9dc.png" group-title="WK-League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Hwacheon KSPO vs Gyeongju | 12/11 17:00 | 0-0 | Chuối Sấy | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1649009" tvg-name="Singapore U23 vs U23 Vietnam  - Chuối Kem - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Singapore U23 vs U23 Vietnam  | 12/11 19:00 | 0-0 | Chuối Kem | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1649009" tvg-name="Singapore U23 vs U23 Vietnam  - Chuối Kem - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Singapore U23 vs U23 Vietnam  | 12/11 19:00 | 0-0 | Chuối Kem | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1649009" tvg-name="Singapore U23 vs U23 Vietnam  - Chuối Kem - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Singapore U23 vs U23 Vietnam  | 12/11 19:00 | 0-0 | Chuối Kem | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1649009" tvg-name="Singapore U23 vs U23 Vietnam  - Chuối Nhỏ - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Singapore U23 vs U23 Vietnam  | 12/11 19:00 | 0-0 | Chuối Nhỏ | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1649009" tvg-name="Singapore U23 vs U23 Vietnam  - Chuối Nhỏ - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Singapore U23 vs U23 Vietnam  | 12/11 19:00 | 0-0 | Chuối Nhỏ | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1649009" tvg-name="Singapore U23 vs U23 Vietnam  - Chuối Nhỏ - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Singapore U23 vs U23 Vietnam  | 12/11 19:00 | 0-0 | Chuối Nhỏ | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1645400" tvg-name="Iceland U21 vs Greece U21 - Chuối Chao - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120303_ef062d3a.png" group-title="UEFA U21 Championship - Qualification" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Iceland U21 vs Greece U21 | 12/11 20:00 | 0-0 | Chuối Chao | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1645400" tvg-name="Iceland U21 vs Greece U21 - Chuối Chao - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120303_ef062d3a.png" group-title="UEFA U21 Championship - Qualification" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Iceland U21 vs Greece U21 | 12/11 20:00 | 0-0 | Chuối Chao | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1645400" tvg-name="Iceland U21 vs Greece U21 - Chuối Chao - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120303_ef062d3a.png" group-title="UEFA U21 Championship - Qualification" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Iceland U21 vs Greece U21 | 12/11 20:00 | 0-0 | Chuối Chao | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1647358" tvg-name="Uzbekistan vs Russia - Chuối Nhỏ - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Uzbekistan vs Russia | 12/11 22:00 | 0-0 | Chuối Nhỏ | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1647358" tvg-name="Uzbekistan vs Russia - Chuối Nhỏ - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Uzbekistan vs Russia | 12/11 22:00 | 0-0 | Chuối Nhỏ | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1647358" tvg-name="Uzbekistan vs Russia - Chuối Nhỏ - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Uzbekistan vs Russia | 12/11 22:00 | 0-0 | Chuối Nhỏ | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1545873" tvg-name="Ghana vs Somalia - Trốc Tru - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Ghana vs Somalia | 12/11 22:00 | 0-0 | Trốc Tru | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1545873" tvg-name="Ghana vs Somalia - Trốc Tru - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Ghana vs Somalia | 12/11 22:00 | 0-0 | Trốc Tru | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1545873" tvg-name="Ghana vs Somalia - Trốc Tru - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Ghana vs Somalia | 12/11 22:00 | 0-0 | Trốc Tru | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1545876" tvg-name="Madagascar vs Guinea-Bissau - Chuối Lá - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Madagascar vs Guinea-Bissau | 12/11 23:00 | 0-0 | Chuối Lá | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1545876" tvg-name="Madagascar vs Guinea-Bissau - Chuối Lá - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Madagascar vs Guinea-Bissau | 12/11 23:00 | 0-0 | Chuối Lá | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1545876" tvg-name="Madagascar vs Guinea-Bissau - Chuối Lá - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Madagascar vs Guinea-Bissau | 12/11 23:00 | 0-0 | Chuối Lá | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528958" tvg-name="Türkiye vs Belgium - Chuối Tây - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Türkiye vs Belgium | 13/11 00:00 | 0-0 | Chuối Tây | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528958" tvg-name="Türkiye vs Belgium - Chuối Tây - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Türkiye vs Belgium | 13/11 00:00 | 0-0 | Chuối Tây | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528958" tvg-name="Türkiye vs Belgium - Chuối Tây - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Türkiye vs Belgium | 13/11 00:00 | 0-0 | Chuối Tây | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1638295" tvg-name="Barcelona W vs Arsenal W - Chuối Lửa - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="UEFA Champions League Women" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Barcelona W vs Arsenal W | 13/11 00:45 | 0-0 | Chuối Lửa | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1638295" tvg-name="Barcelona W vs Arsenal W - Chuối Lửa - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="UEFA Champions League Women" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Barcelona W vs Arsenal W | 13/11 00:45 | 0-0 | Chuối Lửa | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1638295" tvg-name="Barcelona W vs Arsenal W - Chuối Lửa - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="UEFA Champions League Women" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Barcelona W vs Arsenal W | 13/11 00:45 | 0-0 | Chuối Lửa | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1644363" tvg-name="Navalcarnero vs Real Betis - Trốc Tru - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115714_ac7e3867.png" group-title="Copa del Rey" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Navalcarnero vs Real Betis | 13/11 01:00 | 0-0 | Trốc Tru | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1644363" tvg-name="Navalcarnero vs Real Betis - Trốc Tru - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115714_ac7e3867.png" group-title="Copa del Rey" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Navalcarnero vs Real Betis | 13/11 01:00 | 0-0 | Trốc Tru | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1644363" tvg-name="Navalcarnero vs Real Betis - Trốc Tru - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115714_ac7e3867.png" group-title="Copa del Rey" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Navalcarnero vs Real Betis | 13/11 01:00 | 0-0 | Trốc Tru | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528960" tvg-name="Italy vs France - Chuối Nhỏ - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Italy vs France | 13/11 02:45 | 0-0 | Chuối Nhỏ | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528960" tvg-name="Italy vs France - Chuối Nhỏ - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Italy vs France | 13/11 02:45 | 0-0 | Chuối Nhỏ | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528960" tvg-name="Italy vs France - Chuối Nhỏ - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Italy vs France | 13/11 02:45 | 0-0 | Chuối Nhỏ | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528961" tvg-name="Czech Republic vs Spain - Chuối Chao - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Czech Republic vs Spain | 13/11 02:45 | 0-0 | Chuối Chao | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528961" tvg-name="Czech Republic vs Spain - Chuối Chao - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Czech Republic vs Spain | 13/11 02:45 | 0-0 | Chuối Chao | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528961" tvg-name="Czech Republic vs Spain - Chuối Chao - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Czech Republic vs Spain | 13/11 02:45 | 0-0 | Chuối Chao | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528962" tvg-name="England vs Croatia - Chuối Lá - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",England vs Croatia | 13/11 02:45 | 0-0 | Chuối Lá | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528962" tvg-name="England vs Croatia - Chuối Lá - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",England vs Croatia | 13/11 02:45 | 0-0 | Chuối Lá | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1528962" tvg-name="England vs Croatia - Chuối Lá - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",England vs Croatia | 13/11 02:45 | 0-0 | Chuối Lá | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1549868" tvg-name="Deportivo Pasto vs Junior - Trốc Tru - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png" group-title="VĐQG Colombia" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Deportivo Pasto vs Junior | 13/11 04:00 | 0-0 | Trốc Tru | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1549868" tvg-name="Deportivo Pasto vs Junior - Trốc Tru - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png" group-title="VĐQG Colombia" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Deportivo Pasto vs Junior | 13/11 04:00 | 0-0 | Trốc Tru | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1549868" tvg-name="Deportivo Pasto vs Junior - Trốc Tru - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png" group-title="VĐQG Colombia" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Deportivo Pasto vs Junior | 13/11 04:00 | 0-0 | Trốc Tru | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1549870" tvg-name="Llaneros vs Chico - Chuối Sấy - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png" group-title="VĐQG Colombia" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Llaneros vs Chico | 13/11 04:00 | 0-0 | Chuối Sấy | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1549870" tvg-name="Llaneros vs Chico - Chuối Sấy - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png" group-title="VĐQG Colombia" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Llaneros vs Chico | 13/11 04:00 | 0-0 | Chuối Sấy | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1549870" tvg-name="Llaneros vs Chico - Chuối Sấy - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png" group-title="VĐQG Colombia" x-source="chuoichientv" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Llaneros vs Chico | 13/11 04:00 | 0-0 | Chuối Sấy | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
