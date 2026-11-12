@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T09:35:14.853901+00:00",
+  "updated_at": "2026-11-12T09:43:17.232350+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -25,8 +25,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 56,
-      "stream_count": 114,
+      "match_count": 76,
+      "stream_count": 156,
       "leagues": [
         {
           "name": "International Friendly",
@@ -164,11 +164,115 @@
             },
             {
               "id": "",
+              "title": "Argentina vs Uruguay",
+              "home": "Argentina",
+              "away": "Uruguay",
+              "home_logo": "https://img.cltvap.cc/football/team/ef7329946e1741b9ade4fedbf739158a.png",
+              "away_logo": "https://img.cltvap.cc/football/team/df95d362f8e4446e9d4637aa0daa8f22.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Colombia vs Chile",
+              "home": "Colombia",
+              "away": "Chile",
+              "home_logo": "https://img.cltvap.cc/football/team/ef2635db12914681ae86ece2d97bd6c2.png",
+              "away_logo": "https://img.cltvap.cc/football/team/76b605730bd2606bbcb290f1244dac9a.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Ecuador vs Costa Rica",
+              "home": "Ecuador",
+              "away": "Costa Rica",
+              "home_logo": "https://img.cltvap.cc/football/team/10c94f16a2db4872b22d66aa3949bdc0.png",
+              "away_logo": "https://img.cltvap.cc/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Peru vs Bolivia",
+              "home": "Peru",
+              "away": "Bolivia",
+              "home_logo": "https://img.cltvap.cc/football/team/77da2f07ed6c94afa27b5f113bea7ebe.png",
+              "away_logo": "https://img.cltvap.cc/football/team/17d0194350341e7466cd67969ac39e2e.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Thailand U23 vs Singapore U23",
+              "home": "Thailand U23",
+              "away": "Singapore U23",
+              "home_logo": "https://img.cltvap.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png",
+              "away_logo": "https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Japan vs Brazil",
+              "home": "Japan",
+              "away": "Brazil",
+              "home_logo": "https://img.cltvap.cc/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png",
+              "away_logo": "https://img.cltvap.cc/football/team/c718af22dc754a6b8dc103901c554eb8.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Vietnam U23 vs Qatar U23",
+              "home": "Vietnam U23",
+              "away": "Qatar U23",
+              "home_logo": "https://img.cltvap.cc/football/team/14b75c2d38d88b747c19de8ea5509d16.png",
+              "away_logo": "https://img.cltvap.cc/football/team/7303a103c93fea0445384d6ff3f3d1b9.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 4
+            },
+            {
+              "id": "",
               "title": "Chinese Taipei vs Kyrgyzstan",
               "home": "Chinese Taipei",
               "away": "Kyrgyzstan",
               "home_logo": "https://img.cltvap.cc/football/team/985e51b605c92cc968c1b313eef9dd95.png",
               "away_logo": "https://img.cltvap.cc/football/team/c2ed005169a8733b7f08567778f9ea04.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Palestine vs IR Iran",
+              "home": "Palestine",
+              "away": "IR Iran",
+              "home_logo": "https://img.cltvap.cc/football/team/72fb22982ac69857cb2432f13589836e.png",
+              "away_logo": "https://img.cltvap.cc/football/team/8155ecd333d749a8a3df7be234d157c4.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
@@ -512,6 +616,19 @@
             },
             {
               "id": "",
+              "title": "Morocco vs Niger",
+              "home": "Morocco",
+              "away": "Niger",
+              "home_logo": "https://img.cltvap.cc/football/team/85a768d7c6a14d51b24bcb19c280b4c6.png",
+              "away_logo": "https://img.cltvap.cc/football/team/cd0ec9035e74c703a7e3128db75fdc65.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
               "title": "Uganda vs Botswana",
               "home": "Uganda",
               "away": "Botswana",
@@ -680,11 +797,76 @@
             },
             {
               "id": "",
+              "title": "Serbia vs Germany",
+              "home": "Serbia",
+              "away": "Germany",
+              "home_logo": "https://img.cltvap.cc/football/team/059bbd8df7767d3bc7829e3735c221e2.png",
+              "away_logo": "https://img.cltvap.cc/football/team/761ccf19be6a4fdf81880acadb81aa4c.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Scotland vs North Macedonia",
+              "home": "Scotland",
+              "away": "North Macedonia",
+              "home_logo": "https://img.cltvap.cc/football/team/40812113b19045bfac9e0fd11134ac87.png",
+              "away_logo": "https://img.cltvap.cc/football/team/f06adf060c098f11e76fa2ff1565ba70.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Slovenia vs Switzerland",
+              "home": "Slovenia",
+              "away": "Switzerland",
+              "home_logo": "https://img.cltvap.cc/football/team/e4ba31fba036a999321d5460f7f2d1d1.png",
+              "away_logo": "https://img.cltvap.cc/football/team/fad87ff2077540c8a951ade88a87901d.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Slovakia vs Faroe Islands",
+              "home": "Slovakia",
+              "away": "Faroe Islands",
+              "home_logo": "https://img.cltvap.cc/football/team/e2fcc738438c4e7ca4b605ef8764db73.png",
+              "away_logo": "https://img.cltvap.cc/football/team/90c34175923a36ab7a5de4b981c1972f.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
               "title": "Luxembourg vs Estonia",
               "home": "Luxembourg",
               "away": "Estonia",
               "home_logo": "https://img.cltvap.cc/football/team/a878dbebc902328b41dbf02aa87abb58.png",
               "away_logo": "https://img.cltvap.cc/football/team/350035841e1182bf4389c52752d8bd0d.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Bulgaria vs Iceland",
+              "home": "Bulgaria",
+              "away": "Iceland",
+              "home_logo": "https://img.cltvap.cc/football/team/3c057cb2b41f22c0e740974d7a428918.png",
+              "away_logo": "https://img.cltvap.cc/football/team/430fda3112134b44b54eeba89eec5189.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
@@ -735,6 +917,19 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Guatemala vs Canada",
+              "home": "Guatemala",
+              "away": "Canada",
+              "home_logo": "https://img.cltvap.cc/football/team/a1d4643376bf11b37c51f5c76fcaff79.png",
+              "away_logo": "https://img.cltvap.cc/football/team/336e1c9ab6894a3b893c1ef45235a164.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
             }
           ]
         },
@@ -777,6 +972,70 @@
           ]
         },
         {
+          "name": "CFA Team China International Tournament",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "China vs Malaysia",
+              "home": "China",
+              "away": "Malaysia",
+              "home_logo": "https://img.cltvap.cc/football/team/445ef89e5620a875f7c2eaddd033e39d.png",
+              "away_logo": "https://img.cltvap.cc/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "English FA Women's Super League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Manchester United Women vs Crystal Palace Women",
+              "home": "Manchester United Women",
+              "away": "Crystal Palace Women",
+              "home_logo": "https://img.cltvap.cc/football/team/db33359c11033fc28c9bedec0a4a89d9.png",
+              "away_logo": "https://img.cltvap.cc/football/team/42396d18444156e640c37476c2b41b93.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Chelsea FC Women vs Manchester City Women",
+              "home": "Chelsea FC Women",
+              "away": "Manchester City Women",
+              "home_logo": "https://img.cltvap.cc/football/team/be4671c3b73541959a18e358dd8de4d2.png",
+              "away_logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Tottenham Hotspur Women vs Everton FC Women",
+              "home": "Tottenham Hotspur Women",
+              "away": "Everton FC Women",
+              "home_logo": "https://img.cltvap.cc/football/team/d10be5a20040a05a05fc02c0cbdaa1ac.png",
+              "away_logo": "https://img.cltvap.cc/football/team/6550678bf94ca14194fe646fa9a18ee0.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
           "name": "United Arab Emirates ADIB Cup",
           "logo": "",
           "matches": [
@@ -805,20 +1064,14 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "English FA Women's Super League",
-          "logo": "",
-          "matches": [
+            },
             {
               "id": "",
-              "title": "Chelsea FC Women vs Manchester City Women",
-              "home": "Chelsea FC Women",
-              "away": "Manchester City Women",
-              "home_logo": "https://img.cltvap.cc/football/team/be4671c3b73541959a18e358dd8de4d2.png",
-              "away_logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+              "title": "Hatta vs Al-Ain FC",
+              "home": "Hatta",
+              "away": "Al-Ain FC",
+              "home_logo": "https://img.cltvap.cc/football/team/bb546c302434af47cf61e8ae3fd53102.png",
+              "away_logo": "https://img.cltvap.cc/football/team/0a275ee78225885853d8bb904e037247.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
@@ -831,6 +1084,19 @@
           "name": "Spanish Segunda Division",
           "logo": "",
           "matches": [
+            {
+              "id": "",
+              "title": "Real Valladolid CF vs Castellon",
+              "home": "Real Valladolid CF",
+              "away": "Castellon",
+              "home_logo": "https://img.cltvap.cc/football/team/fdf63461c00668597319a4f0db14dcee.png",
+              "away_logo": "https://img.cltvap.cc/football/team/ff7fc9b2fbb5adb548b62c8a1d342d16.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
             {
               "id": "",
               "title": "Real Sociedad B vs Sporting Gijon",
