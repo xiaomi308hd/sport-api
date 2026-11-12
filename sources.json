@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T19:59:30.375747+00:00",
+  "updated_at": "2026-11-12T20:03:13.362881+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125626_d7a3c828.png",
               "time": "2026-11-13T01:00:00+07:00",
               "time_label": "13/11 01:00",
-              "status": "2h",
+              "status": "bt",
               "score": "",
               "stream_count": 9
             }
@@ -1021,97 +1021,13 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 36,
-      "stream_count": 40,
+      "match_count": 31,
+      "stream_count": 35,
       "leagues": [
-        {
-          "name": "International Friendly",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-23xmvkhy3yzdqg8",
-              "title": "Pháp U20 vs Đan Mạch U20",
-              "home": "Pháp U20",
-              "away": "Đan Mạch U20",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh0gdq1zp/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyhvwvr1ge/image/small",
-              "time": "2026-11-12T23:00:00+07:00",
-              "time_label": "12/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-zp5rzgh3j3epq82",
-              "title": "Lithuania vs Suriname",
-              "home": "Lithuania",
-              "away": "Suriname",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzghv1yq82w/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhgoy3ryk0/image/small",
-              "time": "2026-11-13T00:00:00+07:00",
-              "time_label": "13/11 00:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-l7oqdehjneg4r51",
-              "title": "Malta vs Eswatini",
-              "home": "Malta",
-              "away": "Eswatini",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7ph6edm2wd/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h3jo1mojx/image/small",
-              "time": "2026-11-13T00:30:00+07:00",
-              "time_label": "13/11 00:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "CAF Africa Cup of Nations",
           "logo": "",
           "matches": [
-            {
-              "id": "mhd-match-318q66hxle7oqo9",
-              "title": "Madagascar vs Guinea Bissau",
-              "home": "Madagascar",
-              "away": "Guinea Bissau",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hl0y4rz84/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohke0jq1zp/image/small",
-              "time": "2026-11-12T23:00:00+07:00",
-              "time_label": "12/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-4wyrn4h6g37dq86",
-              "title": "DR Congo vs Sierra Leone",
-              "home": "DR Congo",
-              "away": "Sierra Leone",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnho2em7vx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh09pjmd7o/image/small",
-              "time": "2026-11-12T23:00:00+07:00",
-              "time_label": "12/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-vjxm8ghey12er6o",
-              "title": "Guinea Xích Đạo vs Zimbabwe",
-              "home": "Guinea Xích Đạo",
-              "away": "Zimbabwe",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzghv3wq82w/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh73wer1ge/image/small",
-              "time": "2026-11-12T23:00:00+07:00",
-              "time_label": "12/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
             {
               "id": "mhd-match-8yomo4h1np5xq0j",
               "title": "Guinea vs Eritrea",
@@ -1174,25 +1090,6 @@
               "time": "2026-11-13T02:00:00+07:00",
               "time_label": "13/11 02:00",
               "status": "live",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Elite League U20",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-ednm9whwj5wpryo",
-              "title": "Italy U20 vs Bồ Đào Nha U20",
-              "home": "Italy U20",
-              "away": "Bồ Đào Nha U20",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdehn1exr510/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phk0z6m2wd/image/small",
-              "time": "2026-11-12T23:00:00+07:00",
-              "time_label": "12/11 23:00",
-              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
@@ -1309,6 +1206,38 @@
           ]
         },
         {
+          "name": "International Friendly",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-zp5rzgh3j3epq82",
+              "title": "Lithuania vs Suriname",
+              "home": "Lithuania",
+              "away": "Suriname",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzghv1yq82w/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhgoy3ryk0/image/small",
+              "time": "2026-11-13T00:00:00+07:00",
+              "time_label": "13/11 00:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-l7oqdehjneg4r51",
+              "title": "Malta vs Eswatini",
+              "home": "Malta",
+              "away": "Eswatini",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7ph6edm2wd/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h3jo1mojx/image/small",
+              "time": "2026-11-13T00:30:00+07:00",
+              "time_label": "13/11 00:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
           "name": "Copa del Rey",
           "logo": "",
           "matches": [
@@ -1385,7 +1314,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh5vgpmd7o/image/small",
               "time": "2026-11-13T01:00:00+07:00",
               "time_label": "13/11 01:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
@@ -1488,7 +1417,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh40jyqwzv/image/small",
               "time": "2026-11-13T01:00:00+07:00",
               "time_label": "13/11 01:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
