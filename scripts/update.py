@@ -1492,6 +1492,129 @@ def generate_epg(entries):
     )
 
 
+def split_m3u_blocks(text):
+    """Tách playlist thành các block: (tvg-id, url, [dòng...])."""
+    blocks = []
+    current = []
+
+    for line in text.splitlines():
+        line = line.rstrip()
+
+        if not line or line.startswith("#EXTM3U"):
+            continue
+
+        current.append(line)
+
+        if not line.startswith("#"):
+            joined = "\n".join(current)
+            match = re.search(r'tvg-id="([^"]*)"', joined)
+
+            blocks.append((
+                match.group(1) if match else "",
+                line.strip(),
+                current
+            ))
+            current = []
+
+    return blocks
+
+
+def build_global_outputs(apis, api_results):
+    """Playlist tổng + EPG, kể cả khi một vài API lỗi.
+
+    API thành công: dùng dữ liệu mới. API lỗi: giữ nguyên các luồng
+    và chương trình EPG đã ghi lần trước của nguồn đó.
+    """
+    fresh_entries = []
+    stale_blocks = []
+
+    for api in apis:
+        source_id = clean(api.get("id"))
+        matches = api_results.get(source_id)
+
+        if matches is not None:
+            fresh_entries.extend(collect_playlist_entries(matches))
+            continue
+
+        playlist = ROOT / api.get(
+            "playlist_file",
+            f"thethao-{source_id}.m3u"
+        )
+
+        if playlist.exists():
+            try:
+                stale_blocks.extend(
+                    split_m3u_blocks(
+                        playlist.read_text(encoding="utf-8")
+                    )
+                )
+            except Exception as exc:
+                log.warning(
+                    "%s: không đọc được playlist cũ: %s",
+                    playlist.name, exc
+                )
+
+    lines = generate_m3u(fresh_entries).splitlines()
+
+    seen_urls = {
+        line.strip() for line in lines if not line.startswith("#")
+    }
+
+    stale_ids = set()
+    stale_count = 0
+
+    for tvg_id, url, block in stale_blocks:
+        if url in seen_urls:
+            continue
+
+        seen_urls.add(url)
+        lines.extend(block)
+        stale_count += 1
+
+        if tvg_id:
+            stale_ids.add(tvg_id)
+
+    epg = merge_stale_epg(generate_epg(fresh_entries), stale_ids)
+
+    return (
+        "\n".join(lines) + "\n",
+        epg,
+        len(fresh_entries),
+        stale_count
+    )
+
+
+def merge_stale_epg(epg_text, stale_ids):
+    """Chép lại channel/programme cũ của các trận thuộc API lỗi."""
+    if not stale_ids or not EPG_FILE.exists():
+        return epg_text
+
+    try:
+        root = ET.fromstring(epg_text.split("?>", 1)[-1])
+        old_root = ET.parse(EPG_FILE).getroot()
+    except Exception as exc:
+        log.warning("Không gộp được EPG cũ: %s", exc)
+        return epg_text
+
+    present = {c.get("id") for c in root.findall("channel")}
+
+    for tag in ("channel", "programme"):
+        for element in old_root.findall(tag):
+            key = (
+                element.get("id") if tag == "channel"
+                else element.get("channel")
+            )
+
+            if key in stale_ids and key not in present:
+                root.append(element)
+
+    return ET.tostring(
+        root,
+        encoding="unicode",
+        xml_declaration=True
+    )
+
+
 # ============================================================
 # SOURCES.JSON
 # ============================================================
@@ -1745,28 +1868,19 @@ def main():
 
         return 1
 
-    # Global playlist.
-    if failed_count == 0:
-        global_m3u = generate_m3u(all_entries)
+    # Global playlist + EPG (API lỗi thì giữ dữ liệu cũ của riêng nguồn đó).
+    global_m3u, global_epg, fresh_count, stale_count = (
+        build_global_outputs(apis, api_results)
+    )
 
-        atomic_write(
-            OUTPUT_FILE,
-            global_m3u
-        )
+    atomic_write(OUTPUT_FILE, global_m3u)
 
-        log.info(
-            "Đã tạo %s (%s luồng)",
-            OUTPUT_FILE.name,
-            len(all_entries)
-        )
-    else:
-        log.warning(
-            "Có API lỗi (%s/%s). "
-            "Giữ nguyên playlist tổng hiện tại: %s",
-            failed_count,
-            len(apis),
-            OUTPUT_FILE.name
-        )
+    log.info(
+        "Đã tạo %s (%s luồng mới, %s luồng giữ từ lần trước)",
+        OUTPUT_FILE.name,
+        fresh_count,
+        stale_count
+    )
 
     # Per-source playlists.
     for api in apis:
@@ -1811,20 +1925,9 @@ def main():
         )
 
     # XMLTV EPG.
-    if failed_count == 0:
-        epg_content = generate_epg(all_entries)
+    atomic_write(EPG_FILE, global_epg)
 
-        atomic_write(
-            EPG_FILE,
-            epg_content
-        )
-
-        log.info("Đã tạo %s", EPG_FILE.name)
-    else:
-        log.warning(
-            "Có API lỗi. Giữ nguyên EPG hiện tại: %s",
-            EPG_FILE.name
-        )
+    log.info("Đã tạo %s", EPG_FILE.name)
 
     # sources.json.
     source_data = build_sources(

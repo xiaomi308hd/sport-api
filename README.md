@@ -31,7 +31,7 @@ Lưu ý: khả năng hiển thị logo hai đội phụ thuộc trình phát IPT
 
 `config.json` hiện cấu hình API ChuoiChienTV với tham số `type=live`, `page=1`, `limit=500`; gửi `Accept`, User-Agent trình duyệt, `Referer` và `Origin` của trang player đã dùng trong cấu hình trước. Script có timeout 25 giây, tối đa 2 lần retry cho lỗi tạm thời, các nhóm `blvs`, `blvs_bonglau`, `blvs_nguoitho`, và Referer riêng cho hostname `gckc0525.edgemaxcdn.org`.
 
-HTTP 403 không được retry hoặc tìm cách vượt hạn chế truy cập. Cấu hình `Referer`/`Origin` chỉ giúp yêu cầu tương thích với luồng truy cập web thông thường; không đảm bảo máy chủ cấp quyền. Nếu API vẫn trả 403, cần nhà cung cấp cấp quyền hoặc thay bằng API công khai được phép truy cập. Các lỗi tạm thời như 408, 429, 500, 502, 503, 504 có thể được thử lại. Nếu API lỗi, không có trận đấu, hoặc không có stream hợp lệ, các file M3U/EPG cũ được giữ nguyên; workflow báo thất bại rõ nguyên nhân để tránh nhầm dữ liệu cũ là dữ liệu mới.
+HTTP 403 không được retry hoặc tìm cách vượt hạn chế truy cập. Cấu hình `Referer`/`Origin` chỉ giúp yêu cầu tương thích với luồng truy cập web thông thường; không đảm bảo máy chủ cấp quyền. Nếu API vẫn trả 403, cần nhà cung cấp cấp quyền hoặc thay bằng API công khai được phép truy cập. Các lỗi tạm thời như 408, 429, 500, 502, 503, 504 có thể được thử lại. Nếu một API lỗi, các luồng và lịch EPG đã ghi lần trước của riêng API đó được giữ lại, còn API khác vẫn cập nhật bình thường (`sources.json` đánh `ok: false`, `stale: true` cho nguồn lỗi). Nếu mọi API đều lỗi hoặc không có stream hợp lệ nào, các file M3U/EPG cũ được giữ nguyên và workflow báo thất bại.
 
 ## HTTP Referer
 
@@ -125,7 +125,8 @@ Thiết lập một lần trong repo `sport-api`:
 1. Mở **Settings → Secrets and variables → Actions → Secrets → New repository secret**.
 2. Tên secret: `M3U_DEST_TOKEN`.
 3. Giá trị: Fine-grained Personal Access Token được cấp quyền cho repo `xiaomi308hd/hinh-nen`, với **Contents: Read and write**. Không dán token vào file, workflow, playlist hoặc ứng dụng Android.
-4. Chạy workflow **Actions → Update MHD Sports M3U + XMLTV EPG → Run workflow** để kiểm tra lần đầu.
+4. (Tuỳ chọn) Repo đích mặc định là `xiaomi308hd/hinh-nen`, thư mục gốc. Muốn đổi, vào **Settings → Secrets and variables → Actions → Variables** và tạo biến `M3U_DEST_REPO` (dạng `chủ-sở-hữu/tên-repo`), `M3U_DEST_PATH` (thư mục con, bỏ trống = gốc). Lưu ý đây là **Variables**, không phải Secrets.
+5. Chạy workflow **Actions → Update MHD Sports M3U + XMLTV EPG → Run workflow** để kiểm tra lần đầu. Trong log tìm dòng `Đã đẩy thethao.m3u sang …`; nếu thiếu secret hoặc push thất bại, workflow báo đỏ kèm lý do.
 
 URL nguồn công khai dành cho MHD Sports:
 
