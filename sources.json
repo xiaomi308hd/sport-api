@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T17:45:33.922074+00:00",
+  "updated_at": "2026-11-12T17:49:14.669426+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1150,8 +1150,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 25,
-      "stream_count": 27,
+      "match_count": 26,
+      "stream_count": 28,
       "leagues": [
         {
           "name": "Argentine Women's League",
@@ -1462,6 +1462,25 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhz9nqg8n/image/small",
               "time": "2026-11-13T01:00:00+07:00",
               "time_label": "13/11 01:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "UEFA Women's Champions League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-1l4rjnhny1wpm7v",
+              "title": "Nữ Barcelona vs Nữ Arsenal",
+              "home": "Nữ Barcelona",
+              "away": "Nữ Arsenal",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h81p9q86p/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohkj30q1zp/image/small",
+              "time": "2026-11-13T00:45:00+07:00",
+              "time_label": "13/11 00:45",
               "status": "live",
               "score": "",
               "stream_count": 1
