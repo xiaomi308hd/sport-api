@@ -54,6 +54,11 @@ jobs:
 
       - name: Update loop
         run: |
+          if [ ! -f scripts/update.py ]; then
+            echo "::error::Thiếu scripts/update.py trong repo. Hãy đẩy thư mục scripts/ lên (cùng cấp với config.json)."
+            ls -la
+            exit 1
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           end=$(( $(date +%s) + LOOP_SECONDS ))
@@ -76,9 +81,10 @@ jobs:
             # from this repository's Git index but keep the generated workspace file.
             if [ -d "playlist-destination/.git" ]; then
               git rm --cached -f --ignore-unmatch thethao.m3u >/dev/null 2>&1 || true
-              git add epg.xml
+              [ -f epg.xml ] && git add epg.xml
             else
-              git add thethao.m3u epg.xml
+              [ -f thethao.m3u ] && git add -f thethao.m3u
+              [ -f epg.xml ] && git add epg.xml
             fi
             [ -f sources.json ] && git add sources.json
             [ -f referer_cache.json ] && git add referer_cache.json
