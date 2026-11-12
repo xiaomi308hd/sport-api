@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T17:56:34.698718+00:00",
+  "updated_at": "2026-11-12T18:00:15.911380+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -192,8 +192,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 67,
-      "stream_count": 136,
+      "match_count": 64,
+      "stream_count": 130,
       "leagues": [
         {
           "name": "UEFA Nations League",
@@ -426,32 +426,6 @@
           "name": "CAF Africa Cup of Nations",
           "logo": "",
           "matches": [
-            {
-              "id": "",
-              "title": "Madagascar vs Guinea Bissau",
-              "home": "Madagascar",
-              "away": "Guinea Bissau",
-              "home_logo": "https://img.cltvap.cc/football/team/b3a153ec4be947cbee37d78cead6552b.png",
-              "away_logo": "https://img.cltvap.cc/football/team/9864c46c05d8590f2ebf70351b062203.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Democratic Republic of the Congo vs Sierra Leone",
-              "home": "Democratic Republic of the Congo",
-              "away": "Sierra Leone",
-              "home_logo": "https://img.cltvap.cc/football/team/ce991ab3a9bd4859bdb6cf6e9b623a35.png",
-              "away_logo": "https://img.cltvap.cc/football/team/9248a959405836566e6ba694aaa884a6.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
             {
               "id": "",
               "title": "Equatorial Guinea vs Zimbabwe",
@@ -933,19 +907,6 @@
             },
             {
               "id": "",
-              "title": "Chinese Taipei vs Kyrgyzstan",
-              "home": "Chinese Taipei",
-              "away": "Kyrgyzstan",
-              "home_logo": "https://img.cltvap.cc/football/team/985e51b605c92cc968c1b313eef9dd95.png",
-              "away_logo": "https://img.cltvap.cc/football/team/c2ed005169a8733b7f08567778f9ea04.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
               "title": "Palestine vs IR Iran",
               "home": "Palestine",
               "away": "IR Iran",
@@ -1150,8 +1111,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 26,
-      "stream_count": 28,
+      "match_count": 28,
+      "stream_count": 30,
       "leagues": [
         {
           "name": "Argentine Women's League",
@@ -1167,6 +1128,19 @@
               "time": "2026-11-12T21:00:00+07:00",
               "time_label": "12/11 21:00",
               "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-8yomo4hy7y2vq0j",
+              "title": "Nữ Banfield vs Nữ River Plate",
+              "home": "Nữ Banfield",
+              "away": "Nữ River Plate",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhj2vwryk0/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllh2ggeqvy9/image/small",
+              "time": "2026-11-13T01:00:00+07:00",
+              "time_label": "13/11 01:00",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
@@ -1500,7 +1474,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hjy51qdyj/image/small",
               "time": "2026-11-13T01:00:00+07:00",
               "time_label": "13/11 01:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
@@ -1513,7 +1487,26 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohy963q1zp/image/small",
               "time": "2026-11-13T01:00:00+07:00",
               "time_label": "13/11 01:00",
-              "status": "scheduled",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Brazilian Campeonato Paulista Youth",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-zp5rzgh3jgy7q82",
+              "title": "Bragantino RB (R) vs Corinthians Paulista (Y)",
+              "home": "Bragantino RB (R)",
+              "away": "Corinthians Paulista (Y)",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh4lpjqwzv/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh40jyqwzv/image/small",
+              "time": "2026-11-13T01:00:00+07:00",
+              "time_label": "13/11 01:00",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
