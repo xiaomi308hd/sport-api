@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T20:03:13.362881+00:00",
+  "updated_at": "2026-11-12T20:06:56.339371+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125626_d7a3c828.png",
               "time": "2026-11-13T01:00:00+07:00",
               "time_label": "13/11 01:00",
-              "status": "bt",
+              "status": "et",
               "score": "",
               "stream_count": 9
             }
@@ -1021,8 +1021,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 31,
-      "stream_count": 35,
+      "match_count": 34,
+      "stream_count": 38,
       "leagues": [
         {
           "name": "CAF Africa Cup of Nations",
@@ -1298,6 +1298,19 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 1
+            },
+            {
+              "id": "mhd-match-965mkyh8l46vr1g",
+              "title": "Nữ Benfica vs Nữ Austria Wien",
+              "home": "Nữ Benfica",
+              "away": "Nữ Austria Wien",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh0l3xmd7o/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh3n0dqwzv/image/small",
+              "time": "2026-11-13T03:00:00+07:00",
+              "time_label": "13/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
             }
           ]
         },
@@ -1454,6 +1467,19 @@
               "stream_count": 1
             },
             {
+              "id": "mhd-match-pxwrxlhyd4gvryk",
+              "title": "Bonaire vs Cuba",
+              "home": "Bonaire",
+              "away": "Cuba",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh4jx5qwzv/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7hvooqdyj/image/small",
+              "time": "2026-11-13T03:00:00+07:00",
+              "time_label": "13/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
               "id": "mhd-match-318q66h8o69vqo9",
               "title": "Curacao vs Panama",
               "home": "Curacao",
@@ -1462,6 +1488,25 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zho2eql07/image/small",
               "time": "2026-11-13T07:30:00+07:00",
               "time_label": "13/11 07:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Jamaica Premier League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-6ypq3nhk06lvmd7",
+              "title": "Mount Pleasant FA vs Portmore United",
+              "home": "Mount Pleasant FA",
+              "away": "Portmore United",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhx78jqvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh4x9jr6od/image/small",
+              "time": "2026-11-13T03:00:00+07:00",
+              "time_label": "13/11 03:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
