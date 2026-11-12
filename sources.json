@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T23:12:48.261690+00:00",
+  "updated_at": "2026-11-12T23:13:57.936654+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -866,8 +866,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 18,
-      "stream_count": 18,
+      "match_count": 19,
+      "stream_count": 19,
       "leagues": [
         {
           "name": "UEFA Nations League",
@@ -1126,6 +1126,25 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh825q1zp/image/small",
               "time": "2026-11-13T07:00:00+07:00",
               "time_label": "13/11 07:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Argentina Supercopa",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-dn1m1ghlz9d5moe",
+              "title": "Estudiantes LP vs Ind. Rivadavia",
+              "home": "Estudiantes LP",
+              "away": "Ind. Rivadavia",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7pheg8m2wd/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllh2np4qvy9/image/small",
+              "time": "2026-11-13T06:00:00+07:00",
+              "time_label": "13/11 06:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
