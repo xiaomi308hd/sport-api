@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:40:05.881960+00:00",
+  "updated_at": "2026-11-12T21:43:46.290947+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,8 +11,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 6,
-      "stream_count": 54,
+      "match_count": 5,
+      "stream_count": 45,
       "leagues": [
         {
           "name": "UEFA Nations League",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "2h",
+              "status": "ft",
               "score": "",
               "stream_count": 9
             },
@@ -38,19 +38,6 @@
               "away": "Spain",
               "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125458_7fda1723.png",
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png",
-              "time": "2026-11-13T02:45:00+07:00",
-              "time_label": "13/11 02:45",
-              "status": "2h",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "England vs Croatia",
-              "home": "England",
-              "away": "Croatia",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125450_ce424b12.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
               "status": "ft",
@@ -977,7 +964,7 @@
       "stale": false,
       "error": "",
       "match_count": 28,
-      "stream_count": 30,
+      "stream_count": 29,
       "leagues": [
         {
           "name": "UEFA Women's Champions League",
@@ -1294,9 +1281,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghdj9m0ve/image/small",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
-              "stream_count": 2
+              "stream_count": 1
             },
             {
               "id": "mhd-match-3glrw7hn42vpqdy",
