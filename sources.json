@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T23:55:24.531170+00:00",
+  "updated_at": "2026-11-12T23:59:09.499021+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -77,26 +77,13 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 54,
-      "stream_count": 110,
+      "match_count": 53,
+      "stream_count": 108,
       "leagues": [
         {
           "name": "CONCACAF Nations League",
           "logo": "",
           "matches": [
-            {
-              "id": "",
-              "title": "Aruba vs Martinique",
-              "home": "Aruba",
-              "away": "Martinique",
-              "home_logo": "https://img.cltvap.cc/football/team/cff843c1f724a378bd0ae42d842ef807.png",
-              "away_logo": "https://img.cltvap.cc/football/team/414440d40757c0f0ad4d6bf00a62f667.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
             {
               "id": "",
               "title": "Antigua and Barbuda vs Trinidad and Tobago",
@@ -1042,7 +1029,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh825q1zp/image/small",
               "time": "2026-11-13T07:00:00+07:00",
               "time_label": "13/11 07:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
