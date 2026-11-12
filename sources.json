@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T10:44:33.151251+00:00",
+  "updated_at": "2026-11-12T11:02:10.345763+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_143036_72f0bbb2.png",
               "time": "2026-11-12T17:00:00+07:00",
               "time_label": "12/11 17:00",
-              "status": "1h",
+              "status": "ht",
               "score": "",
               "stream_count": 9
             }
@@ -1361,41 +1361,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 13,
-      "stream_count": 13,
+      "match_count": 11,
+      "stream_count": 11,
       "leagues": [
-        {
-          "name": "Chinese Football Assorciation U-20 League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-23xmvkhy3y5wqg8",
-              "title": "Wuhan Towns U21 vs Liaoning Tieren U20",
-              "home": "Wuhan Towns U21",
-              "away": "Liaoning Tieren U20",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhz5pkryk0/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h91ggq86p/image/small",
-              "time": "2026-11-12T14:00:00+07:00",
-              "time_label": "12/11 14:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-n54qllh4240kqvy",
-              "title": "Jinmen Tiger U21 vs Shandong Taishan U20",
-              "home": "Jinmen Tiger U21",
-              "away": "Shandong Taishan U20",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whg06gryox/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4h020vq0j6/image/small",
-              "time": "2026-11-12T14:00:00+07:00",
-              "time_label": "12/11 14:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "International Friendly",
           "logo": "",
