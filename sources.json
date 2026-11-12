@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T23:09:10.892912+00:00",
+  "updated_at": "2026-11-12T23:12:48.261690+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133534_095d7988.png",
               "time": "2026-11-13T04:00:00+07:00",
               "time_label": "13/11 04:00",
-              "status": "live",
+              "status": "1h",
               "score": "",
               "stream_count": 9
             },
@@ -866,8 +866,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 16,
-      "stream_count": 16,
+      "match_count": 18,
+      "stream_count": 18,
       "leagues": [
         {
           "name": "UEFA Nations League",
@@ -1084,6 +1084,51 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 1
+            },
+            {
+              "id": "mhd-match-n54qllhnnxpwqvy",
+              "title": "Sao Bernardo vs Athletic Club",
+              "home": "Sao Bernardo",
+              "away": "Athletic Club",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh1kyem7vx/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh9lo6ryk0/image/small",
+              "time": "2026-11-13T06:00:00+07:00",
+              "time_label": "13/11 06:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Categoría Primera A",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-dn1m1ghlz25jmoe",
+              "title": "Deportivo Pasto vs Atletico Junior",
+              "home": "Deportivo Pasto",
+              "away": "Atletico Junior",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hoolgqo9j/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlh887ryk0/image/small",
+              "time": "2026-11-13T06:00:00+07:00",
+              "time_label": "13/11 06:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-l5ergph46wzzr8k",
+              "title": "Llaneros FC vs Boyaca Chico",
+              "home": "Llaneros FC",
+              "away": "Boyaca Chico",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhe8p7qvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh825q1zp/image/small",
+              "time": "2026-11-13T07:00:00+07:00",
+              "time_label": "13/11 07:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
             }
           ]
         },
@@ -1101,25 +1146,6 @@
               "time": "2026-11-13T06:00:00+07:00",
               "time_label": "13/11 06:00",
               "status": "live",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Categoría Primera A",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-l5ergph46wzzr8k",
-              "title": "Llaneros FC vs Boyaca Chico",
-              "home": "Llaneros FC",
-              "away": "Boyaca Chico",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhe8p7qvy9/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh825q1zp/image/small",
-              "time": "2026-11-13T07:00:00+07:00",
-              "time_label": "13/11 07:00",
-              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
