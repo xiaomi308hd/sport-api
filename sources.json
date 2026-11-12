@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:15:00.463196+00:00",
+  "updated_at": "2026-11-12T18:18:38.994929+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1092,8 +1092,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 32,
-      "stream_count": 35,
+      "match_count": 33,
+      "stream_count": 36,
       "leagues": [
         {
           "name": "Jordan League Division 1",
@@ -1291,6 +1291,19 @@
               "status": "live",
               "score": "",
               "stream_count": 2
+            },
+            {
+              "id": "mhd-match-2y8m4zh5vyk1ql0",
+              "title": "Italy vs Pháp",
+              "home": "Italy",
+              "away": "Pháp",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nh290md7o/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghdj9m0ve/image/small",
+              "time": "2026-11-13T02:45:00+07:00",
+              "time_label": "13/11 02:45",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
             },
             {
               "id": "mhd-match-3glrw7hn42vpqdy",
