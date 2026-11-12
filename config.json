@@ -53,10 +53,10 @@
     },
 
     {
-      "name": "PLAPI",
-      "id": "plapi",
-      "display_name": "PLAPI Live Sports",
-      "logo": "",
+      "name": "PhaLangTV",
+      "id": "phalangtv",
+      "display_name": "Phá Làng TV",
+      "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",
       "playlist_file": "thethao-plapi.m3u",
       "enabled": true,
 
