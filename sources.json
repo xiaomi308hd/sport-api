@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T23:44:01.550372+00:00",
+  "updated_at": "2026-11-12T23:47:48.878232+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -40,7 +40,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133533_eba6a872.png",
               "time": "2026-11-13T07:00:00+07:00",
               "time_label": "13/11 07:00",
-              "status": "ns",
+              "status": "live",
               "score": "",
               "stream_count": 9
             }
@@ -866,93 +866,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 19,
-      "stream_count": 19,
+      "match_count": 13,
+      "stream_count": 13,
       "leagues": [
-        {
-          "name": "UEFA Nations League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-2y8m4zh5vyk1ql0",
-              "title": "Italy vs Pháp",
-              "home": "Italy",
-              "away": "Pháp",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nh290md7o/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghdj9m0ve/image/small",
-              "time": "2026-11-13T02:45:00+07:00",
-              "time_label": "13/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-3glrw7hn42vpqdy",
-              "title": "San Marino vs Belarus",
-              "home": "San Marino",
-              "away": "Belarus",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/z318q66h5kyqo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllh62wqvy9/image/small",
-              "time": "2026-11-13T02:45:00+07:00",
-              "time_label": "13/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-6ypq3nhvkyjgmd7",
-              "title": "Anh vs Croatia",
-              "home": "Anh",
-              "away": "Croatia",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hl08q0j6/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryohoj7q1zp/image/small",
-              "time": "2026-11-13T02:45:00+07:00",
-              "time_label": "13/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-8yomo4h1yld5q0j",
-              "title": "CH Séc vs Tây Ban Nha",
-              "home": "CH Séc",
-              "away": "Tây Ban Nha",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nhy07md7o/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4vgymoep/image/small",
-              "time": "2026-11-13T02:45:00+07:00",
-              "time_label": "13/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-pxwrxlhyl8keryk",
-              "title": "Albania vs Phần Lan",
-              "home": "Albania",
-              "away": "Phần Lan",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh9j9q82w/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoz9r6od/image/small",
-              "time": "2026-11-13T02:45:00+07:00",
-              "time_label": "13/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-x7lm7phjxy1zm2w",
-              "title": "Montenegro vs Latvia",
-              "home": "Montenegro",
-              "away": "Latvia",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h30zdmojx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gy0or5jh2vgqwzv/image/small",
-              "time": "2026-11-13T02:45:00+07:00",
-              "time_label": "13/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Jamaica Premier League",
           "logo": "",
