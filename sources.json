@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T09:53:52.848587+00:00",
+  "updated_at": "2026-11-12T09:57:25.775860+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -25,26 +25,109 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 76,
-      "stream_count": 156,
+      "match_count": 75,
+      "stream_count": 154,
       "leagues": [
         {
-          "name": "International Friendly",
+          "name": "Aus Champ",
           "logo": "",
           "matches": [
             {
               "id": "",
-              "title": "Thailand U23 vs Qatar U23",
-              "home": "Thailand U23",
-              "away": "Qatar U23",
-              "home_logo": "https://img.cltvap.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png",
-              "away_logo": "https://img.cltvap.cc/football/team/7303a103c93fea0445384d6ff3f3d1b9.png",
+              "title": "APIA Leichhardt Tigers vs Adelaide City FC",
+              "home": "APIA Leichhardt Tigers",
+              "away": "Adelaide City FC",
+              "home_logo": "https://img.cltvap.cc/football/team/5e7f98b3e6dba2955758797b84e94868.png",
+              "away_logo": "https://img.cltvap.cc/football/team/144d2ec9191d3ffe5742433c81d1ed5e.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
               "score": "",
               "stream_count": 2
             },
+            {
+              "id": "",
+              "title": "Oakleigh Cannons vs Marconi Stallions",
+              "home": "Oakleigh Cannons",
+              "away": "Marconi Stallions",
+              "home_logo": "https://img.cltvap.cc/football/team/873f655c74783dbb85de6cacc8f503c0.png",
+              "away_logo": "https://img.cltvap.cc/football/team/e1605aa2375e5aa780e43e89a0f1b080.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Preston Lions vs Queensland Lions SC",
+              "home": "Preston Lions",
+              "away": "Queensland Lions SC",
+              "home_logo": "https://img.cltvap.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg",
+              "away_logo": "https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Bayswater City vs Sydney Olympic",
+              "home": "Bayswater City",
+              "away": "Sydney Olympic",
+              "home_logo": "https://img.cltvap.cc/football/team/15809b305455c1e964ccd454cc180e51.png",
+              "away_logo": "https://img.cltvap.cc/football/team/2ff1ff9e86bb5eabb44fe40b0a65fac7.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "Korean WK League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Hwacheon KSPO WFC Women vs Gyeongju Korea Hydro & Nuclear Power WFC Women",
+              "home": "Hwacheon KSPO WFC Women",
+              "away": "Gyeongju Korea Hydro & Nuclear Power WFC Women",
+              "home_logo": "https://img.cltvap.cc/football/team/ce420e1c7a8b93f3dfe28434e89a3e41.png",
+              "away_logo": "https://img.cltvap.cc/football/team/cc35fb970f1464e1468bafebb54a2ca6.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "Danish Reserves League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Viborg Reserve vs Vejle Reserve",
+              "home": "Viborg Reserve",
+              "away": "Vejle Reserve",
+              "home_logo": "https://img.cltvap.cc/football/team/a53302b05d3a6506bc748a36fac468e8.png",
+              "away_logo": "https://img.cltvap.cc/football/team/2b9851faa17eb83e725e0b666d9dba9d.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "International Friendly",
+          "logo": "",
+          "matches": [
             {
               "id": "",
               "title": "Singapore U23 vs Vietnam U23",
@@ -273,102 +356,6 @@
               "away": "IR Iran",
               "home_logo": "https://img.cltvap.cc/football/team/72fb22982ac69857cb2432f13589836e.png",
               "away_logo": "https://img.cltvap.cc/football/team/8155ecd333d749a8a3df7be234d157c4.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "Aus Champ",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "APIA Leichhardt Tigers vs Adelaide City FC",
-              "home": "APIA Leichhardt Tigers",
-              "away": "Adelaide City FC",
-              "home_logo": "https://img.cltvap.cc/football/team/5e7f98b3e6dba2955758797b84e94868.png",
-              "away_logo": "https://img.cltvap.cc/football/team/144d2ec9191d3ffe5742433c81d1ed5e.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Oakleigh Cannons vs Marconi Stallions",
-              "home": "Oakleigh Cannons",
-              "away": "Marconi Stallions",
-              "home_logo": "https://img.cltvap.cc/football/team/873f655c74783dbb85de6cacc8f503c0.png",
-              "away_logo": "https://img.cltvap.cc/football/team/e1605aa2375e5aa780e43e89a0f1b080.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Preston Lions vs Queensland Lions SC",
-              "home": "Preston Lions",
-              "away": "Queensland Lions SC",
-              "home_logo": "https://img.cltvap.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg",
-              "away_logo": "https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Bayswater City vs Sydney Olympic",
-              "home": "Bayswater City",
-              "away": "Sydney Olympic",
-              "home_logo": "https://img.cltvap.cc/football/team/15809b305455c1e964ccd454cc180e51.png",
-              "away_logo": "https://img.cltvap.cc/football/team/2ff1ff9e86bb5eabb44fe40b0a65fac7.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "Korean WK League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Hwacheon KSPO WFC Women vs Gyeongju Korea Hydro & Nuclear Power WFC Women",
-              "home": "Hwacheon KSPO WFC Women",
-              "away": "Gyeongju Korea Hydro & Nuclear Power WFC Women",
-              "home_logo": "https://img.cltvap.cc/football/team/ce420e1c7a8b93f3dfe28434e89a3e41.png",
-              "away_logo": "https://img.cltvap.cc/football/team/cc35fb970f1464e1468bafebb54a2ca6.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "Danish Reserves League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Viborg Reserve vs Vejle Reserve",
-              "home": "Viborg Reserve",
-              "away": "Vejle Reserve",
-              "home_logo": "https://img.cltvap.cc/football/team/a53302b05d3a6506bc748a36fac468e8.png",
-              "away_logo": "https://img.cltvap.cc/football/team/2b9851faa17eb83e725e0b666d9dba9d.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
