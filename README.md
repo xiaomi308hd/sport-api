@@ -133,3 +133,10 @@ URL nguồn công khai dành cho MHD Sports:
 `https://raw.githubusercontent.com/xiaomi308hd/hinh-nen/main/thethao.m3u`
 
 Ứng dụng chỉ tải URL Raw công khai này, **không gửi token**. Vì vậy có thể thay hoặc thu hồi token xuất bản trong GitHub Secrets mà không cần cập nhật APK. Điều kiện bắt buộc: repo `xiaomi308hd/hinh-nen` phải để **Public**; chỉ repo chứa mã nguồn `sport-api` được chuyển sang **Private**. Nếu đặt `hinh-nen` thành Private thì ứng dụng Android không thể tải playlist bằng URL Raw công khai.
+
+
+## Cập nhật: cấu trúc nguồn Chuối Chiên TV, Referer Phá Làng TV, `x-sport`
+
+- **Chuối Chiên TV** có parser riêng (`parser: "chuoichientv"`): đọc các nhóm BLV `blvs`, `blvs_bonglau`, `blvs_nguoitho` (và mọi khoá bắt đầu bằng `blvs`), mỗi BLV lấy luồng từ `streams/links/sources` hoặc khoá chất lượng `hd1/hd2/fhd/...`. `params_variants` gọi API với từng bộ tham số (`type=live`, `type=blv`) rồi gộp trận trùng `id`; một biến thể lỗi không làm hỏng cả nguồn. Nếu có bản ghi mà không đọc được luồng nào, log in ra danh sách khoá của bản ghi đầu để chỉnh parser.
+- **Phá Làng TV**: gắn Referer theo thứ tự `referer_by_host` → `stream_referer` → `referer_self_origin`. Referer do API tự trả trong `stream.headers` luôn được giữ. Khi biết đúng trang player của Phá Làng, điền vào `stream_referer` (vd `"https://ten-mien-player/"`).
+- **`x-sport`**: mỗi dòng `#EXTINF` có thêm `x-sport="FOOTBALL|BASKETBALL|VOLLEYBALL|TENNIS|BADMINTON"` để app lọc môn chính xác; môn ngoài danh sách (cricket, bóng bầu dục...) thì không ghi.

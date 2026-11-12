@@ -28,11 +28,18 @@
         "Origin": "https://live11.chuoichientv.me"
       },
 
+      "parser": "chuoichientv",
+
       "params": {
-        "type": "blv",
+        "type": "live",
         "page": 1,
         "limit": 500
-      }
+      },
+
+      "params_variants": [
+        { "type": "live", "page": 1, "limit": 500 },
+        { "type": "blv", "page": 1, "limit": 500 }
+      ]
     },
 
     {
@@ -68,6 +75,8 @@
       "headers": {
         "Accept": "application/json",
         "Content-Type": "application/json",
+        "Referer": "https://phalang2.tv/",
+        "Origin": "https://phalang2.tv",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
       },
 
@@ -108,7 +117,11 @@
         "source"
       ],
 
-      "default_stream_referer": ""
+      "default_stream_referer": "",
+
+      "stream_referer": "https://sv1.phalang.net/",
+      "referer_self_origin": false,
+      "referer_by_host": {}
     }
   ],
 

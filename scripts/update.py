@@ -1036,6 +1036,397 @@ def fetch_plapi(api):
 # API FETCH AND PARSING
 # ============================================================
 
+# ============================================================
+# SPORT DETECTION (x-sport) - cùng quy tắc với app MHD Sports
+# ============================================================
+
+import unicodedata
+
+_SPORT_BASKETBALL = re.compile(
+    r"\b(nba|wnba|g league|nba2k|ncaab|ncaa basketball|vba|fiba|nbl|cba|kbl|pba|bsn|acb|liga acb|bcl|eurocup|"
+    r"eurobasket|euroleague|basketball|basket|bong ro|b ?league|lega basket|vtb united|"
+    r"atlanta hawks|boston celtics|brooklyn nets|charlotte hornets|chicago bulls|cleveland cavaliers|dallas mavericks|"
+    r"denver nuggets|detroit pistons|golden state warriors|houston rockets|indiana pacers|la clippers|los angeles clippers|"
+    r"los angeles lakers|la lakers|memphis grizzlies|miami heat|milwaukee bucks|minnesota timberwolves|new orleans pelicans|"
+    r"new york knicks|oklahoma city thunder|okc thunder|orlando magic|philadelphia 76ers|phoenix suns|portland trail blazers|"
+    r"sacramento kings|san antonio spurs|toronto raptors|utah jazz|washington wizards|"
+    r"las vegas aces|new york liberty|seattle storm|chicago sky|connecticut sun|atlanta dream|indiana fever|minnesota lynx|"
+    r"phoenix mercury|washington mystics|dallas wings|los angeles sparks|golden state valkyries|"
+    r"lakers|celtics|cavaliers|mavericks|nuggets|pistons|clippers|grizzlies|timberwolves|pelicans|knicks|76ers|sixers|"
+    r"trail blazers|raptors|pacers|bucks)\b"
+)
+
+_SPORT_RULES = [
+    ("BASKETBALL", _SPORT_BASKETBALL),
+    ("VOLLEYBALL", re.compile(r"\b(volleyball|volley|bong chuyen|vnl|fivb)\b")),
+    ("TENNIS", re.compile(r"\b(tennis|atp|wta|wimbledon|roland garros|davis cup|billie jean king|grand slam|us open|australian open|itf)\b")),
+    ("BADMINTON", re.compile(r"\b(badminton|cau long|bwf|all england|thomas cup|uber cup|sudirman)\b")),
+    ("FOOTBALL", re.compile(
+        r"\b(football|soccer|bong da|premier league|epl|la ?liga|serie a|bundesliga|ligue 1|champions league|"
+        r"europa league|conference league|uefa|fifa|world cup|v ?league|afc|copa|mls|j ?league|k ?league|"
+        r"wk ?league|w ?league|fa cup|carabao|efl|nations league|ngoai hang|giao huu|friendly|"
+        r"cup of nations|afcon|futsal|fc|u ?\d{2})\b"
+    )),
+]
+
+# Môn không có trong bộ lọc của app: không đoán bừa là bóng đá.
+_SPORT_OTHER = re.compile(
+    r"\b(cricket|ipl|t20|odi|bbl|psl|rugby|baseball|mlb|nfl|nhl|hockey|mma|ufc|boxing|golf|nascar|f1|formula 1|"
+    r"motogp|esports?|dota|lol|handball|table tennis|bong ban|snooker|darts|cycling|swimming)\b"
+)
+
+
+def _fold_text(value):
+    text = unicodedata.normalize("NFD", clean(value))
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    return text.replace("đ", "d").replace("Đ", "D").lower()
+
+
+def detect_sport(*texts):
+    """Trả về FOOTBALL/BASKETBALL/VOLLEYBALL/TENNIS/BADMINTON, hoặc '' nếu không chắc."""
+    joined = _fold_text(" | ".join(t for t in texts if t))
+
+    if not joined.strip():
+        return ""
+
+    for name, pattern in _SPORT_RULES:
+        if pattern.search(joined):
+            return name
+
+    return ""
+
+
+def match_sport(match):
+    """Môn của trận: ưu tiên trường do API trả về, sau đó mới đoán theo giải/đội."""
+    declared = clean(match.get("sport"))
+    found = detect_sport(declared) if declared else ""
+
+    if found:
+        return found
+
+    teams = match.get("teams", {})
+
+    found = detect_sport(
+        match.get("league", {}).get("name"),
+        teams.get("home", {}).get("name"),
+        teams.get("away", {}).get("name")
+    )
+
+    if found:
+        return found
+
+    # Không nhận ra môn nào và cũng không phải môn ngoài danh sách => nguồn của dự án chủ yếu là bóng đá.
+    joined = _fold_text(" ".join([
+        match.get("league", {}).get("name", ""),
+        teams.get("home", {}).get("name", ""),
+        teams.get("away", {}).get("name", "")
+    ]))
+
+    return "" if _SPORT_OTHER.search(joined) else "FOOTBALL"
+
+
+# ============================================================
+# CHUOICHIENTV
+# ============================================================
+# Mỗi trận có các nhóm bình luận viên (blvs, blvs_bonglau, blvs_nguoitho, ...). Mỗi BLV có
+# các luồng HD1/HD2/FHD. Trước đây Chuối Chiên đi qua parser chung (không đọc các nhóm này)
+# nên ra 0 trận; parser riêng dưới đây đọc đúng cấu trúc đó và chịu được vài kiểu đặt tên khoá.
+
+_QUALITY_KEYS = [
+    ("hd1", "HD1"), ("hd_1", "HD1"), ("hd2", "HD2"), ("hd_2", "HD2"),
+    ("fhd", "FHD"), ("fhd1", "FHD"), ("fhd_1", "FHD"), ("fhd2", "FHD2"),
+    ("sd", "SD"), ("sd1", "SD1"), ("sd_1", "SD1"), ("sd2", "SD2"), ("sd_2", "SD2"),
+    ("flv", "FLV"), ("hls", "HLS"), ("m3u8", "HLS"),
+    ("stream", "Live"), ("stream_url", "Live"), ("streamUrl", "Live"),
+    ("url", "Live"), ("link", "Live"), ("source", "Live")
+]
+
+
+def _name_of(value):
+    if isinstance(value, dict):
+        return clean(first_value(
+            value.get("name"), value.get("title"), value.get("short_name"), value.get("shortName")
+        ))
+    return clean(value)
+
+
+def _logo_of(value):
+    if isinstance(value, dict):
+        return clean(first_value(
+            value.get("logo"), value.get("image"), value.get("icon"), value.get("avatar")
+        ))
+    return ""
+
+
+def _ccv_streams(blv, default_referer):
+    streams = []
+
+    # 1) danh sách / dict luồng: streams, links, sources, ...
+    streams.extend(extract_streams(blv, default_referer))
+
+    # 2) khoá chất lượng nằm thẳng trong đối tượng BLV: hd1, hd2, fhd, ...
+    for key, label in _QUALITY_KEYS:
+        value = blv.get(key)
+
+        if isinstance(value, dict):
+            value = first_value(value.get("url"), value.get("link"), value.get("source"))
+
+        if not isinstance(value, str):
+            continue
+
+        stream = normalize_stream({"url": value, "label": label}, default_referer)
+
+        if stream:
+            streams.append(stream)
+
+    # 3) tên luồng rỗng/chung chung => đặt HD1, HD2, ... theo thứ tự
+    unique = []
+    seen = set()
+
+    for stream in streams:
+        if stream["url"] in seen:
+            continue
+
+        seen.add(stream["url"])
+        unique.append(stream)
+
+    generic = {"", "live", "link", "url", "source", "stream"}
+
+    for index, stream in enumerate(unique, start=1):
+        if clean(stream.get("label")).lower() in generic and len(unique) > 1:
+            stream["label"] = "HD%d" % index
+
+    return unique
+
+
+def parse_chuoichien_match(item, api):
+    if not isinstance(item, dict):
+        return None
+
+    # Một số phản hồi bọc trận trong "match"/"data".
+    for wrapper in ("match", "data"):
+        inner = item.get(wrapper)
+
+        if isinstance(inner, dict) and (
+            inner.get("homeTeam") or inner.get("home") or inner.get("home_team")
+            or any(k.startswith("blvs") for k in inner)
+        ):
+            merged = dict(inner)
+            for key, value in item.items():
+                merged.setdefault(key, value)
+            item = merged
+            break
+
+    home_raw = first_value(
+        item.get("homeTeam"), item.get("home_team"), item.get("home"),
+        get_nested(item, "teams", "home"), item.get("team_1"), item.get("homeTeamName")
+    )
+    away_raw = first_value(
+        item.get("awayTeam"), item.get("away_team"), item.get("away"),
+        get_nested(item, "teams", "away"), item.get("team_2"), item.get("awayTeamName")
+    )
+
+    home = _name_of(home_raw) or "Đội nhà"
+    away = _name_of(away_raw) or "Đội khách"
+
+    league_raw = first_value(
+        item.get("league"), item.get("competition"), item.get("tournament"),
+        item.get("league_name"), item.get("leagueName")
+    )
+    league = _name_of(league_raw) or "Thể thao"
+
+    default_referer = api.get("default_stream_referer", "")
+    blvs = []
+    seen_groups = set()
+
+    group_keys = list(INCLUDE_GROUPS) + [
+        key for key in item if key.startswith("blvs") and key not in INCLUDE_GROUPS
+    ]
+
+    for key in group_keys:
+        group = item.get(key)
+
+        if key in seen_groups or not isinstance(group, list):
+            continue
+
+        seen_groups.add(key)
+
+        for blv in group:
+            if not isinstance(blv, dict):
+                continue
+
+            streams = _ccv_streams(blv, default_referer)
+
+            if not streams:
+                continue
+
+            blvs.append({
+                "name": clean(first_value(
+                    blv.get("name"), blv.get("blv_name"), blv.get("blvName"), blv.get("nickname"),
+                    blv.get("display_name"), blv.get("displayName"), blv.get("username"),
+                    blv.get("title"), api.get("display_name"), "BLV"
+                )),
+                "streams": streams
+            })
+
+    # Luồng gắn thẳng vào trận (không qua BLV).
+    direct = extract_streams(item, default_referer)
+
+    if direct and not blvs:
+        blvs.append({
+            "name": api.get("display_name", api["name"]),
+            "streams": direct
+        })
+
+    status = clean(first_value(
+        item.get("status"), item.get("match_status"),
+        "live" if item.get("is_live") or item.get("isLive") else ""
+    ))
+
+    return {
+        "externalId": clean(first_value(item.get("id"), item.get("match_id"), item.get("matchId"))),
+        "matchTime": clean(first_value(
+            item.get("matchTime"), item.get("match_time"), item.get("startTime"),
+            item.get("start_time"), item.get("start_date"), item.get("startAt"),
+            item.get("date"), item.get("time")
+        )),
+        "status": status,
+        "sport": clean(first_value(
+            item.get("sport"), item.get("sport_type"), item.get("sportType"),
+            get_nested(item, "sport", "name") if isinstance(item.get("sport"), dict) else None
+        )),
+        "teams": {
+            "home": {"name": home, "logo": _logo_of(home_raw) or clean(first_value(item.get("home_logo"), item.get("homeLogo"), item.get("team_1_logo")))},
+            "away": {"name": away, "logo": _logo_of(away_raw) or clean(first_value(item.get("away_logo"), item.get("awayLogo"), item.get("team_2_logo")))}
+        },
+        "league": {
+            "name": league,
+            "logo": _logo_of(league_raw) or clean(first_value(item.get("league_logo"), item.get("leagueLogo")))
+        },
+        "blvs": blvs
+    }
+
+
+def fetch_chuoichien(api):
+    """Gọi API với từng bộ tham số trong params_variants (vd type=live và type=blv), gộp kết quả.
+    Một biến thể lỗi không làm hỏng cả nguồn nếu biến thể khác vẫn có dữ liệu."""
+    variants = api.get("params_variants") or [api.get("params") or {}]
+
+    items = []
+    last_error = None
+    ok = 0
+
+    for params in variants:
+        try:
+            payload = request_json(
+                api["url"],
+                method=api.get("method", "GET"),
+                headers=api.get("headers", {}),
+                params=params,
+                body=api.get("body")
+            )
+            chunk = unwrap_data(payload)
+            ok += 1
+            log.info("%s: params=%s -> %s bản ghi", api.get("name", "API"), json.dumps(params, ensure_ascii=False), len(chunk))
+            items.extend(chunk)
+
+        except Exception as exc:
+            last_error = exc
+            log.warning("%s: params=%s lỗi: %s", api.get("name", "API"), params, exc)
+
+    if ok == 0 and last_error is not None:
+        raise last_error
+
+    return items
+
+
+def merge_matches_by_id(matches):
+    """Gộp các bản ghi trùng id (từ nhiều biến thể params): hợp nhất BLV, bỏ luồng trùng URL."""
+    merged = {}
+    order = []
+
+    for match in matches:
+        key = clean(match.get("externalId")) or match_tvg_id(match)
+
+        if key not in merged:
+            merged[key] = match
+            order.append(key)
+            continue
+
+        base = merged[key]
+        known = {
+            stream["url"]
+            for blv in base["blvs"]
+            for stream in blv["streams"]
+        }
+
+        for blv in match["blvs"]:
+            fresh = [s for s in blv["streams"] if s["url"] not in known]
+
+            if not fresh:
+                continue
+
+            known.update(s["url"] for s in fresh)
+            target = next((b for b in base["blvs"] if b["name"] == blv["name"]), None)
+
+            if target:
+                target["streams"].extend(fresh)
+            else:
+                base["blvs"].append({"name": blv["name"], "streams": fresh})
+
+        for field in ("status", "sport"):
+            if not base.get(field) and match.get(field):
+                base[field] = match[field]
+
+    return [merged[key] for key in order]
+
+
+# ============================================================
+# REFERER THEO NGUỒN (Phá Làng TV, ...)
+# ============================================================
+
+def _origin_of(url):
+    parsed = urllib.parse.urlparse(url)
+
+    if not parsed.scheme or not parsed.netloc:
+        return ""
+
+    return f"{parsed.scheme}://{parsed.netloc}/"
+
+
+def attach_api_referers(matches, api):
+    """Gắn Referer cho luồng chưa có Referer, theo thứ tự ưu tiên:
+    1. referer_by_host[host]  (khai báo theo máy chủ phát)
+    2. stream_referer         (một Referer chung cho cả nguồn, thường là trang player của nhà đài)
+    3. referer_self_origin    (dùng chính origin của máy chủ phát: https://<host>/)
+    Referer do API tự cung cấp trong stream.headers luôn được giữ nguyên."""
+    by_host = {
+        clean(host).lower(): clean(ref)
+        for host, ref in (api.get("referer_by_host") or {}).items()
+        if clean(host) and clean(ref)
+    }
+    common = clean(api.get("stream_referer"))
+    self_origin = bool(api.get("referer_self_origin"))
+
+    if not (by_host or common or self_origin):
+        return
+
+    for match in matches:
+        for blv in match.get("blvs", []):
+            for stream in blv.get("streams", []):
+                headers = stream.setdefault("headers", {})
+
+                if any(k.lower() == "referer" for k in headers):
+                    continue
+
+                host = (urllib.parse.urlparse(stream["url"]).hostname or "").lower()
+                referer = by_host.get(host) or common or (_origin_of(stream["url"]) if self_origin else "")
+
+                if referer:
+                    headers["Referer"] = referer
+
+
+
 def fetch_api(api):
     parser = clean(
         api.get("parser") or api.get("api_type")
@@ -1043,6 +1434,9 @@ def fetch_api(api):
 
     if parser in ("plapi", "plapi_graph"):
         return fetch_plapi(api)
+
+    if parser == "chuoichientv" or api.get("id") == "chuoichientv":
+        return fetch_chuoichien(api)
 
     payload = request_json(
         api["url"],
@@ -1068,6 +1462,12 @@ def parse_api_items(items, api):
                 match = parse_plapi_match(item, api)
 
             elif (
+                parser == "chuoichientv"
+                or api.get("id") == "chuoichientv"
+            ):
+                match = parse_chuoichien_match(item, api)
+
+            elif (
                 parser == "gavangtv"
                 or api.get("id") == "gavangtv"
             ):
@@ -1085,6 +1485,20 @@ def parse_api_items(items, api):
                 api.get("name", "API"),
                 exc
             )
+
+    if parser == "chuoichientv" or api.get("id") == "chuoichientv":
+        result = merge_matches_by_id(result)
+
+        if items and not any(m["blvs"] for m in result):
+            sample = next((i for i in items if isinstance(i, dict)), {})
+            log.warning(
+                "%s: có %s bản ghi nhưng không đọc được luồng nào. Các khoá của bản ghi đầu: %s",
+                api.get("name", "API"),
+                len(items),
+                ", ".join(sorted(sample.keys()))
+            )
+
+    attach_api_referers(result, api)
 
     return result
 
@@ -1232,6 +1646,11 @@ def stream_extinf(match, broadcaster, stream, api_logo=""):
             m3u_escape(source.get("id") or broadcaster)
         )
     ]
+
+    sport = match_sport(match)
+
+    if sport:
+        attributes.append('x-sport="{}"'.format(sport))
 
     if source.get("name"):
         attributes.append(
