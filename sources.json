@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:31:56.187624+00:00",
+  "updated_at": "2026-11-12T21:35:36.409637+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1346,7 +1346,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoz9r6od/image/small",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
