@@ -1,13 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-e2a781c3aaed" tvg-name="Barcelona W vs Arsenal W - Chuối Lửa - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="UEFA Champions League Women" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Barcelona W vs Arsenal W | 13/11 00:45 | Chuối Lửa | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-e2a781c3aaed" tvg-name="Barcelona W vs Arsenal W - Chuối Lửa - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="UEFA Champions League Women" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Barcelona W vs Arsenal W | 13/11 00:45 | Chuối Lửa | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-e2a781c3aaed" tvg-name="Barcelona W vs Arsenal W - Chuối Lửa - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="UEFA Champions League Women" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Barcelona W vs Arsenal W | 13/11 00:45 | Chuối Lửa | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-c5e284ceae0b" tvg-name="Navalcarnero vs Real Betis - Trốc Tru - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115714_ac7e3867.png" group-title="Copa del Rey" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Navalcarnero vs Real Betis | 13/11 01:00 | Trốc Tru | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8

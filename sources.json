@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T19:40:39.927249+00:00",
+  "updated_at": "2026-11-12T19:44:16.865600+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,28 +11,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 8,
-      "stream_count": 72,
+      "match_count": 7,
+      "stream_count": 63,
       "leagues": [
-        {
-          "name": "UEFA Champions League Women",
-          "logo": "https://media.chuoichientv.net/media/20251115_115838_f553e052.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Barcelona W vs Arsenal W",
-              "home": "Barcelona W",
-              "away": "Arsenal W",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_133757_0a8041d4.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133728_10ca77e6.png",
-              "time": "2026-11-13T00:45:00+07:00",
-              "time_label": "13/11 00:45",
-              "status": "2h",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
         {
           "name": "Copa del Rey",
           "logo": "https://media.chuoichientv.net/media/20251115_115714_ac7e3867.png",
@@ -1269,7 +1250,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllh62wqvy9/image/small",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
@@ -1308,7 +1289,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoz9r6od/image/small",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
@@ -1321,7 +1302,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/gy0or5jh2vgqwzv/image/small",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
