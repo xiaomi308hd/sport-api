@@ -1,34 +1,82 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="mhd-match-1l4rjnh9vdw7m7v" tvg-name="Al Ahly vs Amman FC - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhln7vqwzv/image/small" group-title="Jordan League Division 1" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Al Ahly vs Amman FC | 12/11 22:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/e303d17f1154f4c84c2aa1b034e0456d/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-23xmvkhy3yzdqg8" tvg-name="Pháp U20 vs Đan Mạch U20 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kdj2ryoh0gdq1zp/image/small" group-title="International Friendly" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Pháp U20 vs Đan Mạch U20 | 12/11 23:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/5c0c39ab17d38833adc5168895f7e3e0/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-23xmvkhyv7e2qg8" tvg-name="CD Artistico Navalcarnero vs Real Betis - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh4jpkmoep/image/small" group-title="Copa del Rey" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",CD Artistico Navalcarnero vs Real Betis | 13/11 01:00 | Phá Làng TV | HD1
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://pull.digitalcdn.net/live/e075b3cfcb2e48d2b258e37750fef6c5/index.m3u8
 #EXTINF:-1 tvg-id="mhd-match-318q66h8o69vqo9" tvg-name="Curacao vs Panama - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7pho8v3m2wd/image/small" group-title="CONCACAF Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Curacao vs Panama | 13/11 07:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/267ccba6d785131477f202e8c5a0da77/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-4jwq2ghg401em0v" tvg-name="Thái Lan U23 vs Qatar U23 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohk4jvq1zp/image/small" group-title="International Friendly" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Thái Lan U23 vs Qatar U23 | 12/11 15:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-318q66hxle7oqo9" tvg-name="Madagascar vs Guinea Bissau - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09hl0y4rz84/image/small" group-title="CAF Africa Cup of Nations" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Madagascar vs Guinea Bissau | 12/11 23:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/050b0de91657eac51564c9258ebd45c1/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-4jwq2ghg4e6nm0v" tvg-name="Nữ KSPO vs Nữ Gyeongju - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh7jk6q82w/image/small" group-title="Korean WK League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ KSPO vs Nữ Gyeongju | 12/11 17:00 | Phá Làng TV | Live
+https://lilive1.eu.cc/live/37b6b93c757696214401d991b0a4e1d6/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-3glrw7hn42vpqdy" tvg-name="San Marino vs Belarus - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66h5kyqo9j/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",San Marino vs Belarus | 13/11 02:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/12bfbcf04549932bed60c2d8242f513c/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-4wyrn4hy8x03q86" tvg-name="ASC vs Stride - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekh9k73repz/image/small" group-title="Indian Bangalore Super Division" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",ASC vs Stride | 12/11 17:30 | Phá Làng TV | Live
+https://lilive1.eu.cc/live/952a2860aab5d2b5c9b61f673d968207/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-4wyrn4h6g37dq86" tvg-name="DR Congo vs Sierra Leone - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnho2em7vx/image/small" group-title="CAF Africa Cup of Nations" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",DR Congo vs Sierra Leone | 12/11 23:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/f867b8f44382f7f3ba9622e70715e383/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-6ypq3nhk6211md7" tvg-name="A.P.I.A. Leichhardt vs Adelaide City - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkh3l69qg8n/image/small" group-title="Aus Champ" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",A.P.I.A. Leichhardt vs Adelaide City | 12/11 15:30 | Phá Làng TV | Live
+https://lilive1.eu.cc/live/86df6cc7148dd84de4e68cbc07955c62/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-6ypq3nhvkyjgmd7" tvg-name="Anh vs Croatia - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hl08q0j6/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Anh vs Croatia | 13/11 02:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/7f70cc2925c85432c7f6fca74f8b454a/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-dn1m1gh942kymoe" tvg-name="Bengaluru B vs Uptown Rebels SC - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h2v51q0j6/image/small" group-title="Indian Bangalore Super Division" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Bengaluru B vs Uptown Rebels SC | 12/11 15:00 | Phá Làng TV | Live
+https://lilive1.eu.cc/live/3c88318b234ed09f579bd14a47cc4183/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-6ypq3nhvx94nmd7" tvg-name="Ghana vs Somalia - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhoz6m7vx/image/small" group-title="CAF Africa Cup of Nations" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Ghana vs Somalia | 12/11 22:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/c82b5a1839d12b61fcf23723ed5e26dd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-dn1m1gh94xdzmoe" tvg-name="Serbia U21 vs Bắc Macedonia U21 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9wh4e9ryox/image/small" group-title="International Friendly" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Serbia U21 vs Bắc Macedonia U21 | 12/11 20:00 | Phá Làng TV | Live
+https://lilive1.eu.cc/live/f02e000e35ecdedd7d5ec04e4fa22a26/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8yomo4h1np5xq0j" tvg-name="Guinea vs Eritrea - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkh72kqg8n/image/small" group-title="CAF Africa Cup of Nations" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Guinea vs Eritrea | 13/11 00:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/70324faed9cc70a5183ef26712289c2f/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-e9b48ee119ef4ff6923b77d5818c2174" tvg-name="Daejeon JKJ Women vs Expressway Co Women - Phá Làng TV - HD1" tvg-logo="https://img0.aiscore.com/volleyball/team/27c39fe5d773bd8755d61b4e49abdd3e.png!w80" group-title="Volleyball League Women" x-source="phalangtv" x-sport="VOLLEYBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Daejeon JKJ Women vs Expressway Co Women | 12/11 17:00 | Phá Làng TV | HD1
+https://lilive1.eu.cc/live/f6baacfab2f73689f0145edf5be077f6/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8yomo4h1yld5q0j" tvg-name="CH Séc vs Tây Ban Nha - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhy07md7o/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",CH Séc vs Tây Ban Nha | 13/11 02:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://pull.digitalcdn.net/live/eb32aaa145c6418092f75814ab5f1dda/index.m3u8
+https://lilive1.eu.cc/live/1929a9fba99fe49da7173e66101148e5/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-dj2ryohl76znq1z" tvg-name="Thổ Nhĩ Kỳ vs Bỉ - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllhvxyqvy9/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Thổ Nhĩ Kỳ vs Bỉ | 13/11 00:00 | Phá Làng TV | HD1
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://pull.digitalcdn.net/live/b51304c295964dd8b3bf383462de2038/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-dj2ryohl76znq1z" tvg-name="Thổ Nhĩ Kỳ vs Bỉ - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllhvxyqvy9/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Thổ Nhĩ Kỳ vs Bỉ | 13/11 00:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/cf706fb3782f546715674c0f79bf6674/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-ednm9whwj5wpryo" tvg-name="Italy U20 vs Bồ Đào Nha U20 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdehn1exr510/image/small" group-title="Elite League U20" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Italy U20 vs Bồ Đào Nha U20 | 12/11 23:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/88eb2f29f8be964bed4dda101c9cb712/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-jw2r09h548exrz8" tvg-name="CS Puertollano vs Albacete - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghj5n7r6od/image/small" group-title="Copa del Rey" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",CS Puertollano vs Albacete | 13/11 00:30 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/db92abf99e0e53f225999786567e8f63/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-jw2r09h5lpknrz8" tvg-name="Uzbekistan vs Nga - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhjweqg8n/image/small" group-title="International Friendly" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Uzbekistan vs Nga | 12/11 22:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/d390def68da641e23269709c5c46d0df/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-l5ergph46wzzr8k" tvg-name="Llaneros FC vs Boyaca Chico - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhe8p7qvy9/image/small" group-title="Categoría Primera A" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Llaneros FC vs Boyaca Chico | 13/11 07:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/cfdc6c45ad5437aa07decbcf753a3443/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-l7oqdehjneg4r51" tvg-name="Malta vs Eswatini - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph6edm2wd/image/small" group-title="International Friendly" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Malta vs Eswatini | 13/11 00:30 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/34faa279d017c58a89a1763fba2de366/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-l7oqdehjnj4nr51" tvg-name="Nữ Boca Juniors vs Nữ Social Atletico - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09hl51jrz84/image/small" group-title="Argentine Women's League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ Boca Juniors vs Nữ Social Atletico | 12/11 21:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/23fbf95c2c8dbe5fc84e754544005b20/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-l7oqdehjnx0er51" tvg-name="RB Leipzig vs Ml. Boleslav - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hdleqo9j/image/small" group-title="International Club Friendly" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",RB Leipzig vs Ml. Boleslav | 12/11 17:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-pxwrxlhyl8keryk" tvg-name="Albania vs Phần Lan - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzgh9j9q82w/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Albania vs Phần Lan | 13/11 02:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/f9ea53e37f2006b88468bb5f37ad1d65/playlist.m3u8
+https://lilive1.eu.cc/live/3410f25c8f11dc2029ce6d6c39636ffe/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-vjxm8ghekdz5r6o" tvg-name="Armenia vs Đảo Síp - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8gh167r6od/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Armenia vs Đảo Síp | 13/11 00:00 | Phá Làng TV | HD1
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://pull.digitalcdn.net/live/aa35d53ab2d4468c9c62cf8b7138385f/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-vjxm8ghekdz5r6o" tvg-name="Armenia vs Đảo Síp - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8gh167r6od/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Armenia vs Đảo Síp | 13/11 00:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/0231b187249f98d495fb4dca087b45c7/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-vjxm8ghey12er6o" tvg-name="Guinea Xích Đạo vs Zimbabwe - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzghv3wq82w/image/small" group-title="CAF Africa Cup of Nations" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Guinea Xích Đạo vs Zimbabwe | 12/11 23:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/d3b1ba205e212e168ffec2df3bfd0843/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-vjxm8ghk4lyzr6o" tvg-name="Barracas Central (R) vs Argentinos Jrs (R) - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4he162q86p/image/small" group-title="Argentine Reserve League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Barracas Central (R) vs Argentinos Jrs (R) | 13/11 01:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/375f3bdc3e1d61bd4b2cb221180312ec/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-x7lm7phjxy1zm2w" tvg-name="Montenegro vs Latvia - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1h30zdmojx/image/small" group-title="UEFA Nations League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Montenegro vs Latvia | 13/11 02:45 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/e9395be6cae6fc4c8a59bd05158a374c/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-y0or5jh9ln77qwz" tvg-name="Godoy Cruz (R) vs Gimnasia LP (R) - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh4kgdqwzv/image/small" group-title="Argentine Reserve League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Godoy Cruz (R) vs Gimnasia LP (R) | 13/11 01:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/8d1b33a740d3a049b44a986b3c42e291/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-zp5rzgh3j3epq82" tvg-name="Lithuania vs Suriname - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzghv1yq82w/image/small" group-title="International Friendly" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Lithuania vs Suriname | 13/11 00:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/ef7a244cd10886bda6f5466986fa9e09/playlist.m3u8
