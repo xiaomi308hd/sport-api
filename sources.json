@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T10:11:44.930182+00:00",
+  "updated_at": "2026-11-12T10:44:33.151251+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,9 +11,259 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 0,
-      "stream_count": 0,
-      "leagues": []
+      "match_count": 15,
+      "stream_count": 144,
+      "leagues": [
+        {
+          "name": "WK-League",
+          "logo": "https://media.chuoichientv.net/media/20251115_120041_1f64c9dc.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Hwacheon KSPO vs Gyeongju",
+              "home": "Hwacheon KSPO",
+              "away": "Gyeongju",
+              "home_logo": "https://media.chuoichientv.net/media/20250922_095400_53ab86d3.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_143036_72f0bbb2.png",
+              "time": "2026-11-12T17:00:00+07:00",
+              "time_label": "12/11 17:00",
+              "status": "1h",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "Giao Hữu Quốc Tế",
+          "logo": "https://media.api-sports.io/football/leagues/10.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Singapore U23 vs U23 Vietnam",
+              "home": "Singapore U23",
+              "away": "U23 Vietnam",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_144421_29dc3af1.png",
+              "away_logo": "https://media.chuoichientv.net/media/20250902_190503_cfcedb98.png",
+              "time": "2026-11-12T19:00:00+07:00",
+              "time_label": "12/11 19:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 18
+            },
+            {
+              "id": "",
+              "title": "Uzbekistan vs Russia",
+              "home": "Uzbekistan",
+              "away": "Russia",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134248_61eedfe7.png",
+              "time": "2026-11-12T22:00:00+07:00",
+              "time_label": "12/11 22:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "UEFA U21 Championship - Qualification",
+          "logo": "https://media.chuoichientv.net/media/20251115_120303_ef062d3a.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Iceland U21 vs Greece U21",
+              "home": "Iceland U21",
+              "away": "Greece U21",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_145126_a98f2608.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_145125_50474a26.png",
+              "time": "2026-11-12T20:00:00+07:00",
+              "time_label": "12/11 20:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "Africa Cup of Nations - Qualification",
+          "logo": "https://media.chuoichientv.net/media/20251115_120144_c5f585be.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Ghana vs Somalia",
+              "home": "Ghana",
+              "away": "Somalia",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134305_fd6c1ece.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_144327_b1e8b10d.png",
+              "time": "2026-11-12T22:00:00+07:00",
+              "time_label": "12/11 22:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            },
+            {
+              "id": "",
+              "title": "Madagascar vs Guinea-Bissau",
+              "home": "Madagascar",
+              "away": "Guinea-Bissau",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134302_17a38444.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134306_c6162edd.png",
+              "time": "2026-11-12T23:00:00+07:00",
+              "time_label": "12/11 23:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "UEFA Nations League",
+          "logo": "https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Türkiye vs Belgium",
+              "home": "Türkiye",
+              "away": "Belgium",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125503_f5da35f2.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png",
+              "time": "2026-11-13T00:00:00+07:00",
+              "time_label": "13/11 00:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            },
+            {
+              "id": "",
+              "title": "Italy vs France",
+              "home": "Italy",
+              "away": "France",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125457_13158a72.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png",
+              "time": "2026-11-13T02:45:00+07:00",
+              "time_label": "13/11 02:45",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            },
+            {
+              "id": "",
+              "title": "Czech Republic vs Spain",
+              "home": "Czech Republic",
+              "away": "Spain",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125458_7fda1723.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png",
+              "time": "2026-11-13T02:45:00+07:00",
+              "time_label": "13/11 02:45",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            },
+            {
+              "id": "",
+              "title": "England vs Croatia",
+              "home": "England",
+              "away": "Croatia",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125450_ce424b12.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png",
+              "time": "2026-11-13T02:45:00+07:00",
+              "time_label": "13/11 02:45",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "UEFA Champions League Women",
+          "logo": "https://media.chuoichientv.net/media/20251115_115838_f553e052.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Barcelona W vs Arsenal W",
+              "home": "Barcelona W",
+              "away": "Arsenal W",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_133757_0a8041d4.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133728_10ca77e6.png",
+              "time": "2026-11-13T00:45:00+07:00",
+              "time_label": "13/11 00:45",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "Copa del Rey",
+          "logo": "https://media.chuoichientv.net/media/20251115_115714_ac7e3867.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Navalcarnero vs Real Betis",
+              "home": "Navalcarnero",
+              "away": "Real Betis",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_143204_bf995317.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125626_d7a3c828.png",
+              "time": "2026-11-13T01:00:00+07:00",
+              "time_label": "13/11 01:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "VĐQG Colombia",
+          "logo": "https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Deportivo Pasto vs Junior",
+              "home": "Deportivo Pasto",
+              "away": "Junior",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_133531_4547a757.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133534_095d7988.png",
+              "time": "2026-11-13T04:00:00+07:00",
+              "time_label": "13/11 04:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            },
+            {
+              "id": "",
+              "title": "Llaneros vs Chico",
+              "home": "Llaneros",
+              "away": "Chico",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_133539_dd5a3e20.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133533_eba6a872.png",
+              "time": "2026-11-13T04:00:00+07:00",
+              "time_label": "13/11 04:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "Ngoại Hạng Mông Cổ",
+          "logo": "https://media.chuoichientv.net/media/20251115_115953_8128716e.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Ulaanbaatar vs Hunters",
+              "home": "Ulaanbaatar",
+              "away": "Hunters",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_142517_93a5577b.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_142519_72f0bbb2.png",
+              "time": "2026-11-13T12:00:00+07:00",
+              "time_label": "13/11 12:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "gavangtv",
@@ -25,67 +275,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 76,
-      "stream_count": 156,
+      "match_count": 75,
+      "stream_count": 154,
       "leagues": [
-        {
-          "name": "Aus Champ",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "APIA Leichhardt Tigers vs Adelaide City FC",
-              "home": "APIA Leichhardt Tigers",
-              "away": "Adelaide City FC",
-              "home_logo": "https://img.cltvap.cc/football/team/5e7f98b3e6dba2955758797b84e94868.png",
-              "away_logo": "https://img.cltvap.cc/football/team/144d2ec9191d3ffe5742433c81d1ed5e.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Oakleigh Cannons vs Marconi Stallions",
-              "home": "Oakleigh Cannons",
-              "away": "Marconi Stallions",
-              "home_logo": "https://img.cltvap.cc/football/team/873f655c74783dbb85de6cacc8f503c0.png",
-              "away_logo": "https://img.cltvap.cc/football/team/e1605aa2375e5aa780e43e89a0f1b080.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Preston Lions vs Queensland Lions SC",
-              "home": "Preston Lions",
-              "away": "Queensland Lions SC",
-              "home_logo": "https://img.cltvap.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg",
-              "away_logo": "https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Bayswater City vs Sydney Olympic",
-              "home": "Bayswater City",
-              "away": "Sydney Olympic",
-              "home_logo": "https://img.cltvap.cc/football/team/15809b305455c1e964ccd454cc180e51.png",
-              "away_logo": "https://img.cltvap.cc/football/team/2ff1ff9e86bb5eabb44fe40b0a65fac7.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
         {
           "name": "Korean WK League",
           "logo": "",
@@ -953,6 +1145,51 @@
           ]
         },
         {
+          "name": "Aus Champ",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Oakleigh Cannons vs Marconi Stallions",
+              "home": "Oakleigh Cannons",
+              "away": "Marconi Stallions",
+              "home_logo": "https://img.cltvap.cc/football/team/873f655c74783dbb85de6cacc8f503c0.png",
+              "away_logo": "https://img.cltvap.cc/football/team/e1605aa2375e5aa780e43e89a0f1b080.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Preston Lions vs Queensland Lions SC",
+              "home": "Preston Lions",
+              "away": "Queensland Lions SC",
+              "home_logo": "https://img.cltvap.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg",
+              "away_logo": "https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Bayswater City vs Sydney Olympic",
+              "home": "Bayswater City",
+              "away": "Sydney Olympic",
+              "home_logo": "https://img.cltvap.cc/football/team/15809b305455c1e964ccd454cc180e51.png",
+              "away_logo": "https://img.cltvap.cc/football/team/2ff1ff9e86bb5eabb44fe40b0a65fac7.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
           "name": "Panda Cup",
           "logo": "",
           "matches": [
@@ -1125,7 +1362,7 @@
       "stale": false,
       "error": "",
       "match_count": 13,
-      "stream_count": 14,
+      "stream_count": 13,
       "leagues": [
         {
           "name": "Chinese Football Assorciation U-20 League",
@@ -1172,9 +1409,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh98vq82w/image/small",
               "time": "2026-11-12T15:00:00+07:00",
               "time_label": "12/11 15:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
-              "stream_count": 2
+              "stream_count": 1
             },
             {
               "id": "mhd-match-dn1m1gh94xdzmoe",
@@ -1217,7 +1454,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hz2evqdyj/image/small",
               "time": "2026-11-12T17:30:00+07:00",
               "time_label": "12/11 17:30",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
