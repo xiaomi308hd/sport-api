@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:28:17.877306+00:00",
+  "updated_at": "2026-11-12T21:31:56.187624+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -976,73 +976,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 30,
-      "stream_count": 33,
+      "match_count": 28,
+      "stream_count": 31,
       "leagues": [
-        {
-          "name": "Copa del Rey",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-jw2r09h548exrz8",
-              "title": "CS Puertollano vs Albacete",
-              "home": "CS Puertollano",
-              "away": "Albacete",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghj5n7r6od/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhp5vm7vx/image/small",
-              "time": "2026-11-13T00:30:00+07:00",
-              "time_label": "13/11 00:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-23xmvkhyv7e2qg8",
-              "title": "CD Artistico Navalcarnero vs Real Betis",
-              "home": "CD Artistico Navalcarnero",
-              "away": "Real Betis",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4jpkmoep/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhz9nqg8n/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-dn1m1gh9v65vmoe",
-              "title": "CD Tarancon vs Levante",
-              "home": "CD Tarancon",
-              "away": "Levante",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4hdllyq86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh9z9q82w/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "International Friendly",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-l7oqdehjneg4r51",
-              "title": "Malta vs Eswatini",
-              "home": "Malta",
-              "away": "Eswatini",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7ph6edm2wd/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h3jo1mojx/image/small",
-              "time": "2026-11-13T00:30:00+07:00",
-              "time_label": "13/11 00:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "UEFA Women's Champions League",
           "logo": "",
@@ -1138,6 +1074,38 @@
               "away": "Gimnasia LP (R)",
               "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh4kgdqwzv/image/small",
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohy963q1zp/image/small",
+              "time": "2026-11-13T01:00:00+07:00",
+              "time_label": "13/11 01:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Copa del Rey",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-23xmvkhyv7e2qg8",
+              "title": "CD Artistico Navalcarnero vs Real Betis",
+              "home": "CD Artistico Navalcarnero",
+              "away": "Real Betis",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4jpkmoep/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhz9nqg8n/image/small",
+              "time": "2026-11-13T01:00:00+07:00",
+              "time_label": "13/11 01:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-dn1m1gh9v65vmoe",
+              "title": "CD Tarancon vs Levante",
+              "home": "CD Tarancon",
+              "away": "Levante",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4hdllyq86p/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh9z9q82w/image/small",
               "time": "2026-11-13T01:00:00+07:00",
               "time_label": "13/11 01:00",
               "status": "scheduled",
