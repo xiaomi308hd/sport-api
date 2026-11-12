@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T22:01:52.340775+00:00",
+  "updated_at": "2026-11-12T22:05:31.824214+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -77,8 +77,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 53,
-      "stream_count": 108,
+      "match_count": 54,
+      "stream_count": 110,
       "leagues": [
         {
           "name": "CONCACAF Nations League",
@@ -91,6 +91,19 @@
               "away": "Martinique",
               "home_logo": "https://img.cltvap.cc/football/team/cff843c1f724a378bd0ae42d842ef807.png",
               "away_logo": "https://img.cltvap.cc/football/team/414440d40757c0f0ad4d6bf00a62f667.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Antigua and Barbuda vs Trinidad and Tobago",
+              "home": "Antigua and Barbuda",
+              "away": "Trinidad and Tobago",
+              "home_logo": "https://img.cltvap.cc/football/team/04f82a7b2f5afd90b0e0672f7cbbf2da.png",
+              "away_logo": "https://img.cltvap.cc/football/team/edb8dfb5b878d0e33c4a86488ad8eb6a.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
@@ -853,8 +866,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 19,
-      "stream_count": 19,
+      "match_count": 20,
+      "stream_count": 20,
       "leagues": [
         {
           "name": "CAF Africa Cup of Nations",
@@ -1108,6 +1121,25 @@
               "time": "2026-11-13T05:00:00+07:00",
               "time_label": "13/11 05:00",
               "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Brazilian Serie B",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-y0or5jh88ez5qwz",
+              "title": "Ponte Preta vs Operario PR",
+              "home": "Ponte Preta",
+              "away": "Operario PR",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllh667qvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h32z0mojx/image/small",
+              "time": "2026-11-13T05:00:00+07:00",
+              "time_label": "13/11 05:00",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
