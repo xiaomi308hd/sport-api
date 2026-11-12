@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:36:29.177803+00:00",
+  "updated_at": "2026-11-12T21:40:05.881960+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -53,7 +53,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "2h",
+              "status": "ft",
               "score": "",
               "stream_count": 9
             }
@@ -977,7 +977,7 @@
       "stale": false,
       "error": "",
       "match_count": 28,
-      "stream_count": 31,
+      "stream_count": 30,
       "leagues": [
         {
           "name": "UEFA Women's Champions League",
@@ -1307,7 +1307,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllh62wqvy9/image/small",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
@@ -1320,9 +1320,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryohoj7q1zp/image/small",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
-              "stream_count": 2
+              "stream_count": 1
             },
             {
               "id": "mhd-match-8yomo4h1yld5q0j",
@@ -1359,7 +1359,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/gy0or5jh2vgqwzv/image/small",
               "time": "2026-11-13T02:45:00+07:00",
               "time_label": "13/11 02:45",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
