@@ -32,8 +32,9 @@ jobs:
       LOOP: ${{ github.event_name != 'push' && '1' || '0' }}
       LOOP_SECONDS: "3000"
       INTERVAL_SECONDS: "180"
-      M3U_DEST_REPO: ${{ vars.M3U_DEST_REPO }}
+      M3U_DEST_REPO: ${{ vars.M3U_DEST_REPO || 'xiaomi308hd/hinh-nen' }}
       M3U_DEST_PATH: ${{ vars.M3U_DEST_PATH }}
+      M3U_DEST_TOKEN_SET: ${{ secrets.M3U_DEST_TOKEN != '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -44,13 +45,39 @@ jobs:
           python-version: "3.12"
 
       # Optional: checkout a second repository that will host the public playlist.
+      - name: Check destination token
+        if: env.M3U_DEST_REPO != '' && env.M3U_DEST_TOKEN_SET != 'true'
+        run: |
+          echo "::error::Chưa có secret M3U_DEST_TOKEN nên không thể đẩy playlist sang $M3U_DEST_REPO (Settings → Secrets and variables → Actions → Secrets)."
+          exit 1
+
       - name: Checkout playlist destination repository
-        if: vars.M3U_DEST_REPO != ''
+        if: env.M3U_DEST_REPO != ''
         uses: actions/checkout@v4
         with:
-          repository: ${{ vars.M3U_DEST_REPO }}
+          repository: ${{ env.M3U_DEST_REPO }}
           token: ${{ secrets.M3U_DEST_TOKEN }}
           path: playlist-destination
+
+      - name: Verify destination access
+        if: env.M3U_DEST_REPO != ''
+        env:
+          GH_TOKEN: ${{ secrets.M3U_DEST_TOKEN }}
+        run: |
+          if ! info=$(gh api "repos/$M3U_DEST_REPO" --jq '[.full_name,(.private|tostring),.default_branch,((.permissions.push // "?")|tostring)]|@tsv' 2>&1); then
+            echo "::error::Token không truy cập được $M3U_DEST_REPO: $info"
+            exit 1
+          fi
+          IFS=$'\t' read -r full private branch push <<< "$info"
+          echo "Repo đích: $full | private=$private | nhánh mặc định=$branch | quyền ghi=$push"
+          if [ "$push" = "false" ]; then
+            echo "::error::Token KHÔNG có quyền ghi vào $M3U_DEST_REPO (cần Contents: Read and write cho đúng repo này)."
+            exit 1
+          fi
+          if [ "$private" = "true" ]; then
+            echo "::warning::$M3U_DEST_REPO đang Private: ứng dụng không tải được playlist bằng URL raw công khai."
+          fi
+          echo "Nhánh đang checkout: $(git -C playlist-destination rev-parse --abbrev-ref HEAD)"
 
       - name: Update loop
         run: |
@@ -63,6 +90,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           end=$(( $(date +%s) + LOOP_SECONDS ))
           ok=0
+          dest_err=0
           rounds=0
 
           while true; do
@@ -75,6 +103,12 @@ jobs:
               round_ok=1
             else
               echo "::warning::update.py lỗi ở vòng $rounds (giữ nguyên dữ liệu cũ)"
+            fi
+
+            if [ -f thethao.m3u ]; then
+              echo "Vòng $rounds: thethao.m3u có $(grep -c '^#EXTINF' thethao.m3u) luồng"
+            else
+              echo "Vòng $rounds: KHÔNG có thethao.m3u (update.py không ghi được file)"
             fi
 
             # When a destination repository is configured, remove the main M3U
@@ -98,6 +132,9 @@ jobs:
             fi
 
             # Mirror the finished playlist into another repository when configured.
+            if [ -d "playlist-destination/.git" ] && [ ! -f "thethao.m3u" ]; then
+              echo "::warning::Vòng $rounds: không có thethao.m3u để đẩy sang repo đích"
+            fi
             if [ -d "playlist-destination/.git" ] && [ -f "thethao.m3u" ]; then
               DEST_PATH="${M3U_DEST_PATH:-.}"
               case "$DEST_PATH" in
@@ -108,9 +145,17 @@ jobs:
               git -C playlist-destination config user.name "github-actions[bot]"
               git -C playlist-destination config user.email "41898282+github-actions[bot]@users.noreply.github.com"
               git -C playlist-destination add -- "$DEST_PATH/thethao.m3u"
-              if ! git -C playlist-destination diff --cached --quiet; then
+              if git -C playlist-destination diff --cached --quiet; then
+                echo "Vòng $rounds: repo đích đã có đúng nội dung này ($M3U_DEST_REPO:$DEST_PATH/thethao.m3u), không cần đẩy."
+              else
                 git -C playlist-destination commit -q -m "chore: update MHD Sports M3U playlist"
-                git -C playlist-destination push -q || echo "::warning::không push được playlist sang repo đích"
+                if git -C playlist-destination push -q 2>/tmp/push_err.txt \
+                   || { git -C playlist-destination pull --rebase -q && git -C playlist-destination push -q 2>/tmp/push_err.txt; }; then
+                  echo "Đã đẩy thethao.m3u sang $M3U_DEST_REPO ($(git -C playlist-destination log -1 --format='%h %s'))"
+                else
+                  dest_err=1
+                  echo "::error::Không push được sang $M3U_DEST_REPO: $(tr '\n' ' ' < /tmp/push_err.txt)"
+                fi
               fi
             fi
 
@@ -123,6 +168,12 @@ jobs:
           if [ "$LOOP" = "1" ]; then
             gh workflow run update-sports.yml --ref "$GITHUB_REF_NAME" \
               || echo "::warning::không tự kích hoạt được lượt sau; cron dự phòng sẽ khởi động lại"
+          fi
+
+          # Có lỗi đẩy sang repo đích => báo đỏ để không bị im lặng.
+          if [ "$dest_err" -ne 0 ]; then
+            echo "::error::Lượt này có lỗi đẩy playlist sang repo đích"
+            exit 1
           fi
 
           # Cả lượt không có vòng nào thành công => báo đỏ để thấy trong tab Actions.
