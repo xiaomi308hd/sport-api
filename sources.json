@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:58:20.298164+00:00",
+  "updated_at": "2026-11-12T22:01:52.340775+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -853,163 +853,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 27,
-      "stream_count": 27,
+      "match_count": 19,
+      "stream_count": 19,
       "leagues": [
-        {
-          "name": "Argentine Reserve League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-23xmvkhy36v3qg8",
-              "title": "Rosario Central (R) vs River Plate (R)",
-              "home": "Rosario Central (R)",
-              "away": "River Plate (R)",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4he11yq86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh5vgpmd7o/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-n54qllh42n55qvy",
-              "title": "Huracan (R) vs Estudiantes Rio Cuarto Reserves",
-              "home": "Huracan (R)",
-              "away": "Estudiantes Rio Cuarto Reserves",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4he104q86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1hypj3mojx/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-vjxm8ghk4lyzr6o",
-              "title": "Barracas Central (R) vs Argentinos Jrs (R)",
-              "home": "Barracas Central (R)",
-              "away": "Argentinos Jrs (R)",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4he162q86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hjy51qdyj/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-x7lm7phxkz4lm2w",
-              "title": "Colon (R) vs Central Cordoba (R)",
-              "home": "Colon (R)",
-              "away": "Central Cordoba (R)",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7pho6w4m2wd/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4hdpdpq86p/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-y0or5jh9ln77qwz",
-              "title": "Godoy Cruz (R) vs Gimnasia LP (R)",
-              "home": "Godoy Cruz (R)",
-              "away": "Gimnasia LP (R)",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh4kgdqwzv/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohy963q1zp/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Copa del Rey",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-23xmvkhyv7e2qg8",
-              "title": "CD Artistico Navalcarnero vs Real Betis",
-              "home": "CD Artistico Navalcarnero",
-              "away": "Real Betis",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4jpkmoep/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhz9nqg8n/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-dn1m1gh9v65vmoe",
-              "title": "CD Tarancon vs Levante",
-              "home": "CD Tarancon",
-              "away": "Levante",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4hdllyq86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh9z9q82w/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Argentine Women's League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-8yomo4hy7y2vq0j",
-              "title": "Nữ Banfield vs Nữ River Plate",
-              "home": "Nữ Banfield",
-              "away": "Nữ River Plate",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhj2vwryk0/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllh2ggeqvy9/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-pxwrxlhlgl9vryk",
-              "title": "Nữ San Lorenzo vs Nữ Union Santa Fe",
-              "home": "Nữ San Lorenzo",
-              "away": "Nữ Union Santa Fe",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hw5k8qdyj/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zhze0nql07/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Brazilian Campeonato Paulista Youth",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-zp5rzgh3jgy7q82",
-              "title": "Bragantino RB (R) vs Corinthians Paulista (Y)",
-              "home": "Bragantino RB (R)",
-              "away": "Corinthians Paulista (Y)",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh4lpjqwzv/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh40jyqwzv/image/small",
-              "time": "2026-11-13T01:00:00+07:00",
-              "time_label": "13/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "CAF Africa Cup of Nations",
           "logo": "",
@@ -1242,6 +1088,44 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh3n0dqwzv/image/small",
               "time": "2026-11-13T03:00:00+07:00",
               "time_label": "13/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Venezuela Primera Division",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-l7oqdehjn49gr51",
+              "title": "Puerto Cabello vs Monagas SC",
+              "home": "Puerto Cabello",
+              "away": "Monagas SC",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4he76xq86p/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hl9gvrz84/image/small",
+              "time": "2026-11-13T05:00:00+07:00",
+              "time_label": "13/11 05:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Uruguay Primera Division",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-zp5rzgh3j566q82",
+              "title": "Cerro Largo vs CA Progreso",
+              "home": "Cerro Largo",
+              "away": "CA Progreso",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhv7lyrepz/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghg6g0r6od/image/small",
+              "time": "2026-11-13T06:00:00+07:00",
+              "time_label": "13/11 06:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
