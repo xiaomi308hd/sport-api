@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:52:32.932933+00:00",
+  "updated_at": "2026-11-12T18:56:11.745275+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png",
               "time": "2026-11-13T00:00:00+07:00",
               "time_label": "13/11 00:00",
-              "status": "2h",
+              "status": "ft",
               "score": "",
               "stream_count": 9
             },
@@ -85,7 +85,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133728_10ca77e6.png",
               "time": "2026-11-13T00:45:00+07:00",
               "time_label": "13/11 00:45",
-              "status": "ht",
+              "status": "2h",
               "score": "",
               "stream_count": 9
             }
@@ -104,7 +104,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125626_d7a3c828.png",
               "time": "2026-11-13T01:00:00+07:00",
               "time_label": "13/11 01:00",
-              "status": "1h",
+              "status": "ht",
               "score": "",
               "stream_count": 9
             }
@@ -1080,7 +1080,7 @@
       "stale": false,
       "error": "",
       "match_count": 33,
-      "stream_count": 36,
+      "stream_count": 34,
       "leagues": [
         {
           "name": "Jordan League Division 1",
@@ -1211,7 +1211,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhgoy3ryk0/image/small",
               "time": "2026-11-13T00:00:00+07:00",
               "time_label": "13/11 00:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
@@ -1264,7 +1264,7 @@
               "time_label": "13/11 00:00",
               "status": "live",
               "score": "",
-              "stream_count": 2
+              "stream_count": 1
             },
             {
               "id": "mhd-match-vjxm8ghekdz5r6o",
@@ -1275,9 +1275,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hzx2rz84/image/small",
               "time": "2026-11-13T00:00:00+07:00",
               "time_label": "13/11 00:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
-              "stream_count": 2
+              "stream_count": 1
             },
             {
               "id": "mhd-match-2y8m4zh5vyk1ql0",
