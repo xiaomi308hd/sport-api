@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:37:18.920238+00:00",
+  "updated_at": "2026-11-13T08:41:06.473560+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -46,7 +46,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141339_da8f4f91.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "live",
+              "status": "1h",
               "score": "",
               "stream_count": 9
             },
@@ -59,7 +59,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141412_24481446.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "live",
+              "status": "1h",
               "score": "",
               "stream_count": 9
             }
@@ -1135,8 +1135,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 6,
-      "stream_count": 7,
+      "match_count": 10,
+      "stream_count": 11,
       "leagues": [
         {
           "name": "Mongolia Premier League",
@@ -1231,6 +1231,64 @@
               "status": "live",
               "score": "",
               "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "Indo D4",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-dj2ryoh7k9d7q1z",
+              "title": "Persiba Bantul vs Gresik United",
+              "home": "Persiba Bantul",
+              "away": "Gresik United",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7h1lzgqdyj/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekh9n4krepz/image/small",
+              "time": "2026-11-13T15:30:00+07:00",
+              "time_label": "13/11 15:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-dj2ryoh7k9x6q1z",
+              "title": "Persikota Tangerang vs Pesik Kuningan",
+              "home": "Persikota Tangerang",
+              "away": "Pesik Kuningan",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhzo3dm7vx/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdeh4vg6r510/image/small",
+              "time": "2026-11-13T15:30:00+07:00",
+              "time_label": "13/11 15:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-l7oqdehjn93kr51",
+              "title": "Persika Karanganyar vs Persinga Ngawi",
+              "home": "Persika Karanganyar",
+              "away": "Persinga Ngawi",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nhw2y6md7o/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phopwzm2wd/image/small",
+              "time": "2026-11-13T15:30:00+07:00",
+              "time_label": "13/11 15:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-zp5rzgh3jd0jq82",
+              "title": "Persibo Bojonegoro vs Persipa Pati",
+              "home": "Persibo Bojonegoro",
+              "away": "Persipa Pati",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohk9x0q1zp/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zhgy30ql07/image/small",
+              "time": "2026-11-13T15:30:00+07:00",
+              "time_label": "13/11 15:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
             }
           ]
         }
