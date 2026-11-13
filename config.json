@@ -15,34 +15,33 @@
       "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",
       "playlist_file": "thethao-chuoichientv.m3u",
       "enabled": true,
+
       "method": "GET",
       "url": "https://api-v2.chuoichientv.net/v2/matches",
+
       "default_stream_referer": "https://live11.chuoichientv.me/",
+
       "headers": {
         "Accept": "application/json",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
         "Referer": "https://live11.chuoichientv.me/",
         "Origin": "https://live11.chuoichientv.me"
       },
+
       "parser": "chuoichientv",
+
       "params": {
         "type": "live",
         "page": 1,
         "limit": 500
       },
+
       "params_variants": [
-        {
-          "type": "live",
-          "page": 1,
-          "limit": 500
-        },
-        {
-          "type": "blv",
-          "page": 1,
-          "limit": 500
-        }
+        { "type": "live", "page": 1, "limit": 500 },
+        { "type": "blv", "page": 1, "limit": 500 }
       ]
     },
+
     {
       "name": "GaVangTV",
       "id": "gavangtv",
@@ -50,13 +49,16 @@
       "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/gavangtv.png",
       "playlist_file": "thethao-gavangtv.m3u",
       "enabled": true,
+
       "method": "GET",
       "url": "https://gavangtv-api.adviceme.io/api/v1/matches",
+
       "headers": {
         "Accept": "application/json",
         "User-Agent": "Mozilla/5.0"
       }
     },
+
     {
       "name": "PhaLangTV",
       "id": "phalangtv",
@@ -64,9 +66,12 @@
       "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",
       "playlist_file": "thethao-plapi.m3u",
       "enabled": true,
+
       "api_type": "plapi_graph",
       "method": "POST",
+
       "url": "https://api.plapi202624081158.com/matches/graph",
+
       "headers": {
         "Accept": "application/json",
         "Content-Type": "application/json",
@@ -74,6 +79,7 @@
         "Origin": "https://phalang2.tv",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
       },
+
       "body": {
         "fields": [],
         "queries": [],
@@ -85,6 +91,7 @@
         "is_count": false,
         "ignore_fields": []
       },
+
       "pagination": {
         "enabled": true,
         "page_param": "page",
@@ -93,11 +100,15 @@
         "limit": 50,
         "max_pages": 100
       },
+
       "match_detail_url": "https://api.plapi202624081158.com/match/{id}",
       "match_live_url": "https://api.plapi202624081158.com/match/{id}/live",
+
       "league_url": "https://api.plapi202624081158.com/matches/league",
+
       "detail_method": "GET",
       "live_method": "GET",
+
       "stream_priority": [
         "hd_1",
         "hd_2",
@@ -105,36 +116,12 @@
         "sd_2",
         "source"
       ],
+
       "default_stream_referer": "",
+
       "stream_referer": "https://sv1.phalang.net/",
       "referer_self_origin": false,
       "referer_by_host": {}
-    },
-    {
-      "name": "ColaTV",
-      "id": "colatv",
-      "display_name": "Cola TV",
-      "logo": "",
-      "playlist_file": "thethao-colatv.m3u",
-      "enabled": true,
-      "method": "GET",
-      "url": "https://api.gvapi.cc/api/matches",
-      "parser": "colatv",
-      "default_stream_referer": "https://colatv98.live/",
-      "stream_referer": "https://colatv98.live/",
-      "headers": {
-        "Accept": "*/*",
-        "Origin": "https://colatv98.live",
-        "Referer": "https://colatv98.live/",
-        "X-Domain": "colatv98.live",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
-      },
-      "stream_priority": [
-        "videoUrl",
-        "playStreamAddress2",
-        "servers",
-        "playStreamAddress"
-      ]
     }
   ],
 
