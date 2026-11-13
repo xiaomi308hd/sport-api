@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T04:29:46.084259+00:00",
+  "updated_at": "2026-11-13T04:33:21.809635+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1078,28 +1078,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 7,
-      "stream_count": 7,
+      "match_count": 6,
+      "stream_count": 6,
       "leagues": [
-        {
-          "name": "CONCACAF Nations League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-318q66h8o69vqo9",
-              "title": "Curacao vs Panama",
-              "home": "Curacao",
-              "away": "Panama",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7pho8v3m2wd/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zho2eql07/image/small",
-              "time": "2026-11-13T07:30:00+07:00",
-              "time_label": "13/11 07:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Japanese Regional League",
           "logo": "",
