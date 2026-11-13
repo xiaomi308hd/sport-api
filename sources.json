@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T13:14:31.893609+00:00",
+  "updated_at": "2026-11-13T13:18:50.464151+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1549,27 +1549,8 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 323,
+      "stream_count": 322,
       "leagues": [
-        {
-          "name": "Giao hữu các CLB quốc tế",
-          "logo": "https://img.cltvap.cc/football/competition/2440249cd19586c39de8e05d55cc6b0d.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-ezk96ijnwlyh1kn",
-              "title": "VfL Bochum vs SC Verl",
-              "home": "VfL Bochum",
-              "away": "SC Verl",
-              "home_logo": "https://img.cltvap.cc/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/2938d79d1bc60e1f9bef2e0e7b1e81be.png!w80",
-              "time": "2026-11-13T18:30:00+07:00",
-              "time_label": "13/11 18:30",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            }
-          ]
-        },
         {
           "name": "Giao hữu Quốc tế",
           "logo": "https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png!w80",
@@ -2477,6 +2458,19 @@
               "away_logo": "https://img.cltvap.cc/football/team/7e19999864bb17b5cf10e68e3c7e6276.png!w80",
               "time": "2026-11-14T09:00:00+07:00",
               "time_label": "14/11 09:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-ndqmli9x3rzarkv",
+              "title": "Haiti vs Mỹ",
+              "home": "Haiti",
+              "away": "Mỹ",
+              "home_logo": "https://img.cltvap.cc/football/team/d55980e43b8a49a3ac62d7a899334f11.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/08e9fb9c257f63bc57837b42b31f8cef.png!w80",
+              "time": "2026-11-15T04:30:00+07:00",
+              "time_label": "15/11 04:30",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
