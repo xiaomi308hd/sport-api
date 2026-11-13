@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:36:08.959232+00:00",
+  "updated_at": "2026-11-13T12:37:30.262425+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1867,6 +1867,19 @@
               "stream_count": 3
             },
             {
+              "id": "mhd-match-edq09il6r9eseqx",
+              "title": "Mozambique vs Ethiopia",
+              "home": "Mozambique",
+              "away": "Ethiopia",
+              "home_logo": "https://img.cltvap.cc/football/team/4ebcf9e1e66c0ecb1723ddb6dfdddd43.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/fac20ee3c5bc1659bc8e6ba2771c5b31.png!w80",
+              "time": "2026-11-13T20:00:00+07:00",
+              "time_label": "13/11 20:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 3
+            },
+            {
               "id": "mhd-match-g6763i5gz0dbo7r",
               "title": "Zambia vs Burundi",
               "home": "Zambia",
@@ -1876,19 +1889,6 @@
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
               "status": "live",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-edq09il6r9eseqx",
-              "title": "Mozambique vs Ethiopia",
-              "home": "Mozambique",
-              "away": "Ethiopia",
-              "home_logo": "https://img.cltvap.cc/football/team/4ebcf9e1e66c0ecb1723ddb6dfdddd43.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/fac20ee3c5bc1659bc8e6ba2771c5b31.png!w80",
-              "time": "2026-11-13T20:00:00+07:00",
-              "time_label": "13/11 20:00",
-              "status": "scheduled",
               "score": "",
               "stream_count": 3
             },
