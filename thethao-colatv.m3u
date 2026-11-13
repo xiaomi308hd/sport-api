@@ -1,20 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-jek33i8m0z0a9ko" tvg-name="ĐTQG Moldova vs ĐTQG Kazakhstan - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Moldova vs ĐTQG Kazakhstan | 14/11 00:00 | ColaTV | Live
-https://live.hztx2020.com/live/13590605_a62e8accb8f7e4de78c5d4cef470c141_autoChange.m3u8?auth_key=1794610242-0-0-7e7ca906db64184a6ac35f4307ee9ea1
-#EXTINF:-1 tvg-id="mhd-match-jek33i8m0z0a9ko" tvg-name="ĐTQG Moldova vs ĐTQG Kazakhstan - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Moldova vs ĐTQG Kazakhstan | 14/11 00:00 | ColaTV | Live
-https://live05.wecile.app/live/14830711.m3u8
-#EXTINF:-1 tvg-id="mhd-match-jek33i8m0z0a9ko" tvg-name="ĐTQG Moldova vs ĐTQG Kazakhstan - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Moldova vs ĐTQG Kazakhstan | 14/11 00:00 | ColaTV | Live
-https://live05.yefpwmc.app/live/14830711_tsc.m3u8
-#EXTINF:-1 tvg-id="mhd-match-jek33i8m0z0a9ko" tvg-name="ĐTQG Moldova vs ĐTQG Kazakhstan - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Moldova vs ĐTQG Kazakhstan | 14/11 00:00 | ColaTV | Live
-https://live05.wecile.app/live/14830711.flv
-#EXTINF:-1 tvg-id="mhd-match-vrqwni0o0p0u4qn" tvg-name="Phần Lan U21 vs Ireland U21 - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/0f2d2e79833b106e3c0407d4c7131307.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Phần Lan U21 vs Ireland U21 | 13/11 23:15 | ColaTV | Live
-https://live2.hztx2020.com/live/14582685_5d08884e7c7119f3dbf7a0373843084f_autoChange.m3u8?auth_key=1794610243-0-0-393a4fa8db4ef5a4091dde623e1a792d
-#EXTINF:-1 tvg-id="mhd-match-vrqwni0o0p0u4qn" tvg-name="Phần Lan U21 vs Ireland U21 - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/0f2d2e79833b106e3c0407d4c7131307.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Phần Lan U21 vs Ireland U21 | 13/11 23:15 | ColaTV | Live
-https://live05.wecile.app/live/99121525.m3u8
-#EXTINF:-1 tvg-id="mhd-match-vrqwni0o0p0u4qn" tvg-name="Phần Lan U21 vs Ireland U21 - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/0f2d2e79833b106e3c0407d4c7131307.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Phần Lan U21 vs Ireland U21 | 13/11 23:15 | ColaTV | Live
-https://live05.yefpwmc.app/live/99121525_tsc.m3u8
-#EXTINF:-1 tvg-id="mhd-match-vrqwni0o0p0u4qn" tvg-name="Phần Lan U21 vs Ireland U21 - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/0f2d2e79833b106e3c0407d4c7131307.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Phần Lan U21 vs Ireland U21 | 13/11 23:15 | ColaTV | Live
-https://live05.wecile.app/live/99121525.flv
 #EXTINF:-1 tvg-id="mhd-match-l6kegirzmr2cv75" tvg-name="Đức U21 vs Bỉ U21 - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Đức U21 vs Bỉ U21 | 14/11 00:00 | ColaTV | Live
 https://live1.hztx2020.com/live/14640556_a45dc750e73dadf47d4239caf5a2359d_autoChange.m3u8?auth_key=1794610242-0-0-8a0210773fd8d7d77640eb5db0cc16d6
 #EXTINF:-1 tvg-id="mhd-match-l6kegirzmr2cv75" tvg-name="Đức U21 vs Bỉ U21 - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Đức U21 vs Bỉ U21 | 14/11 00:00 | ColaTV | Live
@@ -53,6 +37,12 @@ https://live05.wecile.app/live/02456966.m3u8
 https://live05.yefpwmc.app/live/02456966_tsc.m3u8
 #EXTINF:-1 tvg-id="mhd-match-jek33i8l4yzt9ko" tvg-name="Ai Cập vs Malawi - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Ai Cập vs Malawi | 14/11 02:00 | ColaTV | Live
 https://live05.wecile.app/live/02456966.flv
+#EXTINF:-1 tvg-id="mhd-match-wv78xivo4nybokr" tvg-name="Mali vs Rwanda - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Mali vs Rwanda | 14/11 02:00 | ColaTV | Live
+https://live05.wecile.app/live/99121525.m3u8
+#EXTINF:-1 tvg-id="mhd-match-wv78xivo4nybokr" tvg-name="Mali vs Rwanda - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Mali vs Rwanda | 14/11 02:00 | ColaTV | Live
+https://live05.yefpwmc.app/live/99121525_tsc.m3u8
+#EXTINF:-1 tvg-id="mhd-match-wv78xivo4nybokr" tvg-name="Mali vs Rwanda - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Mali vs Rwanda | 14/11 02:00 | ColaTV | Live
+https://live05.wecile.app/live/99121525.flv
 #EXTINF:-1 tvg-id="mhd-match-wv78xiv19lvuokr" tvg-name="ĐTQG Hà Lan vs CLB Greece - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Hà Lan vs CLB Greece | 14/11 02:45 | ColaTV | Live
 https://live05.wecile.app/live/07428422.m3u8
 #EXTINF:-1 tvg-id="mhd-match-wv78xiv19lvuokr" tvg-name="ĐTQG Hà Lan vs CLB Greece - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Hà Lan vs CLB Greece | 14/11 02:45 | ColaTV | Live
@@ -143,3 +133,9 @@ https://live05.wecile.app/live/87379114.m3u8
 https://live05.yefpwmc.app/live/87379114_tsc.m3u8
 #EXTINF:-1 tvg-id="mhd-match-vrqw9s9dz9du47n" tvg-name="San Antonio Spurs vs Golden State Warriors - ColaTV - Live" tvg-logo="https://img.cltvap.cc/basketball/competition/061f5ab5b1a975fc1004529ec3f11fca.png!w80" group-title="ColaTV" x-source="colatv" x-sport="BASKETBALL",San Antonio Spurs vs Golden State Warriors | 14/11 09:30 | ColaTV | Live
 https://live05.wecile.app/live/87379114.flv
+#EXTINF:-1 tvg-id="mhd-match-m2q15izj8x2ie76" tvg-name="Melbourne City Nữ vs Newcastle Nữ - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/3391c527d7cfb37ff6f5c9c05042869b.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Melbourne City Nữ vs Newcastle Nữ | 14/11 11:00 | ColaTV | Live
+https://live05.wecile.app/live/14830711.m3u8
+#EXTINF:-1 tvg-id="mhd-match-m2q15izj8x2ie76" tvg-name="Melbourne City Nữ vs Newcastle Nữ - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/3391c527d7cfb37ff6f5c9c05042869b.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Melbourne City Nữ vs Newcastle Nữ | 14/11 11:00 | ColaTV | Live
+https://live05.yefpwmc.app/live/14830711_tsc.m3u8
+#EXTINF:-1 tvg-id="mhd-match-m2q15izj8x2ie76" tvg-name="Melbourne City Nữ vs Newcastle Nữ - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/3391c527d7cfb37ff6f5c9c05042869b.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Melbourne City Nữ vs Newcastle Nữ | 14/11 11:00 | ColaTV | Live
+https://live05.wecile.app/live/14830711.flv
