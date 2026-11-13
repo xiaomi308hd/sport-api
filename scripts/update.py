@@ -607,6 +607,275 @@ def parse_generic_match(item, api):
 # GA VANG TV PARSER
 # ============================================================
 
+def fetch_colatv(api):
+    payload = request_json(
+        api["url"],
+        method=api.get("method", "GET"),
+        headers=api.get("headers")
+    )
+
+    items = unwrap_data(payload)
+    results = []
+
+    log.info(
+        "ColaTV: API danh sách trả về %s bản ghi",
+        len(items)
+    )
+
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+
+        slug = first_value(
+            item.get("slug"),
+            item.get("match_slug"),
+            item.get("matchSlug"),
+            item.get("id")
+        )
+
+        if not slug:
+            continue
+
+        try:
+            detail = fetch_colatv_detail(slug, api)
+            match, streams = parse_colatv_detail(detail, api)
+
+            if not streams:
+                log.info(
+                    "ColaTV: trận %s không có URL phát hợp lệ",
+                    slug
+                )
+                continue
+
+            home = first_value(
+                match.get("home_team"),
+                match.get("homeTeam"),
+                item.get("home_team"),
+                item.get("homeTeam"),
+                {}
+            )
+
+            away = first_value(
+                match.get("away_team"),
+                match.get("awayTeam"),
+                item.get("away_team"),
+                item.get("awayTeam"),
+                {}
+            )
+
+            competition = first_value(
+                match.get("competition"),
+                item.get("competition"),
+                {}
+            )
+
+            if not isinstance(home, dict):
+                home = {"name": clean(home)}
+
+            if not isinstance(away, dict):
+                away = {"name": clean(away)}
+
+            if not isinstance(competition, dict):
+                competition = {"name": clean(competition)}
+
+            results.append({
+                "externalId": clean(first_value(
+                    match.get("match_id"),
+                    match.get("matchId"),
+                    item.get("match_id"),
+                    item.get("matchId"),
+                    slug
+                )),
+                "matchTime": clean(first_value(
+                    match.get("match_time"),
+                    match.get("start_time"),
+                    match.get("startTime"),
+                    item.get("match_time"),
+                    item.get("start_time"),
+                    item.get("startTime")
+                )),
+                "status": clean(first_value(
+                    match.get("match_status"),
+                    match.get("status"),
+                    item.get("match_status"),
+                    item.get("status")
+                )),
+                "teams": {
+                    "home": {
+                        "name": clean(first_value(
+                            home.get("name"),
+                            home.get("title"),
+                            "Đội nhà"
+                        )),
+                        "logo": clean(first_value(
+                            home.get("logo"),
+                            home.get("image")
+                        ))
+                    },
+                    "away": {
+                        "name": clean(first_value(
+                            away.get("name"),
+                            away.get("title"),
+                            "Đội khách"
+                        )),
+                        "logo": clean(first_value(
+                            away.get("logo"),
+                            away.get("image")
+                        ))
+                    }
+                },
+                "league": {
+                    "name": clean(first_value(
+                        competition.get("name"),
+                        competition.get("title"),
+                        "Thể thao"
+                    )),
+                    "logo": clean(competition.get("logo"))
+                },
+                "blvs": [{
+                    "name": clean(first_value(
+                        api.get("display_name"),
+                        "ColaTV"
+                    )),
+                    "streams": streams
+                }]
+            })
+
+        except Exception as error:
+            log.warning(
+                "ColaTV detail lỗi %s: %s",
+                slug,
+                error
+            )
+
+    log.info(
+        "ColaTV: lấy được %s trận có luồng",
+        len(results)
+    )
+
+    return results
+
+def parse_colatv_detail(payload, api=None):
+    api = api or {}
+
+    if not isinstance(payload, dict):
+        return {}, []
+
+    # Bóc các lớp bọc thường gặp trong phản hồi API.
+    data = payload.get("data")
+    if isinstance(data, dict):
+        payload = data
+
+    match = payload.get("match")
+    if not isinstance(match, dict):
+        match = payload
+
+    raw = match.get("raw_data")
+    if not isinstance(raw, dict):
+        raw = {}
+
+    streams = []
+
+    def add_stream(value, label="Live"):
+        """Nhận URL, object URL hoặc danh sách URL."""
+        if isinstance(value, str):
+            stream = normalize_stream({
+                "url": value,
+                "label": label
+            })
+
+            if stream:
+                streams.append(stream)
+
+        elif isinstance(value, dict):
+            stream = normalize_stream(value)
+
+            if stream:
+                streams.append(stream)
+            else:
+                for key in (
+                    "url", "link", "src", "source",
+                    "playStreamAddress", "playStreamAddress2",
+                    "videoUrl"
+                ):
+                    if value.get(key):
+                        add_stream(value[key], key)
+
+        elif isinstance(value, list):
+            for index, item in enumerate(value, start=1):
+                add_stream(item, f"HD{index}")
+
+    # URL trực tiếp.
+    for obj in (payload, match, raw):
+        for key in (
+            "videoUrl",
+            "video_url",
+            "playStreamAddress2",
+            "playStreamAddress"
+        ):
+            if obj.get(key):
+                add_stream(obj[key], key)
+
+    # Danh sách máy chủ / người phát.
+    for obj in (payload, match, raw):
+        for key in (
+            "anchorAppointmentVoList",
+            "servers",
+            "streams",
+            "streamUrls"
+        ):
+            value = obj.get(key)
+
+            if isinstance(value, list):
+                for anchor in value:
+                    if isinstance(anchor, dict):
+                        for field in (
+                            "streamUrls",
+                            "videoUrl",
+                            "playStreamAddress2",
+                            "servers",
+                            "playStreamAddress",
+                            "url",
+                            "link",
+                            "src"
+                        ):
+                            if anchor.get(field):
+                                add_stream(
+                                    anchor[field],
+                                    first_value(
+                                        anchor.get("nickName"),
+                                        anchor.get("name"),
+                                        field
+                                    )
+                                )
+                    else:
+                        add_stream(anchor, key)
+
+            elif isinstance(value, dict):
+                add_stream(value, key)
+
+    # Bỏ URL trùng.
+    unique = []
+    seen = set()
+
+    for stream in streams:
+        url = stream["url"]
+
+        if url not in seen:
+            seen.add(url)
+            unique.append(stream)
+
+    # Ưu tiên M3U8, FLV là phương án dự phòng.
+    unique.sort(
+        key=lambda stream: (
+            0 if ".m3u8" in stream["url"].lower()
+            else 1 if ".flv" in stream["url"].lower()
+            else 2
+        )
+    )
+
+    return match, unique
+
 def parse_gavang_match(item, api):
     if not isinstance(item, dict):
         return None
@@ -1434,6 +1703,10 @@ def attach_api_referers(matches, api):
 
 
 def fetch_api(api):
+
+    if api.get("parser") == "colatv" or api.get("id") == "colatv":
+        return fetch_colatv(api)
+
     parser = clean(
         api.get("parser") or api.get("api_type")
     ).lower()
@@ -1461,6 +1734,19 @@ def parse_api_items(items, api):
     ).lower()
 
     result = []
+
+ # fetch_colatv() đã trả về dữ liệu chuẩn hóa.
+    # Không đưa qua parse_generic_match() lần thứ hai.
+    if parser == "colatv" or api.get("id") == "colatv":
+        result = [
+            item for item in items
+            if isinstance(item, dict)
+            and isinstance(item.get("teams"), dict)
+            and isinstance(item.get("blvs"), list)
+        ]
+
+        attach_api_referers(result, api)
+        return result
 
     for item in items:
         try:
