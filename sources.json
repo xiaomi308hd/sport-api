@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T11:55:19.773161+00:00",
+  "updated_at": "2026-11-13T11:59:01.091315+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1549,66 +1549,8 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 318,
+      "stream_count": 317,
       "leagues": [
-        {
-          "name": "Giải bóng rổ nam Hàn Quốc",
-          "logo": "https://img.cltvap.cc/basketball/competition/f841aa3bd3c2aeffca04f78bfaeecaf7.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-wv784sx48ogioqr",
-              "title": "Wonju Dongbu Promy vs Busan KTF Sonicboom",
-              "home": "Wonju Dongbu Promy",
-              "away": "Busan KTF Sonicboom",
-              "home_logo": "https://img.cltvap.cc/basketball/team/e94f441698752284a7b2f6c37ea3aee6.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/624b1a84ff50919f44835640108bdd42.png!w80",
-              "time": "2026-11-13T17:00:00+07:00",
-              "time_label": "13/11 17:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
-            {
-              "id": "mhd-match-m2q19sryz6gbek6",
-              "title": "LG Sakers vs Mobis Phoebus",
-              "home": "LG Sakers",
-              "away": "Mobis Phoebus",
-              "home_logo": "https://img.cltvap.cc/basketball/team/b3a61f88692a8a3836f3b93ba65b98da.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/8e93da8386dc5b378446762993400ca7.png!w80",
-              "time": "2026-11-14T12:00:00+07:00",
-              "time_label": "14/11 12:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-63kvlsopgxxix7e",
-              "title": "KCC Egis vs Seoul Knights",
-              "home": "KCC Egis",
-              "away": "Seoul Knights",
-              "home_logo": "https://img.cltvap.cc/basketball/team/0add24fc964de3ea25e83417aa301f81.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/2ff3c6a0bc1b8b688fb0b8fa15c34b0a.png!w80",
-              "time": "2026-11-14T12:00:00+07:00",
-              "time_label": "14/11 12:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-o07dzsmr5ogtmkn",
-              "title": "Seoul Samsung Thunders vs Anyang KGC",
-              "home": "Seoul Samsung Thunders",
-              "away": "Anyang KGC",
-              "home_logo": "https://img.cltvap.cc/basketball/team/9adc8e5768f7787b81ad366fed7b5edd.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/30683c359531664a5b97f129c047fcdc.png!w80",
-              "time": "2026-11-14T14:30:00+07:00",
-              "time_label": "14/11 14:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
         {
           "name": "Giao hữu các CLB quốc tế",
           "logo": "https://img.cltvap.cc/football/competition/2440249cd19586c39de8e05d55cc6b0d.png!w80",
@@ -2619,6 +2561,51 @@
           ]
         },
         {
+          "name": "Giải bóng rổ nam Hàn Quốc",
+          "logo": "https://img.cltvap.cc/basketball/competition/f841aa3bd3c2aeffca04f78bfaeecaf7.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-m2q19sryz6gbek6",
+              "title": "LG Sakers vs Mobis Phoebus",
+              "home": "LG Sakers",
+              "away": "Mobis Phoebus",
+              "home_logo": "https://img.cltvap.cc/basketball/team/b3a61f88692a8a3836f3b93ba65b98da.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/8e93da8386dc5b378446762993400ca7.png!w80",
+              "time": "2026-11-14T12:00:00+07:00",
+              "time_label": "14/11 12:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-63kvlsopgxxix7e",
+              "title": "KCC Egis vs Seoul Knights",
+              "home": "KCC Egis",
+              "away": "Seoul Knights",
+              "home_logo": "https://img.cltvap.cc/basketball/team/0add24fc964de3ea25e83417aa301f81.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/2ff3c6a0bc1b8b688fb0b8fa15c34b0a.png!w80",
+              "time": "2026-11-14T12:00:00+07:00",
+              "time_label": "14/11 12:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-o07dzsmr5ogtmkn",
+              "title": "Seoul Samsung Thunders vs Anyang KGC",
+              "home": "Seoul Samsung Thunders",
+              "away": "Anyang KGC",
+              "home_logo": "https://img.cltvap.cc/basketball/team/9adc8e5768f7787b81ad366fed7b5edd.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/30683c359531664a5b97f129c047fcdc.png!w80",
+              "time": "2026-11-14T14:30:00+07:00",
+              "time_label": "14/11 14:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
           "name": "CFA Team China International Tournament",
           "logo": "https://img.cltvap.cc/football/competition/6692f023cb5f6a8bf462c503e584af53.png!w80",
           "matches": [
@@ -2948,6 +2935,19 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 3
+            },
+            {
+              "id": "mhd-match-xvkjoi8pvnji879",
+              "title": "R. Oviedo vs CLB Girona",
+              "home": "R. Oviedo",
+              "away": "CLB Girona",
+              "home_logo": "https://img.cltvap.cc/football/team/21551996567bcd206ee574043d509a84.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/006ce259b33ef72dd5570cfa8dc39f38.png!w80",
+              "time": "2026-11-15T03:00:00+07:00",
+              "time_label": "15/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
             }
           ]
         },
@@ -3001,8 +3001,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 20,
-      "stream_count": 20,
+      "match_count": 21,
+      "stream_count": 21,
       "leagues": [
         {
           "name": "Mongolia Premier League",
@@ -3325,6 +3325,25 @@
               "time": "2026-11-13T18:38:00+07:00",
               "time_label": "13/11 18:38",
               "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "CAF Africa Cup of Nations",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-n54qllhnv0dwqvy",
+              "title": "Mozambique vs Ethiopia",
+              "home": "Mozambique",
+              "away": "Ethiopia",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhonjm7vx/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhv82vrepz/image/small",
+              "time": "2026-11-13T20:00:00+07:00",
+              "time_label": "13/11 20:00",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
