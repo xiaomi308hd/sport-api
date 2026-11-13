@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T11:29:48.220759+00:00",
+  "updated_at": "2026-11-13T11:33:21.541102+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -3001,8 +3001,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 18,
-      "stream_count": 18,
+      "match_count": 19,
+      "stream_count": 19,
       "leagues": [
         {
           "name": "Mongolia Premier League",
@@ -3293,6 +3293,19 @@
               "time": "2026-11-13T17:30:00+07:00",
               "time_label": "13/11 17:30",
               "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-6ypq3nhv931nmd7",
+              "title": "Rukh Vynnyky vs Nyva Ternopil B",
+              "home": "Rukh Vynnyky",
+              "away": "Nyva Ternopil B",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phox91m2wd/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh1zlnq82w/image/small",
+              "time": "2026-11-13T18:30:00+07:00",
+              "time_label": "13/11 18:30",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
