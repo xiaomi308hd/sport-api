@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:44:53.502433+00:00",
+  "updated_at": "2026-11-13T12:48:38.004474+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -98,7 +98,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134307_d40d1826.png",
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
-              "status": "ns",
+              "status": "live",
               "score": "",
               "stream_count": 9
             },
@@ -111,7 +111,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134305_29e496f2.png",
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
-              "status": "ns",
+              "status": "live",
               "score": "",
               "stream_count": 9
             },
@@ -3001,28 +3001,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 12,
-      "stream_count": 13,
+      "match_count": 11,
+      "stream_count": 12,
       "leagues": [
-        {
-          "name": "Malaysia A1 Semi-Pro League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-1l4rjnhn699vm7v",
-              "title": "ATM vs Kelantan City",
-              "home": "ATM",
-              "away": "Kelantan City",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhlopoqwzv/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhvk50ryk0/image/small",
-              "time": "2026-11-13T15:45:00+07:00",
-              "time_label": "13/11 15:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Myanmar U20 League",
           "logo": "",
