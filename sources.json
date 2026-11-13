@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T13:10:47.709378+00:00",
+  "updated_at": "2026-11-13T13:14:31.893609+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -98,7 +98,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134307_d40d1826.png",
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
-              "status": "live",
+              "status": "1h",
               "score": "",
               "stream_count": 9
             },
@@ -111,7 +111,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134305_29e496f2.png",
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
-              "status": "live",
+              "status": "1h",
               "score": "",
               "stream_count": 9
             },
