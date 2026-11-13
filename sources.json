@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T09:54:59.340133+00:00",
+  "updated_at": "2026-11-13T09:58:34.849519+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -14,25 +14,6 @@
       "match_count": 20,
       "stream_count": 180,
       "leagues": [
-        {
-          "name": "Ngoại Hạng Mông Cổ",
-          "logo": "https://media.chuoichientv.net/media/20251115_115953_8128716e.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Deren vs Tuv Azarganuud",
-              "home": "Deren",
-              "away": "Tuv Azarganuud",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_142515_21a2fe99.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_142519_2495057f.png",
-              "time": "2026-11-13T15:00:00+07:00",
-              "time_label": "13/11 15:00",
-              "status": "2h",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
         {
           "name": "Australian Championship",
           "logo": "https://media.api-sports.io/football/leagues/1202.png",
@@ -319,6 +300,19 @@
               "status": "ns",
               "score": "",
               "stream_count": 9
+            },
+            {
+              "id": "",
+              "title": "Okayama Seagulls W vs NEC Red Rockets W",
+              "home": "Okayama Seagulls W",
+              "away": "NEC Red Rockets W",
+              "home_logo": "https://media.chuoichientv.net/media/20251009_205314_04bcc920.png",
+              "away_logo": "https://media.chuoichientv.net/media/20251016_221735_399f5cd5.png",
+              "time": "2026-11-14T12:05:00+07:00",
+              "time_label": "14/11 12:05",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
             }
           ]
         }
@@ -334,28 +328,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 88,
-      "stream_count": 178,
+      "match_count": 87,
+      "stream_count": 176,
       "leagues": [
-        {
-          "name": "Mongolia Premier League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Deren FC vs Central Stallions",
-              "home": "Deren FC",
-              "away": "Central Stallions",
-              "home_logo": "https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png",
-              "away_logo": "https://img.cltvap.cc/football/team/83e44ba57d434d8cbf781f7ee0b249bd.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
         {
           "name": "Aus Champ",
           "logo": "",
@@ -1631,8 +1606,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 14,
-      "stream_count": 15,
+      "match_count": 15,
+      "stream_count": 16,
       "leagues": [
         {
           "name": "Indian Bangalore Super Division",
@@ -1850,6 +1825,25 @@
               "away": "Hungkuk Women",
               "home_logo": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
               "away_logo": "https://static.flashscore.com/res/image/data/8bAPfUCa-SfuGhwLE.png",
+              "time": "2026-11-13T17:00:00+07:00",
+              "time_label": "13/11 17:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Ukrainian First League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-965mkyhkvlxer1g",
+              "title": "Prykarpattya Ivano vs Kolos Kovalivka II",
+              "home": "Prykarpattya Ivano",
+              "away": "Kolos Kovalivka II",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllh27w6qvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhgz8oqwzv/image/small",
               "time": "2026-11-13T17:00:00+07:00",
               "time_label": "13/11 17:00",
               "status": "live",
