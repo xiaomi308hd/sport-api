@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:28:20.512326+00:00",
+  "updated_at": "2026-11-13T17:32:19.916458+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -2831,28 +2831,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 42,
-      "stream_count": 44,
+      "match_count": 44,
+      "stream_count": 46,
       "leagues": [
-        {
-          "name": "Indian Women's League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-4wyrn4hy85w3q86",
-              "title": "Nữ East Bengal vs Gokulam Kerala Fc(w)",
-              "home": "Nữ East Bengal",
-              "away": "Gokulam Kerala Fc(w)",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hjp2lqo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhxy50qvy9/image/small",
-              "time": "2026-11-13T20:30:00+07:00",
-              "time_label": "13/11 20:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "International Friendly",
           "logo": "",
@@ -2958,6 +2939,19 @@
               "time": "2026-11-14T00:00:00+07:00",
               "time_label": "14/11 00:00",
               "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-6ypq3nhk04v4md7",
+              "title": "Pháp U21 vs Italy U21",
+              "home": "Pháp U21",
+              "away": "Italy U21",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd3wm0ve/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7hd86qdyj/image/small",
+              "time": "2026-11-14T00:30:00+07:00",
+              "time_label": "14/11 00:30",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
@@ -3168,6 +3162,19 @@
               "stream_count": 1
             },
             {
+              "id": "mhd-match-pxwrxlhlg0yjryk",
+              "title": "Tuzos Pachuca vs Santiago Tulantepec",
+              "home": "Tuzos Pachuca",
+              "away": "Santiago Tulantepec",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h4g5nq86p/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyhn58or1ge/image/small",
+              "time": "2026-11-14T00:00:00+07:00",
+              "time_label": "14/11 00:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
               "id": "mhd-match-vjxm8ghk47exr6o",
               "title": "Necaxa II vs Trinca de Mi Vida",
               "home": "Necaxa II",
@@ -3240,6 +3247,19 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd5pr6od/image/small",
               "time": "2026-11-13T23:15:00+07:00",
               "time_label": "13/11 23:15",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-k82rekh2v2perep",
+              "title": "Đan Mạch U21 vs Hà Lan U21",
+              "home": "Đan Mạch U21",
+              "away": "Hà Lan U21",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/jednm9why66ryox/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyhd3er1ge/image/small",
+              "time": "2026-11-14T00:30:00+07:00",
+              "time_label": "14/11 00:30",
               "status": "live",
               "score": "",
               "stream_count": 1
