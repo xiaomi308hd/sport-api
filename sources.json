@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:13:41.087408+00:00",
+  "updated_at": "2026-11-13T08:17:12.552208+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -39,11 +39,11 @@
           "matches": [
             {
               "id": "",
-              "title": "Preston Lions vs Lions",
-              "home": "Preston Lions",
-              "away": "Lions",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_141357_619109fb.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141412_24481446.png",
+              "title": "Oakleigh Cannons vs Marconi Stallions",
+              "home": "Oakleigh Cannons",
+              "away": "Marconi Stallions",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_141355_fc3fb07a.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141339_da8f4f91.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
               "status": "live",
@@ -52,14 +52,14 @@
             },
             {
               "id": "",
-              "title": "Oakleigh Cannons vs Marconi Stallions",
-              "home": "Oakleigh Cannons",
-              "away": "Marconi Stallions",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_141355_fc3fb07a.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141339_da8f4f91.png",
+              "title": "Preston Lions vs Lions",
+              "home": "Preston Lions",
+              "away": "Lions",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_141357_619109fb.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141412_24481446.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "ns",
+              "status": "live",
               "score": "",
               "stream_count": 9
             }
@@ -334,8 +334,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 51,
-      "stream_count": 104,
+      "match_count": 48,
+      "stream_count": 98,
       "leagues": [
         {
           "name": "Mongolia Premier League",
@@ -942,51 +942,6 @@
               "away": "Malaysia",
               "home_logo": "https://img.cltvap.cc/football/team/445ef89e5620a875f7c2eaddd033e39d.png",
               "away_logo": "https://img.cltvap.cc/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "English FA Women's Super League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Manchester United Women vs Crystal Palace Women",
-              "home": "Manchester United Women",
-              "away": "Crystal Palace Women",
-              "home_logo": "https://img.cltvap.cc/football/team/db33359c11033fc28c9bedec0a4a89d9.png",
-              "away_logo": "https://img.cltvap.cc/football/team/42396d18444156e640c37476c2b41b93.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Chelsea FC Women vs Manchester City Women",
-              "home": "Chelsea FC Women",
-              "away": "Manchester City Women",
-              "home_logo": "https://img.cltvap.cc/football/team/be4671c3b73541959a18e358dd8de4d2.png",
-              "away_logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Tottenham Hotspur Women vs Everton FC Women",
-              "home": "Tottenham Hotspur Women",
-              "away": "Everton FC Women",
-              "home_logo": "https://img.cltvap.cc/football/team/d10be5a20040a05a05fc02c0cbdaa1ac.png",
-              "away_logo": "https://img.cltvap.cc/football/team/6550678bf94ca14194fe646fa9a18ee0.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
