@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T07:59:29.797545+00:00",
+  "updated_at": "2026-11-13T08:03:02.448012+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -39,24 +39,24 @@
           "matches": [
             {
               "id": "",
-              "title": "Oakleigh Cannons vs Marconi Stallions",
-              "home": "Oakleigh Cannons",
-              "away": "Marconi Stallions",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_141355_fc3fb07a.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141339_da8f4f91.png",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
               "title": "Preston Lions vs Lions",
               "home": "Preston Lions",
               "away": "Lions",
               "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_141357_619109fb.png",
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141412_24481446.png",
+              "time": "2026-11-13T15:30:00+07:00",
+              "time_label": "13/11 15:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 9
+            },
+            {
+              "id": "",
+              "title": "Oakleigh Cannons vs Marconi Stallions",
+              "home": "Oakleigh Cannons",
+              "away": "Marconi Stallions",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_141355_fc3fb07a.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141339_da8f4f91.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
               "status": "ns",
@@ -1084,8 +1084,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 5,
-      "stream_count": 5,
+      "match_count": 6,
+      "stream_count": 6,
       "leagues": [
         {
           "name": "Japanese Regional League",
@@ -1146,6 +1146,19 @@
               "time": "2026-11-13T12:00:00+07:00",
               "time_label": "13/11 12:00",
               "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-zp5rzgh3jp92q82",
+              "title": "Deren FC vs Central Stallions",
+              "home": "Deren FC",
+              "away": "Central Stallions",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhxeyvqvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghpzyvq82w/image/small",
+              "time": "2026-11-13T15:00:00+07:00",
+              "time_label": "13/11 15:00",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
