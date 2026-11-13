@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:55:19.555924+00:00",
+  "updated_at": "2026-11-13T17:58:57.085748+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -40,7 +40,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134306_9a89d609.png",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "2h",
+              "status": "ft",
               "score": "",
               "stream_count": 9
             }
@@ -218,8 +218,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 77,
-      "stream_count": 156,
+      "match_count": 76,
+      "stream_count": 154,
       "leagues": [
         {
           "name": "CAF Africa Cup of Nations",
@@ -232,19 +232,6 @@
               "away": "Tanzania",
               "home_logo": "https://img.cltvap.cc/football/team/7967d550a306a50276991b19ddb4d72e.png",
               "away_logo": "https://img.cltvap.cc/football/team/0ebcdb06cf4d039f0d08b356c26bc466.png",
-              "time": "2026-11-13T23:00:00+07:00",
-              "time_label": "13/11 23:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Burkina Faso vs Mauritania",
-              "home": "Burkina Faso",
-              "away": "Mauritania",
-              "home_logo": "https://img.cltvap.cc/football/team/2e667fca5e24ac13dcee94ddc4aa751a.png",
-              "away_logo": "https://img.cltvap.cc/football/team/e594b22cf15b445f7476775aa508e9c3.png",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
               "status": "live",
@@ -1407,19 +1394,6 @@
               "stream_count": 4
             },
             {
-              "id": "mhd-match-vrqwni4wd6wc4qn",
-              "title": "Burkina Faso vs Mauritania",
-              "home": "Burkina Faso",
-              "away": "Mauritania",
-              "home_logo": "https://img.cltvap.cc/football/team/2e667fca5e24ac13dcee94ddc4aa751a.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/e594b22cf15b445f7476775aa508e9c3.png!w80",
-              "time": "2026-11-13T23:00:00+07:00",
-              "time_label": "13/11 23:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
-            {
               "id": "mhd-match-ndqmliw1e54urkv",
               "title": "Nam Phi vs Đội tuyển bóng đá quốc gia Kenya",
               "home": "Nam Phi",
@@ -1611,7 +1585,7 @@
               "time_label": "14/11 01:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-9gklzi5091pcm7x",
@@ -2184,6 +2158,19 @@
               "away": "Brooklyn Nets",
               "home_logo": "https://img.cltvap.cc/basketball/team/5150102b33043405b63b2e7c72759fa8.png!w80",
               "away_logo": "https://img.cltvap.cc/basketball/team/4150a647c6e381a69980e98bb86582a5.png!w80",
+              "time": "2026-11-15T08:00:00+07:00",
+              "time_label": "15/11 08:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-527rjswd62gt4ke",
+              "title": "Minnesota Timberwolves vs Chicago Bulls",
+              "home": "Minnesota Timberwolves",
+              "away": "Chicago Bulls",
+              "home_logo": "https://img.cltvap.cc/basketball/team/38794d0ac418d8f2d03bd17a2623f3ed.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/f15ed15d914b6a608e9a396f03c755b0.png!w80",
               "time": "2026-11-15T08:00:00+07:00",
               "time_label": "15/11 08:00",
               "status": "scheduled",
@@ -3099,7 +3086,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh4v65r6od/image/small",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
@@ -3125,7 +3112,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8o26q86p/image/small",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
