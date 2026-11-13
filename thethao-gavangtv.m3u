@@ -15,6 +15,10 @@ https://live2.zktsva.app/live/294335.flv
 https://live2.zktsva.app/live/300523.m3u8
 #EXTINF:-1 tvg-id="mhd-match-2de5819c1665" tvg-name="Nigeria vs Tanzania - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/7967d550a306a50276991b19ddb4d72e.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Nigeria vs Tanzania | 13/11 23:00 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/300523.flv
+#EXTINF:-1 tvg-id="mhd-match-5394328ba648" tvg-name="Burkina Faso vs Mauritania - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/2e667fca5e24ac13dcee94ddc4aa751a.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Burkina Faso vs Mauritania | 13/11 23:00 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/301263.m3u8
+#EXTINF:-1 tvg-id="mhd-match-5394328ba648" tvg-name="Burkina Faso vs Mauritania - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/2e667fca5e24ac13dcee94ddc4aa751a.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Burkina Faso vs Mauritania | 13/11 23:00 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/301263.flv
 #EXTINF:-1 tvg-id="mhd-match-818b015b8bd5" tvg-name="South Africa vs Kenya - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/f5537e8960824e848e5a9bac16514483.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",South Africa vs Kenya | 13/11 23:00 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/796315.m3u8
 #EXTINF:-1 tvg-id="mhd-match-818b015b8bd5" tvg-name="South Africa vs Kenya - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/f5537e8960824e848e5a9bac16514483.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",South Africa vs Kenya | 13/11 23:00 | Gà Vàng TV | Live
@@ -27,10 +31,6 @@ https://live2.zktsva.app/live/289650.flv
 https://live2.zktsva.app/live/303098.m3u8
 #EXTINF:-1 tvg-id="mhd-match-03c82fdfd260" tvg-name="Cabo Verde vs Liberia - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/3367956ae5c44991af49e1e2137f415b.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Cabo Verde vs Liberia | 13/11 23:00 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/303098.flv
-#EXTINF:-1 tvg-id="mhd-match-c5bb21db9f79" tvg-name="Turkiye U21 vs Czechia Republic U21 - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/f1a2987a8ae3620ed2ed5462e0e80f5e.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Turkiye U21 vs Czechia Republic U21 | 13/11 23:00 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/301263.m3u8
-#EXTINF:-1 tvg-id="mhd-match-c5bb21db9f79" tvg-name="Turkiye U21 vs Czechia Republic U21 - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/f1a2987a8ae3620ed2ed5462e0e80f5e.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Turkiye U21 vs Czechia Republic U21 | 13/11 23:00 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/301263.flv
 #EXTINF:-1 tvg-id="mhd-match-4a8246552204" tvg-name="Kuwait vs Syria - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/29a83a8a9641bb860a679d7e5ba52d26.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Kuwait vs Syria | 13/11 23:30 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/301238.m3u8
 #EXTINF:-1 tvg-id="mhd-match-4a8246552204" tvg-name="Kuwait vs Syria - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/29a83a8a9641bb860a679d7e5ba52d26.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Kuwait vs Syria | 13/11 23:30 | Gà Vàng TV | Live
