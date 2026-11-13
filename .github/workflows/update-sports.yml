@@ -153,14 +153,45 @@ jobs:
               if git -C playlist-destination diff --cached --quiet; then
                 echo "Vòng $rounds: repo đích đã có đúng nội dung này ($M3U_DEST_REPO:$DEST_PATH/thethao.m3u), không cần đẩy."
               else
-                git -C playlist-destination commit -q -m "chore: update MHD Sports M3U playlist"
-                if git -C playlist-destination push -q 2>/tmp/push_err.txt \
-                   || { git -C playlist-destination pull --rebase -q && git -C playlist-destination push -q 2>/tmp/push_err.txt; }; then
-                  echo "Đã đẩy thethao.m3u sang $M3U_DEST_REPO ($(git -C playlist-destination log -1 --format='%h %s'))"
-                else
-                  dest_err=1
-                  echo "::error::Không push được sang $M3U_DEST_REPO: $(tr '\n' ' ' < /tmp/push_err.txt)"
+                # Không rebase commit playlist cũ lên lịch sử mới của repo đích:
+              # luôn đồng bộ remote trước, áp dụng lại file playlist mới nhất rồi push.
+              DEST_BRANCH="$(git -C playlist-destination branch --show-current)"
+              pushed=0
+              for attempt in 1 2 3; do
+                echo "Đồng bộ repo đích lần $attempt/3: $M3U_DEST_REPO:$DEST_BRANCH"
+                if ! git -C playlist-destination fetch origin "$DEST_BRANCH" -q; then
+                  echo "::warning::Không fetch được nhánh $DEST_BRANCH (lần $attempt)"
+                  sleep 2
+                  continue
                 fi
+                if ! git -C playlist-destination reset --hard "origin/$DEST_BRANCH" -q; then
+                  echo "::warning::Không reset được repo đích về origin/$DEST_BRANCH"
+                  sleep 2
+                  continue
+                fi
+
+                # Sau mỗi lần đồng bộ, chép lại playlist vừa tạo để không mất dữ liệu mới.
+                cp thethao.m3u "playlist-destination/$DEST_PATH/thethao.m3u"
+                git -C playlist-destination add -- "$DEST_PATH/thethao.m3u"
+                if git -C playlist-destination diff --cached --quiet; then
+                  echo "Repo đích đã có đúng playlist mới nhất; không cần commit."
+                  pushed=1
+                  break
+                fi
+
+                git -C playlist-destination commit -q -m "chore: update MHD Sports M3U playlist"
+                if git -C playlist-destination push -q origin "HEAD:$DEST_BRANCH" 2>/tmp/push_err.txt; then
+                  echo "Đã đẩy thethao.m3u sang $M3U_DEST_REPO ($(git -C playlist-destination log -1 --format='%h %s'))"
+                  pushed=1
+                  break
+                fi
+                echo "::warning::Push repo đích chưa thành công ở lần $attempt; sẽ fetch và áp dụng lại playlist."
+                sleep 2
+              done
+              if [ "$pushed" -ne 1 ]; then
+                dest_err=1
+                echo "::error::Không push được sang $M3U_DEST_REPO sau 3 lần thử: $(tr '\n' ' ' < /tmp/push_err.txt 2>/dev/null || true)"
+              fi
               fi
             fi
 
