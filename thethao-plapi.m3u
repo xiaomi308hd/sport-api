@@ -1,7 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-2y8m4zhv3e47ql0" tvg-name="Ayeyawady Utd U20 vs Mahar United U20 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09h1n4nrz84/image/small" group-title="Myanmar U20 League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Ayeyawady Utd U20 vs Mahar United U20 | 13/11 16:00 | Phá Làng TV | Live
-#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/f77d011e609ae44f523d65c3ebc6efa4/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-318q66h8o66dqo9" tvg-name="Changsha Team vs Yiyang Team - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hkw31qo9j/image/small" group-title="Hunan Football League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Changsha Team vs Yiyang Team | 13/11 18:38 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/2dadccd0e78b1c97c3556f1be0133377/playlist.m3u8
@@ -11,12 +8,15 @@ https://lilive1.eu.cc/live/560534006aef29199b45192e7c8dbda6/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-6ypq3nhv931nmd7" tvg-name="Rukh Vynnyky vs Nyva Ternopil B - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phox91m2wd/image/small" group-title="Ukrainian Second League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Rukh Vynnyky vs Nyva Ternopil B | 13/11 18:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/3d37682c0bd12fed198a3477e42486d7/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-8yomo4hy7656q0j" tvg-name="Dagon Star U20 vs Yangon City U20 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryoh2k1lq1zp/image/small" group-title="Myanmar U20 League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Dagon Star U20 vs Yangon City U20 | 13/11 16:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-965mkyhkpvzjr1g" tvg-name="Comoros vs CH Congo - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdehnxynr510/image/small" group-title="CAF Africa Cup of Nations" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Comoros vs CH Congo | 13/11 20:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/fd02ca788bbe6fb582fe18b286864bf0/playlist.m3u8
+https://lilive1.eu.cc/live/88228c9f5680a29f1b49955d98ed0b4d/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-965mkyhkvlxer1g" tvg-name="Prykarpattya Ivano vs Kolos Kovalivka II - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllh27w6qvy9/image/small" group-title="Ukrainian First League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Prykarpattya Ivano vs Kolos Kovalivka II | 13/11 17:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/68baaaa70626b1ee2335c81e4481e1cf/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-dn1m1ghl6joemoe" tvg-name="Zambia vs Burundi - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhjkzqg8n/image/small" group-title="CAF Africa Cup of Nations" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Zambia vs Burundi | 13/11 20:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/f4ae39c2456e9aa5fc2d7771915513a8/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-ednm9wh5kpp5ryo" tvg-name="Petrolul vs AFC Metalul Buzau - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhvnpwrepz/image/small" group-title="International Friendly" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Petrolul vs AFC Metalul Buzau | 13/11 17:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/70b61f888a348608b7756a2e5881f737/playlist.m3u8
@@ -35,3 +35,6 @@ https://lilive1.eu.cc/live/92d8d70a93439e39173049f5f8e71621/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-n54qllhnv0dwqvy" tvg-name="Mozambique vs Ethiopia - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhonjm7vx/image/small" group-title="CAF Africa Cup of Nations" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Mozambique vs Ethiopia | 13/11 20:00 | Phá Làng TV | HD1
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://pull.digitalcdn.net/live/1331bd463935462bab16cb1e421b609f/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-n54qllhnv0dwqvy" tvg-name="Mozambique vs Ethiopia - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhonjm7vx/image/small" group-title="CAF Africa Cup of Nations" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Mozambique vs Ethiopia | 13/11 20:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/7a3064170e5e7cb6b6d37a78ceef3f30/playlist.m3u8
