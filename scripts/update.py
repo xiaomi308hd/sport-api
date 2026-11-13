@@ -871,6 +871,87 @@ def parse_colatv_detail(payload, api=None):
 
     return match, unique
 
+def extract_gavang_match_time(item):
+    """Chuẩn hóa giờ bắt đầu từ schema Gà Vàng TV sang ISO-8601 UTC.
+
+    API Gà Vàng hiện dùng matchTime là Unix timestamp (giây). Một số
+    phiên bản có thể trả timestamp dạng chuỗi; matchNormalizedDate là
+    phương án dự phòng dạng HH:MM DD/MM kết hợp matchDate YYYYMMDD.
+    """
+    if not isinstance(item, dict):
+        return ""
+
+    # Trường chuẩn hiện tại: Unix timestamp, thường là số giây.
+    for key in (
+        "matchTime", "startTime", "start_time", "startAt", "start_at",
+        "matchStartTime", "match_start_time", "kickoff", "kickoffTime",
+        "kickoff_time", "scheduledAt", "scheduled_at", "timestamp"
+    ):
+        value = item.get(key)
+        if value is None or value == "":
+            continue
+        try:
+            numeric = float(value) if isinstance(value, str) else value
+            if isinstance(numeric, (int, float)):
+                # Chỉ coi số có độ dài hợp lý là Unix timestamp.
+                if numeric > 9999999999:
+                    numeric /= 1000.0
+                if numeric > 0:
+                    return datetime.fromtimestamp(
+                        numeric, tz=timezone.utc
+                    ).isoformat()
+        except (TypeError, ValueError, OverflowError, OSError):
+            pass
+        parsed = parse_datetime(value)
+        if parsed:
+            return parsed.isoformat()
+
+    # Dự phòng: "19:00 13/11" + "20261113".
+    normalized = item.get("matchNormalizedDate")
+    match_date = clean(item.get("matchDate"))
+    if normalized:
+        text = clean(normalized)
+        year = match_date[:4] if len(match_date) >= 4 and match_date[:4].isdigit() else ""
+        if year:
+            try:
+                parsed = datetime.strptime(
+                    f"{text} {year}", "%H:%M %d/%m %Y"
+                ).replace(tzinfo=VN_TZ)
+                return parsed.isoformat()
+            except ValueError:
+                pass
+
+    # Tìm thêm các biến thể schema lồng nhau, không dùng trường phút thi đấu
+    # matchNormalizedTime vì đó là diễn biến trận, không phải giờ bắt đầu.
+    preferred_keys = (
+        "startTimestamp", "start_timestamp", "match_date", "startDate",
+        "start_date", "dateTime", "datetime", "date", "time"
+    )
+    key_rank = {key.lower(): index for index, key in enumerate(preferred_keys)}
+    candidates = []
+
+    def walk(value, depth=0):
+        if depth > 5:
+            return
+        if isinstance(value, dict):
+            for key, child in value.items():
+                rank = key_rank.get(str(key).replace("-", "_").lower())
+                if rank is not None and not isinstance(child, (dict, list)):
+                    candidates.append((rank, child))
+                if isinstance(child, (dict, list)):
+                    walk(child, depth + 1)
+        elif isinstance(value, list):
+            for child in value[:30]:
+                walk(child, depth + 1)
+
+    walk(item)
+    for _, value in sorted(candidates, key=lambda pair: pair[0]):
+        parsed = parse_datetime(value)
+        if parsed:
+            return parsed.isoformat()
+    return ""
+
+
 def parse_gavang_match(item, api):
     if not isinstance(item, dict):
         return None
@@ -935,14 +1016,8 @@ def parse_gavang_match(item, api):
 
     return {
         "externalId": clean(item.get("id")),
-        "matchTime": clean(
-            first_value(
-                item.get("startTime"),
-                item.get("matchTime"),
-                item.get("date")
-            )
-        ),
-        "status": clean(item.get("status")),
+        "matchTime": clean(extract_gavang_match_time(item)),
+        "status": clean(first_value(item.get("matchStatus"), item.get("status"))),
         "teams": {
             "home": {
                 "name": clean(home),
