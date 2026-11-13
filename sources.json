@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:44:55.854658+00:00",
+  "updated_at": "2026-11-13T08:47:27.486880+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1126,6 +1126,20 @@
       ]
     },
     {
+      "id": "giovangtv",
+      "name": "GioVangTV",
+      "display_name": "Giờ Vàng TV",
+      "initial": "G",
+      "logo": "",
+      "playlist": "thethao-giovangtv.m3u",
+      "ok": true,
+      "stale": false,
+      "error": "",
+      "match_count": 0,
+      "stream_count": 0,
+      "leagues": []
+    },
+    {
       "id": "phalangtv",
       "name": "PhaLangTV",
       "display_name": "Phá Làng TV",
@@ -1306,6 +1320,20 @@
           ]
         }
       ]
+    },
+    {
+      "id": "colatv",
+      "name": "ColaTV",
+      "display_name": "Cola TV",
+      "initial": "C",
+      "logo": "",
+      "playlist": "colatv.m3u",
+      "ok": true,
+      "stale": false,
+      "error": "",
+      "match_count": 0,
+      "stream_count": 0,
+      "leagues": []
     }
   ]
 }
