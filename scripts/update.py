@@ -1928,7 +1928,9 @@ def stream_extinf(match, broadcaster, stream, api_logo=""):
         'tvg-id="{}"'.format(m3u_escape(match_tvg_id(match))),
         'tvg-name="{}"'.format(m3u_escape(tvg_name)),
         'tvg-logo="{}"'.format(m3u_escape(logo)),
-        'group-title="{}"'.format(m3u_escape(league)),
+        # Gom mọi trận của một nhà đài vào đúng 1 nhóm, tên nhóm = tên nhà đài (vd "Chuối Chiên TV").
+        # Chỉ khi nguồn không có tên mới quay về tên giải đấu.
+        'group-title="{}"'.format(m3u_escape(source.get("name") or league)),
         'x-source="{}"'.format(
             m3u_escape(source.get("id") or broadcaster)
         )
@@ -1938,18 +1940,6 @@ def stream_extinf(match, broadcaster, stream, api_logo=""):
 
     if sport:
         attributes.append('x-sport="{}"'.format(sport))
-
-    if source.get("name"):
-        attributes.append(
-            'x-source-name="{}"'.format(m3u_escape(source["name"]))
-        )
-
-    source_logo = first_value(source.get("logo"), api_logo)
-
-    if source_logo:
-        attributes.append(
-            'x-source-logo="{}"'.format(m3u_escape(source_logo))
-        )
 
     return (
         "#EXTINF:-1 "
