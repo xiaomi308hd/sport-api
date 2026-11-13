@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:32:39.686940+00:00",
+  "updated_at": "2026-11-13T10:36:26.410322+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141339_da8f4f91.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "bt",
+              "status": "p",
               "score": "",
               "stream_count": 9
             },
@@ -40,7 +40,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141412_24481446.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "2h",
+              "status": "ft",
               "score": "",
               "stream_count": 9
             }
@@ -328,8 +328,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 87,
-      "stream_count": 176,
+      "match_count": 86,
+      "stream_count": 174,
       "leagues": [
         {
           "name": "Aus Champ",
@@ -342,19 +342,6 @@
               "away": "Marconi Stallions",
               "home_logo": "https://img.cltvap.cc/football/team/873f655c74783dbb85de6cacc8f503c0.png",
               "away_logo": "https://img.cltvap.cc/football/team/e1605aa2375e5aa780e43e89a0f1b080.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Preston Lions vs Queensland Lions SC",
-              "home": "Preston Lions",
-              "away": "Queensland Lions SC",
-              "home_logo": "https://img.cltvap.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg",
-              "away_logo": "https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
@@ -1621,7 +1608,7 @@
       "stale": false,
       "error": "",
       "match_count": 15,
-      "stream_count": 16,
+      "stream_count": 15,
       "leagues": [
         {
           "name": "Mongolia Premier League",
@@ -1687,9 +1674,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhe5wqg8n/image/small",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
-              "stream_count": 2
+              "stream_count": 1
             }
           ]
         },
