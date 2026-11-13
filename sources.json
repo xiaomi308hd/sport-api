@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:04:23.906311+00:00",
+  "updated_at": "2026-11-13T17:08:11.059910+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1609,7 +1609,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/775bc655c77d679c193f1982dac04668.png!w80",
               "time": "2026-11-14T00:30:00+07:00",
               "time_label": "14/11 00:30",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -2024,7 +2024,7 @@
               "away_logo": "https://img.cltvap.cc/basketball/team/54019fa403eae4a98efc46cab4badde8.png!w80",
               "time": "2026-11-14T00:30:00+07:00",
               "time_label": "14/11 00:30",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
