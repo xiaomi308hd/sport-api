@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:29:40.946200+00:00",
+  "updated_at": "2026-11-13T19:33:20.483265+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -20,11 +20,37 @@
           "matches": [
             {
               "id": "",
+              "title": "Serbia vs Germany",
+              "home": "Serbia",
+              "away": "Germany",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125451_e0a7ed3f.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125455_9f31cc8f.png",
+              "time": "2026-11-14T02:45:00+07:00",
+              "time_label": "14/11 02:45",
+              "status": "live",
+              "score": "",
+              "stream_count": 9
+            },
+            {
+              "id": "",
               "title": "Netherlands vs Greece",
               "home": "Netherlands",
               "away": "Greece",
               "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125507_424d6db0.png",
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134302_98ea6afc.png",
+              "time": "2026-11-14T02:45:00+07:00",
+              "time_label": "14/11 02:45",
+              "status": "live",
+              "score": "",
+              "stream_count": 9
+            },
+            {
+              "id": "",
+              "title": "Slovenia vs Faroe Islands",
+              "home": "Slovenia",
+              "away": "Faroe Islands",
+              "home_logo": "https://media.chuoichientv.net/media/20260802_085250_46296311.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134255_66f3bf83.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
               "status": "live",
@@ -41,32 +67,6 @@
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
               "status": "live",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Serbia vs Germany",
-              "home": "Serbia",
-              "away": "Germany",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125451_e0a7ed3f.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125455_9f31cc8f.png",
-              "time": "2026-11-14T02:45:00+07:00",
-              "time_label": "14/11 02:45",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Slovenia vs Faroe Islands",
-              "home": "Slovenia",
-              "away": "Faroe Islands",
-              "home_logo": "https://media.chuoichientv.net/media/20260802_085250_46296311.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134255_66f3bf83.png",
-              "time": "2026-11-14T02:45:00+07:00",
-              "time_label": "14/11 02:45",
-              "status": "ns",
               "score": "",
               "stream_count": 9
             }
@@ -1523,6 +1523,19 @@
               "stream_count": 3
             },
             {
+              "id": "mhd-match-edq09il2j32teqx",
+              "title": "Serbia vs Đức",
+              "home": "Serbia",
+              "away": "Đức",
+              "home_logo": "https://img.cltvap.cc/football/team/059bbd8df7767d3bc7829e3735c221e2.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/5856c2f4a854359864b18f9aed3f8874.png!w80",
+              "time": "2026-11-14T02:45:00+07:00",
+              "time_label": "14/11 02:45",
+              "status": "live",
+              "score": "",
+              "stream_count": 3
+            },
+            {
               "id": "mhd-match-vrqwni40pyys4qn",
               "title": "ĐTQG Bulgaria vs ĐTQG Iceland",
               "home": "ĐTQG Bulgaria",
@@ -1610,19 +1623,6 @@
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
               "status": "live",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-edq09il2j32teqx",
-              "title": "Serbia vs Đức",
-              "home": "Serbia",
-              "away": "Đức",
-              "home_logo": "https://img.cltvap.cc/football/team/059bbd8df7767d3bc7829e3735c221e2.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/5856c2f4a854359864b18f9aed3f8874.png!w80",
-              "time": "2026-11-14T02:45:00+07:00",
-              "time_label": "14/11 02:45",
-              "status": "scheduled",
               "score": "",
               "stream_count": 3
             },
@@ -2707,8 +2707,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 47,
-      "stream_count": 51,
+      "match_count": 48,
+      "stream_count": 52,
       "leagues": [
         {
           "name": "CAF Africa Cup of Nations",
@@ -3377,6 +3377,19 @@
               "away": "Campobasso",
               "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh400pmoep/image/small",
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh4exyqwzv/image/small",
+              "time": "2026-11-14T02:30:00+07:00",
+              "time_label": "14/11 02:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-l7oqdehg5nwer51",
+              "title": "A.C. Ospitaletto vs AC Dolomiti Bellunesi",
+              "home": "A.C. Ospitaletto",
+              "away": "AC Dolomiti Bellunesi",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhv9d4ryk0/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyhey0or1ge/image/small",
               "time": "2026-11-14T02:30:00+07:00",
               "time_label": "14/11 02:30",
               "status": "live",
