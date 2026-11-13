@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T14:31:56.212561+00:00",
+  "updated_at": "2026-11-13T14:35:36.828421+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1510,7 +1510,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 322,
+      "stream_count": 323,
       "leagues": [
         {
           "name": "Cúp Quốc gia Châu Phi",
@@ -1741,7 +1741,7 @@
               "time_label": "13/11 21:30",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-xvkjoi2rvoni879",
@@ -2968,8 +2968,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 32,
-      "stream_count": 33,
+      "match_count": 33,
+      "stream_count": 34,
       "leagues": [
         {
           "name": "International Friendly",
@@ -3036,6 +3036,19 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh1861q82w/image/small",
               "time": "2026-11-13T21:30:00+07:00",
               "time_label": "13/11 21:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-jw2r09h549x0rz8",
+              "title": "Qatar vs Australia",
+              "home": "Qatar",
+              "away": "Australia",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkh1y9qg8n/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhgpp7ryk0/image/small",
+              "time": "2026-11-13T21:45:00+07:00",
+              "time_label": "13/11 21:45",
               "status": "live",
               "score": "",
               "stream_count": 1
