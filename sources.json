@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:36:26.410322+00:00",
+  "updated_at": "2026-11-13T10:37:18.737880+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1589,7 +1589,7 @@
       "display_name": "Cola TV",
       "initial": "C",
       "logo": "",
-      "playlist": "colatv.m3u",
+      "playlist": "thethao-colatv.m3u",
       "ok": true,
       "stale": false,
       "error": "",
