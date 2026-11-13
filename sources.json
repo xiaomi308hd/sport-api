@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:25:50.456666+00:00",
+  "updated_at": "2026-11-13T08:29:39.066520+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1135,8 +1135,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 7,
-      "stream_count": 7,
+      "match_count": 8,
+      "stream_count": 8,
       "leagues": [
         {
           "name": "Japanese Regional League",
@@ -1229,6 +1229,19 @@
               "time": "2026-11-13T13:00:00+07:00",
               "time_label": "13/11 13:00",
               "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-3glrw7h4w7e9qdy",
+              "title": "Parikrma FC vs Hal FC",
+              "home": "Parikrma FC",
+              "away": "Hal FC",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh1g6wqwzv/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4hvgkeq0j6/image/small",
+              "time": "2026-11-13T15:30:00+07:00",
+              "time_label": "13/11 15:30",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
