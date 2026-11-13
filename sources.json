@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T11:51:01.776696+00:00",
+  "updated_at": "2026-11-13T11:52:01.542766+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1541,15 +1541,15 @@
     {
       "id": "colatv",
       "name": "ColaTV",
-      "display_name": "ColaTV",
-      "initial": "C",
-      "logo": "",
+      "display_name": "Gà Vàng TV",
+      "initial": "G",
+      "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/gavangtv.png",
       "playlist": "thethao-colatv.m3u",
       "ok": true,
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 317,
+      "stream_count": 318,
       "leagues": [
         {
           "name": "Giải bóng rổ nam Hàn Quốc",
@@ -1643,7 +1643,7 @@
               "time_label": "13/11 19:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-oj7x9imr8x9t47g",
@@ -3209,7 +3209,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhgz8oqwzv/image/small",
               "time": "2026-11-13T17:00:00+07:00",
               "time_label": "13/11 17:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
