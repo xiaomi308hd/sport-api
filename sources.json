@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T00:58:26.383554+00:00",
+  "updated_at": "2026-11-13T01:01:59.179240+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,26 +11,13 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 3,
-      "stream_count": 27,
+      "match_count": 2,
+      "stream_count": 18,
       "leagues": [
         {
           "name": "VĐQG Colombia",
           "logo": "https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png",
           "matches": [
-            {
-              "id": "",
-              "title": "Deportivo Pasto vs Junior",
-              "home": "Deportivo Pasto",
-              "away": "Junior",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_133531_4547a757.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133534_095d7988.png",
-              "time": "2026-11-13T04:00:00+07:00",
-              "time_label": "13/11 04:00",
-              "status": "2h",
-              "score": "",
-              "stream_count": 9
-            },
             {
               "id": "",
               "title": "Llaneros vs Chico",
@@ -77,26 +64,13 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 53,
-      "stream_count": 108,
+      "match_count": 52,
+      "stream_count": 106,
       "leagues": [
         {
           "name": "CONCACAF Nations League",
           "logo": "",
           "matches": [
-            {
-              "id": "",
-              "title": "Antigua and Barbuda vs Trinidad and Tobago",
-              "home": "Antigua and Barbuda",
-              "away": "Trinidad and Tobago",
-              "home_logo": "https://img.cltvap.cc/football/team/04f82a7b2f5afd90b0e0672f7cbbf2da.png",
-              "away_logo": "https://img.cltvap.cc/football/team/edb8dfb5b878d0e33c4a86488ad8eb6a.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
             {
               "id": "",
               "title": "Curacao vs Panama",
