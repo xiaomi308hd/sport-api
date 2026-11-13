@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T18:44:37.399238+00:00",
+  "updated_at": "2026-11-13T18:48:20.072645+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -2739,132 +2739,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 45,
-      "stream_count": 46,
+      "match_count": 44,
+      "stream_count": 45,
       "leagues": [
-        {
-          "name": "International Friendly",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-jw2r09h549x0rz8",
-              "title": "Qatar vs Australia",
-              "home": "Qatar",
-              "away": "Australia",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkh1y9qg8n/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhgpp7ryk0/image/small",
-              "time": "2026-11-13T21:45:00+07:00",
-              "time_label": "13/11 21:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-4jwq2ghg4gd1m0v",
-              "title": "Kuwait vs Syria",
-              "home": "Kuwait",
-              "away": "Syria",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whk855ryox/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phkk1em2wd/image/small",
-              "time": "2026-11-13T23:30:00+07:00",
-              "time_label": "13/11 23:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-ednm9wh5k5ldryo",
-              "title": "Ba Lan U21 vs Na Uy U21",
-              "home": "Ba Lan U21",
-              "away": "Na Uy U21",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phy3km2wd/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phkgp1m2wd/image/small",
-              "time": "2026-11-13T23:30:00+07:00",
-              "time_label": "13/11 23:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-l5ergphkolk1r8k",
-              "title": "Đức U21 vs Bỉ U21",
-              "home": "Đức U21",
-              "away": "Bỉ U21",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/8y39mp1h25zmojx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllh69oqvy9/image/small",
-              "time": "2026-11-14T00:00:00+07:00",
-              "time_label": "14/11 00:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-6ypq3nhk04v4md7",
-              "title": "Pháp U21 vs Italy U21",
-              "home": "Pháp U21",
-              "away": "Italy U21",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd3wm0ve/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7hd86qdyj/image/small",
-              "time": "2026-11-14T00:30:00+07:00",
-              "time_label": "14/11 00:30",
-              "status": "live",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-965mkyh87891r1g",
-              "title": "Tây Ban Nha U21 vs Japan U21",
-              "home": "Tây Ban Nha U21",
-              "away": "Japan U21",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hozvvqo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phexgm2wd/image/small",
-              "time": "2026-11-14T01:00:00+07:00",
-              "time_label": "14/11 01:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-jw2r09h5l65orz8",
-              "title": "Albania U21 vs Luxembourg U21",
-              "home": "Albania U21",
-              "away": "Luxembourg U21",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh9x8q82w/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phenym2wd/image/small",
-              "time": "2026-11-14T01:00:00+07:00",
-              "time_label": "14/11 01:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-2y8m4zhv372zql0",
-              "title": "Costa Rica U19(w) vs Guatemala U19(w)",
-              "home": "Costa Rica U19(w)",
-              "away": "Guatemala U19(w)",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhv2x8ryk0/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7php53lm2wd/image/small",
-              "time": "2026-11-14T03:00:00+07:00",
-              "time_label": "14/11 03:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-dj2ryoh7kpwgq1z",
-              "title": "Panama U19(w) vs El Salvador U19(w)",
-              "home": "Panama U19(w)",
-              "away": "El Salvador U19(w)",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghx25zr6od/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hol38qdyj/image/small",
-              "time": "2026-11-14T03:00:00+07:00",
-              "time_label": "14/11 03:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Jordan League Division 1",
           "logo": "",
@@ -3156,6 +3033,116 @@
               "time": "2026-11-14T00:30:00+07:00",
               "time_label": "14/11 00:30",
               "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "International Friendly",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-4jwq2ghg4gd1m0v",
+              "title": "Kuwait vs Syria",
+              "home": "Kuwait",
+              "away": "Syria",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whk855ryox/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phkk1em2wd/image/small",
+              "time": "2026-11-13T23:30:00+07:00",
+              "time_label": "13/11 23:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-ednm9wh5k5ldryo",
+              "title": "Ba Lan U21 vs Na Uy U21",
+              "home": "Ba Lan U21",
+              "away": "Na Uy U21",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phy3km2wd/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phkgp1m2wd/image/small",
+              "time": "2026-11-13T23:30:00+07:00",
+              "time_label": "13/11 23:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-l5ergphkolk1r8k",
+              "title": "Đức U21 vs Bỉ U21",
+              "home": "Đức U21",
+              "away": "Bỉ U21",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/8y39mp1h25zmojx/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllh69oqvy9/image/small",
+              "time": "2026-11-14T00:00:00+07:00",
+              "time_label": "14/11 00:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-6ypq3nhk04v4md7",
+              "title": "Pháp U21 vs Italy U21",
+              "home": "Pháp U21",
+              "away": "Italy U21",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd3wm0ve/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7hd86qdyj/image/small",
+              "time": "2026-11-14T00:30:00+07:00",
+              "time_label": "14/11 00:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-965mkyh87891r1g",
+              "title": "Tây Ban Nha U21 vs Japan U21",
+              "home": "Tây Ban Nha U21",
+              "away": "Japan U21",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hozvvqo9j/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phexgm2wd/image/small",
+              "time": "2026-11-14T01:00:00+07:00",
+              "time_label": "14/11 01:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-jw2r09h5l65orz8",
+              "title": "Albania U21 vs Luxembourg U21",
+              "home": "Albania U21",
+              "away": "Luxembourg U21",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh9x8q82w/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phenym2wd/image/small",
+              "time": "2026-11-14T01:00:00+07:00",
+              "time_label": "14/11 01:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-2y8m4zhv372zql0",
+              "title": "Costa Rica U19(w) vs Guatemala U19(w)",
+              "home": "Costa Rica U19(w)",
+              "away": "Guatemala U19(w)",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhv2x8ryk0/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7php53lm2wd/image/small",
+              "time": "2026-11-14T03:00:00+07:00",
+              "time_label": "14/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-dj2ryoh7kpwgq1z",
+              "title": "Panama U19(w) vs El Salvador U19(w)",
+              "home": "Panama U19(w)",
+              "away": "El Salvador U19(w)",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghx25zr6od/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hol38qdyj/image/small",
+              "time": "2026-11-14T03:00:00+07:00",
+              "time_label": "14/11 03:00",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
