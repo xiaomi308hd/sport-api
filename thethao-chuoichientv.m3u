@@ -53,15 +53,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-9a6a781a6f39" tvg-name="Comoros vs Congo - Chuối Lá - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Comoros vs Congo | 13/11 20:00 | Chuối Lá | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Nhỏ - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Nhỏ | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Nhỏ - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Nhỏ | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Nhỏ - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Nhỏ | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-86199a07397d" tvg-name="Kuwait vs Syria - Trốc Tru - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Kuwait vs Syria | 13/11 21:00 | Trốc Tru | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
@@ -80,3 +71,12 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-d250cbcd43cf" tvg-name="Cape Verde Islands vs Liberia - Chuối Tây - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Cape Verde Islands vs Liberia | 13/11 23:00 | Chuối Tây | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1fad7bda8300" tvg-name="Netherlands vs Greece - Chuối Nhỏ - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Netherlands vs Greece | 14/11 02:45 | Chuối Nhỏ | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1fad7bda8300" tvg-name="Netherlands vs Greece - Chuối Nhỏ - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Netherlands vs Greece | 14/11 02:45 | Chuối Nhỏ | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1fad7bda8300" tvg-name="Netherlands vs Greece - Chuối Nhỏ - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Netherlands vs Greece | 14/11 02:45 | Chuối Nhỏ | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
