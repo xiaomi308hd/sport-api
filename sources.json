@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:48:38.004474+00:00",
+  "updated_at": "2026-11-13T12:52:19.432947+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132809_c5bb4d4f.png",
               "time": "2026-11-13T19:00:00+07:00",
               "time_label": "13/11 19:00",
-              "status": "1h",
+              "status": "ht",
               "score": "",
               "stream_count": 9
             },
@@ -1549,7 +1549,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 317,
+      "stream_count": 320,
       "leagues": [
         {
           "name": "Giao hữu các CLB quốc tế",
@@ -1793,7 +1793,7 @@
               "time_label": "14/11 19:00",
               "status": "scheduled",
               "score": "",
-              "stream_count": 3
+              "stream_count": 6
             },
             {
               "id": "mhd-match-vrqwni0or62u4qn",
