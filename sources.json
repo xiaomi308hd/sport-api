@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T06:48:11.573663+00:00",
+  "updated_at": "2026-11-13T06:51:43.289341+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -18,19 +18,6 @@
           "name": "Ngoại Hạng Mông Cổ",
           "logo": "https://media.chuoichientv.net/media/20251115_115953_8128716e.png",
           "matches": [
-            {
-              "id": "",
-              "title": "Ulaanbaatar vs Hunters",
-              "home": "Ulaanbaatar",
-              "away": "Hunters",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_142517_93a5577b.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_142519_72f0bbb2.png",
-              "time": "2026-11-13T12:00:00+07:00",
-              "time_label": "13/11 12:00",
-              "status": "2h",
-              "score": "",
-              "stream_count": 9
-            },
             {
               "id": "",
               "title": "Deren vs Tuv Azarganuud",
@@ -310,6 +297,25 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133803_b1fa7a37.png",
               "time": "2026-11-14T11:00:00+07:00",
               "time_label": "14/11 11:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "SV.League W",
+          "logo": "https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Hisamitsu Springs W vs PFU Blue Cats W",
+              "home": "Hisamitsu Springs W",
+              "away": "PFU Blue Cats W",
+              "home_logo": "https://media.chuoichientv.net/media/20251107_144450_2fc776cf.png",
+              "away_logo": "https://media.chuoichientv.net/media/20251016_221842_f555742c.png",
+              "time": "2026-11-14T11:05:00+07:00",
+              "time_label": "14/11 11:05",
               "status": "ns",
               "score": "",
               "stream_count": 9
@@ -1171,7 +1177,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhj55oryk0/image/small",
               "time": "2026-11-13T12:00:00+07:00",
               "time_label": "13/11 12:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }

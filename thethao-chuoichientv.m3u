@@ -1,13 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-e8b2718ef9e2" tvg-name="Ulaanbaatar vs Hunters - Chuối Chao - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115953_8128716e.png" group-title="Ngoại Hạng Mông Cổ" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Ulaanbaatar vs Hunters | 13/11 12:00 | Chuối Chao | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-e8b2718ef9e2" tvg-name="Ulaanbaatar vs Hunters - Chuối Chao - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115953_8128716e.png" group-title="Ngoại Hạng Mông Cổ" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Ulaanbaatar vs Hunters | 13/11 12:00 | Chuối Chao | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-e8b2718ef9e2" tvg-name="Ulaanbaatar vs Hunters - Chuối Chao - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115953_8128716e.png" group-title="Ngoại Hạng Mông Cổ" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Ulaanbaatar vs Hunters | 13/11 12:00 | Chuối Chao | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-2c72c04c82a8" tvg-name="Deren vs Tuv Azarganuud - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115953_8128716e.png" group-title="Ngoại Hạng Mông Cổ" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Deren vs Tuv Azarganuud | 13/11 15:00 | Chuối Kem | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
@@ -62,6 +53,15 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-86199a07397d" tvg-name="Kuwait vs Syria - Trốc Tru - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Kuwait vs Syria | 13/11 21:00 | Trốc Tru | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1c56a6582222" tvg-name="Qatar vs Australia - Chuối Chao - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Qatar vs Australia | 13/11 21:45 | Chuối Chao | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1c56a6582222" tvg-name="Qatar vs Australia - Chuối Chao - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Qatar vs Australia | 13/11 21:45 | Chuối Chao | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1c56a6582222" tvg-name="Qatar vs Australia - Chuối Chao - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Qatar vs Australia | 13/11 21:45 | Chuối Chao | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-d250cbcd43cf" tvg-name="Cape Verde Islands vs Liberia - Chuối Tây - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Cape Verde Islands vs Liberia | 13/11 23:00 | Chuối Tây | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
