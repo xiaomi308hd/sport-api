@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:32:26.738367+00:00",
+  "updated_at": "2026-11-13T12:36:08.959232+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1541,9 +1541,9 @@
     {
       "id": "colatv",
       "name": "ColaTV",
-      "display_name": "Gà Vàng TV",
-      "initial": "G",
-      "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/colatv.png",
+      "display_name": "ColaTV",
+      "initial": "C",
+      "logo": "",
       "playlist": "thethao-colatv.m3u",
       "ok": true,
       "stale": false,
