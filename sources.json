@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:51:30.513624+00:00",
+  "updated_at": "2026-11-13T10:55:18.513731+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,28 +11,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 19,
-      "stream_count": 171,
+      "match_count": 18,
+      "stream_count": 162,
       "leagues": [
-        {
-          "name": "Australian Championship",
-          "logo": "https://media.api-sports.io/football/leagues/1202.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Oakleigh Cannons vs Marconi Stallions",
-              "home": "Oakleigh Cannons",
-              "away": "Marconi Stallions",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_141355_fc3fb07a.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141339_da8f4f91.png",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "pen",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
         {
           "name": "Giao Hữu Quốc Tế",
           "logo": "https://media.api-sports.io/football/leagues/10.png",
