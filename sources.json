@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:10:11.595170+00:00",
+  "updated_at": "2026-11-13T12:13:53.337551+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132809_c5bb4d4f.png",
               "time": "2026-11-13T19:00:00+07:00",
               "time_label": "13/11 19:00",
-              "status": "live",
+              "status": "1h",
               "score": "",
               "stream_count": 9
             },
