@@ -53,6 +53,9 @@ https://lilive1.eu.cc/live/97f66766462e698e39a68620d4e3009f/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-965mkyhkd6kor1g" tvg-name="Nữ Hamburger SV vs 1.FSV Mainz 05Women(w) - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdehnd0vr510/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Nữ Hamburger SV vs 1.FSV Mainz 05Women(w) | 14/11 00:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/e22a5fce1951aa66b7f48d9abcfbe625/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-965mkyhkj8k9r1g" tvg-name="Ba Lan U20 vs Đức U20 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdehn2d2r510/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Ba Lan U20 vs Đức U20 | 14/11 02:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/ab115f769a0d11584f315b74f108f961/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-965mkyhkp06pr1g" tvg-name="Al Hashemeya vs Sama Al Sarhan - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1hjo22mojx/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Al Hashemeya vs Sama Al Sarhan | 13/11 22:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/2a41eb86e624d25460c32c76317bb4b1/playlist.m3u8
@@ -65,9 +68,6 @@ https://lilive1.eu.cc/live/7b6b9c35feff1775b42d7c72b8457b3b/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-ednm9whw1ne3ryo" tvg-name="Ai Cập vs Malawi - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzgh84yq82w/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Ai Cập vs Malawi | 14/11 02:00 | Phá Làng TV | HD1
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://pull.digitalcdn.net/live/01604229336745d7825662a00d2f856a/index.m3u8
-#EXTINF:-1 tvg-id="mhd-match-ednm9whw5y3yryo" tvg-name="Moldova vs Kazakhstan - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhylpmd7o/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Moldova vs Kazakhstan | 14/11 00:00 | Phá Làng TV | HD1
-#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://pull.digitalcdn.net/live/9ca06d3cdfe94aebbe8f99a64dbbd0b1/index.m3u8
 #EXTINF:-1 tvg-id="mhd-match-ednm9whw5y3yryo" tvg-name="Moldova vs Kazakhstan - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhylpmd7o/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Moldova vs Kazakhstan | 14/11 00:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/9484ec52f0fcb5dcd1f5491f4c64c6fa/playlist.m3u8

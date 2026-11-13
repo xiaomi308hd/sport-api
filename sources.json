@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T18:55:39.444424+00:00",
+  "updated_at": "2026-11-13T18:59:20.570404+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -186,26 +186,97 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 71,
-      "stream_count": 144,
+      "match_count": 70,
+      "stream_count": 142,
       "leagues": [
         {
-          "name": "UEFA Nations League",
+          "name": "CAF Africa Cup of Nations",
           "logo": "",
           "matches": [
             {
               "id": "",
-              "title": "Moldova vs Kazakhstan",
-              "home": "Moldova",
-              "away": "Kazakhstan",
-              "home_logo": "https://img.cltvap.cc/football/team/3f13cf4ddf6fc50c0d39a1d5aeb57dd8.png",
-              "away_logo": "https://img.cltvap.cc/football/team/0b01c7d68feb22290f3b0da91bef689d.png",
-              "time": "2026-11-14T00:00:00+07:00",
-              "time_label": "14/11 00:00",
+              "title": "Egypt vs Malawi",
+              "home": "Egypt",
+              "away": "Malawi",
+              "home_logo": "https://img.cltvap.cc/football/team/52655c6b9f28486b9e478bd9711428cd.png",
+              "away_logo": "https://img.cltvap.cc/football/team/d8b121387a58ed51d1e9459a0edb5934.png",
+              "time": "2026-11-14T02:00:00+07:00",
+              "time_label": "14/11 02:00",
               "status": "live",
               "score": "",
               "stream_count": 2
             },
+            {
+              "id": "",
+              "title": "Mali vs Rwanda",
+              "home": "Mali",
+              "away": "Rwanda",
+              "home_logo": "https://img.cltvap.cc/football/team/0a94eea42ecd117d87eb79c61bdd656e.png",
+              "away_logo": "https://img.cltvap.cc/football/team/c7d7d1ad832d1a9355fc9ab4f3ab1b80.png",
+              "time": "2026-11-14T02:00:00+07:00",
+              "time_label": "14/11 02:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Morocco vs Niger",
+              "home": "Morocco",
+              "away": "Niger",
+              "home_logo": "https://img.cltvap.cc/football/team/85a768d7c6a14d51b24bcb19c280b4c6.png",
+              "away_logo": "https://img.cltvap.cc/football/team/cd0ec9035e74c703a7e3128db75fdc65.png",
+              "time": "2026-11-14T03:00:00+07:00",
+              "time_label": "14/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Uganda vs Botswana",
+              "home": "Uganda",
+              "away": "Botswana",
+              "home_logo": "https://img.cltvap.cc/football/team/81f7acabd411274fcf65ce2070ed568a.png",
+              "away_logo": "https://img.cltvap.cc/football/team/184cb48a11bd10712686ebd5611812af.png",
+              "time": "2026-11-14T23:00:00+07:00",
+              "time_label": "14/11 23:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Angola vs South Sudan",
+              "home": "Angola",
+              "away": "South Sudan",
+              "home_logo": "https://img.cltvap.cc/football/team/b313ba040d06ef01a187e5dee391739d.png",
+              "away_logo": "https://img.cltvap.cc/football/team/70d5c573c693c4053f908d9d9314ce87.png",
+              "time": "2026-11-15T02:00:00+07:00",
+              "time_label": "15/11 02:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Algeria vs Togo",
+              "home": "Algeria",
+              "away": "Togo",
+              "home_logo": "https://img.cltvap.cc/football/team/91e9ae1b4f224d9e856e56b0cf14416f.png",
+              "away_logo": "https://img.cltvap.cc/football/team/61e60914da33c0049470118561d8f8fd.png",
+              "time": "2026-11-15T02:00:00+07:00",
+              "time_label": "15/11 02:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "UEFA Nations League",
+          "logo": "",
+          "matches": [
             {
               "id": "",
               "title": "Netherlands vs Greece",
@@ -436,90 +507,6 @@
               "away_logo": "https://img.cltvap.cc/football/team/9866b8a83d35abdd89ed76d565d71f75.png",
               "time": "2026-11-15T21:00:00+07:00",
               "time_label": "15/11 21:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "CAF Africa Cup of Nations",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Egypt vs Malawi",
-              "home": "Egypt",
-              "away": "Malawi",
-              "home_logo": "https://img.cltvap.cc/football/team/52655c6b9f28486b9e478bd9711428cd.png",
-              "away_logo": "https://img.cltvap.cc/football/team/d8b121387a58ed51d1e9459a0edb5934.png",
-              "time": "2026-11-14T02:00:00+07:00",
-              "time_label": "14/11 02:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Mali vs Rwanda",
-              "home": "Mali",
-              "away": "Rwanda",
-              "home_logo": "https://img.cltvap.cc/football/team/0a94eea42ecd117d87eb79c61bdd656e.png",
-              "away_logo": "https://img.cltvap.cc/football/team/c7d7d1ad832d1a9355fc9ab4f3ab1b80.png",
-              "time": "2026-11-14T02:00:00+07:00",
-              "time_label": "14/11 02:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Morocco vs Niger",
-              "home": "Morocco",
-              "away": "Niger",
-              "home_logo": "https://img.cltvap.cc/football/team/85a768d7c6a14d51b24bcb19c280b4c6.png",
-              "away_logo": "https://img.cltvap.cc/football/team/cd0ec9035e74c703a7e3128db75fdc65.png",
-              "time": "2026-11-14T03:00:00+07:00",
-              "time_label": "14/11 03:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Uganda vs Botswana",
-              "home": "Uganda",
-              "away": "Botswana",
-              "home_logo": "https://img.cltvap.cc/football/team/81f7acabd411274fcf65ce2070ed568a.png",
-              "away_logo": "https://img.cltvap.cc/football/team/184cb48a11bd10712686ebd5611812af.png",
-              "time": "2026-11-14T23:00:00+07:00",
-              "time_label": "14/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Angola vs South Sudan",
-              "home": "Angola",
-              "away": "South Sudan",
-              "home_logo": "https://img.cltvap.cc/football/team/b313ba040d06ef01a187e5dee391739d.png",
-              "away_logo": "https://img.cltvap.cc/football/team/70d5c573c693c4053f908d9d9314ce87.png",
-              "time": "2026-11-15T02:00:00+07:00",
-              "time_label": "15/11 02:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Algeria vs Togo",
-              "home": "Algeria",
-              "away": "Togo",
-              "home_logo": "https://img.cltvap.cc/football/team/91e9ae1b4f224d9e856e56b0cf14416f.png",
-              "away_logo": "https://img.cltvap.cc/football/team/61e60914da33c0049470118561d8f8fd.png",
-              "time": "2026-11-15T02:00:00+07:00",
-              "time_label": "15/11 02:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 2
@@ -1251,25 +1238,31 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 322,
+      "stream_count": 323,
       "leagues": [
+        {
+          "name": "EuroLeague",
+          "logo": "https://img.cltvap.cc/basketball/competition/3ffc7c468bbf72b4e7f86e468351272d.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-527rjswd02ei4ke",
+              "title": "Anadolu Efes S.K. vs Virtus Pallacanestro Bologna",
+              "home": "Anadolu Efes S.K.",
+              "away": "Virtus Pallacanestro Bologna",
+              "home_logo": "https://img.cltvap.cc/basketball/team/a2e19c2b6ed3efe3ee5c58bdf9a87ee3.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/54019fa403eae4a98efc46cab4badde8.png!w80",
+              "time": "2026-11-14T00:30:00+07:00",
+              "time_label": "14/11 00:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 4
+            }
+          ]
+        },
         {
           "name": "Giao hữu Quốc tế",
           "logo": "https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png!w80",
           "matches": [
-            {
-              "id": "mhd-match-l6kegirzmr2cv75",
-              "title": "Đức U21 vs Bỉ U21",
-              "home": "Đức U21",
-              "away": "Bỉ U21",
-              "home_logo": "https://img.cltvap.cc/football/team/5856c2f4a854359864b18f9aed3f8874.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/c9bf9ec823ac3ce4a4d80a3a36b08ae9.png!w80",
-              "time": "2026-11-14T00:00:00+07:00",
-              "time_label": "14/11 00:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
             {
               "id": "mhd-match-o17pji403o3iy7j",
               "title": "Đội tuyển U21 Pháp vs Ý U21",
@@ -1455,25 +1448,6 @@
           ]
         },
         {
-          "name": "EuroLeague",
-          "logo": "https://img.cltvap.cc/basketball/competition/3ffc7c468bbf72b4e7f86e468351272d.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-527rjswd02ei4ke",
-              "title": "Anadolu Efes S.K. vs Virtus Pallacanestro Bologna",
-              "home": "Anadolu Efes S.K.",
-              "away": "Virtus Pallacanestro Bologna",
-              "home_logo": "https://img.cltvap.cc/basketball/team/a2e19c2b6ed3efe3ee5c58bdf9a87ee3.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/54019fa403eae4a98efc46cab4badde8.png!w80",
-              "time": "2026-11-14T00:30:00+07:00",
-              "time_label": "14/11 00:30",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            }
-          ]
-        },
-        {
           "name": "Cúp Quốc gia Châu Phi",
           "logo": "https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80",
           "matches": [
@@ -1488,7 +1462,7 @@
               "time_label": "14/11 02:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-wv78xivo4nybokr",
@@ -1501,7 +1475,7 @@
               "time_label": "14/11 02:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-xvkjoi86wglb879",
@@ -2271,6 +2245,19 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 3
+            },
+            {
+              "id": "mhd-match-ezk90sp9483u1kn",
+              "title": "Brisbane Bullets vs Tasmania JackNgười Nhảy",
+              "home": "Brisbane Bullets",
+              "away": "Tasmania JackNgười Nhảy",
+              "home_logo": "https://img.cltvap.cc/basketball/team/80aa7ed27d9b9efbe7ac8b3d6e3798ef.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/5bb229debebf925ddf93351301f54b40.png!w80",
+              "time": "2026-11-15T13:00:00+07:00",
+              "time_label": "15/11 13:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
             }
           ]
         },
@@ -2733,7 +2720,7 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 44,
+      "match_count": 45,
       "stream_count": 45,
       "leagues": [
         {
@@ -3174,9 +3161,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7h2wnqdyj/image/small",
               "time": "2026-11-14T00:00:00+07:00",
               "time_label": "14/11 00:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
-              "stream_count": 2
+              "stream_count": 1
             },
             {
               "id": "mhd-match-23xmvkh6y1n2qg8",
@@ -3310,7 +3297,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4h70l2q0j6/image/small",
               "time": "2026-11-14T00:00:00+07:00",
               "time_label": "14/11 00:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
@@ -3348,6 +3335,25 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghp5ldq82w/image/small",
               "time": "2026-11-14T01:00:00+07:00",
               "time_label": "14/11 01:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Elite League U20",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-965mkyhkj8k9r1g",
+              "title": "Ba Lan U20 vs Đức U20",
+              "home": "Ba Lan U20",
+              "away": "Đức U20",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdehn2d2r510/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohkyjzq1zp/image/small",
+              "time": "2026-11-14T02:00:00+07:00",
+              "time_label": "14/11 02:00",
               "status": "live",
               "score": "",
               "stream_count": 1
