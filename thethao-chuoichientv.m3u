@@ -8,15 +8,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-9a6a781a6f39" tvg-name="Comoros vs Congo - Chuối Lá - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Comoros vs Congo | 13/11 20:00 | Chuối Lá | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Kem | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Kem - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Kem | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Kem - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Kem | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-cadf41e6e689" tvg-name="Saudi Arabia vs South Korea - Chuối Già - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Saudi Arabia vs South Korea | 13/11 21:30 | Chuối Già | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8
@@ -35,6 +26,15 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-1c56a6582222" tvg-name="Qatar vs Australia - Chuối Chao - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Qatar vs Australia | 13/11 21:45 | Chuối Chao | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Kem | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Kem - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Kem | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Kem - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Kem | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-d250cbcd43cf" tvg-name="Cape Verde Islands vs Liberia - Chuối Tây - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Cape Verde Islands vs Liberia | 13/11 23:00 | Chuối Tây | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
