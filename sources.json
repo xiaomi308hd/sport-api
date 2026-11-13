@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T05:57:18.181145+00:00",
+  "updated_at": "2026-11-13T06:00:52.806432+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1078,28 +1078,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 7,
-      "stream_count": 7,
+      "match_count": 6,
+      "stream_count": 6,
       "leagues": [
-        {
-          "name": "Mexico Ascenso MX",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-4wyrn4hy8y56q86",
-              "title": "CA Morelia vs U. de G.",
-              "home": "CA Morelia",
-              "away": "U. de G.",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhjjvdryk0/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkwj0ryox/image/small",
-              "time": "2026-11-13T09:00:00+07:00",
-              "time_label": "13/11 09:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Indian Bangalore Super Division",
           "logo": "",
@@ -1126,7 +1107,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh144vmd7o/image/small",
               "time": "2026-11-13T12:55:00+07:00",
               "time_label": "13/11 12:55",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
