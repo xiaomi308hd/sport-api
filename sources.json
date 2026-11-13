@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T07:27:43.543026+00:00",
+  "updated_at": "2026-11-13T07:31:16.331185+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1084,41 +1084,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 6,
-      "stream_count": 6,
+      "match_count": 5,
+      "stream_count": 5,
       "leagues": [
-        {
-          "name": "Indian Bangalore Super Division",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-6ypq3nhk03dvmd7",
-              "title": "Real Bengaluru vs Bangalore Dream United",
-              "home": "Real Bengaluru",
-              "away": "Bangalore Dream United",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhekn6m7vx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh95xzryk0/image/small",
-              "time": "2026-11-13T10:30:00+07:00",
-              "time_label": "13/11 10:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-pxwrxlhlg5wlryk",
-              "title": "Kodagu vs Technico FF",
-              "home": "Kodagu",
-              "away": "Technico FF",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh8nknr6od/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh144vmd7o/image/small",
-              "time": "2026-11-13T13:00:00+07:00",
-              "time_label": "13/11 13:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Japanese Regional League",
           "logo": "",
@@ -1177,6 +1145,25 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhj55oryk0/image/small",
               "time": "2026-11-13T12:00:00+07:00",
               "time_label": "13/11 12:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Indian Bangalore Super Division",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-pxwrxlhlg5wlryk",
+              "title": "Kodagu vs Technico FF",
+              "home": "Kodagu",
+              "away": "Technico FF",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh8nknr6od/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh144vmd7o/image/small",
+              "time": "2026-11-13T13:00:00+07:00",
+              "time_label": "13/11 13:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
