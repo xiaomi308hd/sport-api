@@ -3,57 +3,54 @@
 # -*- coding: utf-8 -*-
 
 """
-MHD SPORTS - API UPDATE
-
-Nguồn:
+MHD Sports - Sports API updater
+Supports:
+- GET / POST APIs
 - ChuoiChienTV
 - GaVangTV
-- GioVangTV
-- PhaLangTV / PLAPI Graph
-- ColaTV
-
-Chức năng:
-- Đọc cấu hình động từ config.json
-- GET / POST
-- Params variants
-- PLAPI Graph pagination + detail + live
-- Giờ Vàng detail resolver
-- CoLa TV HLS / FLV / servers
-- Referer và headers theo host
-- Playlist tổng và playlist riêng
-- EPG XML và sources.json
-- Giữ playlist cũ khi API lỗi
+- PLAPI Graph API + live resolver
+- M3U / XMLTV / sources.json
+- Configurable stream headers and Referer
 """
 
-import json
-import logging
 import os
 import re
+import hashlib
+import json
 import time
+import html
+import logging
 import urllib.request
 import urllib.error
 import urllib.parse
 import xml.etree.ElementTree as ET
 
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
-from datetime import datetime, timezone, timedelta
 
 
 # ============================================================
-# 1. CONFIGURATION
+# PATHS AND LOGGING
 # ============================================================
 
+VN_TZ = timezone(timedelta(hours=7))
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_FILE = ROOT / "config.json"
 
-VN_TZ = timezone(timedelta(hours=7))
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 
 logging.basicConfig(
-    level=logging.INFO,
+    level=getattr(logging, LOG_LEVEL, logging.INFO),
     format="[%(levelname)s] %(message)s"
 )
+
 log = logging.getLogger("MHD-Sports")
 
+
+# ============================================================
+# CONFIGURATION
+# ============================================================
 
 def load_config():
     if not CONFIG_FILE.exists():
@@ -74,9 +71,16 @@ OUTPUT_FILE = ROOT / CONFIG.get("output_file", "thethao.m3u")
 EPG_FILE = ROOT / CONFIG.get("epg_file", "epg.xml")
 SOURCES_FILE = ROOT / CONFIG.get("sources_file", "sources.json")
 
+CACHE_FILE = ROOT / "referer_cache.json"
+
+INCLUDE_GROUPS = CONFIG.get(
+    "include_stream_groups",
+    ["blvs", "blvs_bonglau", "blvs_nguoitho"]
+)
+
 
 # ============================================================
-# 2. GENERAL HELPERS
+# GENERAL HELPERS
 # ============================================================
 
 def clean(value):
@@ -89,6 +93,12 @@ def clean(value):
     return str(value).strip()
 
 
+def safe_filename(value):
+    value = clean(value).lower()
+    value = re.sub(r"[^a-z0-9_-]+", "-", value)
+    return value.strip("-") or "source"
+
+
 def first_value(*values):
     for value in values:
         if value is not None and value != "":
@@ -96,13 +106,57 @@ def first_value(*values):
     return ""
 
 
-def safe_name(value):
-    value = clean(value).lower()
-    value = re.sub(r"[^a-z0-9_-]+", "-", value)
-    return value.strip("-") or "source"
+def parse_datetime(value):
+    if not value:
+        return None
+
+    if isinstance(value, (int, float)):
+        try:
+            return datetime.fromtimestamp(
+                value / 1000 if value > 9999999999 else value,
+                tz=timezone.utc
+            )
+        except Exception:
+            return None
+
+    value = clean(value)
+
+    try:
+        result = datetime.fromisoformat(
+            value.replace("Z", "+00:00")
+        )
+
+        if result.tzinfo is None:
+            result = result.replace(tzinfo=timezone.utc)
+
+        return result
+
+    except Exception:
+        pass
+
+    formats = [
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d %H:%M",
+        "%Y/%m/%d %H:%M:%S",
+        "%Y/%m/%d %H:%M",
+    ]
+
+    for fmt in formats:
+        try:
+            return datetime.strptime(value, fmt).replace(
+                tzinfo=timezone.utc
+            )
+        except Exception:
+            continue
+
+    return None
 
 
-def write_file(path, content):
+def iso_now():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def atomic_write(path, content):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -114,111 +168,36 @@ def write_file(path, content):
     os.replace(temp, path)
 
 
-def write_json(path, data):
-    write_file(
+def atomic_write_json(path, data):
+    atomic_write(
         path,
         json.dumps(data, ensure_ascii=False, indent=2)
     )
 
 
-def parse_datetime(value):
-    if not value:
-        return None
-
-    try:
-        if isinstance(value, (int, float)):
-            if value > 9999999999:
-                value = value / 1000
-
-            return datetime.fromtimestamp(
-                value,
-                tz=timezone.utc
-            )
-
-        value = clean(value)
-
-        dt = datetime.fromisoformat(
-            value.replace("Z", "+00:00")
-        )
-
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-
-        return dt
-
-    except Exception:
-        pass
-
-    for fmt in (
-        "%Y-%m-%d %H:%M:%S",
-        "%Y-%m-%d %H:%M",
-        "%Y/%m/%d %H:%M:%S",
-        "%Y/%m/%d %H:%M"
-    ):
-        try:
-            return datetime.strptime(
-                clean(value), fmt
-            ).replace(tzinfo=timezone.utc)
-
-        except Exception:
-            continue
-
-    return None
-
-
-def source_id(api):
-    return clean(api.get("id")).lower()
-
-
-def source_name(api):
-    return clean(
-        api.get("display_name")
-        or api.get("name")
-        or api.get("id")
-        or "API"
-    )
-
-
-def get_parser(api):
-    parser = clean(api.get("parser")).lower()
-
-    if parser:
-        return parser
-
-    api_type = clean(api.get("api_type")).lower()
-
-    if api_type:
-        return api_type
-
-    return source_id(api)
-
-
-def merge_dicts(base, extra):
-    result = dict(base or {})
-
-    if not isinstance(extra, dict):
-        return result
-
-    for key, value in extra.items():
-        if value is None or value == "":
-            continue
-
-        if isinstance(value, dict) and isinstance(result.get(key), dict):
-            result[key] = merge_dicts(result[key], value)
-        elif value != []:
-            result[key] = value
-
-    return result
-
-
 # ============================================================
-# 3. HTTP REQUEST
+# HTTP CLIENT
 # ============================================================
 
-DEFAULT_USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 Chrome/157.0.0.0 Safari/537.36"
-)
+def retry_delay(response_headers=None, attempt=0):
+    if response_headers:
+        retry_after = response_headers.get("Retry-After")
+
+        if retry_after:
+            try:
+                return min(int(retry_after), 30)
+            except Exception:
+                try:
+                    date = parsedate_to_datetime(retry_after)
+                    seconds = (
+                        date - datetime.now(timezone.utc)
+                    ).total_seconds()
+
+                    return max(1, min(int(seconds), 30))
+                except Exception:
+                    pass
+
+    return min(2 ** attempt, 15)
 
 
 def request_json(
@@ -226,17 +205,19 @@ def request_json(
     method="GET",
     headers=None,
     params=None,
-    body=None
+    body=None,
+    timeout=None
 ):
     method = clean(method).upper() or "GET"
-    headers = dict(headers or {})
 
-    headers.setdefault("User-Agent", DEFAULT_USER_AGENT)
-    headers.setdefault("Accept", "*/*")
+    headers = dict(headers or {})
+    headers.setdefault("User-Agent", "MHD-Sports/3.0")
+    headers.setdefault("Accept", "application/json")
 
     if params:
         query = urllib.parse.urlencode(params, doseq=True)
-        url += ("&" if "?" in url else "?") + query
+        separator = "&" if "?" in url else "?"
+        url = url + separator + query
 
     data = None
 
@@ -247,10 +228,8 @@ def request_json(
                 "Content-Type",
                 "application/json"
             )
-
         elif isinstance(body, str):
             data = body.encode("utf-8")
-
         else:
             data = body
 
@@ -265,9 +244,8 @@ def request_json(
 
             with urllib.request.urlopen(
                 req,
-                timeout=TIMEOUT
+                timeout=timeout or TIMEOUT
             ) as response:
-
                 raw = response.read().decode(
                     "utf-8",
                     errors="replace"
@@ -279,170 +257,117 @@ def request_json(
                 return json.loads(raw)
 
         except urllib.error.HTTPError as exc:
-
-            error_body = ""
+            status = exc.code
 
             try:
                 error_body = exc.read().decode(
                     "utf-8",
                     errors="replace"
-                )[:500]
+                )
             except Exception:
-                pass
+                error_body = ""
 
-            if exc.code in (
-                408, 425, 429,
-                500, 502, 503, 504
-            ):
-                if attempt < RETRIES:
-                    time.sleep(min(2 ** attempt, 10))
-                    continue
-
-            raise RuntimeError(
-                f"HTTP {exc.code}: {exc.reason} {error_body}"
+            retryable = status in (
+                408, 425, 429, 500, 502, 503, 504
             )
 
-        except Exception as exc:
+            if retryable and attempt < RETRIES:
+                delay = retry_delay(
+                    exc.headers,
+                    attempt
+                )
 
+                log.warning(
+                    "HTTP %s, thử lại sau %ss: %s",
+                    status,
+                    delay,
+                    url
+                )
+
+                time.sleep(delay)
+                continue
+
+            raise RuntimeError(
+                f"HTTP {status}: {error_body[:300]}"
+            )
+
+        except (
+            urllib.error.URLError,
+            TimeoutError,
+            ConnectionError
+        ) as exc:
             if attempt < RETRIES:
-                time.sleep(min(2 ** attempt, 10))
+                delay = retry_delay(
+                    attempt=attempt
+                )
+
+                log.warning(
+                    "Lỗi kết nối, thử lại sau %ss: %s",
+                    delay,
+                    url
+                )
+
+                time.sleep(delay)
                 continue
 
             raise RuntimeError(str(exc))
 
+        except json.JSONDecodeError as exc:
+            raise RuntimeError(
+                f"API trả về JSON không hợp lệ: {exc}"
+            )
+
     raise RuntimeError("Không thể kết nối API")
 
 
-def request_api(api, url=None, method=None, params=None, body=None):
-    return request_json(
-        url or api["url"],
-        method=method or api.get("method", "GET"),
-        headers=api.get("headers", {}),
-        params=params,
-        body=body
-    )
-
-
 # ============================================================
-# 4. EXTRACT API DATA
+# DATA EXTRACTION
 # ============================================================
-
-LIST_KEYS = (
-    "matches",
-    "items",
-    "results",
-    "fixtures",
-    "data",
-    "records",
-    "list"
-)
-
 
 def unwrap_data(payload):
-    """
-    Hỗ trợ:
-    - Root array
-    - data array
-    - data object
-    - matches/items/results
-    - GraphQL data
-    """
-
     if isinstance(payload, list):
-        return [
-            item for item in payload
-            if isinstance(item, dict)
-        ]
+        return payload
 
     if not isinstance(payload, dict):
         return []
 
-    for key in LIST_KEYS:
+    for key in ("matches", "items", "results"):
         value = payload.get(key)
 
         if isinstance(value, list):
-            return [
-                item for item in value
-                if isinstance(item, dict)
-            ]
+            return value
 
-    # GraphQL hoặc API lồng data.
     data = payload.get("data")
 
-    if isinstance(data, dict):
+    if isinstance(data, list):
+        return data
 
-        for key in LIST_KEYS:
+    if isinstance(data, dict):
+        for key in ("matches", "items", "results"):
             value = data.get(key)
 
             if isinstance(value, list):
-                return [
-                    item for item in value
-                    if isinstance(item, dict)
-                ]
+                return value
 
-        # Một số API trả object theo ID.
-        values = [
-            value for value in data.values()
-            if isinstance(value, dict)
-        ]
-
-        if values:
-            return values
-
-    # Tìm danh sách trận trong các object con.
-    for value in payload.values():
-
-        if isinstance(value, dict):
-            result = unwrap_data(value)
-
-            if result:
-                return result
+        return list(data.values())
 
     return []
 
 
-def recursive_find_values(obj, keys):
-    """
-    Tìm các trường trong JSON lồng nhau.
-    Trả về danh sách (key, value).
-    """
+def get_nested(obj, *keys):
+    current = obj
 
-    result = []
+    for key in keys:
+        if not isinstance(current, dict):
+            return None
 
-    if isinstance(obj, dict):
+        current = current.get(key)
 
-        for key, value in obj.items():
-
-            if key in keys:
-                result.append((key, value))
-
-            if isinstance(value, (dict, list)):
-                result.extend(
-                    recursive_find_values(value, keys)
-                )
-
-    elif isinstance(obj, list):
-
-        for value in obj:
-            result.extend(
-                recursive_find_values(value, keys)
-            )
-
-    return result
-
-
-def recursive_find_first(obj, keys):
-    values = recursive_find_values(obj, keys)
-
-    for key, value in values:
-        if value is not None and value != "":
-            return value
-
-    return None
+    return current
 
 
 # ============================================================
-# 5. STREAM NORMALIZATION
+# STREAM NORMALIZATION
 # ============================================================
 
 def normalize_stream(stream, default_referer=""):
@@ -452,18 +377,13 @@ def normalize_stream(stream, default_referer=""):
         headers = {}
 
     elif isinstance(stream, dict):
-
         url = first_value(
             stream.get("url"),
             stream.get("link"),
             stream.get("src"),
             stream.get("source"),
             stream.get("play_url"),
-            stream.get("playUrl"),
-            stream.get("stream_url"),
-            stream.get("streamUrl"),
-            stream.get("playStreamAddress2"),
-            stream.get("playStreamAddress")
+            stream.get("playUrl")
         )
 
         label = first_value(
@@ -474,7 +394,7 @@ def normalize_stream(stream, default_referer=""):
             "Live"
         )
 
-        headers = dict(stream.get("headers") or {})
+        headers = stream.get("headers") or {}
 
     else:
         return None
@@ -484,14 +404,12 @@ def normalize_stream(stream, default_referer=""):
     if not url.startswith(("http://", "https://")):
         return None
 
-    if default_referer:
-        has_referer = any(
-            key.lower() == "referer"
-            for key in headers
-        )
+    headers = dict(headers)
 
-        if not has_referer:
-            headers["Referer"] = default_referer
+    if default_referer and not any(
+        k.lower() == "referer" for k in headers
+    ):
+        headers["Referer"] = default_referer
 
     return {
         "url": url,
@@ -500,90 +418,69 @@ def normalize_stream(stream, default_referer=""):
     }
 
 
-def unique_streams(streams):
+def extract_streams(item, default_referer=""):
+    streams = []
+
+    possible_keys = [
+        "streams",
+        "streamUrls",
+        "stream_urls",
+        "sources",
+        "links",
+        "urls"
+    ]
+
+    for key in possible_keys:
+        value = item.get(key)
+
+        if isinstance(value, list):
+            for stream in value:
+                normalized = normalize_stream(
+                    stream,
+                    default_referer
+                )
+
+                if normalized:
+                    streams.append(normalized)
+
+        elif isinstance(value, dict):
+            for label, url in value.items():
+                normalized = normalize_stream(
+                    {
+                        "label": label,
+                        "url": url
+                    },
+                    default_referer
+                )
+
+                if normalized:
+                    streams.append(normalized)
+
+    for key in ("source_live", "source", "url", "link"):
+        value = item.get(key)
+
+        if isinstance(value, str):
+            normalized = normalize_stream(
+                value,
+                default_referer
+            )
+
+            if normalized:
+                streams.append(normalized)
+
     result = []
     seen = set()
 
     for stream in streams:
-
-        if not stream:
-            continue
-
-        url = stream["url"]
-
-        if url in seen:
-            continue
-
-        seen.add(url)
-        result.append(stream)
+        if stream["url"] not in seen:
+            seen.add(stream["url"])
+            result.append(stream)
 
     return result
 
 
-def extract_streams_from_object(obj, api, default_label="Live"):
-    """
-    Đọc stream theo stream_priority trong config.
-    Có hỗ trợ URL nằm trong object hoặc array.
-    """
-
-    priority = api.get("stream_priority") or [
-        "url", "link", "source_live",
-        "source", "streams", "sources"
-    ]
-
-    referer = api.get("default_stream_referer", "")
-    streams = []
-
-    def add_value(value, label):
-
-        if isinstance(value, list):
-            for index, child in enumerate(value, start=1):
-                add_value(child, f"{label} {index}")
-
-        elif isinstance(value, dict):
-
-            stream = normalize_stream(
-                value,
-                referer
-            )
-
-            if stream:
-                if stream["label"] == "Live":
-                    stream["label"] = label
-
-                streams.append(stream)
-
-            else:
-                for key, child in value.items():
-                    if isinstance(child, (str, dict, list)):
-                        add_value(child, clean(key) or label)
-
-        elif isinstance(value, str):
-
-            stream = normalize_stream(
-                {
-                    "url": value,
-                    "label": label or default_label
-                },
-                referer
-            )
-
-            if stream:
-                streams.append(stream)
-
-    for key in priority:
-
-        if not isinstance(obj, dict):
-            break
-
-        if key in obj:
-            add_value(obj[key], key)
-
-    return unique_streams(streams)
-
-
 # ============================================================
-# 6. GENERIC MATCH PARSER
+# GENERIC MATCH PARSER
 # ============================================================
 
 def parse_generic_match(item, api):
@@ -591,28 +488,45 @@ def parse_generic_match(item, api):
         return None
 
     home = first_value(
-        item.get("homeTeamName"),
+        get_nested(item, "teams", "home", "name"),
+        get_nested(item, "homeTeam", "name"),
         item.get("home_team"),
-        item.get("home"),
+        item.get("homeTeamName"),
         item.get("team_1"),
-        item.get("team1"),
+        item.get("home"),
         "Đội nhà"
     )
 
     away = first_value(
-        item.get("awayTeamName"),
+        get_nested(item, "teams", "away", "name"),
+        get_nested(item, "awayTeam", "name"),
         item.get("away_team"),
-        item.get("away"),
+        item.get("awayTeamName"),
         item.get("team_2"),
-        item.get("team2"),
+        item.get("away"),
         "Đội khách"
     )
 
+    home_logo = first_value(
+        get_nested(item, "teams", "home", "logo"),
+        get_nested(item, "homeTeam", "logo"),
+        item.get("team_1_logo"),
+        item.get("home_logo")
+    )
+
+    away_logo = first_value(
+        get_nested(item, "teams", "away", "logo"),
+        get_nested(item, "awayTeam", "logo"),
+        item.get("team_2_logo"),
+        item.get("away_logo")
+    )
+
     league = first_value(
-        item.get("competitionName"),
+        get_nested(item, "league", "name"),
+        item.get("competition"),
         item.get("league_name"),
         item.get("league"),
-        item.get("competition"),
+        item.get("tournament"),
         "Thể thao"
     )
 
@@ -623,86 +537,89 @@ def parse_generic_match(item, api):
             "Thể thao"
         )
 
-    streams = extract_streams_from_object(item, api)
+    match_time = first_value(
+        item.get("matchTime"),
+        item.get("match_time"),
+        item.get("start_date"),
+        item.get("startTime"),
+        item.get("start_at"),
+        item.get("date"),
+        item.get("time")
+    )
+
+    streams = extract_streams(
+        item,
+        api.get("default_stream_referer", "")
+    )
+
+    blvs = []
+
+    if streams:
+        blvs.append({
+            "name": api.get("display_name", api["name"]),
+            "streams": streams
+        })
 
     return {
-        "externalId": clean(first_value(
-            item.get("id"),
-            item.get("match_id"),
-            item.get("matchId"),
-            item.get("fixture_id")
-        )),
-
-        "matchTime": clean(first_value(
-            item.get("matchTime"),
-            item.get("match_time"),
-            item.get("startTime"),
-            item.get("start_date"),
-            item.get("date"),
-            item.get("timestamp")
-        )),
-
-        "status": clean(first_value(
-            item.get("status"),
-            item.get("matchStatus"),
-            item.get("match_status")
-        )),
-
-        "sport": clean(first_value(
-            item.get("sport"),
-            item.get("sportName"),
-            item.get("sport_name")
-        )),
-
-        "score": clean(first_value(
-            item.get("score"),
-            item.get("result")
-        )),
-
+        "externalId": clean(
+            first_value(
+                item.get("id"),
+                item.get("match_id"),
+                item.get("externalId")
+            )
+        ),
+        "matchTime": clean(match_time),
+        "status": clean(
+            first_value(
+                item.get("status"),
+                "live" if item.get("is_live") else ""
+            )
+        ),
         "teams": {
             "home": {
                 "name": clean(home),
-                "logo": clean(first_value(
-                    item.get("homeTeamLogo"),
-                    item.get("home_logo"),
-                    item.get("team_1_logo")
-                ))
+                "logo": clean(home_logo)
             },
-
             "away": {
                 "name": clean(away),
-                "logo": clean(first_value(
-                    item.get("awayTeamLogo"),
-                    item.get("away_logo"),
-                    item.get("team_2_logo")
-                ))
+                "logo": clean(away_logo)
             }
         },
-
         "league": {
             "name": clean(league),
-            "logo": clean(first_value(
-                item.get("competitionLogo"),
-                item.get("league_logo")
-            ))
+            "logo": clean(
+                first_value(
+                    get_nested(item, "league", "logo"),
+                    item.get("league_logo")
+                )
+            )
         },
-
-        "blvs": [{
-            "name": source_name(api),
-            "streams": streams
-        }] if streams else []
+        "blvs": blvs
     }
 
 
 # ============================================================
-# 7. GA VANG TV PARSER
+# GA VANG TV PARSER
 # ============================================================
 
 def parse_gavang_match(item, api):
     if not isinstance(item, dict):
         return None
 
-    referer = api.get("default_stream_referer", "")
+    home = first_value(
+        get_nested(item, "homeTeam", "name"),
+        item.get("homeTeam"),
+        item.get("home_team"),
+        "Đội nhà"
+    )
+
+    away = first_value(
+        get_nested(item, "awayTeam", "name"),
+        item.get("awayTeam"),
+        item.get("away_team"),
+        "Đội khách"
+    )
+
     streams = []
 
     appointments = item.get(
@@ -711,1041 +628,851 @@ def parse_gavang_match(item, api):
     )
 
     if isinstance(appointments, list):
-
         for appointment in appointments:
-
             if not isinstance(appointment, dict):
                 continue
 
-            values = appointment.get("streamUrls", [])
+            urls = appointment.get("streamUrls", [])
 
-            if isinstance(values, list):
+            if isinstance(urls, list):
+                for stream in urls:
+                    normalized = normalize_stream(
+                        stream,
+                        api.get("default_stream_referer", "")
+                    )
 
-                for value in values:
-                    stream = normalize_stream(value, referer)
-
-                    if stream:
-                        streams.append(stream)
+                    if normalized:
+                        streams.append(normalized)
 
     if not streams:
-        generic = parse_generic_match(item, api)
-
-        if generic:
-            return generic
-
-    league = first_value(
-        item.get("competition"),
-        item.get("league"),
-        item.get("competitionName"),
-        "Thể thao"
-    )
-
-    if isinstance(league, dict):
-        league = league.get("name", "Thể thao")
-
-    return {
-        "externalId": clean(first_value(
-            item.get("id"),
-            item.get("matchId")
-        )),
-
-        "matchTime": clean(first_value(
-            item.get("startTime"),
-            item.get("matchTime"),
-            item.get("date")
-        )),
-
-        "status": clean(first_value(
-            item.get("status"),
-            item.get("matchStatus")
-        )),
-
-        "teams": {
-            "home": {
-                "name": clean(first_value(
-                    item.get("homeTeamName"),
-                    item.get("homeTeam"),
-                    item.get("home_team"),
-                    "Đội nhà"
-                )),
-                "logo": clean(item.get("homeTeamLogo"))
-            },
-
-            "away": {
-                "name": clean(first_value(
-                    item.get("awayTeamName"),
-                    item.get("awayTeam"),
-                    item.get("away_team"),
-                    "Đội khách"
-                )),
-                "logo": clean(item.get("awayTeamLogo"))
-            }
-        },
-
-        "league": {
-            "name": clean(league),
-            "logo": clean(item.get("competitionLogo"))
-        },
-
-        "blvs": [{
-            "name": source_name(api),
-            "streams": unique_streams(streams)
-        }] if streams else []
-    }
-
-
-# ============================================================
-# 8. CHUOI CHIEN TV PARSER
-# ============================================================
-
-def parse_chuoichien_match(item, api):
-    if not isinstance(item, dict):
-        return None
-
-    referer = api.get("default_stream_referer", "")
-
-    home = first_value(
-        item.get("homeTeamName"),
-        item.get("home_team"),
-        item.get("home"),
-        item.get("team_1"),
-        "Đội nhà"
-    )
-
-    away = first_value(
-        item.get("awayTeamName"),
-        item.get("away_team"),
-        item.get("away"),
-        item.get("team_2"),
-        "Đội khách"
-    )
-
-    league = first_value(
-        item.get("league_name"),
-        item.get("league"),
-        item.get("competition"),
-        "Thể thao"
-    )
-
-    if isinstance(league, dict):
-        league = league.get("name", "Thể thao")
-
-    blvs = []
-
-    group_keys = api.get(
-        "include_stream_groups",
-        CONFIG.get(
-            "include_stream_groups",
-            ["blvs", "blvs_bonglau", "blvs_nguoitho"]
+        streams = extract_streams(
+            item,
+            api.get("default_stream_referer", "")
         )
+
+    league = first_value(
+        get_nested(item, "competition", "name"),
+        item.get("competition"),
+        item.get("league"),
+        "Thể thao"
     )
 
-    for key in group_keys:
-
-        group = item.get(key)
-
-        if not isinstance(group, list):
-            continue
-
-        for blv in group:
-
-            if not isinstance(blv, dict):
-                continue
-
-            nickname = clean(first_value(
-                blv.get("name"),
-                blv.get("blv_name"),
-                blv.get("nickname"),
-                blv.get("title"),
-                "BLV"
-            ))
-
-            streams = []
-
-            for field in (
-                "streams",
-                "streamUrls",
-                "sources",
-                "links"
-            ):
-
-                values = blv.get(field)
-
-                if isinstance(values, list):
-
-                    for value in values:
-                        stream = normalize_stream(value, referer)
-
-                        if stream:
-                            streams.append(stream)
-
-            for field in (
-                "hd1", "hd2", "hd_1", "hd_2",
-                "fhd", "sd", "flv", "hls",
-                "url", "link", "source"
-            ):
-
-                value = blv.get(field)
-
-                if isinstance(value, dict):
-                    value = first_value(
-                        value.get("url"),
-                        value.get("link"),
-                        value.get("source")
-                    )
-
-                if isinstance(value, str):
-
-                    stream = normalize_stream(
-                        {
-                            "url": value,
-                            "label": field.upper()
-                        },
-                        referer
-                    )
-
-                    if stream:
-                        streams.append(stream)
-
-            streams = unique_streams(streams)
-
-            if streams:
-                blvs.append({
-                    "name": nickname,
-                    "streams": streams
-                })
-
-    if not blvs:
-        generic = parse_generic_match(item, api)
-
-        if generic:
-            blvs = generic.get("blvs", [])
+    if isinstance(league, dict):
+        league = first_value(
+            league.get("name"),
+            league.get("title"),
+            "Thể thao"
+        )
 
     return {
-        "externalId": clean(first_value(
-            item.get("id"),
-            item.get("match_id"),
-            item.get("matchId")
-        )),
-
-        "matchTime": clean(first_value(
-            item.get("matchTime"),
-            item.get("match_time"),
-            item.get("startTime"),
-            item.get("start_date"),
-            item.get("date")
-        )),
-
+        "externalId": clean(item.get("id")),
+        "matchTime": clean(
+            first_value(
+                item.get("startTime"),
+                item.get("matchTime"),
+                item.get("date")
+            )
+        ),
         "status": clean(item.get("status")),
-
-        "sport": clean(item.get("sport")),
-
         "teams": {
             "home": {
                 "name": clean(home),
-                "logo": clean(first_value(
-                    item.get("home_logo"),
-                    item.get("homeTeamLogo")
-                ))
+                "logo": clean(
+                    get_nested(item, "homeTeam", "logo")
+                )
             },
-
             "away": {
                 "name": clean(away),
-                "logo": clean(first_value(
-                    item.get("away_logo"),
-                    item.get("awayTeamLogo")
-                ))
+                "logo": clean(
+                    get_nested(item, "awayTeam", "logo")
+                )
             }
         },
-
         "league": {
             "name": clean(league),
-            "logo": clean(item.get("league_logo"))
+            "logo": ""
         },
-
-        "blvs": blvs
-    }
-
-
-# ============================================================
-# 9. COLA TV PARSER
-# ============================================================
-
-def get_colatv_server_url(server):
-    if isinstance(server, str):
-        return server
-
-    if isinstance(server, dict):
-        return first_value(
-            server.get("url"),
-            server.get("link"),
-            server.get("src"),
-            server.get("source"),
-            server.get("playStreamAddress2"),
-            server.get("playStreamAddress"),
-            server.get("playUrl")
-        )
-
-    return ""
-
-
-def parse_colatv_match(item, api):
-    if not isinstance(item, dict):
-        return None
-
-    referer = api.get(
-        "default_stream_referer",
-        "https://colatv98.live/"
-    )
-
-    blvs = []
-    seen_urls = set()
-
-    def add_stream(target, url, label):
-
-        url = clean(url)
-
-        if not url.startswith(("http://", "https://")):
-            return
-
-        if url in seen_urls:
-            return
-
-        stream = normalize_stream(
-            {
-                "url": url,
-                "label": label
-            },
-            referer
-        )
-
-        if stream:
-            target.append(stream)
-            seen_urls.add(url)
-
-    main_streams = []
-
-    add_stream(
-        main_streams,
-        item.get("videoUrl"),
-        "Luồng chính HLS"
-    )
-
-    if main_streams:
-        blvs.append({
-            "name": "CoLa TV",
-            "streams": main_streams
-        })
-
-    appointments = item.get(
-        "anchorAppointmentVoList",
-        []
-    )
-
-    if isinstance(appointments, list):
-
-        for index, appointment in enumerate(
-            appointments,
-            start=1
-        ):
-
-            if not isinstance(appointment, dict):
-                continue
-
-            nickname = clean(first_value(
-                appointment.get("nickName"),
-                appointment.get("houseName"),
-                appointment.get("name"),
-                f"BLV {index}"
-            ))
-
-            streams = []
-
-            add_stream(
-                streams,
-                appointment.get("playStreamAddress2"),
-                "HLS"
-            )
-
-            servers = appointment.get("servers", [])
-
-            if isinstance(servers, list):
-
-                for server_index, server in enumerate(
-                    servers,
-                    start=1
-                ):
-
-                    add_stream(
-                        streams,
-                        get_colatv_server_url(server),
-                        f"Server {server_index}"
-                    )
-
-            elif isinstance(servers, dict):
-
-                for server_name, server in servers.items():
-
-                    add_stream(
-                        streams,
-                        get_colatv_server_url(server),
-                        clean(server_name) or "Server"
-                    )
-
-            add_stream(
-                streams,
-                appointment.get("playStreamAddress"),
-                "FLV"
-            )
-
-            if streams:
-                blvs.append({
-                    "name": nickname,
-                    "streams": streams
-                })
-
-    def score_text(value):
-        if isinstance(value, list):
-            return " - ".join(
-                clean(v) for v in value if clean(v)
-            )
-
-        return clean(value)
-
-    home_score = score_text(item.get("homeScore"))
-    away_score = score_text(item.get("awayScore"))
-
-    score = ""
-
-    if home_score or away_score:
-        score = f"{home_score} - {away_score}"
-
-    return {
-        "externalId": clean(item.get("matchId")),
-
-        "matchTime": clean(item.get("matchTime")),
-
-        "status": clean(item.get("matchStatus")),
-
-        "sport": clean(first_value(
-            item.get("sportName"),
-            item.get("sport"),
-            item.get("sportId")
-        )),
-
-        "score": score,
-
-        "teams": {
-            "home": {
-                "name": clean(first_value(
-                    item.get("homeTeamName"),
-                    "Đội nhà"
-                )),
-                "logo": clean(item.get("homeTeamLogo"))
-            },
-
-            "away": {
-                "name": clean(first_value(
-                    item.get("awayTeamName"),
-                    "Đội khách"
-                )),
-                "logo": clean(item.get("awayTeamLogo"))
-            }
-        },
-
-        "league": {
-            "name": clean(first_value(
-                item.get("competitionName"),
-                "Thể thao"
-            )),
-            "logo": clean(item.get("competitionLogo"))
-        },
-
-        "blvs": blvs
-    }
-
-
-# ============================================================
-# 10. GIO VANG TV - DETAIL RESOLVER
-# ============================================================
-
-GIOVANG_STREAM_FIELDS = (
-    "pc_stream_url",
-    "mobile_stream_url",
-    "link_stream_hd",
-    "link_stream_sd"
-)
-
-
-def get_item_id(item):
-    return clean(first_value(
-        item.get("id"),
-        item.get("match_id"),
-        item.get("matchId"),
-        item.get("fixture_id"),
-        item.get("fixtureId")
-    ))
-
-
-def format_endpoint(template, item):
-    match_id = get_item_id(item)
-
-    if not template or not match_id:
-        return ""
-
-    try:
-        return template.format(
-            id=urllib.parse.quote(match_id, safe="")
-        )
-    except Exception:
-        return ""
-
-
-def fetch_giovang(api):
-    """
-    Giờ Vàng:
-    1. Gọi live.json.
-    2. Tìm ID trận.
-    3. Gọi match_detail_url.
-    4. Đọc các trường stream_priority.
-    """
-
-    payload = request_api(api)
-    items = unwrap_data(payload)
-
-    if not items and isinstance(payload, dict):
-        # Một số phiên bản trả trực tiếp một object trận.
-        if get_item_id(payload):
-            items = [payload]
-
-    detail_url = api.get("match_detail_url", "")
-    max_details = int(api.get("max_detail_requests", 100))
-
-    detail_count = 0
-    result = []
-
-    for item in items:
-
-        if not isinstance(item, dict):
-            continue
-
-        merged = dict(item)
-
-        streams = extract_streams_from_object(
-            merged,
-            api
-        )
-
-        match_id = get_item_id(item)
-
-        if not streams and detail_url and match_id:
-            if detail_count < max_details:
-
-                url = format_endpoint(detail_url, item)
-
-                if url:
-                    try:
-                        detail_payload = request_api(
-                            api,
-                            url=url,
-                            method="GET"
-                        )
-
-                        detail_items = unwrap_data(detail_payload)
-
-                        detail = (
-                            detail_items[0]
-                            if detail_items
-                            else detail_payload
-                        )
-
-                        if isinstance(detail, dict):
-                            merged = merge_dicts(merged, detail)
-
-                        detail_count += 1
-
-                        streams = extract_streams_from_object(
-                            merged,
-                            api
-                        )
-
-                    except Exception as exc:
-                        log.warning(
-                            "Giờ Vàng: lỗi lấy chi tiết trận %s: %s",
-                            match_id,
-                            exc
-                        )
-
-            else:
-                log.warning(
-                    "Giờ Vàng: đã đạt giới hạn %s lượt detail",
-                    max_details
-                )
-
-        match = parse_generic_match(merged, api)
-
-        if match:
-            if streams:
-                match["blvs"] = [{
-                    "name": source_name(api),
-                    "streams": streams
-                }]
-
-            result.append(match)
-
-    log.info(
-        "Giờ Vàng: đã gọi %s API chi tiết",
-        detail_count
-    )
-
-    return result
-
-
-# ============================================================
-# 11. PLAPI GRAPH - PAGINATION
-# ============================================================
-
-def replace_body_pagination(body, page, limit):
-    result = dict(body or {})
-    result["page"] = page
-    result["limit"] = limit
-    return result
-
-
-def fetch_plapi_pages(api):
-    """
-    PLAPI:
-    - POST /matches/graph
-    - Phân trang theo config.pagination
-    """
-
-    pagination = api.get("pagination", {})
-
-    enabled = pagination.get("enabled", False)
-
-    if not enabled:
-        payload = request_api(api)
-        return unwrap_data(payload)
-
-    start_page = int(pagination.get("start_page", 1))
-    limit = int(pagination.get("limit", 50))
-    max_pages = int(pagination.get("max_pages", 100))
-
-    page_param = pagination.get("page_param", "page")
-    limit_param = pagination.get("limit_param", "limit")
-
-    base_body = dict(api.get("body") or {})
-
-    all_items = []
-    seen_ids = set()
-
-    for page_index in range(max_pages):
-
-        page = start_page + page_index
-
-        body = dict(base_body)
-        body[page_param] = page
-        body[limit_param] = limit
-
-        payload = request_api(
-            api,
-            method=api.get("method", "POST"),
-            body=body
-        )
-
-        items = unwrap_data(payload)
-
-        if not items:
-            if page_index == 0:
-                log.warning(
-                    "PLAPI: trang đầu không có dữ liệu."
-                )
-            break
-
-        new_count = 0
-
-        for item in items:
-
-            if not isinstance(item, dict):
-                continue
-
-            match_id = get_item_id(item)
-
-            if match_id:
-                if match_id in seen_ids:
-                    continue
-
-                seen_ids.add(match_id)
-
-            all_items.append(item)
-            new_count += 1
-
-        log.info(
-            "PLAPI: trang %s, nhận %s trận mới",
-            page,
-            new_count
-        )
-
-        if len(items) < limit:
-            break
-
-        if new_count == 0:
-            break
-
-    log.info(
-        "PLAPI: tổng số trận qua phân trang: %s",
-        len(all_items)
-    )
-
-    return all_items
-
-
-def fetch_plapi_detail(api, item, endpoint_key, method_key):
-    template = api.get(endpoint_key, "")
-
-    if not template:
-        return None
-
-    url = format_endpoint(template, item)
-
-    if not url:
-        return None
-
-    method = api.get(method_key, "GET")
-
-    return request_api(
-        api,
-        url=url,
-        method=method
-    )
-
-
-def merge_api_payload(item, payload):
-    if not isinstance(payload, dict):
-        return item
-
-    values = unwrap_data(payload)
-
-    if values:
-        detail = values[0]
-    else:
-        detail = payload
-
-    if isinstance(detail, dict):
-        return merge_dicts(item, detail)
-
-    return item
-
-
-def fetch_plapi(api):
-    """
-    PLAPI:
-    1. Lấy danh sách bằng Graph API.
-    2. Đọc stream trực tiếp nếu có.
-    3. Nếu chưa có stream, gọi detail và live.
-    """
-
-    items = fetch_plapi_pages(api)
-
-    result = []
-
-    detail_count = 0
-
-    max_details = int(
-        api.get("max_detail_requests", 500)
-    )
-
-    for item in items:
-
-        if not isinstance(item, dict):
-            continue
-
-        merged = dict(item)
-
-        streams = extract_streams_from_object(
-            merged,
-            api
-        )
-
-        match_id = get_item_id(item)
-
-        if not streams and match_id and detail_count < max_details:
-
-            # API chi tiết trận.
-            if api.get("match_detail_url"):
-
-                try:
-                    detail_payload = fetch_plapi_detail(
-                        api,
-                        item,
-                        "match_detail_url",
-                        "detail_method"
-                    )
-
-                    merged = merge_api_payload(
-                        merged,
-                        detail_payload
-                    )
-
-                    streams = extract_streams_from_object(
-                        merged,
-                        api
-                    )
-
-                except Exception as exc:
-                    log.warning(
-                        "PLAPI detail %s lỗi: %s",
-                        match_id,
-                        exc
-                    )
-
-            # API live.
-            if not streams and api.get("match_live_url"):
-
-                try:
-                    live_payload = fetch_plapi_detail(
-                        api,
-                        item,
-                        "match_live_url",
-                        "live_method"
-                    )
-
-                    merged = merge_api_payload(
-                        merged,
-                        live_payload
-                    )
-
-                    streams = extract_streams_from_object(
-                        merged,
-                        api
-                    )
-
-                except Exception as exc:
-                    log.warning(
-                        "PLAPI live %s lỗi: %s",
-                        match_id,
-                        exc
-                    )
-
-            detail_count += 1
-
-        match = parse_plapi_match(merged, api)
-
-        if match:
-            if streams:
-                match["blvs"] = [{
-                    "name": source_name(api),
-                    "streams": streams
-                }]
-
-            result.append(match)
-
-    log.info(
-        "PLAPI: đã xử lý %s trận, gọi detail/live cho %s trận",
-        len(result),
-        detail_count
-    )
-
-    return result
-
-
-# ============================================================
-# 12. PLAPI MATCH PARSER
-# ============================================================
-
-def parse_plapi_match(item, api):
-    if not isinstance(item, dict):
-        return None
-
-    status = clean(first_value(
-        item.get("status"),
-        item.get("match_status")
-    )).lower()
-
-    if status in (
-        "finished",
-        "ended",
-        "completed",
-        "ft"
-    ):
-        return None
-
-    home = first_value(
-        item.get("team_1"),
-        item.get("home"),
-        item.get("homeTeamName"),
-        "Đội nhà"
-    )
-
-    away = first_value(
-        item.get("team_2"),
-        item.get("away"),
-        item.get("awayTeamName"),
-        "Đội khách"
-    )
-
-    league = first_value(
-        item.get("league"),
-        item.get("competitionName"),
-        "Thể thao"
-    )
-
-    if isinstance(league, dict):
-        league = league.get("name", "Thể thao")
-
-    streams = extract_streams_from_object(item, api)
-
-    return {
-        "externalId": get_item_id(item),
-
-        "matchTime": clean(first_value(
-            item.get("start_date"),
-            item.get("matchTime"),
-            item.get("date"),
-            item.get("start_time")
-        )),
-
-        "status": status,
-
-        "sport": clean(first_value(
-            item.get("sport"),
-            item.get("sportName")
-        )),
-
-        "teams": {
-            "home": {
-                "name": clean(home),
-                "logo": clean(first_value(
-                    item.get("team_1_logo"),
-                    item.get("homeTeamLogo")
-                ))
-            },
-
-            "away": {
-                "name": clean(away),
-                "logo": clean(first_value(
-                    item.get("team_2_logo"),
-                    item.get("awayTeamLogo")
-                ))
-            }
-        },
-
-        "league": {
-            "name": clean(league),
-            "logo": clean(first_value(
-                item.get("league_logo"),
-                item.get("competitionLogo")
-            ))
-        },
-
         "blvs": [{
-            "name": source_name(api),
+            "name": api.get("display_name", "Gà Vàng TV"),
             "streams": streams
         }] if streams else []
     }
 
 
 # ============================================================
-# 13. FETCH API DISPATCH
+# PLAPI
 # ============================================================
 
-def fetch_api(api):
-    parser = get_parser(api)
+def plapi_get_live(api, match_id):
+    endpoint = api.get(
+        "match_live_url",
+        api.get(
+            "live_endpoint",
+            "https://api.plapi202624081158.com/match/{id}/live"
+        )
+    )
 
-    if parser in ("giovangtv", "giovang"):
-        return fetch_giovang(api)
+    url = endpoint.replace(
+        "{id}",
+        urllib.parse.quote(clean(match_id), safe="")
+    )
 
-    if parser in ("plapi_graph", "plapi", "phalangtv"):
-        return fetch_plapi(api)
-
-    if parser in ("chuoichientv", "chuoichien"):
-        variants = api.get("params_variants", [])
-
-        if not variants:
-            variants = [api.get("params", {})]
-
-        all_items = []
-        seen = set()
-
-        for index, params in enumerate(variants, start=1):
-
-            try:
-                payload = request_api(
-                    api,
-                    params=params
-                )
-
-                items = unwrap_data(payload)
-
-                log.info(
-                    "%s: params variant %s nhận %s bản ghi",
-                    source_name(api),
-                    index,
-                    len(items)
-                )
-
-                for item in items:
-                    match_id = get_item_id(item)
-
-                    key = match_id or json.dumps(
-                        item,
-                        ensure_ascii=False,
-                        sort_keys=True
-                    )
-
-                    if key in seen:
-                        continue
-
-                    seen.add(key)
-                    all_items.append(item)
-
-            except Exception as exc:
-                log.warning(
-                    "%s: params variant %s lỗi: %s",
-                    source_name(api),
-                    index,
-                    exc
-                )
-
-        if all_items:
-            return all_items
-
-        raise RuntimeError(
-            "Không lấy được dữ liệu từ bất kỳ params variant nào"
+    try:
+        payload = request_json(
+            url,
+            method=api.get("live_method", "GET"),
+            headers=api.get("headers", {})
         )
 
-    # Các nguồn còn lại.
-    payload = request_api(api)
+        if isinstance(payload, dict) and "data" in payload:
+            payload = payload["data"]
+
+        if isinstance(payload, list):
+            payload = payload[0] if payload else {}
+
+        if not isinstance(payload, dict):
+            return []
+
+        priority = api.get(
+            "stream_priority",
+            ["hd_1", "hd_2", "sd_1", "sd_2", "source"]
+        )
+
+        labels = {
+            "hd_1": "HD1",
+            "hd_2": "HD2",
+            "sd_1": "SD1",
+            "sd_2": "SD2",
+            "source": "Live"
+        }
+
+        streams = []
+        seen = set()
+
+        for key in priority:
+            value = payload.get(key)
+
+            if isinstance(value, dict):
+                value = first_value(
+                    value.get("url"),
+                    value.get("source"),
+                    value.get("link")
+                )
+
+            elif isinstance(value, list):
+                value = next(
+                    (
+                        first_value(
+                            x.get("url"),
+                            x.get("source"),
+                            x.get("link")
+                        )
+                        for x in value
+                        if isinstance(x, dict)
+                    ),
+                    None
+                )
+
+            if not isinstance(value, str):
+                continue
+
+            value = value.strip()
+
+            if not value.startswith(("http://", "https://")):
+                continue
+
+            if value in seen:
+                continue
+
+            stream = normalize_stream(
+                {
+                    "url": value,
+                    "label": labels.get(key, key.upper())
+                },
+                api.get("default_stream_referer", "")
+            )
+
+            if stream:
+                streams.append(stream)
+                seen.add(value)
+
+        return streams
+
+    except Exception as exc:
+        log.warning(
+            "PLAPI live resolver lỗi cho trận %s: %s",
+            match_id,
+            exc
+        )
+        return []
+
+def plapi_is_finished(item):
+    if not isinstance(item, dict):
+        return False
+
+    # Chỉ chấp nhận cờ kết thúc rõ ràng.
+    for key in ("is_finished", "finished", "is_ended", "ended"):
+        value = item.get(key)
+
+        if value is True:
+            return True
+
+        if str(value).strip().lower() in (
+            "1", "true", "yes"
+        ):
+            return True
+
+    # Chỉ nhận diện những trạng thái kết thúc tường minh.
+    for key in ("status", "match_status", "state"):
+        value = str(item.get(key, "")).strip().lower()
+
+        if value in (
+            "finished",
+            "ended",
+            "completed",
+            "complete",
+            "full_time",
+            "full-time",
+            "ft"
+        ):
+            return True
+
+    return False
+
+def parse_plapi_match(item, api):
+    if not isinstance(item, dict):
+        return None
+
+    if plapi_is_finished(item):
+        return None
+
+    match_id = clean(item.get("id"))
+
+    home = first_value(
+        item.get("team_1"),
+        "Đội nhà"
+    )
+
+    away = first_value(
+        item.get("team_2"),
+        "Đội khách"
+    )
+
+    league = first_value(
+        item.get("league"),
+        "Thể thao"
+    )
+
+    if isinstance(league, dict):
+        league = first_value(
+            league.get("name"),
+            league.get("title"),
+            "Thể thao"
+        )
+
+    live_value = item.get("is_live")
+
+    is_live = (
+        live_value is True
+        or str(live_value).strip().lower() in ("1", "true", "yes")
+    )
+
+    streams = []
+
+    # source_live là URL do API cung cấp.
+    source_live = item.get("source_live")
+
+    if source_live:
+        stream = normalize_stream(
+            {
+                "url": source_live,
+                "label": "Live"
+            },
+            api.get("default_stream_referer", "")
+        )
+
+        if stream:
+            streams.append(stream)
+
+    # Chỉ gọi resolver đối với trận đang live.
+    if is_live and match_id:
+        resolved = plapi_get_live(api, match_id)
+
+        # Đưa link resolver lên trước nếu có.
+        if resolved:
+            streams = resolved + streams
+
+    unique = []
+    seen = set()
+
+    for stream in streams:
+        if stream["url"] not in seen:
+            seen.add(stream["url"])
+            unique.append(stream)
+
+    # Không dùng stream_key để tạo URL.
+    return {
+        "externalId": match_id,
+        "matchTime": clean(item.get("start_date")),
+        "status": "live" if is_live else "",
+        "teams": {
+            "home": {
+                "name": clean(home),
+                "logo": clean(item.get("team_1_logo"))
+            },
+            "away": {
+                "name": clean(away),
+                "logo": clean(item.get("team_2_logo"))
+            }
+        },
+        "league": {
+            "name": clean(league),
+            "logo": ""
+        },
+        "blvs": [{
+            "name": api.get("display_name", "PLAPI"),
+            "streams": unique
+        }] if unique else []
+    }
+
+
+def fetch_plapi(api):
+    url = api["url"]
+    headers = api.get("headers", {})
+    body_template = api.get("body", {})
+    pagination = api.get("pagination", {})
+
+    page_key = pagination.get(
+        "page_param",
+        pagination.get("page_key", "page")
+    )
+    limit_key = pagination.get(
+        "limit_param",
+        pagination.get("limit_key", "limit")
+    )
+
+    start_page = int(pagination.get("start_page", 1))
+    page_limit = int(
+        pagination.get(
+            "limit",
+            pagination.get(
+                "page_limit",
+                body_template.get(limit_key, 100)
+            )
+        )
+    )
+    max_pages = int(pagination.get("max_pages", 100))
+
+    pagination_enabled = pagination.get("enabled", True)
+
+    all_items = []
+    seen_ids = set()
+
+    pages_to_fetch = max_pages if pagination_enabled else 1
+
+    for page in range(start_page, start_page + pages_to_fetch):
+        body = dict(body_template)
+        body[page_key] = page
+        body[limit_key] = page_limit
+
+        payload = request_json(
+            url,
+            method=api.get("method", "POST"),
+            headers=headers,
+            body=body
+        )
+
+        items = unwrap_data(payload)
+
+        if not items:
+            log.info("PLAPI: hết dữ liệu tại trang %s", page)
+            break
+
+        added = 0
+
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+
+            item_id = clean(item.get("id"))
+
+            if item_id and item_id in seen_ids:
+                continue
+
+            if item_id:
+                seen_ids.add(item_id)
+
+            all_items.append(item)
+            added += 1
+
+        log.info(
+            "PLAPI: trang %s nhận %s bản ghi, tổng %s",
+            page,
+            added,
+            len(all_items)
+        )
+
+        if len(items) < page_limit:
+            break
+
+        if added == 0:
+            break
+
+    live_count = sum(
+        1 for item in all_items
+        if str(item.get("is_live", "")).strip().lower()
+        in ("true", "1", "yes")
+    )
+
+    log.info(
+        "PLAPI: tổng %s bản ghi, trong đó %s trận đang live",
+        len(all_items),
+        live_count
+    )
+
+    return all_items
+
+# ============================================================
+# API FETCH AND PARSING
+# ============================================================
+
+# ============================================================
+# SPORT DETECTION (x-sport) - cùng quy tắc với app MHD Sports
+# ============================================================
+
+import unicodedata
+
+_SPORT_BASKETBALL = re.compile(
+    r"\b(nba|wnba|g league|nba2k|ncaab|ncaa basketball|vba|fiba|nbl|cba|kbl|pba|bsn|acb|liga acb|bcl|eurocup|"
+    r"eurobasket|euroleague|basketball|basket|bong ro|b ?league|lega basket|vtb united|"
+    r"atlanta hawks|boston celtics|brooklyn nets|charlotte hornets|chicago bulls|cleveland cavaliers|dallas mavericks|"
+    r"denver nuggets|detroit pistons|golden state warriors|houston rockets|indiana pacers|la clippers|los angeles clippers|"
+    r"los angeles lakers|la lakers|memphis grizzlies|miami heat|milwaukee bucks|minnesota timberwolves|new orleans pelicans|"
+    r"new york knicks|oklahoma city thunder|okc thunder|orlando magic|philadelphia 76ers|phoenix suns|portland trail blazers|"
+    r"sacramento kings|san antonio spurs|toronto raptors|utah jazz|washington wizards|"
+    r"las vegas aces|new york liberty|seattle storm|chicago sky|connecticut sun|atlanta dream|indiana fever|minnesota lynx|"
+    r"phoenix mercury|washington mystics|dallas wings|los angeles sparks|golden state valkyries|"
+    r"lakers|celtics|cavaliers|mavericks|nuggets|pistons|clippers|grizzlies|timberwolves|pelicans|knicks|76ers|sixers|"
+    r"trail blazers|raptors|pacers|bucks)\b"
+)
+
+_SPORT_RULES = [
+    ("BASKETBALL", _SPORT_BASKETBALL),
+    ("VOLLEYBALL", re.compile(r"\b(volleyball|volley|bong chuyen|vnl|fivb)\b")),
+    ("TENNIS", re.compile(r"\b(tennis|atp|wta|wimbledon|roland garros|davis cup|billie jean king|grand slam|us open|australian open|itf)\b")),
+    ("BADMINTON", re.compile(r"\b(badminton|cau long|bwf|all england|thomas cup|uber cup|sudirman)\b")),
+    ("BILLIARDS", re.compile(r"\b(billiards?|bida|bi[ -]a|snooker|carom|three cushion|3 cushion|nine ball|eight ball|ten ball|[89] ?-?ball|10 ?-?ball|pool billiards?|wpa|uk pool)\b")),
+    ("ESPORTS", re.compile(r"\b(esports?|e ?-?sports?|league of legends|lol|lck|lec|lcs|vcs|msi|dota ?2?|cs ?go|cs ?2|counter ?-?strike|valorant|vct|pubg|pmgc|mobile legends|mlbb|lien quan|aov|arena of valor|honor of kings|free fire|fortnite|overwatch|rainbow six|apex legends|starcraft|rocket league|tft|pgl|esl|iem|fifa online|ea fc online|fc online)\b")),
+    ("FOOTBALL", re.compile(
+        r"\b(football|soccer|bong da|premier league|epl|la ?liga|serie a|bundesliga|ligue 1|champions league|"
+        r"europa league|conference league|uefa|fifa|world cup|v ?league|afc|copa|mls|j ?league|k ?league|"
+        r"wk ?league|w ?league|fa cup|carabao|efl|nations league|ngoai hang|giao huu|friendly|"
+        r"cup of nations|afcon|futsal|fc|u ?\d{2})\b"
+    )),
+]
+
+# Môn không có trong bộ lọc của app: không đoán bừa là bóng đá.
+_SPORT_OTHER = re.compile(
+    r"\b(cricket|ipl|t20|odi|bbl|psl|rugby|baseball|mlb|nfl|nhl|hockey|mma|ufc|boxing|golf|nascar|f1|formula 1|motogp|handball|table tennis|bong ban|darts|cycling|swimming)\b"
+)
+
+
+def _fold_text(value):
+    text = unicodedata.normalize("NFD", clean(value))
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    return text.replace("đ", "d").replace("Đ", "D").lower()
+
+
+def detect_sport(*texts):
+    """Trả về FOOTBALL/BASKETBALL/VOLLEYBALL/TENNIS/BADMINTON/BILLIARDS/ESPORTS, hoặc '' nếu không chắc."""
+    joined = _fold_text(" | ".join(t for t in texts if t))
+
+    if not joined.strip():
+        return ""
+
+    for name, pattern in _SPORT_RULES:
+        if pattern.search(joined):
+            return name
+
+    return ""
+
+
+def match_sport(match):
+    """Môn của trận: ưu tiên trường do API trả về, sau đó mới đoán theo giải/đội."""
+    declared = clean(match.get("sport"))
+    found = detect_sport(declared) if declared else ""
+
+    if found:
+        return found
+
+    teams = match.get("teams", {})
+
+    found = detect_sport(
+        match.get("league", {}).get("name"),
+        teams.get("home", {}).get("name"),
+        teams.get("away", {}).get("name")
+    )
+
+    if found:
+        return found
+
+    # Không nhận ra môn nào và cũng không phải môn ngoài danh sách => nguồn của dự án chủ yếu là bóng đá.
+    joined = _fold_text(" ".join([
+        match.get("league", {}).get("name", ""),
+        teams.get("home", {}).get("name", ""),
+        teams.get("away", {}).get("name", "")
+    ]))
+
+    return "" if _SPORT_OTHER.search(joined) else "FOOTBALL"
+
+
+# ============================================================
+# CHUOICHIENTV
+# ============================================================
+# Mỗi trận có các nhóm bình luận viên (blvs, blvs_bonglau, blvs_nguoitho, ...). Mỗi BLV có
+# các luồng HD1/HD2/FHD. Trước đây Chuối Chiên đi qua parser chung (không đọc các nhóm này)
+# nên ra 0 trận; parser riêng dưới đây đọc đúng cấu trúc đó và chịu được vài kiểu đặt tên khoá.
+
+_QUALITY_KEYS = [
+    ("hd1", "HD1"), ("hd_1", "HD1"), ("hd2", "HD2"), ("hd_2", "HD2"),
+    ("fhd", "FHD"), ("fhd1", "FHD"), ("fhd_1", "FHD"), ("fhd2", "FHD2"),
+    ("sd", "SD"), ("sd1", "SD1"), ("sd_1", "SD1"), ("sd2", "SD2"), ("sd_2", "SD2"),
+    ("flv", "FLV"), ("hls", "HLS"), ("m3u8", "HLS"),
+    ("stream", "Live"), ("stream_url", "Live"), ("streamUrl", "Live"),
+    ("url", "Live"), ("link", "Live"), ("source", "Live")
+]
+
+
+def _name_of(value):
+    if isinstance(value, dict):
+        return clean(first_value(
+            value.get("name"), value.get("title"), value.get("short_name"), value.get("shortName")
+        ))
+    return clean(value)
+
+
+def _logo_of(value):
+    if isinstance(value, dict):
+        return clean(first_value(
+            value.get("logo"), value.get("image"), value.get("icon"), value.get("avatar")
+        ))
+    return ""
+
+
+def _ccv_streams(blv, default_referer):
+    streams = []
+
+    # 1) danh sách / dict luồng: streams, links, sources, ...
+    streams.extend(extract_streams(blv, default_referer))
+
+    # 2) khoá chất lượng nằm thẳng trong đối tượng BLV: hd1, hd2, fhd, ...
+    for key, label in _QUALITY_KEYS:
+        value = blv.get(key)
+
+        if isinstance(value, dict):
+            value = first_value(value.get("url"), value.get("link"), value.get("source"))
+
+        if not isinstance(value, str):
+            continue
+
+        stream = normalize_stream({"url": value, "label": label}, default_referer)
+
+        if stream:
+            streams.append(stream)
+
+    # 3) tên luồng rỗng/chung chung => đặt HD1, HD2, ... theo thứ tự
+    unique = []
+    seen = set()
+
+    for stream in streams:
+        if stream["url"] in seen:
+            continue
+
+        seen.add(stream["url"])
+        unique.append(stream)
+
+    generic = {"", "live", "link", "url", "source", "stream"}
+
+    for index, stream in enumerate(unique, start=1):
+        if clean(stream.get("label")).lower() in generic and len(unique) > 1:
+            stream["label"] = "HD%d" % index
+
+    return unique
+
+
+def parse_chuoichien_match(item, api):
+    if not isinstance(item, dict):
+        return None
+
+    # Một số phản hồi bọc trận trong "match"/"data".
+    for wrapper in ("match", "data"):
+        inner = item.get(wrapper)
+
+        if isinstance(inner, dict) and (
+            inner.get("homeTeam") or inner.get("home") or inner.get("home_team")
+            or any(k.startswith("blvs") for k in inner)
+        ):
+            merged = dict(inner)
+            for key, value in item.items():
+                merged.setdefault(key, value)
+            item = merged
+            break
+
+    home_raw = first_value(
+        item.get("homeTeam"), item.get("home_team"), item.get("home"),
+        get_nested(item, "teams", "home"), item.get("team_1"), item.get("homeTeamName")
+    )
+    away_raw = first_value(
+        item.get("awayTeam"), item.get("away_team"), item.get("away"),
+        get_nested(item, "teams", "away"), item.get("team_2"), item.get("awayTeamName")
+    )
+
+    home = _name_of(home_raw) or "Đội nhà"
+    away = _name_of(away_raw) or "Đội khách"
+
+    league_raw = first_value(
+        item.get("league"), item.get("competition"), item.get("tournament"),
+        item.get("league_name"), item.get("leagueName")
+    )
+    league = _name_of(league_raw) or "Thể thao"
+
+    default_referer = api.get("default_stream_referer", "")
+    blvs = []
+    seen_groups = set()
+
+    group_keys = list(INCLUDE_GROUPS) + [
+        key for key in item if key.startswith("blvs") and key not in INCLUDE_GROUPS
+    ]
+
+    for key in group_keys:
+        group = item.get(key)
+
+        if key in seen_groups or not isinstance(group, list):
+            continue
+
+        seen_groups.add(key)
+
+        for blv in group:
+            if not isinstance(blv, dict):
+                continue
+
+            streams = _ccv_streams(blv, default_referer)
+
+            if not streams:
+                continue
+
+            blvs.append({
+                "name": clean(first_value(
+                    blv.get("name"), blv.get("blv_name"), blv.get("blvName"), blv.get("nickname"),
+                    blv.get("display_name"), blv.get("displayName"), blv.get("username"),
+                    blv.get("title"), api.get("display_name"), "BLV"
+                )),
+                "streams": streams
+            })
+
+    # Luồng gắn thẳng vào trận (không qua BLV).
+    direct = extract_streams(item, default_referer)
+
+    if direct and not blvs:
+        blvs.append({
+            "name": api.get("display_name", api["name"]),
+            "streams": direct
+        })
+
+    status = clean(first_value(
+        item.get("status"), item.get("match_status"),
+        "live" if item.get("is_live") or item.get("isLive") else ""
+    ))
+
+    return {
+        "externalId": clean(first_value(item.get("id"), item.get("match_id"), item.get("matchId"))),
+        "matchTime": clean(first_value(
+            item.get("matchTime"), item.get("match_time"), item.get("startTime"),
+            item.get("start_time"), item.get("start_date"), item.get("startAt"),
+            item.get("date"), item.get("time")
+        )),
+        "status": status,
+        "sport": clean(first_value(
+            item.get("sport"), item.get("sport_type"), item.get("sportType"),
+            get_nested(item, "sport", "name") if isinstance(item.get("sport"), dict) else None
+        )),
+        "teams": {
+            "home": {"name": home, "logo": _logo_of(home_raw) or clean(first_value(item.get("home_logo"), item.get("homeLogo"), item.get("team_1_logo")))},
+            "away": {"name": away, "logo": _logo_of(away_raw) or clean(first_value(item.get("away_logo"), item.get("awayLogo"), item.get("team_2_logo")))}
+        },
+        "league": {
+            "name": league,
+            "logo": _logo_of(league_raw) or clean(first_value(item.get("league_logo"), item.get("leagueLogo")))
+        },
+        "blvs": blvs
+    }
+
+
+def fetch_chuoichien(api):
+    """Gọi API với từng bộ tham số trong params_variants (vd type=live và type=blv), gộp kết quả.
+    Một biến thể lỗi không làm hỏng cả nguồn nếu biến thể khác vẫn có dữ liệu."""
+    variants = api.get("params_variants") or [api.get("params") or {}]
+
+    items = []
+    last_error = None
+    ok = 0
+
+    for params in variants:
+        try:
+            payload = request_json(
+                api["url"],
+                method=api.get("method", "GET"),
+                headers=api.get("headers", {}),
+                params=params,
+                body=api.get("body")
+            )
+            chunk = unwrap_data(payload)
+            ok += 1
+            log.info("%s: params=%s -> %s bản ghi", api.get("name", "API"), json.dumps(params, ensure_ascii=False), len(chunk))
+            items.extend(chunk)
+
+        except Exception as exc:
+            last_error = exc
+            log.warning("%s: params=%s lỗi: %s", api.get("name", "API"), params, exc)
+
+    if ok == 0 and last_error is not None:
+        raise last_error
+
+    return items
+
+
+def merge_matches_by_id(matches):
+    """Gộp các bản ghi trùng id (từ nhiều biến thể params): hợp nhất BLV, bỏ luồng trùng URL."""
+    merged = {}
+    order = []
+
+    for match in matches:
+        key = clean(match.get("externalId")) or match_tvg_id(match)
+
+        if key not in merged:
+            merged[key] = match
+            order.append(key)
+            continue
+
+        base = merged[key]
+        known = {
+            stream["url"]
+            for blv in base["blvs"]
+            for stream in blv["streams"]
+        }
+
+        for blv in match["blvs"]:
+            fresh = [s for s in blv["streams"] if s["url"] not in known]
+
+            if not fresh:
+                continue
+
+            known.update(s["url"] for s in fresh)
+            target = next((b for b in base["blvs"] if b["name"] == blv["name"]), None)
+
+            if target:
+                target["streams"].extend(fresh)
+            else:
+                base["blvs"].append({"name": blv["name"], "streams": fresh})
+
+        for field in ("status", "sport"):
+            if not base.get(field) and match.get(field):
+                base[field] = match[field]
+
+    return [merged[key] for key in order]
+
+
+# ============================================================
+# REFERER THEO NGUỒN (Phá Làng TV, ...)
+# ============================================================
+
+def _origin_of(url):
+    parsed = urllib.parse.urlparse(url)
+
+    if not parsed.scheme or not parsed.netloc:
+        return ""
+
+    return f"{parsed.scheme}://{parsed.netloc}/"
+
+
+def attach_api_referers(matches, api):
+    """Gắn Referer cho luồng chưa có Referer, theo thứ tự ưu tiên:
+    1. referer_by_host[host]  (khai báo theo máy chủ phát)
+    2. stream_referer         (một Referer chung cho cả nguồn, thường là trang player của nhà đài)
+    3. referer_self_origin    (dùng chính origin của máy chủ phát: https://<host>/)
+    Referer do API tự cung cấp trong stream.headers luôn được giữ nguyên."""
+    by_host = {
+        clean(host).lower(): clean(ref)
+        for host, ref in (api.get("referer_by_host") or {}).items()
+        if clean(host) and clean(ref)
+    }
+    common = clean(api.get("stream_referer"))
+    self_origin = bool(api.get("referer_self_origin"))
+
+    if not (by_host or common or self_origin):
+        return
+
+    for match in matches:
+        for blv in match.get("blvs", []):
+            for stream in blv.get("streams", []):
+                headers = stream.setdefault("headers", {})
+
+                if any(k.lower() == "referer" for k in headers):
+                    continue
+
+                host = (urllib.parse.urlparse(stream["url"]).hostname or "").lower()
+                referer = by_host.get(host) or common or (_origin_of(stream["url"]) if self_origin else "")
+
+                if referer:
+                    headers["Referer"] = referer
+
+
+
+def fetch_api(api):
+    parser = clean(
+        api.get("parser") or api.get("api_type")
+    ).lower()
+
+    if parser in ("plapi", "plapi_graph"):
+        return fetch_plapi(api)
+
+    if parser == "chuoichientv" or api.get("id") == "chuoichientv":
+        return fetch_chuoichien(api)
+
+    payload = request_json(
+        api["url"],
+        method=api.get("method", "GET"),
+        headers=api.get("headers", {}),
+        params=api.get("params"),
+        body=api.get("body")
+    )
+
     return unwrap_data(payload)
 
 
-# ============================================================
-# 14. PARSER DISPATCH
-# ============================================================
-
 def parse_api_items(items, api):
-    parser = get_parser(api)
+    parser = clean(
+        api.get("parser") or api.get("api_type")
+    ).lower()
 
     result = []
 
     for item in items:
-
         try:
-
-            if parser in ("colatv",):
-                match = parse_colatv_match(item, api)
-
-            elif parser in ("gavangtv", "gavang"):
-                match = parse_gavang_match(item, api)
-
-            elif parser in ("chuoichientv", "chuoichien"):
-                match = parse_chuoichien_match(item, api)
-
-            elif parser in ("plapi_graph", "plapi", "phalangtv"):
+            if parser in ("plapi", "plapi_graph"):
                 match = parse_plapi_match(item, api)
 
-            elif parser in ("giovangtv", "giovang"):
-                match = parse_generic_match(item, api)
+            elif (
+                parser == "chuoichientv"
+                or api.get("id") == "chuoichientv"
+            ):
+                match = parse_chuoichien_match(item, api)
+
+            elif (
+                parser == "gavangtv"
+                or api.get("id") == "gavangtv"
+            ):
+                match = parse_gavang_match(item, api)
 
             else:
                 match = parse_generic_match(item, api)
@@ -1755,171 +1482,106 @@ def parse_api_items(items, api):
 
         except Exception as exc:
             log.warning(
-                "%s: bỏ qua trận lỗi: %s",
-                source_name(api),
+                "%s: bỏ qua bản ghi lỗi: %s",
+                api.get("name", "API"),
                 exc
             )
+
+    if parser == "chuoichientv" or api.get("id") == "chuoichientv":
+        result = merge_matches_by_id(result)
+
+        if items and not any(m["blvs"] for m in result):
+            sample = next((i for i in items if isinstance(i, dict)), {})
+            log.warning(
+                "%s: có %s bản ghi nhưng không đọc được luồng nào. Các khoá của bản ghi đầu: %s",
+                api.get("name", "API"),
+                len(items),
+                ", ".join(sorted(sample.keys()))
+            )
+
+    attach_api_referers(result, api)
 
     return result
 
 
 # ============================================================
-# 15. GLOBAL STREAM HEADER RULES
+# REFERER CACHE AND STREAM HEADERS
 # ============================================================
 
-def get_host(url):
+def load_referer_cache():
+    if not CACHE_FILE.exists():
+        return {}
+
     try:
-        return (
-            urllib.parse.urlparse(url).hostname or ""
-        ).lower()
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
     except Exception:
-        return ""
+        return {}
 
 
-def apply_stream_header_rules(matches, api):
-    """
-    Áp dụng:
-    - headers trong stream
-    - referer_by_host của API
-    - stream_header_rules toàn cục
-    - stream_referer của API
-    - default_stream_referer
-    """
+REFERER_CACHE = load_referer_cache()
 
-    common_referer = clean(
-        api.get("stream_referer")
-        or api.get("default_stream_referer")
+
+def save_referer_cache():
+    atomic_write_json(
+        CACHE_FILE,
+        REFERER_CACHE
     )
 
-    host_rules = api.get("referer_by_host", {})
 
-    global_rules = CONFIG.get(
-        "stream_header_rules",
-        []
-    )
+def apply_stream_headers(stream):
+    url = stream["url"]
+    headers = dict(stream.get("headers") or {})
 
-    for match in matches:
+    host = urllib.parse.urlparse(url).hostname or ""
 
-        for blv in match.get("blvs", []):
+    for rule in CONFIG.get("stream_header_rules", []):
+        rule_host = clean(rule.get("host")).lower()
 
-            for stream in blv.get("streams", []):
+        if rule_host and (
+            host.lower() == rule_host
+            or host.lower().endswith("." + rule_host)
+        ):
+            headers.update(rule.get("headers", {}))
 
-                headers = stream.setdefault("headers", {})
-                host = get_host(stream["url"])
+    cached = REFERER_CACHE.get(host)
 
-                # Header theo host riêng của API.
-                api_headers = host_rules.get(host, {})
+    if cached and not any(
+        key.lower() == "referer" for key in headers
+    ):
+        headers["Referer"] = cached
 
-                if isinstance(api_headers, dict):
-                    headers.update(api_headers)
-
-                # Header theo host toàn cục.
-                for rule in global_rules:
-
-                    if clean(rule.get("host")).lower() == host:
-
-                        rule_headers = rule.get("headers", {})
-
-                        if isinstance(rule_headers, dict):
-                            headers.update(rule_headers)
-
-                # Referer chung nếu chưa có.
-                has_referer = any(
-                    key.lower() == "referer"
-                    for key in headers
-                )
-
-                if not has_referer and common_referer:
-                    headers["Referer"] = common_referer
-
-                # Tự động dùng Referer API nếu bật.
-                if (
-                    not has_referer
-                    and CONFIG.get("auto_detect_referers", False)
-                ):
-
-                    api_referer = (
-                        api.get("headers", {}).get("Referer")
-                        or api.get("headers", {}).get("referer")
-                    )
-
-                    if api_referer:
-                        headers["Referer"] = api_referer
-
-
-def attach_api_referers(matches, api):
-    apply_stream_header_rules(matches, api)
+    return headers
 
 
 # ============================================================
-# 16. SPORT DETECTION
+# M3U GENERATOR
 # ============================================================
 
-SPORT_PATTERNS = {
-    "BASKETBALL": (
-        "nba", "wnba", "basketball", "bóng rổ",
-        "bong ro", "euroleague", "fiba", "vba"
-    ),
-
-    "VOLLEYBALL": (
-        "volleyball", "bóng chuyền",
-        "bong chuyen", "vnl", "fivb"
-    ),
-
-    "TENNIS": (
-        "tennis", "atp", "wta", "wimbledon",
-        "roland garros", "us open"
-    ),
-
-    "BADMINTON": (
-        "badminton", "cầu lông",
-        "cau long", "bwf"
-    ),
-
-    "BILLIARDS": (
-        "billiard", "billiards", "snooker",
-        "bida", "bi-a", "pool"
-    ),
-
-    "ESPORTS": (
-        "esports", "e-sports", "esport",
-        "league of legends", "lck", "lec",
-        "dota 2", "valorant", "vct",
-        "pubg", "mobile legends", "mlbb",
-        "liên quân", "lien quan", "cs2"
-    ),
-
-    "FOOTBALL": (
-        "football", "soccer", "bóng đá",
-        "bong da", "premier league", "la liga",
-        "serie a", "bundesliga", "ligue 1",
-        "champions league", "uefa", "fifa",
-        "world cup", "afc", "v-league", "mls"
-    )
-}
+def m3u_escape(value):
+    return clean(value).replace('"', "'").replace("\n", " ")
 
 
-def match_sport(match):
-    text = " ".join([
-        clean(match.get("sport")),
-        clean(match.get("league", {}).get("name")),
-        clean(match.get("teams", {}).get("home", {}).get("name")),
-        clean(match.get("teams", {}).get("away", {}).get("name"))
-    ]).lower()
+def match_tvg_id(match):
+    """tvg-id ổn định cho mỗi trận; mọi luồng của trận dùng chung ID này."""
+    external_id = clean(match.get("externalId"))
 
-    for sport, keywords in SPORT_PATTERNS.items():
+    if external_id:
+        return f"mhd-match-{external_id}"
 
-        if any(keyword in text for keyword in keywords):
-            return sport
+    teams = match.get("teams", {})
+    raw = "|".join([
+        clean(teams.get("home", {}).get("name")),
+        clean(teams.get("away", {}).get("name")),
+        clean(match.get("matchTime"))
+    ])
 
-    return "FOOTBALL"
+    return "mhd-match-" + hashlib.md5(
+        raw.encode("utf-8")
+    ).hexdigest()[:12]
 
 
-# ============================================================
-# 17. M3U GENERATOR
-# ============================================================
-
-def match_title(match):
+def match_vs_title(match):
     teams = match["teams"]
 
     return "{} vs {}".format(
@@ -1928,17 +1590,8 @@ def match_title(match):
     )
 
 
-def match_tvg_id(match):
-    external_id = clean(match.get("externalId"))
-
-    if external_id:
-        return "mhd-match-" + external_id
-
-    return "mhd-match-" + safe_name(match_title(match))
-
-
-def format_match_time(value):
-    dt = parse_datetime(value)
+def match_time_label(match):
+    dt = parse_datetime(match.get("matchTime"))
 
     if not dt:
         return ""
@@ -1946,117 +1599,149 @@ def format_match_time(value):
     return dt.astimezone(VN_TZ).strftime("%d/%m %H:%M")
 
 
-def m3u_escape(value):
-    return clean(value).replace('"', "'").replace("\n", " ")
+def make_match_title(match, broadcaster, stream):
+    parts = [match_vs_title(match)]
 
-
-def make_extinf(match, blv_name, stream, api):
-    teams = match["teams"]
-    league = match["league"]
-
-    title = match_title(match)
-
-    time_label = format_match_time(
-        match.get("matchTime")
-    )
-
-    parts = [
-        title,
-        time_label,
-        clean(blv_name),
+    for value in (
+        match_time_label(match),
+        clean(broadcaster),
         clean(stream.get("label"))
-    ]
+    ):
+        if value:
+            parts.append(value)
 
-    display_title = " | ".join(
-        part for part in parts if part
+    return " | ".join(parts)
+
+
+def stream_extinf(match, broadcaster, stream, api_logo=""):
+    source = match.get("_source", {})
+
+    league = match["league"]["name"]
+    teams = match["teams"]
+
+    title = make_match_title(match, broadcaster, stream)
+
+    tvg_name = " - ".join(
+        part for part in (
+            match_vs_title(match),
+            clean(broadcaster),
+            clean(stream.get("label"))
+        ) if part
     )
 
+    # Logo giải đấu trước, sau đó mới tới logo đội nhà/đội khách.
     logo = first_value(
-        league.get("logo"),
+        match["league"].get("logo"),
         teams["home"].get("logo"),
         teams["away"].get("logo"),
-        api.get("logo")
+        source.get("logo"),
+        api_logo
     )
 
-    attrs = [
-        f'tvg-id="{m3u_escape(match_tvg_id(match))}"',
-        f'tvg-name="{m3u_escape(title)}"',
-        f'tvg-logo="{m3u_escape(logo)}"',
-        f'group-title="{m3u_escape(league.get("name"))}"',
-        f'x-source="{m3u_escape(api.get("id"))}"',
-        f'x-sport="{match_sport(match)}"'
+    attributes = [
+        'tvg-id="{}"'.format(m3u_escape(match_tvg_id(match))),
+        'tvg-name="{}"'.format(m3u_escape(tvg_name)),
+        'tvg-logo="{}"'.format(m3u_escape(logo)),
+        'group-title="{}"'.format(m3u_escape(league)),
+        'x-source="{}"'.format(
+            m3u_escape(source.get("id") or broadcaster)
+        )
     ]
+
+    sport = match_sport(match)
+
+    if sport:
+        attributes.append('x-sport="{}"'.format(sport))
+
+    if source.get("name"):
+        attributes.append(
+            'x-source-name="{}"'.format(m3u_escape(source["name"]))
+        )
+
+    source_logo = first_value(source.get("logo"), api_logo)
+
+    if source_logo:
+        attributes.append(
+            'x-source-logo="{}"'.format(m3u_escape(source_logo))
+        )
 
     return (
         "#EXTINF:-1 "
-        + " ".join(attrs)
+        + " ".join(attributes)
         + ","
-        + m3u_escape(display_title)
+        + m3u_escape(title)
     )
 
 
-def make_header_lines(stream):
+def stream_header_lines(stream):
+    headers = apply_stream_headers(stream)
+
     lines = []
 
-    headers = stream.get("headers", {})
-
     for key, value in headers.items():
-
-        original_key = clean(key)
-        lower_key = original_key.lower()
+        key = clean(key).lower()
         value = clean(value)
 
-        if not value:
+        if not key or not value:
             continue
 
-        if lower_key == "referer":
+        if key == "referer":
             lines.append(
                 "#EXTVLCOPT:http-referrer=" + value
             )
 
-        elif lower_key == "user-agent":
+        elif key == "user-agent":
             lines.append(
                 "#EXTVLCOPT:http-user-agent=" + value
             )
 
         else:
             lines.append(
-                "#EXTHTTP:"
+                "#EXTHTTP:{"
                 + json.dumps(
-                    {original_key: value},
+                    {key: value},
                     ensure_ascii=False
                 )
+                + "}"
             )
 
     return lines
 
 
-def collect_entries(matches, api):
+def collect_playlist_entries(matches):
     entries = []
 
     for match in matches:
+        for broadcaster in match.get("blvs", []):
+            broadcaster_name = clean(
+                broadcaster.get("name")
+            )
 
-        for blv in match.get("blvs", []):
+            for stream in broadcaster.get("streams", []):
+                normalized = normalize_stream(stream)
 
-            for stream in blv.get("streams", []):
+                if not normalized:
+                    continue
 
                 entries.append({
                     "match": match,
-                    "blv": blv.get("name", "Live"),
-                    "stream": stream,
-                    "api": api
+                    "broadcaster": broadcaster_name,
+                    "stream": normalized
                 })
 
     return entries
 
 
-def generate_m3u(entries):
+def generate_m3u(entries, source_logo=""):
     lines = ["#EXTM3U"]
+
     seen = set()
 
     for entry in entries:
-
+        match = entry["match"]
+        broadcaster = entry["broadcaster"]
         stream = entry["stream"]
+
         url = stream["url"]
 
         if url in seen:
@@ -2065,145 +1750,73 @@ def generate_m3u(entries):
         seen.add(url)
 
         lines.append(
-            make_extinf(
-                entry["match"],
-                entry["blv"],
+            stream_extinf(
+                match,
+                broadcaster,
                 stream,
-                entry["api"]
+                source_logo
             )
         )
 
-        lines.extend(make_header_lines(stream))
+        lines.extend(stream_header_lines(stream))
         lines.append(url)
 
     return "\n".join(lines) + "\n"
 
 
 # ============================================================
-# 18. KEEP OLD PLAYLIST ENTRIES
+# EPG GENERATOR
 # ============================================================
 
-def read_old_playlist_blocks(path):
-    """
-    Đọc các block EXTINF cũ để có thể giữ lại
-    dữ liệu nguồn bị lỗi trong playlist tổng.
-    """
+def epg_time(value):
+    dt = parse_datetime(value)
 
-    path = Path(path)
+    if not dt:
+        return ""
 
-    if not path.exists():
-        return []
+    return dt.strftime("%Y%m%d%H%M%S +0000")
 
-    try:
-        content = path.read_text(
-            encoding="utf-8",
-            errors="replace"
-        )
-    except Exception:
-        return []
-
-    lines = content.splitlines()
-
-    blocks = []
-    current = []
-
-    for line in lines:
-
-        if line.startswith("#EXTINF:"):
-
-            if current:
-                blocks.append(current)
-
-            current = [line]
-
-        elif current:
-            current.append(line)
-
-    if current:
-        blocks.append(current)
-
-    return blocks
-
-
-def merge_old_source_playlists(entries, failed_apis):
-    """
-    Trả về playlist tổng dạng text.
-    Nguồn lỗi được lấy block cũ từ playlist riêng.
-    """
-
-    fresh = generate_m3u(entries)
-    lines = fresh.splitlines()
-
-    seen_urls = set()
-
-    for line in lines:
-        if line.startswith("http://") or line.startswith("https://"):
-            seen_urls.add(line.strip())
-
-    for api in failed_apis:
-
-        playlist_name = api.get(
-            "playlist_file",
-            f"{source_id(api)}.m3u"
-        )
-
-        old_path = ROOT / playlist_name
-
-        blocks = read_old_playlist_blocks(old_path)
-
-        for block in blocks:
-
-            url = ""
-
-            for line in reversed(block):
-                if line.startswith(("http://", "https://")):
-                    url = line.strip()
-                    break
-
-            if not url or url in seen_urls:
-                continue
-
-            lines.extend(block)
-            seen_urls.add(url)
-
-            log.info(
-                "Giữ lại luồng cũ của nguồn %s",
-                source_name(api)
-            )
-
-    return "\n".join(lines) + "\n"
-
-
-# ============================================================
-# 19. EPG GENERATOR
-# ============================================================
 
 def generate_epg(entries):
+    source_names = []
+
+    for entry in entries:
+        name = clean(
+            entry["match"].get("_source", {}).get("name")
+        )
+
+        if name and name not in source_names:
+            source_names.append(name)
+
     root = ET.Element(
         "tv",
         {
-            "generator-info-name": "MHD Sports"
+            "generator-info-name": "MHD Sports",
+            "source-info-name": " / ".join(source_names)
         }
     )
 
-    seen = set()
+    seen_matches = set()
 
     for entry in entries:
-
         match = entry["match"]
         tvg_id = match_tvg_id(match)
 
-        if tvg_id in seen:
+        # Mỗi trận chỉ một channel/programme; HD1/HD2/FHD dùng chung ID.
+        if tvg_id in seen_matches:
             continue
 
-        seen.add(tvg_id)
+        seen_matches.add(tvg_id)
 
         dt = parse_datetime(match.get("matchTime"))
 
         if not dt:
             continue
 
-        title = match_title(match)
+        teams = match["teams"]
+        league = match["league"]
+
+        title = match_vs_title(match)
 
         channel = ET.SubElement(
             root,
@@ -2217,16 +1830,31 @@ def generate_epg(entries):
             {"lang": "vi"}
         ).text = title
 
-        programme = ET.SubElement(
-            root,
-            "programme",
-            {
-                "start": dt.astimezone(VN_TZ).strftime(
-                    "%Y%m%d%H%M%S +0700"
-                ),
-                "channel": tvg_id
-            }
+        channel_logo = first_value(
+            league.get("logo"),
+            teams["home"].get("logo"),
+            teams["away"].get("logo")
         )
+
+        if channel_logo:
+            ET.SubElement(channel, "icon", {"src": channel_logo})
+
+        attrs = {
+            "start": dt.astimezone(VN_TZ).strftime(
+                "%Y%m%d%H%M%S +0700"
+            ),
+            "channel": tvg_id
+        }
+
+        # Chỉ ghi stop nếu API thật sự cung cấp giờ kết thúc.
+        end_dt = parse_datetime(match.get("endTime"))
+
+        if end_dt:
+            attrs["stop"] = end_dt.astimezone(VN_TZ).strftime(
+                "%Y%m%d%H%M%S +0700"
+            )
+
+        programme = ET.SubElement(root, "programme", attrs)
 
         ET.SubElement(
             programme,
@@ -2234,29 +1862,171 @@ def generate_epg(entries):
             {"lang": "vi"}
         ).text = title
 
-        league = clean(
-            match.get("league", {}).get("name")
-        )
-
-        if league:
+        if clean(league.get("name")):
             ET.SubElement(
                 programme,
                 "sub-title",
                 {"lang": "vi"}
-            ).text = league
+            ).text = clean(league["name"])
 
         ET.SubElement(
             programme,
             "category",
             {"lang": "vi"}
-        ).text = match_sport(match)
+        ).text = "Bóng đá"
 
-        if match.get("score"):
+        desc = []
+
+        if clean(league.get("name")):
+            desc.append("Giải đấu: " + clean(league["name"]))
+
+        if clean(match.get("status")):
+            desc.append("Trạng thái: " + clean(match["status"]))
+
+        if clean(match.get("score")):
+            desc.append("Tỉ số: " + clean(match["score"]))
+
+        if desc:
             ET.SubElement(
                 programme,
                 "desc",
                 {"lang": "vi"}
-            ).text = "Tỉ số: " + clean(match["score"])
+            ).text = " | ".join(desc)
+
+        for icon in (
+            teams["home"].get("logo"),
+            teams["away"].get("logo"),
+            league.get("logo")
+        ):
+            if clean(icon):
+                ET.SubElement(
+                    programme,
+                    "icon",
+                    {"src": clean(icon)}
+                )
+
+    return ET.tostring(
+        root,
+        encoding="unicode",
+        xml_declaration=True
+    )
+
+
+def split_m3u_blocks(text):
+    """Tách playlist thành các block: (tvg-id, url, [dòng...])."""
+    blocks = []
+    current = []
+
+    for line in text.splitlines():
+        line = line.rstrip()
+
+        if not line or line.startswith("#EXTM3U"):
+            continue
+
+        current.append(line)
+
+        if not line.startswith("#"):
+            joined = "\n".join(current)
+            match = re.search(r'tvg-id="([^"]*)"', joined)
+
+            blocks.append((
+                match.group(1) if match else "",
+                line.strip(),
+                current
+            ))
+            current = []
+
+    return blocks
+
+
+def build_global_outputs(apis, api_results):
+    """Playlist tổng + EPG, kể cả khi một vài API lỗi.
+
+    API thành công: dùng dữ liệu mới. API lỗi: giữ nguyên các luồng
+    và chương trình EPG đã ghi lần trước của nguồn đó.
+    """
+    fresh_entries = []
+    stale_blocks = []
+
+    for api in apis:
+        source_id = clean(api.get("id"))
+        matches = api_results.get(source_id)
+
+        if matches is not None:
+            fresh_entries.extend(collect_playlist_entries(matches))
+            continue
+
+        playlist = ROOT / api.get(
+            "playlist_file",
+            f"thethao-{source_id}.m3u"
+        )
+
+        if playlist.exists():
+            try:
+                stale_blocks.extend(
+                    split_m3u_blocks(
+                        playlist.read_text(encoding="utf-8")
+                    )
+                )
+            except Exception as exc:
+                log.warning(
+                    "%s: không đọc được playlist cũ: %s",
+                    playlist.name, exc
+                )
+
+    lines = generate_m3u(fresh_entries).splitlines()
+
+    seen_urls = {
+        line.strip() for line in lines if not line.startswith("#")
+    }
+
+    stale_ids = set()
+    stale_count = 0
+
+    for tvg_id, url, block in stale_blocks:
+        if url in seen_urls:
+            continue
+
+        seen_urls.add(url)
+        lines.extend(block)
+        stale_count += 1
+
+        if tvg_id:
+            stale_ids.add(tvg_id)
+
+    epg = merge_stale_epg(generate_epg(fresh_entries), stale_ids)
+
+    return (
+        "\n".join(lines) + "\n",
+        epg,
+        len(fresh_entries),
+        stale_count
+    )
+
+
+def merge_stale_epg(epg_text, stale_ids):
+    """Chép lại channel/programme cũ của các trận thuộc API lỗi."""
+    if not stale_ids or not EPG_FILE.exists():
+        return epg_text
+
+    try:
+        root = ET.fromstring(epg_text.split("?>", 1)[-1])
+        old_root = ET.parse(EPG_FILE).getroot()
+    except Exception as exc:
+        log.warning("Không gộp được EPG cũ: %s", exc)
+        return epg_text
+
+    present = {c.get("id") for c in root.findall("channel")}
+
+    for tag in ("channel", "programme"):
+        for element in old_root.findall(tag):
+            key = (
+                element.get("id") if tag == "channel"
+                else element.get("channel")
+            )
+
+            if key in stale_ids and key not in present:
+                root.append(element)
 
     return ET.tostring(
         root,
@@ -2266,346 +2036,355 @@ def generate_epg(entries):
 
 
 # ============================================================
-# 20. SOURCES.JSON
+# SOURCES.JSON
 # ============================================================
 
-def build_sources(api_results, api_errors):
-    result = {
-        "updated_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
+def load_previous_sources():
+    if not SOURCES_FILE.exists():
+        return {}
+
+    try:
+        with open(SOURCES_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        return data if isinstance(data, dict) else {}
+
+    except Exception:
+        return {}
+
+
+def build_source_leagues(matches):
+    """Gom các trận CÓ luồng thành leagues[] -> matches[] cho ứng dụng.
+
+    Trận sắp xếp theo giờ; giải đấu giữ thứ tự xuất hiện đầu tiên.
+    """
+    rows = []
+
+    for match in matches:
+        stream_count = len(collect_playlist_entries([match]))
+
+        if stream_count == 0:
+            continue
+
+        dt = parse_datetime(match.get("matchTime"))
+        local = dt.astimezone(VN_TZ) if dt else None
+
+        external_id = clean(match.get("externalId"))
+        teams = match.get("teams", {})
+        home = teams.get("home", {})
+        away = teams.get("away", {})
+        league = match.get("league", {})
+
+        home_name = clean(home.get("name"))
+        away_name = clean(away.get("name"))
+
+        rows.append((
+            local or datetime.max.replace(tzinfo=VN_TZ),
+            clean(league.get("name")),
+            clean(league.get("logo")),
+            {
+                "id": (
+                    f"mhd-match-{external_id}"
+                    if external_id else ""
+                ),
+                "title": f"{home_name} vs {away_name}".strip(),
+                "home": home_name,
+                "away": away_name,
+                "home_logo": clean(home.get("logo")),
+                "away_logo": clean(away.get("logo")),
+                "time": local.isoformat() if local else "",
+                "time_label": (
+                    local.strftime("%d/%m %H:%M") if local else ""
+                ),
+                "status": clean(match.get("status")) or "scheduled",
+                "score": clean(match.get("score")),
+                "stream_count": stream_count
+            }
+        ))
+
+    rows.sort(key=lambda row: row[0])
+
+    leagues = {}
+
+    for _, league_name, league_logo, item in rows:
+        group = leagues.setdefault(
+            league_name,
+            {"name": league_name, "logo": league_logo, "matches": []}
+        )
+
+        if not group["logo"] and league_logo:
+            group["logo"] = league_logo
+
+        group["matches"].append(item)
+
+    return list(leagues.values())
+
+
+def build_sources(api_results, previous, errors=None):
+    errors = errors or {}
+
+    sources = {
+        "updated_at": iso_now(),
         "sources": []
     }
 
+    old_by_id = {
+        clean(source.get("id")): source
+        for source in previous.get("sources", [])
+        if isinstance(source, dict)
+    }
+
     for api in CONFIG.get("apis", []):
+        source_id = clean(api.get("id"))
+        current = api_results.get(source_id)
 
-        sid = source_id(api)
-        matches = api_results.get(sid)
+        display_name = clean(
+            api.get("display_name") or api.get("name") or source_id
+        )
 
-        source = {
-            "id": sid,
-            "name": api.get("name", sid),
-            "display_name": api.get(
-                "display_name",
-                api.get("name", sid)
-            ),
+        base = {
+            "id": source_id,
+            "name": clean(api.get("name") or display_name),
+            "display_name": display_name,
+            "initial": display_name[:1].upper(),
             "logo": api.get("logo", ""),
             "playlist": api.get(
                 "playlist_file",
-                f"{sid}.m3u"
-            ),
-            "ok": matches is not None,
-            "error": api_errors.get(sid, ""),
-            "leagues": []
+                f"thethao-{source_id}.m3u"
+            )
         }
 
-        if matches is None:
-            result["sources"].append(source)
-            continue
+        # API lỗi: giữ dữ liệu lần trước, đánh dấu stale.
+        if current is None:
+            old = old_by_id.get(source_id)
 
-        groups = {}
-
-        for match in matches:
-
-            if not any(
-                blv.get("streams")
-                for blv in match.get("blvs", [])
-            ):
+            if old:
+                entry = dict(old)
+                entry.update(base)
+                entry["ok"] = False
+                entry["stale"] = True
+                entry["error"] = clean(errors.get(source_id)) or "API lỗi"
+                sources["sources"].append(entry)
                 continue
 
-            league_name = clean(
-                match.get("league", {}).get("name")
-            ) or "Thể thao"
+            current = []
 
-            if league_name not in groups:
-                groups[league_name] = {
-                    "name": league_name,
-                    "logo": match.get(
-                        "league", {}
-                    ).get("logo", ""),
-                    "matches": []
-                }
+        leagues = build_source_leagues(current)
 
-            teams = match["teams"]
-            dt = parse_datetime(match.get("matchTime"))
+        sources["sources"].append({
+            **base,
+            "ok": source_id not in errors,
+            "stale": False,
+            "error": "",
+            "match_count": sum(len(g["matches"]) for g in leagues),
+            "stream_count": sum(
+                m["stream_count"]
+                for g in leagues for m in g["matches"]
+            ),
+            "leagues": leagues
+        })
 
-            stream_count = sum(
-                len(blv.get("streams", []))
-                for blv in match.get("blvs", [])
-            )
-
-            groups[league_name]["matches"].append({
-                "id": match_tvg_id(match),
-                "title": match_title(match),
-                "home": teams["home"]["name"],
-                "away": teams["away"]["name"],
-                "home_logo": teams["home"]["logo"],
-                "away_logo": teams["away"]["logo"],
-                "time": dt.isoformat() if dt else "",
-                "time_label": (
-                    dt.astimezone(VN_TZ).strftime("%d/%m %H:%M")
-                    if dt else ""
-                ),
-                "status": match.get("status", ""),
-                "score": match.get("score", ""),
-                "stream_count": stream_count
-            })
-
-        source["leagues"] = list(groups.values())
-
-        source["match_count"] = sum(
-            len(group["matches"])
-            for group in source["leagues"]
-        )
-
-        source["stream_count"] = sum(
-            item["stream_count"]
-            for group in source["leagues"]
-            for item in group["matches"]
-        )
-
-        result["sources"].append(source)
-
-    return result
+    return sources
 
 
 # ============================================================
-# 21. MAIN UPDATE
+# MAIN UPDATE
 # ============================================================
 
 def main():
     apis = [
-        api
-        for api in CONFIG.get("apis", [])
+        api for api in CONFIG.get("apis", [])
         if api.get("enabled", True)
     ]
 
     if not apis:
-        log.error("Không có API nào được bật.")
+        log.error("Không có API nào được bật trong config.json")
         return 1
 
-    api_results = {}
-    api_errors = {}
+    previous_sources = load_previous_sources()
 
-    all_entries = []
-    failed_apis = []
+    api_results = {}
+    all_matches = []
 
     success_count = 0
     failed_count = 0
-
-    # --------------------------------------------------------
-    # Fetch và parse từng API.
-    # --------------------------------------------------------
+    api_errors = {}
 
     for api in apis:
+        name = api.get("name", api.get("id", "API"))
+        source_id = clean(api.get("id"))
 
-        name = source_name(api)
-        sid = source_id(api)
-
-        log.info("")
-        log.info("================================")
         log.info("Đang cập nhật: %s", name)
-        log.info("Parser: %s", get_parser(api))
-        log.info("================================")
 
         try:
             raw_items = fetch_api(api)
-
-            log.info(
-                "%s: API trả về %s bản ghi",
-                name,
-                len(raw_items)
-            )
 
             matches = parse_api_items(
                 raw_items,
                 api
             )
 
-            attach_api_referers(matches, api)
+            for match in matches:
+                match["_source"] = {
+                    "id": source_id,
+                    "name": clean(
+                        api.get("display_name") or name
+                    ),
+                    "logo": clean(api.get("logo"))
+                }
 
-            entries = collect_entries(
-                matches,
-                api
-            )
-
-            api_results[sid] = matches
-            all_entries.extend(entries)
+            api_results[source_id] = matches
+            all_matches.extend(matches)
 
             success_count += 1
 
             log.info(
-                "%s: %s trận, %s luồng",
+                "%s: nhận %s bản ghi, %s trận có luồng",
                 name,
-                len(matches),
-                len(entries)
+                len(raw_items),
+                len([
+                    m for m in matches
+                    if collect_playlist_entries([m])
+                ])
             )
 
         except Exception as exc:
-
             failed_count += 1
-
-            api_results[sid] = None
-            api_errors[sid] = str(exc)
-
-            failed_apis.append(api)
+            api_results[source_id] = None
+            api_errors[source_id] = str(exc)[:300]
 
             log.error(
-                "%s: API lỗi: %s",
+                "%s: %s",
                 name,
                 exc
             )
 
-    # --------------------------------------------------------
-    # Không ghi đè playlist tổng nếu tất cả API lỗi.
-    # --------------------------------------------------------
+    all_entries = collect_playlist_entries(all_matches)
 
+    # Avoid overwriting valid outputs when every API fails.
     if success_count == 0:
-
         log.error(
             "Tất cả API đều lỗi. Giữ nguyên dữ liệu cũ."
+        )
+        return 1
+
+    if not all_entries:
+        log.error(
+            "Không tìm thấy luồng hợp lệ. "
+            "Giữ nguyên playlist hiện tại."
+        )
+
+        # Still update sources status for diagnosis.
+        source_data = build_sources(
+            api_results,
+            previous_sources,
+            api_errors
+        )
+
+        atomic_write_json(
+            SOURCES_FILE,
+            source_data
         )
 
         return 1
 
-    # --------------------------------------------------------
-    # Playlist tổng.
-    # --------------------------------------------------------
+    # Global playlist + EPG (API lỗi thì giữ dữ liệu cũ của riêng nguồn đó).
+    global_m3u, global_epg, fresh_count, stale_count = (
+        build_global_outputs(apis, api_results)
+    )
 
-    if all_entries or failed_apis:
+    atomic_write(OUTPUT_FILE, global_m3u)
 
-        global_m3u = merge_old_source_playlists(
-            all_entries,
-            failed_apis
-        )
+    log.info(
+        "Đã tạo %s (%s luồng mới, %s luồng giữ từ lần trước)",
+        OUTPUT_FILE.name,
+        fresh_count,
+        stale_count
+    )
 
-        if len(global_m3u.splitlines()) > 1:
-
-            write_file(
-                OUTPUT_FILE,
-                global_m3u
-            )
-
-            log.info(
-                "Đã tạo playlist tổng: %s",
-                OUTPUT_FILE
-            )
-
-        else:
-            log.warning(
-                "Không có luồng hợp lệ. Không ghi playlist tổng."
-            )
-
-    # --------------------------------------------------------
-    # Playlist riêng từng API.
-    # --------------------------------------------------------
-
+    # Per-source playlists.
     for api in apis:
+        source_id = clean(api.get("id"))
+        matches = api_results.get(source_id)
 
-        sid = source_id(api)
-        matches = api_results.get(sid)
-
-        # API lỗi: giữ playlist cũ.
         if matches is None:
             log.warning(
-                "%s lỗi: giữ playlist riêng cũ.",
-                sid
+                "%s: lỗi API, không ghi đè playlist riêng",
+                source_id
             )
             continue
 
-        entries = collect_entries(
-            matches,
-            api
-        )
+        entries = collect_playlist_entries(matches)
 
         if not entries:
-            log.warning(
-                "%s không có luồng. Giữ playlist riêng cũ.",
-                sid
+            log.info(
+                "%s: không có luồng, bỏ qua playlist riêng",
+                source_id
             )
             continue
 
         playlist_name = api.get(
             "playlist_file",
-            f"{sid}.m3u"
+            f"thethao-{source_id}.m3u"
         )
 
         playlist_path = ROOT / playlist_name
 
-        write_file(
+        atomic_write(
             playlist_path,
-            generate_m3u(entries)
+            generate_m3u(
+                entries,
+                api.get("logo", "")
+            )
         )
 
         log.info(
-            "Đã tạo playlist riêng: %s",
-            playlist_path
+            "Đã tạo %s (%s luồng)",
+            playlist_name,
+            len(entries)
         )
 
-    # --------------------------------------------------------
-    # EPG.
-    # --------------------------------------------------------
+    # XMLTV EPG.
+    atomic_write(EPG_FILE, global_epg)
 
-    if all_entries:
+    log.info("Đã tạo %s", EPG_FILE.name)
 
-        epg_content = generate_epg(all_entries)
-
-        write_file(
-            EPG_FILE,
-            epg_content
-        )
-
-        log.info(
-            "Đã tạo EPG: %s",
-            EPG_FILE
-        )
-
-    # --------------------------------------------------------
     # sources.json.
-    # --------------------------------------------------------
-
-    sources = build_sources(
+    source_data = build_sources(
         api_results,
+        previous_sources,
         api_errors
     )
 
-    write_json(
+    atomic_write_json(
         SOURCES_FILE,
-        sources
+        source_data
     )
 
-    log.info(
-        "Đã cập nhật sources.json"
-    )
+    log.info("Đã cập nhật %s", SOURCES_FILE.name)
 
-    # --------------------------------------------------------
-    # Summary.
-    # --------------------------------------------------------
+    if failed_count:
+        log.warning(
+            "Hoàn tất một phần: %s API thành công, %s API lỗi",
+            success_count,
+            failed_count
+        )
+    else:
+        log.info("Tất cả API đã cập nhật thành công.")
 
-    log.info("")
-    log.info("--------------------------------")
-    log.info("CẬP NHẬT HOÀN TẤT")
-    log.info("API thành công: %s", success_count)
-    log.info("API lỗi: %s", failed_count)
-    log.info("Tổng luồng mới: %s", len(all_entries))
-    log.info("--------------------------------")
+    save_referer_cache()
 
     return 0
 
 
-# ============================================================
-# 22. RUN
-# ============================================================
-
 if __name__ == "__main__":
-
     try:
         raise SystemExit(main())
 
     except KeyboardInterrupt:
-        log.warning("Đã dừng chương trình.")
+        log.warning("Đã dừng theo yêu cầu.")
         raise SystemExit(130)
 
     except Exception:
-        log.exception("Lỗi không xác định.")
+        log.exception("Lỗi không xác định")
         raise SystemExit(1)
