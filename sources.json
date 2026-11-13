@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:29:01.158314+00:00",
+  "updated_at": "2026-11-13T15:32:40.919009+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -461,7 +461,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/0ebcdb06cf4d039f0d08b356c26bc466.png",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -474,7 +474,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/3b5750171f62fd9c3cd91a41ddb1ac45.png",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -487,7 +487,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/da97f65bd113e490a5fab20c4a69f586.png",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -500,7 +500,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/bf0377d5a3968bac5aac7a10dfff1b86.png",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -597,7 +597,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/9cc25407f209e031babdac7d3c520ccb.png",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             }
@@ -1687,7 +1687,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/da97f65bd113e490a5fab20c4a69f586.png!w80",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -1700,7 +1700,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/0ebcdb06cf4d039f0d08b356c26bc466.png!w80",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -1713,7 +1713,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/e594b22cf15b445f7476775aa508e9c3.png!w80",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -1726,7 +1726,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/bf0377d5a3968bac5aac7a10dfff1b86.png!w80",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -1739,7 +1739,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/3b5750171f62fd9c3cd91a41ddb1ac45.png!w80",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -2902,47 +2902,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 36,
-      "stream_count": 38,
+      "match_count": 34,
+      "stream_count": 36,
       "leagues": [
-        {
-          "name": "International Club Friendly",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-4wyrn4hy8wv4q86",
-              "title": "VfL Bochum vs SC Verl",
-              "home": "VfL Bochum",
-              "away": "SC Verl",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhy10qvy9/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh7560r1ge/image/small",
-              "time": "2026-11-13T18:30:00+07:00",
-              "time_label": "13/11 18:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Ukrainian Second League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-6ypq3nhv931nmd7",
-              "title": "Rukh Vynnyky vs Nyva Ternopil B",
-              "home": "Rukh Vynnyky",
-              "away": "Nyva Ternopil B",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phox91m2wd/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh1zlnq82w/image/small",
-              "time": "2026-11-13T18:30:00+07:00",
-              "time_label": "13/11 18:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Hunan Football League",
           "logo": "",
