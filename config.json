@@ -60,6 +60,8 @@
 {
   "id": "colatv",
   "name": "ColaTV",
+  "display_name": "Gà Vàng TV",
+  "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/gavangtv.png",
   "url": "https://api.gvapi.cc/api/matches",
   "method": "GET",
   "parser": "colatv",
