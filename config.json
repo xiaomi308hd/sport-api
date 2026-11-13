@@ -61,7 +61,7 @@
       "id": "colatv",
       "display_name": "Cola TV",
       "logo": "",
-      "playlist_file": "colatv.m3u",
+      "playlist_file": "thethao-colatv.m3u",
       "enabled": true,
       "method": "GET",
       "url": "https://api.gvapi.cc/api/matches",
