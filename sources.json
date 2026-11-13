@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T16:06:48.623478+00:00",
+  "updated_at": "2026-11-13T16:10:31.117448+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -244,26 +244,13 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 80,
-      "stream_count": 162,
+      "match_count": 79,
+      "stream_count": 160,
       "leagues": [
         {
           "name": "International Friendly",
           "logo": "",
           "matches": [
-            {
-              "id": "",
-              "title": "United Arab Emirates vs Honduras",
-              "home": "United Arab Emirates",
-              "away": "Honduras",
-              "home_logo": "https://img.cltvap.cc/football/team/1b141c19b8516ff9a26065d66ecd7146.png",
-              "away_logo": "https://img.cltvap.cc/football/team/570197ce24c78651ca363a146213ba08.png",
-              "time": "2026-11-13T21:10:00+07:00",
-              "time_label": "13/11 21:10",
-              "status": "live",
-              "score": "",
-              "stream_count": 2
-            },
             {
               "id": "",
               "title": "Saudi Arabia vs South Korea",
@@ -1426,25 +1413,12 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 327,
+      "stream_count": 326,
       "leagues": [
         {
           "name": "Giao hữu Quốc tế",
           "logo": "https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png!w80",
           "matches": [
-            {
-              "id": "mhd-match-oj7x9imr8x9t47g",
-              "title": "United Arab Emirates vs Honduras",
-              "home": "United Arab Emirates",
-              "away": "Honduras",
-              "home_logo": "https://img.cltvap.cc/football/team/1b141c19b8516ff9a26065d66ecd7146.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/570197ce24c78651ca363a146213ba08.png!w80",
-              "time": "2026-11-13T21:10:00+07:00",
-              "time_label": "13/11 21:10",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
             {
               "id": "mhd-match-vmqy9iyjdvrfgk9",
               "title": "Ả Rập Saudi vs Hàn Quốc",
@@ -1467,7 +1441,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/4c5a3c0ad7ea6b1b0643c072cf0b479a.png!w80",
               "time": "2026-11-13T23:30:00+07:00",
               "time_label": "13/11 23:30",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -1480,7 +1454,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/51934729f32d36841a17e43e9390483a.png!w80",
               "time": "2026-11-13T23:30:00+07:00",
               "time_label": "13/11 23:30",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -2267,6 +2241,19 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 3
+            },
+            {
+              "id": "mhd-match-9gkl6s6xp22tmkx",
+              "title": "Miami Heat vs Detroit Pistons",
+              "home": "Miami Heat",
+              "away": "Detroit Pistons",
+              "home_logo": "https://img.cltvap.cc/basketball/team/ff7ccef6a6b79c6417ee8367946b0aec.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/3f82122a48e98eaccc5e71307eba801a.png!w80",
+              "time": "2026-11-15T08:00:00+07:00",
+              "time_label": "15/11 08:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
             }
           ]
         },
@@ -2896,8 +2883,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 37,
-      "stream_count": 40,
+      "match_count": 38,
+      "stream_count": 41,
       "leagues": [
         {
           "name": "Indian League Division 1",
@@ -3010,6 +2997,19 @@
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
               "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-pxwrxlhyd42xryk",
+              "title": "Tunisia vs Libya",
+              "home": "Tunisia",
+              "away": "Libya",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh8oxq82w/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phekxm2wd/image/small",
+              "time": "2026-11-13T23:00:00+07:00",
+              "time_label": "13/11 23:00",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
