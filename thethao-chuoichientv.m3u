@@ -8,15 +8,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-46b69734a3ee" tvg-name="Oakleigh Cannons vs Marconi Stallions - Chuối Già - FHD" tvg-logo="https://media.api-sports.io/football/leagues/1202.png" group-title="Australian Championship" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Oakleigh Cannons vs Marconi Stallions | 13/11 15:30 | Chuối Già | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-4914031cf6d7" tvg-name="Preston Lions vs Lions - Chuối Lửa - HD1" tvg-logo="https://media.api-sports.io/football/leagues/1202.png" group-title="Australian Championship" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Preston Lions vs Lions | 13/11 15:30 | Chuối Lửa | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-4914031cf6d7" tvg-name="Preston Lions vs Lions - Chuối Lửa - HD2" tvg-logo="https://media.api-sports.io/football/leagues/1202.png" group-title="Australian Championship" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Preston Lions vs Lions | 13/11 15:30 | Chuối Lửa | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-4914031cf6d7" tvg-name="Preston Lions vs Lions - Chuối Lửa - FHD" tvg-logo="https://media.api-sports.io/football/leagues/1202.png" group-title="Australian Championship" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Preston Lions vs Lions | 13/11 15:30 | Chuối Lửa | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-e510b6175ba8" tvg-name="Singapore vs Paraguay - Chuối Sấy - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Singapore vs Paraguay | 13/11 19:00 | Chuối Sấy | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
@@ -71,6 +62,15 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-d250cbcd43cf" tvg-name="Cape Verde Islands vs Liberia - Chuối Tây - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Cape Verde Islands vs Liberia | 13/11 23:00 | Chuối Tây | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-b1e2ff10f526" tvg-name="South Africa vs Kenya - Chuối Lửa - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",South Africa vs Kenya | 13/11 23:00 | Chuối Lửa | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-b1e2ff10f526" tvg-name="South Africa vs Kenya - Chuối Lửa - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",South Africa vs Kenya | 13/11 23:00 | Chuối Lửa | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-b1e2ff10f526" tvg-name="South Africa vs Kenya - Chuối Lửa - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",South Africa vs Kenya | 13/11 23:00 | Chuối Lửa | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-1fad7bda8300" tvg-name="Netherlands vs Greece - Chuối Nhỏ - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="UEFA Nations League" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Netherlands vs Greece | 14/11 02:45 | Chuối Nhỏ | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:40:11.165515+00:00",
+  "updated_at": "2026-11-13T10:43:55.698155+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,8 +11,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 20,
-      "stream_count": 180,
+      "match_count": 19,
+      "stream_count": 171,
       "leagues": [
         {
           "name": "Australian Championship",
@@ -27,20 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141339_da8f4f91.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "p",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Preston Lions vs Lions",
-              "home": "Preston Lions",
-              "away": "Lions",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_141357_619109fb.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141412_24481446.png",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "ft",
+              "status": "pen",
               "score": "",
               "stream_count": 9
             }
@@ -1607,8 +1594,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 15,
-      "stream_count": 15,
+      "match_count": 16,
+      "stream_count": 16,
       "leagues": [
         {
           "name": "Mongolia Premier League",
@@ -1853,6 +1840,25 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghjgxpr6od/image/small",
               "time": "2026-11-13T17:00:00+07:00",
               "time_label": "13/11 17:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Ukrainian Second League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-ednm9whwn7e3ryo",
+              "title": "Karbon Cherkasy vs Atlet Kiev",
+              "home": "Karbon Cherkasy",
+              "away": "Atlet Kiev",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkhx8vpqg8n/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergphp897r8k0/image/small",
+              "time": "2026-11-13T17:30:00+07:00",
+              "time_label": "13/11 17:30",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
