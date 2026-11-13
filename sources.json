@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T14:46:44.164965+00:00",
+  "updated_at": "2026-11-13T14:50:28.811446+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1765,7 +1765,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/a576eafbce762079f7d1f77fca1c5cc2.png!w80",
               "time": "2026-11-13T22:00:00+07:00",
               "time_label": "13/11 22:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
