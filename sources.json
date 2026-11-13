@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T03:59:57.115055+00:00",
+  "updated_at": "2026-11-13T04:03:26.762536+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1078,28 +1078,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 8,
-      "stream_count": 8,
+      "match_count": 7,
+      "stream_count": 7,
       "leagues": [
-        {
-          "name": "Categoría Primera A",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-l5ergph46wzzr8k",
-              "title": "Llaneros FC vs Boyaca Chico",
-              "home": "Llaneros FC",
-              "away": "Boyaca Chico",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhe8p7qvy9/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh825q1zp/image/small",
-              "time": "2026-11-13T07:00:00+07:00",
-              "time_label": "13/11 07:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "CONCACAF Nations League",
           "logo": "",
@@ -1177,7 +1158,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkwj0ryox/image/small",
               "time": "2026-11-13T09:00:00+07:00",
               "time_label": "13/11 09:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
