@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:26:07.326872+00:00",
+  "updated_at": "2026-11-13T19:29:40.946200+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -20,6 +20,19 @@
           "matches": [
             {
               "id": "",
+              "title": "Netherlands vs Greece",
+              "home": "Netherlands",
+              "away": "Greece",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125507_424d6db0.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134302_98ea6afc.png",
+              "time": "2026-11-14T02:45:00+07:00",
+              "time_label": "14/11 02:45",
+              "status": "live",
+              "score": "",
+              "stream_count": 9
+            },
+            {
+              "id": "",
               "title": "Scotland vs FYR Macedonia",
               "home": "Scotland",
               "away": "FYR Macedonia",
@@ -38,19 +51,6 @@
               "away": "Germany",
               "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125451_e0a7ed3f.png",
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125455_9f31cc8f.png",
-              "time": "2026-11-14T02:45:00+07:00",
-              "time_label": "14/11 02:45",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Netherlands vs Greece",
-              "home": "Netherlands",
-              "away": "Greece",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125507_424d6db0.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134302_98ea6afc.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
               "status": "ns",
@@ -1510,12 +1510,12 @@
           "logo": "https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80",
           "matches": [
             {
-              "id": "mhd-match-vrqwni40pyys4qn",
-              "title": "ĐTQG Bulgaria vs ĐTQG Iceland",
-              "home": "ĐTQG Bulgaria",
-              "away": "ĐTQG Iceland",
-              "home_logo": "https://img.cltvap.cc/football/team/3c057cb2b41f22c0e740974d7a428918.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/77772713a7d7e02b10ca9bd90e4f6a31.png!w80",
+              "id": "mhd-match-wv78xiv19lvuokr",
+              "title": "ĐTQG Hà Lan vs CLB Greece",
+              "home": "ĐTQG Hà Lan",
+              "away": "CLB Greece",
+              "home_logo": "https://img.cltvap.cc/football/team/fb9d433088a21464e7d634c4e190b31a.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png!w80",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
               "status": "live",
@@ -1523,12 +1523,12 @@
               "stream_count": 3
             },
             {
-              "id": "mhd-match-wv78xiv19lvuokr",
-              "title": "ĐTQG Hà Lan vs CLB Greece",
-              "home": "ĐTQG Hà Lan",
-              "away": "CLB Greece",
-              "home_logo": "https://img.cltvap.cc/football/team/fb9d433088a21464e7d634c4e190b31a.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png!w80",
+              "id": "mhd-match-vrqwni40pyys4qn",
+              "title": "ĐTQG Bulgaria vs ĐTQG Iceland",
+              "home": "ĐTQG Bulgaria",
+              "away": "ĐTQG Iceland",
+              "home_logo": "https://img.cltvap.cc/football/team/3c057cb2b41f22c0e740974d7a428918.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/77772713a7d7e02b10ca9bd90e4f6a31.png!w80",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
               "status": "live",
@@ -2707,8 +2707,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 45,
-      "stream_count": 49,
+      "match_count": 47,
+      "stream_count": 51,
       "leagues": [
         {
           "name": "CAF Africa Cup of Nations",
@@ -3341,6 +3341,44 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohkyjzq1zp/image/small",
               "time": "2026-11-14T02:00:00+07:00",
               "time_label": "14/11 02:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Spanish Segunda Division",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-4wyrn4h6n2l1q86",
+              "title": "Leganes vs Burgos CF",
+              "home": "Leganes",
+              "away": "Burgos CF",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8gh663r6od/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hnzjq86p/image/small",
+              "time": "2026-11-14T02:30:00+07:00",
+              "time_label": "14/11 02:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Italian Serie C",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-dn1m1ghlwe06moe",
+              "title": "Latina Calcio 1932 vs Campobasso",
+              "home": "Latina Calcio 1932",
+              "away": "Campobasso",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh400pmoep/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh4exyqwzv/image/small",
+              "time": "2026-11-14T02:30:00+07:00",
+              "time_label": "14/11 02:30",
               "status": "live",
               "score": "",
               "stream_count": 1
