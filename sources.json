@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T16:21:45.007424+00:00",
+  "updated_at": "2026-11-13T16:25:28.878577+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -2883,7 +2883,7 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 39,
+      "match_count": 38,
       "stream_count": 42,
       "leagues": [
         {
@@ -3110,19 +3110,6 @@
               "stream_count": 2
             },
             {
-              "id": "mhd-match-965mkyh87w6dr1g",
-              "title": "Nicaragua (W) U19 vs Cuba (W) U19",
-              "home": "Nicaragua (W) U19",
-              "away": "Cuba (W) U19",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhevj3m7vx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghxy54r6od/image/small",
-              "time": "2026-11-13T21:30:00+07:00",
-              "time_label": "13/11 21:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
               "id": "mhd-match-y39mp1hd3o2lmoj",
               "title": "Belize (W) U19 vs Honduras (W) U19",
               "home": "Belize (W) U19",
@@ -3298,9 +3285,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7h2wnqdyj/image/small",
               "time": "2026-11-14T00:00:00+07:00",
               "time_label": "14/11 00:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
-              "stream_count": 1
+              "stream_count": 2
             },
             {
               "id": "mhd-match-23xmvkh6y1n2qg8",
