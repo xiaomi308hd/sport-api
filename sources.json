@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:36:20.228030+00:00",
+  "updated_at": "2026-11-13T15:40:00.658334+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -2902,28 +2902,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 35,
-      "stream_count": 37,
+      "match_count": 34,
+      "stream_count": 36,
       "leagues": [
-        {
-          "name": "Hunan Football League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-318q66h8o66dqo9",
-              "title": "Changsha Team vs Yiyang Team",
-              "home": "Changsha Team",
-              "away": "Yiyang Team",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hkw31qo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4hz36nq0j6/image/small",
-              "time": "2026-11-13T18:38:00+07:00",
-              "time_label": "13/11 18:38",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "International Friendly",
           "logo": "",
