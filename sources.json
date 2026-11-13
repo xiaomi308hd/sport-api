@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:02:45.477484+00:00",
+  "updated_at": "2026-11-13T12:06:28.945770+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -3002,7 +3002,7 @@
       "stale": false,
       "error": "",
       "match_count": 20,
-      "stream_count": 20,
+      "stream_count": 21,
       "leagues": [
         {
           "name": "Indian Bangalore Super Division",
@@ -3237,7 +3237,7 @@
               "time_label": "13/11 19:00",
               "status": "live",
               "score": "",
-              "stream_count": 1
+              "stream_count": 2
             }
           ]
         },
