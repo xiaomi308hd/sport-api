@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:18:16.526263+00:00",
+  "updated_at": "2026-11-13T08:22:01.999177+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -334,8 +334,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 51,
-      "stream_count": 104,
+      "match_count": 54,
+      "stream_count": 110,
       "leagues": [
         {
           "name": "Mongolia Premier League",
@@ -890,6 +890,32 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Norway vs Wales",
+              "home": "Norway",
+              "away": "Wales",
+              "home_logo": "https://img.cltvap.cc/football/team/227d43878fa14347902532126d29b10c.png",
+              "away_logo": "https://img.cltvap.cc/football/team/588f43d3d2fe15b2dad77de9f2cc5c51.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Georgia vs Hungary",
+              "home": "Georgia",
+              "away": "Hungary",
+              "home_logo": "https://img.cltvap.cc/football/team/c5b86fa907b96e38e377ddfe82802cc6.png",
+              "away_logo": "https://img.cltvap.cc/football/team/22b55de76e6a8c7258e4661e8343ff3e.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
             }
           ]
         },
@@ -1070,6 +1096,25 @@
               "away": "Pakistan",
               "home_logo": "https://img.cltvap.cc/football/team/f00b6379b82a515a9478b6e58b783de9.png",
               "away_logo": "https://img.cltvap.cc/football/team/573572e4e9a8486a02fbc7eeeaffba7b.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "J.League Yamazaki Biscuit Levain Cup",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Machida Zelvia vs Vissel Kobe",
+              "home": "Machida Zelvia",
+              "away": "Vissel Kobe",
+              "home_logo": "https://img.cltvap.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png",
+              "away_logo": "https://img.cltvap.cc/football/team/d85cce27ab583e5b3cead155f02b098a.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
