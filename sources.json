@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T14:43:01.652492+00:00",
+  "updated_at": "2026-11-13T14:46:44.164965+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -2969,7 +2969,7 @@
       "stale": false,
       "error": "",
       "match_count": 34,
-      "stream_count": 35,
+      "stream_count": 36,
       "leagues": [
         {
           "name": "International Friendly",
@@ -3025,7 +3025,7 @@
               "time_label": "13/11 21:30",
               "status": "live",
               "score": "",
-              "stream_count": 1
+              "stream_count": 2
             },
             {
               "id": "mhd-match-965mkyh87w6dr1g",

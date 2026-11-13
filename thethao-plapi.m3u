@@ -38,6 +38,9 @@ https://lilive1.eu.cc/live/8e50902d471bc4abb291b41504f7575d/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-8yomo4hy751zq0j" tvg-name="Ả Rập Xê Út vs Hàn Quốc - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnh05ym7vx/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Ả Rập Xê Út vs Hàn Quốc | 13/11 21:30 | Phá Làng TV | HD1
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://pull.digitalcdn.net/live/cd08eb1cab7246d5b1528666eeb2e293/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8yomo4hy751zq0j" tvg-name="Ả Rập Xê Út vs Hàn Quốc - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnh05ym7vx/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Ả Rập Xê Út vs Hàn Quốc | 13/11 21:30 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/4e518fb90771c681b774e3e235dfb991/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-965mkyh87w6dr1g" tvg-name="Nicaragua (W) U19 vs Cuba (W) U19 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnhevj3m7vx/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Nicaragua (W) U19 vs Cuba (W) U19 | 13/11 21:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/458f9679d9e67d873d5d84a290572051/playlist.m3u8
