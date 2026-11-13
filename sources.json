@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T01:59:27.405474+00:00",
+  "updated_at": "2026-11-13T02:02:57.357236+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1091,26 +1091,13 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 11,
-      "stream_count": 11,
+      "match_count": 9,
+      "stream_count": 9,
       "leagues": [
         {
           "name": "CONCACAF Nations League",
           "logo": "",
           "matches": [
-            {
-              "id": "mhd-match-2y8m4zhv3790ql0",
-              "title": "Aruba vs Martinique",
-              "home": "Aruba",
-              "away": "Martinique",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkw4gryox/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8y39mp1hl39mojx/image/small",
-              "time": "2026-11-13T05:00:00+07:00",
-              "time_label": "13/11 05:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
             {
               "id": "mhd-match-8yomo4hy78o7q0j",
               "title": "Antigua and Barbuda vs Trinidad and Tobago",
@@ -1134,57 +1121,6 @@
               "time": "2026-11-13T07:30:00+07:00",
               "time_label": "13/11 07:30",
               "status": "live",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Venezuela Primera Division",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-l7oqdehjn49gr51",
-              "title": "Puerto Cabello vs Monagas SC",
-              "home": "Puerto Cabello",
-              "away": "Monagas SC",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4he76xq86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hl9gvrz84/image/small",
-              "time": "2026-11-13T05:00:00+07:00",
-              "time_label": "13/11 05:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Brazilian Serie B",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-y0or5jh88ez5qwz",
-              "title": "Ponte Preta vs Operario PR",
-              "home": "Ponte Preta",
-              "away": "Operario PR",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllh667qvy9/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h32z0mojx/image/small",
-              "time": "2026-11-13T05:00:00+07:00",
-              "time_label": "13/11 05:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-n54qllhnnxpwqvy",
-              "title": "Sao Bernardo vs Athletic Club",
-              "home": "Sao Bernardo",
-              "away": "Athletic Club",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh1kyem7vx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh9lo6ryk0/image/small",
-              "time": "2026-11-13T06:00:00+07:00",
-              "time_label": "13/11 06:00",
-              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
@@ -1242,6 +1178,25 @@
           ]
         },
         {
+          "name": "Brazilian Serie B",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-n54qllhnnxpwqvy",
+              "title": "Sao Bernardo vs Athletic Club",
+              "home": "Sao Bernardo",
+              "away": "Athletic Club",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh1kyem7vx/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh9lo6ryk0/image/small",
+              "time": "2026-11-13T06:00:00+07:00",
+              "time_label": "13/11 06:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
           "name": "Uruguay Primera Division",
           "logo": "",
           "matches": [
@@ -1255,6 +1210,25 @@
               "time": "2026-11-13T06:00:00+07:00",
               "time_label": "13/11 06:00",
               "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Mexico Ascenso MX",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-4wyrn4hy8y56q86",
+              "title": "CA Morelia vs U. de G.",
+              "home": "CA Morelia",
+              "away": "U. de G.",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhjjvdryk0/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkwj0ryox/image/small",
+              "time": "2026-11-13T09:00:00+07:00",
+              "time_label": "13/11 09:00",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
