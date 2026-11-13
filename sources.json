@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:06:20.302026+00:00",
+  "updated_at": "2026-11-13T15:10:07.665230+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1867,6 +1867,19 @@
           "logo": "https://img.cltvap.cc/football/competition/0f2d2e79833b106e3c0407d4c7131307.png!w80",
           "matches": [
             {
+              "id": "mhd-match-o07dnindn95fmkn",
+              "title": "Thổ Nhĩ Kỳ U21 vs Cộng hòa Séc U21",
+              "home": "Thổ Nhĩ Kỳ U21",
+              "away": "Cộng hòa Séc U21",
+              "home_logo": "https://img.cltvap.cc/football/team/f1a2987a8ae3620ed2ed5462e0e80f5e.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/9cc25407f209e031babdac7d3c520ccb.png!w80",
+              "time": "2026-11-13T23:00:00+07:00",
+              "time_label": "13/11 23:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
               "id": "mhd-match-vrqwni0o0p0u4qn",
               "title": "Phần Lan U21 vs Ireland U21",
               "home": "Phần Lan U21",
@@ -2283,19 +2296,6 @@
               "away_logo": "https://img.cltvap.cc/basketball/team/42d7b5ec22b2eb411d68f94a04eab742.png!w80",
               "time": "2026-11-15T07:30:00+07:00",
               "time_label": "15/11 07:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-9gkl6s6xp22tmkx",
-              "title": "Miami Heat vs Detroit Pistons",
-              "home": "Miami Heat",
-              "away": "Detroit Pistons",
-              "home_logo": "https://img.cltvap.cc/basketball/team/ff7ccef6a6b79c6417ee8367946b0aec.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/3f82122a48e98eaccc5e71307eba801a.png!w80",
-              "time": "2026-11-15T08:00:00+07:00",
-              "time_label": "15/11 08:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
