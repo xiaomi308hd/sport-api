@@ -44,6 +44,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install certifi
+
       # Optional: checkout a second repository that will host the public playlist.
       - name: Check destination token
         if: env.M3U_DEST_REPO != '' && env.M3U_DEST_TOKEN_SET != 'true'
