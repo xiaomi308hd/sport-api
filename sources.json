@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T18:59:20.570404+00:00",
+  "updated_at": "2026-11-13T19:03:15.214533+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,26 +11,13 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 10,
-      "stream_count": 90,
+      "match_count": 9,
+      "stream_count": 81,
       "leagues": [
         {
           "name": "UEFA Nations League",
           "logo": "https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png",
           "matches": [
-            {
-              "id": "",
-              "title": "Moldova vs Kazakhstan",
-              "home": "Moldova",
-              "away": "Kazakhstan",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134301_14465ab7.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png",
-              "time": "2026-11-14T00:00:00+07:00",
-              "time_label": "14/11 00:00",
-              "status": "ft",
-              "score": "",
-              "stream_count": 9
-            },
             {
               "id": "",
               "title": "Serbia vs Germany",
@@ -2720,54 +2707,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 45,
-      "stream_count": 45,
+      "match_count": 44,
+      "stream_count": 47,
       "leagues": [
-        {
-          "name": "Jordan League Division 1",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-965mkyhkp06pr1g",
-              "title": "Al Hashemeya vs Sama Al Sarhan",
-              "home": "Al Hashemeya",
-              "away": "Sama Al Sarhan",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1hjo22mojx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h5wolmojx/image/small",
-              "time": "2026-11-13T22:00:00+07:00",
-              "time_label": "13/11 22:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-k82rekhglj5vrep",
-              "title": "Sahl Horan SC vs Al Sareeh",
-              "home": "Sahl Horan SC",
-              "away": "Al Sareeh",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryoh21pzq1zp/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4he040q86p/image/small",
-              "time": "2026-11-13T22:00:00+07:00",
-              "time_label": "13/11 22:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-y39mp1h67exvmoj",
-              "title": "Jerash Club vs Ittihad Al-Ramtha SC",
-              "home": "Jerash Club",
-              "away": "Ittihad Al-Ramtha SC",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhye75repz/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phkw82m2wd/image/small",
-              "time": "2026-11-13T22:00:00+07:00",
-              "time_label": "13/11 22:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Niger Premier League",
           "logo": "",
@@ -2876,6 +2818,19 @@
               "away": "Malawi",
               "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh84yq82w/image/small",
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryohze2q1zp/image/small",
+              "time": "2026-11-14T02:00:00+07:00",
+              "time_label": "14/11 02:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "mhd-match-y0or5jh87p15qwz",
+              "title": "Mali vs Rwanda",
+              "home": "Mali",
+              "away": "Rwanda",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nh92omd7o/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/9k82rekhpgjrepz/image/small",
               "time": "2026-11-14T02:00:00+07:00",
               "time_label": "14/11 02:00",
               "status": "live",
@@ -3239,9 +3194,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkh590qg8n/image/small",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
-              "stream_count": 1
+              "stream_count": 2
             },
             {
               "id": "mhd-match-y0or5jh89y28qwz",
@@ -3278,9 +3233,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hn3gq86p/image/small",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
-              "stream_count": 1
+              "stream_count": 2
             }
           ]
         },
@@ -3335,6 +3290,25 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghp5ldq82w/image/small",
               "time": "2026-11-14T01:00:00+07:00",
               "time_label": "14/11 01:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Venezuela Segunda Division",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-23xmvkhy3g5vqg8",
+              "title": "Deportivo Lara vs Zamora FC Barinas B",
+              "home": "Deportivo Lara",
+              "away": "Zamora FC Barinas B",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhl8z8qwzv/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergphoopjr8k0/image/small",
+              "time": "2026-11-14T02:00:00+07:00",
+              "time_label": "14/11 02:00",
               "status": "live",
               "score": "",
               "stream_count": 1
