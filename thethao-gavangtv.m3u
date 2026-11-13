@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-1f0ce5fcdf8c" tvg-name="Tunisia vs Libya - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/7cb09c45e2124a08ac950d31c7ebe0a6.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Tunisia vs Libya | 13/11 23:00 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/289650.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1f0ce5fcdf8c" tvg-name="Tunisia vs Libya - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/7cb09c45e2124a08ac950d31c7ebe0a6.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Tunisia vs Libya | 13/11 23:00 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/289650.flv
 #EXTINF:-1 tvg-id="mhd-match-4a8246552204" tvg-name="Kuwait vs Syria - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/29a83a8a9641bb860a679d7e5ba52d26.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Kuwait vs Syria | 13/11 23:30 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/301238.m3u8
 #EXTINF:-1 tvg-id="mhd-match-4a8246552204" tvg-name="Kuwait vs Syria - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/29a83a8a9641bb860a679d7e5ba52d26.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Kuwait vs Syria | 13/11 23:30 | Gà Vàng TV | Live
@@ -39,6 +35,10 @@ https://live2.zktsva.app/live/300523.flv
 https://live2.zktsva.app/live/796315.m3u8
 #EXTINF:-1 tvg-id="mhd-match-30f63f68a1e3" tvg-name="Bulgaria vs Iceland - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/3c057cb2b41f22c0e740974d7a428918.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Bulgaria vs Iceland | 14/11 02:45 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/796315.flv
+#EXTINF:-1 tvg-id="mhd-match-f626ec342eb1" tvg-name="Andorra vs Gibraltar - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/15fa1fad1fc582dd65403f6f950b1e21.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Andorra vs Gibraltar | 14/11 02:45 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/289650.m3u8
+#EXTINF:-1 tvg-id="mhd-match-f626ec342eb1" tvg-name="Andorra vs Gibraltar - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/15fa1fad1fc582dd65403f6f950b1e21.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Andorra vs Gibraltar | 14/11 02:45 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/289650.flv
 #EXTINF:-1 tvg-id="mhd-match-b286921cc7e5" tvg-name="Morocco vs Niger - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/85a768d7c6a14d51b24bcb19c280b4c6.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Morocco vs Niger | 14/11 03:00 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/307240.m3u8
 #EXTINF:-1 tvg-id="mhd-match-b286921cc7e5" tvg-name="Morocco vs Niger - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/85a768d7c6a14d51b24bcb19c280b4c6.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Morocco vs Niger | 14/11 03:00 | Gà Vàng TV | Live
