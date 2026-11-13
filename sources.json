@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T02:27:31.539558+00:00",
+  "updated_at": "2026-11-13T02:31:01.631851+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -328,41 +328,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 52,
-      "stream_count": 106,
+      "match_count": 51,
+      "stream_count": 104,
       "leagues": [
-        {
-          "name": "CONCACAF Nations League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Curacao vs Panama",
-              "home": "Curacao",
-              "away": "Panama",
-              "home_logo": "https://img.cltvap.cc/football/team/b5e51cdfe1a14bdf8289260933b2d405.png",
-              "away_logo": "https://img.cltvap.cc/football/team/ec01e78e2d9d42d2905f744a38957295.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Guatemala vs Canada",
-              "home": "Guatemala",
-              "away": "Canada",
-              "home_logo": "https://img.cltvap.cc/football/team/a1d4643376bf11b37c51f5c76fcaff79.png",
-              "away_logo": "https://img.cltvap.cc/football/team/336e1c9ab6894a3b893c1ef45235a164.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
         {
           "name": "Mongolia Premier League",
           "logo": "",
@@ -898,6 +866,25 @@
               "away": "Gibraltar",
               "home_logo": "https://img.cltvap.cc/football/team/15fa1fad1fc582dd65403f6f950b1e21.png",
               "away_logo": "https://img.cltvap.cc/football/team/275612d39c2aacdf7b64836df54b9229.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "CONCACAF Nations League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Guatemala vs Canada",
+              "home": "Guatemala",
+              "away": "Canada",
+              "home_logo": "https://img.cltvap.cc/football/team/a1d4643376bf11b37c51f5c76fcaff79.png",
+              "away_logo": "https://img.cltvap.cc/football/team/336e1c9ab6894a3b893c1ef45235a164.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
