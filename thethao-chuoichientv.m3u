@@ -26,15 +26,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-1c56a6582222" tvg-name="Qatar vs Australia - Chuối Chao - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Qatar vs Australia | 13/11 21:45 | Chuối Chao | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Kem | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Kem - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Kem | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1cf520c4c504" tvg-name="Mozambique vs Ethiopia - Chuối Kem - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Mozambique vs Ethiopia | 13/11 20:00 | Chuối Kem | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-d250cbcd43cf" tvg-name="Cape Verde Islands vs Liberia - Chuối Tây - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Cape Verde Islands vs Liberia | 13/11 23:00 | Chuối Tây | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
@@ -80,3 +71,12 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-1fad7bda8300" tvg-name="Netherlands vs Greece - Chuối Nhỏ - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Netherlands vs Greece | 14/11 02:45 | Chuối Nhỏ | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-f57bb04dd0b8" tvg-name="Hisamitsu Springs W vs PFU Blue Cats W - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="VOLLEYBALL",Hisamitsu Springs W vs PFU Blue Cats W | 14/11 11:05 | Chuối Kem | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-f57bb04dd0b8" tvg-name="Hisamitsu Springs W vs PFU Blue Cats W - Chuối Kem - HD2" tvg-logo="https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="VOLLEYBALL",Hisamitsu Springs W vs PFU Blue Cats W | 14/11 11:05 | Chuối Kem | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-f57bb04dd0b8" tvg-name="Hisamitsu Springs W vs PFU Blue Cats W - Chuối Kem - FHD" tvg-logo="https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="VOLLEYBALL",Hisamitsu Springs W vs PFU Blue Cats W | 14/11 11:05 | Chuối Kem | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8

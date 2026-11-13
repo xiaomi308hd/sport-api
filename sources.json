@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T14:57:53.940479+00:00",
+  "updated_at": "2026-11-13T15:01:37.454054+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,8 +11,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 16,
-      "stream_count": 144,
+      "match_count": 15,
+      "stream_count": 135,
       "leagues": [
         {
           "name": "Africa Cup of Nations - Qualification",
@@ -28,19 +28,6 @@
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
               "status": "2h",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Mozambique vs Ethiopia",
-              "home": "Mozambique",
-              "away": "Ethiopia",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_132801_e98e556c.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134305_29e496f2.png",
-              "time": "2026-11-13T20:00:00+07:00",
-              "time_label": "13/11 20:00",
-              "status": "ft",
               "score": "",
               "stream_count": 9
             },
@@ -270,26 +257,13 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 84,
-      "stream_count": 170,
+      "match_count": 83,
+      "stream_count": 168,
       "leagues": [
         {
           "name": "CAF Africa Cup of Nations",
           "logo": "",
           "matches": [
-            {
-              "id": "",
-              "title": "Mozambique vs Ethiopia",
-              "home": "Mozambique",
-              "away": "Ethiopia",
-              "home_logo": "https://img.cltvap.cc/football/team/4ebcf9e1e66c0ecb1723ddb6dfdddd43.png",
-              "away_logo": "https://img.cltvap.cc/football/team/fac20ee3c5bc1659bc8e6ba2771c5b31.png",
-              "time": "2026-11-13T20:00:00+07:00",
-              "time_label": "13/11 20:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 2
-            },
             {
               "id": "",
               "title": "Comoros vs Republic of the Congo",
@@ -1510,7 +1484,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 324,
+      "stream_count": 323,
       "leagues": [
         {
           "name": "Cúp Quốc gia Châu Phi",
@@ -1739,19 +1713,6 @@
               "away_logo": "https://img.cltvap.cc/football/team/6581bc34692022be4c21d98778e33df0.png!w80",
               "time": "2026-11-13T21:30:00+07:00",
               "time_label": "13/11 21:30",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
-            {
-              "id": "mhd-match-xvkjoi2rvoni879",
-              "title": "Qatar vs ĐTQG Úc",
-              "home": "Qatar",
-              "away": "ĐTQG Úc",
-              "home_logo": "https://img.cltvap.cc/football/team/7303a103c93fea0445384d6ff3f3d1b9.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/2d8fe42de2f833581faa077f788329fa.png!w80",
-              "time": "2026-11-13T21:45:00+07:00",
-              "time_label": "13/11 21:45",
               "status": "live",
               "score": "",
               "stream_count": 4
@@ -2955,6 +2916,25 @@
               "stream_count": 3
             }
           ]
+        },
+        {
+          "name": "Giải bóng đá Hạng nhất Brasil",
+          "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-9gklzi16034um7x",
+              "title": "CLB Chapecoense SC vs Vasco",
+              "home": "CLB Chapecoense SC",
+              "away": "Vasco",
+              "home_logo": "https://img.cltvap.cc/football/team/4970b9a9a215c78759a6bb84ecaa3701.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/f110dc3a4406e67ecbc46511a7ea83f7.png!w80",
+              "time": "2026-11-15T06:30:00+07:00",
+              "time_label": "15/11 06:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
         }
       ]
     },
@@ -2968,26 +2948,70 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 34,
-      "stream_count": 37,
+      "match_count": 33,
+      "stream_count": 35,
       "leagues": [
+        {
+          "name": "International Club Friendly",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-4wyrn4hy8wv4q86",
+              "title": "VfL Bochum vs SC Verl",
+              "home": "VfL Bochum",
+              "away": "SC Verl",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhy10qvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh7560r1ge/image/small",
+              "time": "2026-11-13T18:30:00+07:00",
+              "time_label": "13/11 18:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Ukrainian Second League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-6ypq3nhv931nmd7",
+              "title": "Rukh Vynnyky vs Nyva Ternopil B",
+              "home": "Rukh Vynnyky",
+              "away": "Nyva Ternopil B",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phox91m2wd/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh1zlnq82w/image/small",
+              "time": "2026-11-13T18:30:00+07:00",
+              "time_label": "13/11 18:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Hunan Football League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-318q66h8o66dqo9",
+              "title": "Changsha Team vs Yiyang Team",
+              "home": "Changsha Team",
+              "away": "Yiyang Team",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hkw31qo9j/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4hz36nq0j6/image/small",
+              "time": "2026-11-13T18:38:00+07:00",
+              "time_label": "13/11 18:38",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
         {
           "name": "International Friendly",
           "logo": "",
           "matches": [
-            {
-              "id": "mhd-match-l5ergphkodzor8k",
-              "title": "Uzbekistan U20 vs Venezuela U20",
-              "home": "Uzbekistan U20",
-              "away": "Venezuela U20",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hlx1lrz84/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdehn416r510/image/small",
-              "time": "2026-11-13T18:00:00+07:00",
-              "time_label": "13/11 18:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
             {
               "id": "mhd-match-l5ergphk0yvyr8k",
               "title": "Singapore vs Paraguay",
@@ -3108,63 +3132,6 @@
           ]
         },
         {
-          "name": "International Club Friendly",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-4wyrn4hy8wv4q86",
-              "title": "VfL Bochum vs SC Verl",
-              "home": "VfL Bochum",
-              "away": "SC Verl",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhy10qvy9/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh7560r1ge/image/small",
-              "time": "2026-11-13T18:30:00+07:00",
-              "time_label": "13/11 18:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Ukrainian Second League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-6ypq3nhv931nmd7",
-              "title": "Rukh Vynnyky vs Nyva Ternopil B",
-              "home": "Rukh Vynnyky",
-              "away": "Nyva Ternopil B",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phox91m2wd/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh1zlnq82w/image/small",
-              "time": "2026-11-13T18:30:00+07:00",
-              "time_label": "13/11 18:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Hunan Football League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-318q66h8o66dqo9",
-              "title": "Changsha Team vs Yiyang Team",
-              "home": "Changsha Team",
-              "away": "Yiyang Team",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hkw31qo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4hz36nq0j6/image/small",
-              "time": "2026-11-13T18:38:00+07:00",
-              "time_label": "13/11 18:38",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
           "name": "Indian League Division 1",
           "logo": "",
           "matches": [
@@ -3222,9 +3189,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhv82vrepz/image/small",
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
-              "stream_count": 2
+              "stream_count": 1
             },
             {
               "id": "mhd-match-jw2r09hk8zpwrz8",
