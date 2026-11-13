@@ -1,13 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-8c8ac023b94a" tvg-name="Llaneros vs Chico - Chuối Sấy - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png" group-title="VĐQG Colombia" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Llaneros vs Chico | 13/11 07:00 | Chuối Sấy | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-8c8ac023b94a" tvg-name="Llaneros vs Chico - Chuối Sấy - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png" group-title="VĐQG Colombia" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Llaneros vs Chico | 13/11 07:00 | Chuối Sấy | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-8c8ac023b94a" tvg-name="Llaneros vs Chico - Chuối Sấy - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png" group-title="VĐQG Colombia" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Llaneros vs Chico | 13/11 07:00 | Chuối Sấy | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-126c4b7b414e" tvg-name="Atlético Morelia vs Leones Negros - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120046_00fdc725.png" group-title="Hạng 2 Mexico" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Atlético Morelia vs Leones Negros | 13/11 09:00 | Chuối Kem | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
@@ -44,6 +35,15 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-4914031cf6d7" tvg-name="Preston Lions vs Lions - Chuối Lửa - FHD" tvg-logo="https://media.api-sports.io/football/leagues/1202.png" group-title="Australian Championship" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Preston Lions vs Lions | 13/11 15:30 | Chuối Lửa | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-e510b6175ba8" tvg-name="Singapore vs Paraguay - Chuối Sấy - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Singapore vs Paraguay | 13/11 19:00 | Chuối Sấy | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-e510b6175ba8" tvg-name="Singapore vs Paraguay - Chuối Sấy - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Singapore vs Paraguay | 13/11 19:00 | Chuối Sấy | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-e510b6175ba8" tvg-name="Singapore vs Paraguay - Chuối Sấy - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Giao Hữu Quốc Tế" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Singapore vs Paraguay | 13/11 19:00 | Chuối Sấy | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-9a6a781a6f39" tvg-name="Comoros vs Congo - Chuối Lá - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Africa Cup of Nations - Qualification" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Comoros vs Congo | 13/11 20:00 | Chuối Lá | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T01:52:25.922863+00:00",
+  "updated_at": "2026-11-13T01:55:55.686349+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -14,25 +14,6 @@
       "match_count": 20,
       "stream_count": 180,
       "leagues": [
-        {
-          "name": "VĐQG Colombia",
-          "logo": "https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Llaneros vs Chico",
-              "home": "Llaneros",
-              "away": "Chico",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_133539_dd5a3e20.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133533_eba6a872.png",
-              "time": "2026-11-13T07:00:00+07:00",
-              "time_label": "13/11 07:00",
-              "status": "2h",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
         {
           "name": "Hạng 2 Mexico",
           "logo": "https://media.chuoichientv.net/media/20251115_120046_00fdc725.png",
@@ -310,6 +291,25 @@
               "away_logo": "https://media.chuoichientv.net/media/20260531_193336_3393bc73.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "CONCACAF Nations League",
+          "logo": "https://media.chuoichientv.net/media/20251115_120026_f5783203.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Guatemala vs Canada",
+              "home": "Guatemala",
+              "away": "Canada",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_132741_23db91f9.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132742_666d88b2.png",
+              "time": "2026-11-14T09:00:00+07:00",
+              "time_label": "14/11 09:00",
               "status": "ns",
               "score": "",
               "stream_count": 9
