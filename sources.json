@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:17:12.552208+00:00",
+  "updated_at": "2026-11-13T08:18:16.526263+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -334,8 +334,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 48,
-      "stream_count": 98,
+      "match_count": 51,
+      "stream_count": 104,
       "leagues": [
         {
           "name": "Mongolia Premier League",
@@ -877,6 +877,19 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Kosovo vs Israel",
+              "home": "Kosovo",
+              "away": "Israel",
+              "home_logo": "https://img.cltvap.cc/football/team/4c93e18166419da61b1ca433c866d9e5.png",
+              "away_logo": "https://img.cltvap.cc/football/team/a370afda41a7ae62dcb8d1b721b92bed.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
             }
           ]
         },
@@ -942,6 +955,25 @@
               "away": "Malaysia",
               "home_logo": "https://img.cltvap.cc/football/team/445ef89e5620a875f7c2eaddd033e39d.png",
               "away_logo": "https://img.cltvap.cc/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "Thai King's Cup",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Thailand vs Brunei Darussalam",
+              "home": "Thailand",
+              "away": "Brunei Darussalam",
+              "home_logo": "https://img.cltvap.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png",
+              "away_logo": "https://img.cltvap.cc/football/team/10d4b366f410a1275f7b684f07a28456.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
@@ -1019,6 +1051,25 @@
               "away": "Sporting Gijon",
               "home_logo": "https://img.cltvap.cc/football/team/d29164c8a90c597e5333f1bf14f289f2.png",
               "away_logo": "https://img.cltvap.cc/football/team/fc749b5065db363497b7d93c966b0a51.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "SAFF Championship",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Bangladesh vs Pakistan",
+              "home": "Bangladesh",
+              "away": "Pakistan",
+              "home_logo": "https://img.cltvap.cc/football/team/f00b6379b82a515a9478b6e58b783de9.png",
+              "away_logo": "https://img.cltvap.cc/football/team/573572e4e9a8486a02fbc7eeeaffba7b.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
