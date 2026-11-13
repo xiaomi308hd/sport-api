@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T09:58:34.849519+00:00",
+  "updated_at": "2026-11-13T10:02:11.247651+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1606,41 +1606,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 15,
-      "stream_count": 16,
+      "match_count": 14,
+      "stream_count": 15,
       "leagues": [
-        {
-          "name": "Indian Bangalore Super Division",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-pxwrxlhlg5wlryk",
-              "title": "Kodagu vs Technico FF",
-              "home": "Kodagu",
-              "away": "Technico FF",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh8nknr6od/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh144vmd7o/image/small",
-              "time": "2026-11-13T13:00:00+07:00",
-              "time_label": "13/11 13:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-3glrw7h4w7e9qdy",
-              "title": "Parikrma FC vs Hal FC",
-              "home": "Parikrma FC",
-              "away": "Hal FC",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh1g6wqwzv/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4hvgkeq0j6/image/small",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "live",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Mongolia Premier League",
           "logo": "",
@@ -1655,6 +1623,25 @@
               "time": "2026-11-13T15:00:00+07:00",
               "time_label": "13/11 15:00",
               "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Indian Bangalore Super Division",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-3glrw7h4w7e9qdy",
+              "title": "Parikrma FC vs Hal FC",
+              "home": "Parikrma FC",
+              "away": "Hal FC",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh1g6wqwzv/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4hvgkeq0j6/image/small",
+              "time": "2026-11-13T15:30:00+07:00",
+              "time_label": "13/11 15:30",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
