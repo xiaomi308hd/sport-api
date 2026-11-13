@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:28:44.811433+00:00",
+  "updated_at": "2026-11-13T12:32:26.738367+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1862,20 +1862,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/360c19682e81f21d55846685c1701179.png!w80",
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-edq09il6r9eseqx",
-              "title": "Mozambique vs Ethiopia",
-              "home": "Mozambique",
-              "away": "Ethiopia",
-              "home_logo": "https://img.cltvap.cc/football/team/4ebcf9e1e66c0ecb1723ddb6dfdddd43.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/fac20ee3c5bc1659bc8e6ba2771c5b31.png!w80",
-              "time": "2026-11-13T20:00:00+07:00",
-              "time_label": "13/11 20:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -1886,6 +1873,19 @@
               "away": "Burundi",
               "home_logo": "https://img.cltvap.cc/football/team/3bb39baf42957397d3fae8e0e66b6554.png!w80",
               "away_logo": "https://img.cltvap.cc/football/team/4186b8943907012bd947930996fe9051.png!w80",
+              "time": "2026-11-13T20:00:00+07:00",
+              "time_label": "13/11 20:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-edq09il6r9eseqx",
+              "title": "Mozambique vs Ethiopia",
+              "home": "Mozambique",
+              "away": "Ethiopia",
+              "home_logo": "https://img.cltvap.cc/football/team/4ebcf9e1e66c0ecb1723ddb6dfdddd43.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/fac20ee3c5bc1659bc8e6ba2771c5b31.png!w80",
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
               "status": "scheduled",
@@ -3001,131 +3001,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 20,
-      "stream_count": 21,
+      "match_count": 12,
+      "stream_count": 13,
       "leagues": [
-        {
-          "name": "Indian Bangalore Super Division",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-3glrw7h4w7e9qdy",
-              "title": "Parikrma FC vs Hal FC",
-              "home": "Parikrma FC",
-              "away": "Hal FC",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh1g6wqwzv/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4hvgkeq0j6/image/small",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Aus Champ",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-4jwq2ghgo815m0v",
-              "title": "Oakleigh Cannons vs Marconi Stallions",
-              "home": "Oakleigh Cannons",
-              "away": "Marconi Stallions",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkh39x2qg8n/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwev9qdyj/image/small",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-l7oqdehjyve6r51",
-              "title": "Preston Lions vs Queensland Lions SC",
-              "home": "Preston Lions",
-              "away": "Queensland Lions SC",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phkynxm2wd/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhe5wqg8n/image/small",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Indo D4",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-dj2ryoh7k9d7q1z",
-              "title": "Persiba Bantul vs Gresik United",
-              "home": "Persiba Bantul",
-              "away": "Gresik United",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7h1lzgqdyj/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekh9n4krepz/image/small",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-dj2ryoh7k9x6q1z",
-              "title": "Persikota Tangerang vs Pesik Kuningan",
-              "home": "Persikota Tangerang",
-              "away": "Pesik Kuningan",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhzo3dm7vx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdeh4vg6r510/image/small",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-jw2r09h5lg0drz8",
-              "title": "Batavia FC vs Persikotas Tasikmalaya",
-              "home": "Batavia FC",
-              "away": "Persikotas Tasikmalaya",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1ghnjnvmoep/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryoh27x8q1zp/image/small",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-l7oqdehjn93kr51",
-              "title": "Persika Karanganyar vs Persinga Ngawi",
-              "home": "Persika Karanganyar",
-              "away": "Persinga Ngawi",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nhw2y6md7o/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phopwzm2wd/image/small",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-zp5rzgh3jd0jq82",
-              "title": "Persibo Bojonegoro vs Persipa Pati",
-              "home": "Persibo Bojonegoro",
-              "away": "Persipa Pati",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohk9x0q1zp/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zhgy30ql07/image/small",
-              "time": "2026-11-13T15:30:00+07:00",
-              "time_label": "13/11 15:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Malaysia A1 Semi-Pro League",
           "logo": "",
