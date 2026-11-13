@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T11:47:29.117425+00:00",
+  "updated_at": "2026-11-13T11:51:01.776696+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -3001,8 +3001,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 19,
-      "stream_count": 19,
+      "match_count": 20,
+      "stream_count": 20,
       "leagues": [
         {
           "name": "Mongolia Premier League",
@@ -3284,6 +3284,25 @@
               "away": "Nyva Ternopil B",
               "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phox91m2wd/image/small",
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh1zlnq82w/image/small",
+              "time": "2026-11-13T18:30:00+07:00",
+              "time_label": "13/11 18:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "International Club Friendly",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-4wyrn4hy8wv4q86",
+              "title": "VfL Bochum vs SC Verl",
+              "home": "VfL Bochum",
+              "away": "SC Verl",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhy10qvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh7560r1ge/image/small",
               "time": "2026-11-13T18:30:00+07:00",
               "time_label": "13/11 18:30",
               "status": "scheduled",
