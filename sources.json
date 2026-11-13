@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:40:32.973536+00:00",
+  "updated_at": "2026-11-13T19:44:11.611137+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,8 +11,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 9,
-      "stream_count": 81,
+      "match_count": 10,
+      "stream_count": 90,
       "leagues": [
         {
           "name": "UEFA Nations League",
@@ -85,6 +85,19 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132807_4c096ae9.png",
               "time": "2026-11-14T06:00:00+07:00",
               "time_label": "14/11 06:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            },
+            {
+              "id": "",
+              "title": "Colombia vs Chile",
+              "home": "Colombia",
+              "away": "Chile",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_132807_7f305cf9.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132811_2544daac.png",
+              "time": "2026-11-14T07:00:00+07:00",
+              "time_label": "14/11 07:00",
               "status": "ns",
               "score": "",
               "stream_count": 9
@@ -1225,7 +1238,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 321,
+      "stream_count": 330,
       "leagues": [
         {
           "name": "Giao hữu Quốc tế",
@@ -1501,7 +1514,7 @@
               "time_label": "14/11 02:45",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-wv78xiv19lvuokr",
@@ -1514,7 +1527,7 @@
               "time_label": "14/11 02:45",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-vrqwni40pyys4qn",
@@ -1527,7 +1540,7 @@
               "time_label": "14/11 02:45",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-34kgmiog8j4aeko",
@@ -1540,7 +1553,7 @@
               "time_label": "14/11 02:45",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-69759igr9mdagk2",
@@ -1553,7 +1566,7 @@
               "time_label": "14/11 02:45",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-63kv9ig6nyltx7e",
@@ -1566,7 +1579,7 @@
               "time_label": "14/11 02:45",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-o07dni5n9lrsmkn",
@@ -1579,7 +1592,7 @@
               "time_label": "14/11 02:45",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-ndqmliw96lrfrkv",
@@ -1592,7 +1605,7 @@
               "time_label": "14/11 02:45",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-j374oi04xjpigqo",
@@ -1605,7 +1618,7 @@
               "time_label": "14/11 02:45",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-8lk2dir3m2puz73",
@@ -3104,7 +3117,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhyopqvy9/image/small",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
@@ -3117,7 +3130,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhj3zqg8n/image/small",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
@@ -3130,7 +3143,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/gy0or5jhd2oqwzv/image/small",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
@@ -3143,7 +3156,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyhj23r1ge/image/small",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
@@ -3156,7 +3169,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh65l8m7vx/image/small",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
@@ -3195,7 +3208,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlh8zwryk0/image/small",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
