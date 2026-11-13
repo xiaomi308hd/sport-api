@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:24:22.409881+00:00",
+  "updated_at": "2026-11-13T17:28:20.512326+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1361,7 +1361,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 331,
+      "stream_count": 332,
       "leagues": [
         {
           "name": "Cúp Quốc gia Châu Phi",
@@ -1611,7 +1611,7 @@
               "time_label": "14/11 00:30",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-o07dnindnp3bmkn",
@@ -2831,8 +2831,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 40,
-      "stream_count": 42,
+      "match_count": 42,
+      "stream_count": 44,
       "leagues": [
         {
           "name": "Indian Women's League",
@@ -3163,6 +3163,32 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllh8v07qvy9/image/small",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-vjxm8ghk47exr6o",
+              "title": "Necaxa II vs Trinca de Mi Vida",
+              "home": "Necaxa II",
+              "away": "Trinca de Mi Vida",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hng50rz84/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4hzngdq0j6/image/small",
+              "time": "2026-11-14T00:00:00+07:00",
+              "time_label": "14/11 00:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-x7lm7phxk2jom2w",
+              "title": "Mineros de Zacatecas II vs Pabellon FC",
+              "home": "Mineros de Zacatecas II",
+              "away": "Pabellon FC",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7h19vvqdyj/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7ph996zm2wd/image/small",
+              "time": "2026-11-14T00:00:00+07:00",
+              "time_label": "14/11 00:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
