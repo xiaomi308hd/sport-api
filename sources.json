@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T03:35:24.981244+00:00",
+  "updated_at": "2026-11-13T03:38:56.297282+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1078,8 +1078,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 7,
-      "stream_count": 7,
+      "match_count": 8,
+      "stream_count": 8,
       "leagues": [
         {
           "name": "Categoría Primera A",
@@ -1178,6 +1178,25 @@
               "time": "2026-11-13T09:00:00+07:00",
               "time_label": "13/11 09:00",
               "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Indian Bangalore Super Division",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-6ypq3nhk03dvmd7",
+              "title": "Real Bengaluru vs Bangalore Dream United",
+              "home": "Real Bengaluru",
+              "away": "Bangalore Dream United",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhekn6m7vx/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh95xzryk0/image/small",
+              "time": "2026-11-13T10:30:00+07:00",
+              "time_label": "13/11 10:30",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
