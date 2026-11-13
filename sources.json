@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T09:20:51.706805+00:00",
+  "updated_at": "2026-11-13T09:24:27.979382+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -46,7 +46,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141339_da8f4f91.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "1h",
+              "status": "ht",
               "score": "",
               "stream_count": 9
             },
@@ -334,8 +334,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 58,
-      "stream_count": 118,
+      "match_count": 66,
+      "stream_count": 134,
       "leagues": [
         {
           "name": "Mongolia Premier League",
@@ -586,6 +586,19 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "New Zealand vs India",
+              "home": "New Zealand",
+              "away": "India",
+              "home_logo": "https://img.cltvap.cc/football/team/7888d7d6d0a94676a13eaa2319a88583.png",
+              "away_logo": "https://img.cltvap.cc/football/team/e7083a9eae16cbc27fa133d41212e4c8.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
             }
           ]
         },
@@ -730,6 +743,19 @@
               "away": "Botswana",
               "home_logo": "https://img.cltvap.cc/football/team/81f7acabd411274fcf65ce2070ed568a.png",
               "away_logo": "https://img.cltvap.cc/football/team/184cb48a11bd10712686ebd5611812af.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Algeria vs Togo",
+              "home": "Algeria",
+              "away": "Togo",
+              "home_logo": "https://img.cltvap.cc/football/team/91e9ae1b4f224d9e856e56b0cf14416f.png",
+              "away_logo": "https://img.cltvap.cc/football/team/61e60914da33c0049470118561d8f8fd.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
@@ -1111,11 +1137,37 @@
             },
             {
               "id": "",
+              "title": "RCD Mallorca vs Cordoba",
+              "home": "RCD Mallorca",
+              "away": "Cordoba",
+              "home_logo": "https://img.cltvap.cc/football/team/fdef90456d2a2eee09976c558457aec7.png",
+              "away_logo": "https://img.cltvap.cc/football/team/cd6fd11fd9ca07c46747cb03b87f4dbb.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
               "title": "Almeria vs Andorra CF",
               "home": "Almeria",
               "away": "Andorra CF",
               "home_logo": "https://img.cltvap.cc/football/team/d019943fa39f97f70cf49601cccbfa4b.png",
               "away_logo": "https://img.cltvap.cc/football/team/87b05db9f90fc41e0faa409474ada50c.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Tenerife vs AD Ceuta",
+              "home": "Tenerife",
+              "away": "AD Ceuta",
+              "home_logo": "https://img.cltvap.cc/football/team/c816a7cc7ab1eb6dcce3fb4408acd320.png",
+              "away_logo": "https://img.cltvap.cc/football/team/cb76c8ffac95e7e5429aca574aab5deb.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
@@ -1135,6 +1187,44 @@
               "away": "Pakistan",
               "home_logo": "https://img.cltvap.cc/football/team/f00b6379b82a515a9478b6e58b783de9.png",
               "away_logo": "https://img.cltvap.cc/football/team/573572e4e9a8486a02fbc7eeeaffba7b.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "Brazilian Serie A",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Chapecoense - SC vs Vasco da Gama Saf - RJ",
+              "home": "Chapecoense - SC",
+              "away": "Vasco da Gama Saf - RJ",
+              "home_logo": "https://img.cltvap.cc/football/team/4970b9a9a215c78759a6bb84ecaa3701.png",
+              "away_logo": "https://img.cltvap.cc/football/team/f110dc3a4406e67ecbc46511a7ea83f7.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "Australia W-League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Canberra United Women vs Brisbane Roar Women",
+              "home": "Canberra United Women",
+              "away": "Brisbane Roar Women",
+              "home_logo": "https://img.cltvap.cc/football/team/fd8ad42f4f7a3b8cbe094e6d166a0b2c.png",
+              "away_logo": "https://img.cltvap.cc/football/team/acf9aab5d7335ccbbcff0e253ad35da0.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
@@ -1167,6 +1257,44 @@
               "away": "Yokohama F. Marinos",
               "home_logo": "https://img.cltvap.cc/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
               "away_logo": "https://img.cltvap.cc/football/team/78ddaaa79d9502f5e2df0fbb6261f937.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "Chinese Football League 1",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Guizhou Guiyang Athletic vs Dingnan United",
+              "home": "Guizhou Guiyang Athletic",
+              "away": "Dingnan United",
+              "home_logo": "https://img.cltvap.cc/football/team/90e8b9d7e9987fe80c17f1f0f6266ce1.png",
+              "away_logo": "https://img.cltvap.cc/football/team/b34589daf40274c74efdf970f5f41672.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "English FA Women's Super League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Aston Villa Women vs Birmingham Women",
+              "home": "Aston Villa Women",
+              "away": "Birmingham Women",
+              "home_logo": "https://img.cltvap.cc/football/team/9786e02491cd73bef33d48d5f1b2ad51.png",
+              "away_logo": "https://img.cltvap.cc/football/team/f59d8d3db21b4054ac9e83a15f7b2609.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
