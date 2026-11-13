@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:29:39.066520+00:00",
+  "updated_at": "2026-11-13T08:33:29.805521+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1135,54 +1135,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 8,
-      "stream_count": 8,
+      "match_count": 6,
+      "stream_count": 7,
       "leagues": [
-        {
-          "name": "Japanese Regional League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-318q66h8o3nnqo9",
-              "title": "Aries Tokyo vs Fukuyama City FC",
-              "home": "Aries Tokyo",
-              "away": "Fukuyama City FC",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkvd1ryox/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hjwk9rz84/image/small",
-              "time": "2026-11-13T11:30:00+07:00",
-              "time_label": "13/11 11:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-4wyrn4hy850lq86",
-              "title": "Veroskronos Tsuno vs Cobar Torre Onagawa",
-              "home": "Veroskronos Tsuno",
-              "away": "Cobar Torre Onagawa",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyhng3yr1ge/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh08p0md7o/image/small",
-              "time": "2026-11-13T11:30:00+07:00",
-              "time_label": "13/11 11:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-dn1m1gh94gk7moe",
-              "title": "Tokyo United vs Gakunan F Mosuperio",
-              "home": "Tokyo United",
-              "away": "Gakunan F Mosuperio",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hjv4eqo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h93vgmojx/image/small",
-              "time": "2026-11-13T11:30:00+07:00",
-              "time_label": "13/11 11:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Mongolia Premier League",
           "logo": "",
@@ -1252,6 +1207,19 @@
           "logo": "",
           "matches": [
             {
+              "id": "mhd-match-4jwq2ghgo815m0v",
+              "title": "Oakleigh Cannons vs Marconi Stallions",
+              "home": "Oakleigh Cannons",
+              "away": "Marconi Stallions",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkh39x2qg8n/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwev9qdyj/image/small",
+              "time": "2026-11-13T15:30:00+07:00",
+              "time_label": "13/11 15:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
               "id": "mhd-match-l7oqdehjyve6r51",
               "title": "Preston Lions vs Queensland Lions SC",
               "home": "Preston Lions",
@@ -1262,7 +1230,7 @@
               "time_label": "13/11 15:30",
               "status": "live",
               "score": "",
-              "stream_count": 1
+              "stream_count": 2
             }
           ]
         }
