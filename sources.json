@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:36:57.341794+00:00",
+  "updated_at": "2026-11-13T17:40:36.616039+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -2831,8 +2831,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 44,
-      "stream_count": 46,
+      "match_count": 45,
+      "stream_count": 47,
       "leagues": [
         {
           "name": "International Friendly",
@@ -3435,6 +3435,25 @@
               "time": "2026-11-14T00:00:00+07:00",
               "time_label": "14/11 00:00",
               "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "German Frauen Bundesliga",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-965mkyhkd6kor1g",
+              "title": "Nữ Hamburger SV vs 1.FSV Mainz 05Women(w)",
+              "home": "Nữ Hamburger SV",
+              "away": "1.FSV Mainz 05Women(w)",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdehnd0vr510/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohn1w0q1zp/image/small",
+              "time": "2026-11-14T00:30:00+07:00",
+              "time_label": "14/11 00:30",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
