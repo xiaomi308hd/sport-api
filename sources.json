@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:13:55.621367+00:00",
+  "updated_at": "2026-11-13T15:17:52.440813+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -244,8 +244,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 81,
-      "stream_count": 164,
+      "match_count": 80,
+      "stream_count": 162,
       "leagues": [
         {
           "name": "International Friendly",
@@ -286,19 +286,6 @@
               "away_logo": "https://img.cltvap.cc/football/team/46901c88777c4076bcf2ea240223deed.png",
               "time": "2026-11-13T21:45:00+07:00",
               "time_label": "13/11 21:45",
-              "status": "live",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Iraq vs Lebanon",
-              "home": "Iraq",
-              "away": "Lebanon",
-              "home_logo": "https://img.cltvap.cc/football/team/d63ba4378c5b4c55baa283ef654399ad.png",
-              "away_logo": "https://img.cltvap.cc/football/team/a576eafbce762079f7d1f77fca1c5cc2.png",
-              "time": "2026-11-13T22:00:00+07:00",
-              "time_label": "13/11 22:00",
               "status": "live",
               "score": "",
               "stream_count": 2
