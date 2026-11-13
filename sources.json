@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:03:15.214533+00:00",
+  "updated_at": "2026-11-13T19:06:58.906143+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -273,7 +273,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -286,7 +286,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/761ccf19be6a4fdf81880acadb81aa4c.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -299,7 +299,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/f06adf060c098f11e76fa2ff1565ba70.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -312,7 +312,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/fad87ff2077540c8a951ade88a87901d.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -325,7 +325,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/90c34175923a36ab7a5de4b981c1972f.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -2708,7 +2708,7 @@
       "stale": false,
       "error": "",
       "match_count": 44,
-      "stream_count": 47,
+      "stream_count": 48,
       "leagues": [
         {
           "name": "Niger Premier League",
@@ -3207,9 +3207,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/vl7oqdehp4gr510/image/small",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
-              "stream_count": 1
+              "stream_count": 2
             },
             {
               "id": "mhd-match-y39mp1h6dg22moj",
