@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T14:35:36.828421+00:00",
+  "updated_at": "2026-11-13T14:39:19.302996+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1510,7 +1510,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 323,
+      "stream_count": 324,
       "leagues": [
         {
           "name": "Cúp Quốc gia Châu Phi",
@@ -1754,7 +1754,7 @@
               "time_label": "13/11 21:45",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-jek33im6pzwt9ko",
@@ -2968,8 +2968,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 33,
-      "stream_count": 34,
+      "match_count": 34,
+      "stream_count": 35,
       "leagues": [
         {
           "name": "International Friendly",
@@ -2997,6 +2997,19 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hg02q86p/image/small",
               "time": "2026-11-13T19:00:00+07:00",
               "time_label": "13/11 19:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-2y8m4zhv345zql0",
+              "title": "UAE vs Honduras",
+              "home": "UAE",
+              "away": "Honduras",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh908q82w/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzghvzyq82w/image/small",
+              "time": "2026-11-13T21:15:00+07:00",
+              "time_label": "13/11 21:15",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
