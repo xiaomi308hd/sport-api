@@ -124,6 +124,32 @@
       "referer_by_host": {}
     }
   ],
+ {
+      "name": "ColaTV",
+      "id": "colatv",
+      "display_name": "Cola TV",
+      "logo": "",
+      "playlist_file": "colatv.m3u",
+      "enabled": true,
+      "method": "GET",
+      "url": "https://api.gvapi.cc/api/matches",
+      "parser": "colatv",
+      "default_stream_referer": "https://colatv98.live/",
+      "stream_referer": "https://colatv98.live/",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://colatv98.live",
+        "Referer": "https://colatv98.live/",
+        "X-Domain": "colatv98.live",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+      },
+      "stream_priority": [
+        "videoUrl",
+        "playStreamAddress2",
+        "servers",
+        "playStreamAddress"
+      ]
+    }
 
   "stream_header_rules": [
     {
