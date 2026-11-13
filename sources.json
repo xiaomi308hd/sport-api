@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:43:55.698155+00:00",
+  "updated_at": "2026-11-13T10:47:45.608629+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -315,41 +315,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 86,
-      "stream_count": 174,
+      "match_count": 85,
+      "stream_count": 172,
       "leagues": [
-        {
-          "name": "Aus Champ",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Oakleigh Cannons vs Marconi Stallions",
-              "home": "Oakleigh Cannons",
-              "away": "Marconi Stallions",
-              "home_logo": "https://img.cltvap.cc/football/team/873f655c74783dbb85de6cacc8f503c0.png",
-              "away_logo": "https://img.cltvap.cc/football/team/e1605aa2375e5aa780e43e89a0f1b080.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Bayswater City vs Sydney Olympic",
-              "home": "Bayswater City",
-              "away": "Sydney Olympic",
-              "home_logo": "https://img.cltvap.cc/football/team/15809b305455c1e964ccd454cc180e51.png",
-              "away_logo": "https://img.cltvap.cc/football/team/2ff1ff9e86bb5eabb44fe40b0a65fac7.png",
-              "time": "",
-              "time_label": "",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
         {
           "name": "International Friendly",
           "logo": "",
@@ -1093,6 +1061,25 @@
               "away": "Tajikistan U19",
               "home_logo": "https://img.cltvap.cc/football/team/367ba92bc85435312f1074132e9e2ce8.png",
               "away_logo": "https://img.cltvap.cc/football/team/79d0360cd882c01f1ac008b3bb85feb3.png",
+              "time": "",
+              "time_label": "",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "Aus Champ",
+          "logo": "",
+          "matches": [
+            {
+              "id": "",
+              "title": "Bayswater City vs Sydney Olympic",
+              "home": "Bayswater City",
+              "away": "Sydney Olympic",
+              "home_logo": "https://img.cltvap.cc/football/team/15809b305455c1e964ccd454cc180e51.png",
+              "away_logo": "https://img.cltvap.cc/football/team/2ff1ff9e86bb5eabb44fe40b0a65fac7.png",
               "time": "",
               "time_label": "",
               "status": "scheduled",
