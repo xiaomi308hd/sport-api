@@ -61,7 +61,6 @@
   "id": "colatv",
   "name": "ColaTV",
   "url": "https://api.gvapi.cc/api/matches",
-  "detail_url": "https://api.gvapi.cc/api/match/{slug}",
   "method": "GET",
   "parser": "colatv",
   "headers": {
@@ -69,30 +68,6 @@
     "User-Agent": "Mozilla/5.0"
   },
   "playlist_file": "thethao-colatv.m3u",
-  "response_data_path": "data",
-  "stream_extractors": [
-    {
-      "path": "videoUrl",
-      "type": "direct",
-      "priority": 1
-    },
-    {
-      "path": "anchorAppointmentVoList",
-      "type": "nested",
-      "priority": 2,
-      "url_fields": [
-        "playStreamAddress2",
-        "servers",
-        "playStreamAddress"
-      ]
-    }
-  ],
-  "stream_priority": [
-    "videoUrl",
-    "playStreamAddress2",
-    "servers",
-    "playStreamAddress"
-  ],
   "stream_format_priority": [
     "m3u8",
     "flv"
