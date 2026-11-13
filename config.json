@@ -56,54 +56,49 @@
         "User-Agent": "Mozilla/5.0"
       }
     },
-    {
-      "name": "ColaTV",
-      "id": "colatv",
-      "display_name": "Cola TV",
-      "logo": "",
-      "playlist_file": "thethao-colatv.m3u",
-      "enabled": true,
-      "method": "GET",
-      "url": "https://api.gvapi.cc/api/matches",
-      "parser": "colatv",
-      "default_stream_referer": "https://colatv98.live/",
-      "stream_referer": "https://colatv98.live/",
-      "headers": {
-        "Accept": "*/*",
-        "Origin": "https://colatv98.live",
-        "Referer": "https://colatv98.live/",
-        "X-Domain": "colatv98.live",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
-      },
-      "response_data_path": "data",
-      "stream_extractors": [
-        {
-          "path": "videoUrl",
-          "type": "direct",
-          "priority": 1
-        },
-        {
-          "path": "anchorAppointmentVoList",
-          "type": "nested",
-          "priority": 2,
-          "url_fields": [
-            "playStreamAddress2",
-            "servers",
-            "playStreamAddress"
-          ]
-        }
-      ],
-      "stream_priority": [
-        "videoUrl",
-        "playStreamAddress2",
-        "servers",
-        "playStreamAddress"
-      ],
-      "stream_format_priority": [
-        "m3u8",
-        "flv"
-      ]
-    },
+
+   {
+     "id": "colatv",
+     "name": "ColaTV",
+     "url": "https://api.gvapi.cc/api/matches",
+     "detail_url": "https://api.gvapi.cc/api/match/{slug}",
+     "method": "GET",
+     "parser": "colatv",
+     "headers": {
+       "Accept": "application/json",
+       "User-Agent": "Mozilla/5.0"
+     },
+     "playlist": "thethao-colatv.m3u",
+     "response_data_path": "data",
+     "stream_extractors": [
+       {
+         "path": "videoUrl",
+         "type": "direct",
+         "priority": 1
+       },
+       {
+         "path": "anchorAppointmentVoList",
+         "type": "nested",
+         "priority": 2,
+         "url_fields": [
+           "playStreamAddress2",
+           "servers",
+           "playStreamAddress"
+         ]
+       }
+     ],
+     "stream_priority": [
+       "videoUrl",
+       "playStreamAddress2",
+       "servers",
+       "playStreamAddress"
+     ],
+     "stream_format_priority": [
+       "m3u8",
+       "flv"
+     ]
+   },
+    
     {
       "name": "PhaLangTV",
       "id": "phalangtv",
