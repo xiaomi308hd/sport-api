@@ -20,6 +20,8 @@ import json
 import time
 import html
 import logging
+import ssl
+import certifi
 import urllib.request
 import urllib.error
 import urllib.parse
@@ -63,9 +65,11 @@ def load_config():
 
 
 CONFIG = load_config()
-
 TIMEOUT = int(CONFIG.get("request_timeout_seconds", 25))
 RETRIES = int(CONFIG.get("request_retries", 2))
+
+# SSL certificate configuration
+SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
 
 OUTPUT_FILE = ROOT / CONFIG.get("output_file", "thethao.m3u")
 EPG_FILE = ROOT / CONFIG.get("epg_file", "epg.xml")
@@ -244,7 +248,8 @@ def request_json(
 
             with urllib.request.urlopen(
                 req,
-                timeout=timeout or TIMEOUT
+                timeout=timeout or TIMEOUT,
+                context=SSL_CONTEXT
             ) as response:
                 raw = response.read().decode(
                     "utf-8",
