@@ -17,24 +17,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-b1e2ff10f526" tvg-name="South Africa vs Kenya - Chuối Lửa - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",South Africa vs Kenya | 13/11 23:00 | Chuối Lửa | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-cadf41e6e689" tvg-name="Saudi Arabia vs South Korea - Chuối Già - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Saudi Arabia vs South Korea | 13/11 21:30 | Chuối Già | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-cadf41e6e689" tvg-name="Saudi Arabia vs South Korea - Chuối Già - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Saudi Arabia vs South Korea | 13/11 21:30 | Chuối Già | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-cadf41e6e689" tvg-name="Saudi Arabia vs South Korea - Chuối Già - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Saudi Arabia vs South Korea | 13/11 21:30 | Chuối Già | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1c56a6582222" tvg-name="Qatar vs Australia - Chuối Chao - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Qatar vs Australia | 13/11 21:45 | Chuối Chao | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1c56a6582222" tvg-name="Qatar vs Australia - Chuối Chao - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Qatar vs Australia | 13/11 21:45 | Chuối Chao | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1c56a6582222" tvg-name="Qatar vs Australia - Chuối Chao - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Qatar vs Australia | 13/11 21:45 | Chuối Chao | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-fd0922775f8d" tvg-name="Moldova vs Kazakhstan - Chuối Sấy - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Moldova vs Kazakhstan | 14/11 00:00 | Chuối Sấy | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
@@ -71,6 +53,24 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-32552baf63ca" tvg-name="Slovenia vs Faroe Islands - Chuối Lá - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Slovenia vs Faroe Islands | 14/11 02:45 | Chuối Lá | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-b6133c8fd717" tvg-name="Scotland vs FYR Macedonia - Chuối Già - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Scotland vs FYR Macedonia | 14/11 02:45 | Chuối Già | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-b6133c8fd717" tvg-name="Scotland vs FYR Macedonia - Chuối Già - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Scotland vs FYR Macedonia | 14/11 02:45 | Chuối Già | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-b6133c8fd717" tvg-name="Scotland vs FYR Macedonia - Chuối Già - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Scotland vs FYR Macedonia | 14/11 02:45 | Chuối Già | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-a8f3c728ca0e" tvg-name="Argentina vs Uruguay - Chuối Chao - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Argentina vs Uruguay | 14/11 06:00 | Chuối Chao | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-a8f3c728ca0e" tvg-name="Argentina vs Uruguay - Chuối Chao - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Argentina vs Uruguay | 14/11 06:00 | Chuối Chao | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-a8f3c728ca0e" tvg-name="Argentina vs Uruguay - Chuối Chao - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Argentina vs Uruguay | 14/11 06:00 | Chuối Chao | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-f57bb04dd0b8" tvg-name="Hisamitsu Springs W vs PFU Blue Cats W - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="VOLLEYBALL",Hisamitsu Springs W vs PFU Blue Cats W | 14/11 11:05 | Chuối Kem | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8

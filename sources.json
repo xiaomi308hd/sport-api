@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T16:40:27.672657+00:00",
+  "updated_at": "2026-11-13T16:44:08.027621+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,54 +11,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 14,
-      "stream_count": 126,
+      "match_count": 12,
+      "stream_count": 108,
       "leagues": [
-        {
-          "name": "Giao Hữu Quốc Tế",
-          "logo": "https://media.api-sports.io/football/leagues/10.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Saudi Arabia vs South Korea",
-              "home": "Saudi Arabia",
-              "away": "South Korea",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_132738_952f6da3.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png",
-              "time": "2026-11-13T21:30:00+07:00",
-              "time_label": "13/11 21:30",
-              "status": "ft",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Qatar vs Australia",
-              "home": "Qatar",
-              "away": "Australia",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_133416_04ec5812.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134250_2a12c2b6.png",
-              "time": "2026-11-13T21:45:00+07:00",
-              "time_label": "13/11 21:45",
-              "status": "ft",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Argentina vs Uruguay",
-              "home": "Argentina",
-              "away": "Uruguay",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132807_4c096ae9.png",
-              "time": "2026-11-14T06:00:00+07:00",
-              "time_label": "14/11 06:00",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
         {
           "name": "Africa Cup of Nations - Qualification",
           "logo": "https://media.chuoichientv.net/media/20251115_120144_c5f585be.png",
@@ -156,6 +111,25 @@
               "away_logo": "https://media.chuoichientv.net/media/20260531_193336_3393bc73.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "Giao Hữu Quốc Tế",
+          "logo": "https://media.api-sports.io/football/leagues/10.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Argentina vs Uruguay",
+              "home": "Argentina",
+              "away": "Uruguay",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132807_4c096ae9.png",
+              "time": "2026-11-14T06:00:00+07:00",
+              "time_label": "14/11 06:00",
               "status": "ns",
               "score": "",
               "stream_count": 9
