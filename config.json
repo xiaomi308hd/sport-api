@@ -1,4 +1,4 @@
-
+còn dạo này là
 {
   "output_file": "thethao.m3u",
   "epg_file": "epg.xml",
@@ -60,8 +60,6 @@
 {
   "id": "colatv",
   "name": "ColaTV",
-  "display_name": "Gà Vàng TV",
-  "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/colatv.png",
   "url": "https://api.gvapi.cc/api/matches",
   "method": "GET",
   "parser": "colatv",
