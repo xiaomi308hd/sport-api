@@ -8,24 +8,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-fd0922775f8d" tvg-name="Moldova vs Kazakhstan - Chuối Sấy - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Moldova vs Kazakhstan | 14/11 00:00 | Chuối Sấy | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-d250cbcd43cf" tvg-name="Cape Verde Islands vs Liberia - Chuối Tây - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Cape Verde Islands vs Liberia | 13/11 23:00 | Chuối Tây | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-d250cbcd43cf" tvg-name="Cape Verde Islands vs Liberia - Chuối Tây - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Cape Verde Islands vs Liberia | 13/11 23:00 | Chuối Tây | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-d250cbcd43cf" tvg-name="Cape Verde Islands vs Liberia - Chuối Tây - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Cape Verde Islands vs Liberia | 13/11 23:00 | Chuối Tây | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-b1e2ff10f526" tvg-name="South Africa vs Kenya - Chuối Lửa - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",South Africa vs Kenya | 13/11 23:00 | Chuối Lửa | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-b1e2ff10f526" tvg-name="South Africa vs Kenya - Chuối Lửa - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",South Africa vs Kenya | 13/11 23:00 | Chuối Lửa | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-b1e2ff10f526" tvg-name="South Africa vs Kenya - Chuối Lửa - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120144_c5f585be.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",South Africa vs Kenya | 13/11 23:00 | Chuối Lửa | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-65a796c7b7a8" tvg-name="Serbia vs Germany - Trốc Tru - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Serbia vs Germany | 14/11 02:45 | Trốc Tru | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
@@ -71,6 +53,15 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-a8f3c728ca0e" tvg-name="Argentina vs Uruguay - Chuối Chao - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Argentina vs Uruguay | 14/11 06:00 | Chuối Chao | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-962fc497dcb4" tvg-name="Guatemala vs Canada - Chuối Tây - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120026_f5783203.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Guatemala vs Canada | 14/11 09:00 | Chuối Tây | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-962fc497dcb4" tvg-name="Guatemala vs Canada - Chuối Tây - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120026_f5783203.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Guatemala vs Canada | 14/11 09:00 | Chuối Tây | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-962fc497dcb4" tvg-name="Guatemala vs Canada - Chuối Tây - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120026_f5783203.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Guatemala vs Canada | 14/11 09:00 | Chuối Tây | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-f57bb04dd0b8" tvg-name="Hisamitsu Springs W vs PFU Blue Cats W - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="VOLLEYBALL",Hisamitsu Springs W vs PFU Blue Cats W | 14/11 11:05 | Chuối Kem | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
@@ -80,3 +71,12 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-f57bb04dd0b8" tvg-name="Hisamitsu Springs W vs PFU Blue Cats W - Chuối Kem - FHD" tvg-logo="https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="VOLLEYBALL",Hisamitsu Springs W vs PFU Blue Cats W | 14/11 11:05 | Chuối Kem | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-5ac65c0fc70b" tvg-name="Okayama Seagulls W vs NEC Red Rockets W - Chuối Lửa - HD1" tvg-logo="https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="VOLLEYBALL",Okayama Seagulls W vs NEC Red Rockets W | 14/11 12:05 | Chuối Lửa | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-5ac65c0fc70b" tvg-name="Okayama Seagulls W vs NEC Red Rockets W - Chuối Lửa - HD2" tvg-logo="https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="VOLLEYBALL",Okayama Seagulls W vs NEC Red Rockets W | 14/11 12:05 | Chuối Lửa | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-5ac65c0fc70b" tvg-name="Okayama Seagulls W vs NEC Red Rockets W - Chuối Lửa - FHD" tvg-logo="https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="VOLLEYBALL",Okayama Seagulls W vs NEC Red Rockets W | 14/11 12:05 | Chuối Lửa | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
