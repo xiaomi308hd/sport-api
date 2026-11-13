@@ -20,7 +20,7 @@ sport-api/
 
 ## M3U và EPG hoạt động cùng nhau
 
-- `thethao.m3u`: chứa các URL phát, tên trận, thời gian Việt Nam, tỉ số khi API có dữ liệu, `tvg-logo`, `group-title` và `tvg-id`.
+- `thethao.m3u`: chứa các URL phát, tên trận, thời gian Việt Nam, tỉ số khi API có dữ liệu, `tvg-logo`, `group-title` và `tvg-id`. `group-title` là tên nhà đài (vd `Chuối Chiên TV`) nên mọi trận của một nhà đài nằm chung 1 nhóm; không còn thuộc tính `x-source-name` / `x-source-logo`.
 - `epg.xml`: chứa các `<channel>` và `<programme>` XMLTV. Mỗi trận có một `tvg-id` ổn định; các luồng HD1/HD2/FHD của trận đó cùng tham chiếu đến ID này.
 - XMLTV giữ riêng logo đội nhà, logo đội khách và logo giải đấu bằng các phần tử `<icon>`.
 - `programme start` được chuyển về múi giờ Việt Nam (`+0700`). Chỉ ghi `stop` nếu API thực sự cung cấp thời gian kết thúc; script không tự đoán thời lượng trận đấu.
