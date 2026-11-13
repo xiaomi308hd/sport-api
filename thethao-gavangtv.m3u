@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-5e11df0ef45e" tvg-name="Saudi Arabia vs South Korea - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Saudi Arabia vs South Korea | 13/11 21:30 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/306290.m3u8
-#EXTINF:-1 tvg-id="mhd-match-5e11df0ef45e" tvg-name="Saudi Arabia vs South Korea - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Saudi Arabia vs South Korea | 13/11 21:30 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/306290.flv
 #EXTINF:-1 tvg-id="mhd-match-181723d32f13" tvg-name="Qatar vs Australia - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/efa8ac06cc6747b1835520f01650a0ab.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Qatar vs Australia | 13/11 21:45 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/304565.m3u8
 #EXTINF:-1 tvg-id="mhd-match-181723d32f13" tvg-name="Qatar vs Australia - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/efa8ac06cc6747b1835520f01650a0ab.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Qatar vs Australia | 13/11 21:45 | Gà Vàng TV | Live
@@ -47,3 +43,7 @@ https://live2.zktsva.app/live/432017.flv
 https://live2.zktsva.app/live/307240.m3u8
 #EXTINF:-1 tvg-id="mhd-match-b286921cc7e5" tvg-name="Morocco vs Niger - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/85a768d7c6a14d51b24bcb19c280b4c6.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Morocco vs Niger | 14/11 03:00 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/307240.flv
+#EXTINF:-1 tvg-id="mhd-match-88105009761c" tvg-name="Colombia vs Chile - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/ef2635db12914681ae86ece2d97bd6c2.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Colombia vs Chile | 14/11 07:00 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/306290.m3u8
+#EXTINF:-1 tvg-id="mhd-match-88105009761c" tvg-name="Colombia vs Chile - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/ef2635db12914681ae86ece2d97bd6c2.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Colombia vs Chile | 14/11 07:00 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/306290.flv
