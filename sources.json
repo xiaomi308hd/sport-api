@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T05:42:10.177095+00:00",
+  "updated_at": "2026-11-13T05:45:41.682061+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1078,52 +1078,51 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 9,
-      "stream_count": 9,
+      "match_count": 6,
+      "stream_count": 6,
       "leagues": [
+        {
+          "name": "Mexico Ascenso MX",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-4wyrn4hy8y56q86",
+              "title": "CA Morelia vs U. de G.",
+              "home": "CA Morelia",
+              "away": "U. de G.",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhjjvdryk0/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkwj0ryox/image/small",
+              "time": "2026-11-13T09:00:00+07:00",
+              "time_label": "13/11 09:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Indian Bangalore Super Division",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-6ypq3nhk03dvmd7",
+              "title": "Real Bengaluru vs Bangalore Dream United",
+              "home": "Real Bengaluru",
+              "away": "Bangalore Dream United",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhekn6m7vx/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh95xzryk0/image/small",
+              "time": "2026-11-13T10:30:00+07:00",
+              "time_label": "13/11 10:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
         {
           "name": "Japanese Regional League",
           "logo": "",
           "matches": [
-            {
-              "id": "mhd-match-965mkyh8701nr1g",
-              "title": "ASC Hokkaido vs Nankatsu SC",
-              "home": "ASC Hokkaido",
-              "away": "Nankatsu SC",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhe6ygm7vx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hzz4zqdyj/image/small",
-              "time": "2026-11-13T08:45:00+07:00",
-              "time_label": "13/11 08:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-k82rekh2vjn8rep",
-              "title": "SONIO Takamatsu vs Blancdieu Hirosaki FC",
-              "home": "SONIO Takamatsu",
-              "away": "Blancdieu Hirosaki FC",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohn8dkq1zp/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whzj3zryox/image/small",
-              "time": "2026-11-13T08:45:00+07:00",
-              "time_label": "13/11 08:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-y39mp1hd3ep9moj",
-              "title": "FC Basara Hyogo vs Fukui United",
-              "home": "FC Basara Hyogo",
-              "away": "Fukui United",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhvpnkryk0/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whzl0pryox/image/small",
-              "time": "2026-11-13T08:45:00+07:00",
-              "time_label": "13/11 08:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
             {
               "id": "mhd-match-318q66h8o3nnqo9",
               "title": "Aries Tokyo vs Fukuyama City FC",
@@ -1159,44 +1158,6 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h93vgmojx/image/small",
               "time": "2026-11-13T11:30:00+07:00",
               "time_label": "13/11 11:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Mexico Ascenso MX",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-4wyrn4hy8y56q86",
-              "title": "CA Morelia vs U. de G.",
-              "home": "CA Morelia",
-              "away": "U. de G.",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhjjvdryk0/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkwj0ryox/image/small",
-              "time": "2026-11-13T09:00:00+07:00",
-              "time_label": "13/11 09:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Indian Bangalore Super Division",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-6ypq3nhk03dvmd7",
-              "title": "Real Bengaluru vs Bangalore Dream United",
-              "home": "Real Bengaluru",
-              "away": "Bangalore Dream United",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhekn6m7vx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh95xzryk0/image/small",
-              "time": "2026-11-13T10:30:00+07:00",
-              "time_label": "13/11 10:30",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
