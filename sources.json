@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T16:10:31.117448+00:00",
+  "updated_at": "2026-11-13T16:14:15.762636+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -72,7 +72,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_144327_4854cb73.png",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "live",
+              "status": "1h",
               "score": "",
               "stream_count": 9
             },
@@ -85,7 +85,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134306_9a89d609.png",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "live",
+              "status": "1h",
               "score": "",
               "stream_count": 9
             }
@@ -1413,7 +1413,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 326,
+      "stream_count": 327,
       "leagues": [
         {
           "name": "Giao hữu Quốc tế",
@@ -1647,12 +1647,12 @@
           "logo": "https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80",
           "matches": [
             {
-              "id": "mhd-match-jr7owipegn3ugq0",
-              "title": "Tunisia vs ĐTQG Libya",
-              "home": "Tunisia",
-              "away": "ĐTQG Libya",
-              "home_logo": "https://img.cltvap.cc/football/team/7da9599ceaa0dd2498d02cc7985f5bde.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/da97f65bd113e490a5fab20c4a69f586.png!w80",
+              "id": "mhd-match-9gklzi1gx94fm7x",
+              "title": "Cape Verde vs Cộng hòa Liberia",
+              "home": "Cape Verde",
+              "away": "Cộng hòa Liberia",
+              "home_logo": "https://img.cltvap.cc/football/team/9877c66299c5b98d81fed12827d87e4b.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/bf0377d5a3968bac5aac7a10dfff1b86.png!w80",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
               "status": "live",
@@ -1673,12 +1673,12 @@
               "stream_count": 4
             },
             {
-              "id": "mhd-match-vrqwni4wd6wc4qn",
-              "title": "Burkina Faso vs Mauritania",
-              "home": "Burkina Faso",
-              "away": "Mauritania",
-              "home_logo": "https://img.cltvap.cc/football/team/2e667fca5e24ac13dcee94ddc4aa751a.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/e594b22cf15b445f7476775aa508e9c3.png!w80",
+              "id": "mhd-match-jr7owipegn3ugq0",
+              "title": "Tunisia vs ĐTQG Libya",
+              "home": "Tunisia",
+              "away": "ĐTQG Libya",
+              "home_logo": "https://img.cltvap.cc/football/team/7da9599ceaa0dd2498d02cc7985f5bde.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/da97f65bd113e490a5fab20c4a69f586.png!w80",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
               "status": "live",
@@ -1686,12 +1686,12 @@
               "stream_count": 4
             },
             {
-              "id": "mhd-match-9gklzi1gx94fm7x",
-              "title": "Cape Verde vs Cộng hòa Liberia",
-              "home": "Cape Verde",
-              "away": "Cộng hòa Liberia",
-              "home_logo": "https://img.cltvap.cc/football/team/9877c66299c5b98d81fed12827d87e4b.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/bf0377d5a3968bac5aac7a10dfff1b86.png!w80",
+              "id": "mhd-match-vrqwni4wd6wc4qn",
+              "title": "Burkina Faso vs Mauritania",
+              "home": "Burkina Faso",
+              "away": "Mauritania",
+              "home_logo": "https://img.cltvap.cc/football/team/2e667fca5e24ac13dcee94ddc4aa751a.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/e594b22cf15b445f7476775aa508e9c3.png!w80",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
               "status": "live",
@@ -1832,7 +1832,7 @@
               "time_label": "13/11 23:15",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             }
           ]
         },
@@ -3247,7 +3247,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd5pr6od/image/small",
               "time": "2026-11-13T23:15:00+07:00",
               "time_label": "13/11 23:15",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
