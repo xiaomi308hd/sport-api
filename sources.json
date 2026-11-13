@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:25:02.080356+00:00",
+  "updated_at": "2026-11-13T12:28:44.811433+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1549,7 +1549,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 320,
+      "stream_count": 317,
       "leagues": [
         {
           "name": "Giao hữu các CLB quốc tế",
@@ -2434,7 +2434,7 @@
               "time_label": "14/11 09:30",
               "status": "scheduled",
               "score": "",
-              "stream_count": 6
+              "stream_count": 3
             },
             {
               "id": "mhd-match-ndqmrs3eg3larkv",
