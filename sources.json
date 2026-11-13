@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T14:28:15.769074+00:00",
+  "updated_at": "2026-11-13T14:31:56.212561+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -98,7 +98,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134250_2a12c2b6.png",
               "time": "2026-11-13T21:45:00+07:00",
               "time_label": "13/11 21:45",
-              "status": "ns",
+              "status": "live",
               "score": "",
               "stream_count": 9
             },
@@ -500,7 +500,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/a576eafbce762079f7d1f77fca1c5cc2.png",
               "time": "2026-11-13T22:00:00+07:00",
               "time_label": "13/11 22:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -2968,41 +2968,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 31,
-      "stream_count": 32,
+      "match_count": 32,
+      "stream_count": 33,
       "leagues": [
-        {
-          "name": "Ukrainian Second League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-ednm9whwn7e3ryo",
-              "title": "Karbon Cherkasy vs Atlet Kiev",
-              "home": "Karbon Cherkasy",
-              "away": "Atlet Kiev",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkhx8vpqg8n/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergphp897r8k0/image/small",
-              "time": "2026-11-13T17:30:00+07:00",
-              "time_label": "13/11 17:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-6ypq3nhv931nmd7",
-              "title": "Rukh Vynnyky vs Nyva Ternopil B",
-              "home": "Rukh Vynnyky",
-              "away": "Nyva Ternopil B",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phox91m2wd/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh1zlnq82w/image/small",
-              "time": "2026-11-13T18:30:00+07:00",
-              "time_label": "13/11 18:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "International Friendly",
           "logo": "",
@@ -3040,6 +3008,19 @@
               "away": "Hàn Quốc",
               "home_logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnh05ym7vx/image/small",
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/jednm9wh4x9ryox/image/small",
+              "time": "2026-11-13T21:30:00+07:00",
+              "time_label": "13/11 21:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-965mkyh87w6dr1g",
+              "title": "Nicaragua (W) U19 vs Cuba (W) U19",
+              "home": "Nicaragua (W) U19",
+              "away": "Cuba (W) U19",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhevj3m7vx/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghxy54r6od/image/small",
               "time": "2026-11-13T21:30:00+07:00",
               "time_label": "13/11 21:30",
               "status": "live",
@@ -3111,6 +3092,25 @@
               "away": "SC Verl",
               "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhy10qvy9/image/small",
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh7560r1ge/image/small",
+              "time": "2026-11-13T18:30:00+07:00",
+              "time_label": "13/11 18:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Ukrainian Second League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-6ypq3nhv931nmd7",
+              "title": "Rukh Vynnyky vs Nyva Ternopil B",
+              "home": "Rukh Vynnyky",
+              "away": "Nyva Ternopil B",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phox91m2wd/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh1zlnq82w/image/small",
               "time": "2026-11-13T18:30:00+07:00",
               "time_label": "13/11 18:30",
               "status": "scheduled",
@@ -3209,6 +3209,25 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwgz5qdyj/image/small",
               "time": "2026-11-14T03:00:00+07:00",
               "time_label": "14/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Czech Third League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-dn1m1ghljxj1moe",
+              "title": "Sigma Olomouc B vs Brno B",
+              "home": "Sigma Olomouc B",
+              "away": "Brno B",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhvvx4repz/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergpho3zkr8k0/image/small",
+              "time": "2026-11-13T20:00:00+07:00",
+              "time_label": "13/11 20:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
