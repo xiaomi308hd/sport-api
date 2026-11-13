@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:25:10.427444+00:00",
+  "updated_at": "2026-11-13T10:28:55.103734+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141339_da8f4f91.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "2h",
+              "status": "bt",
               "score": "",
               "stream_count": 9
             },
@@ -1655,7 +1655,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4hvgkeq0j6/image/small",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
