@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:13:53.295135+00:00",
+  "updated_at": "2026-11-13T10:14:45.283500+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1595,6 +1595,20 @@
           ]
         }
       ]
+    },
+    {
+      "id": "colatv",
+      "name": "ColaTV",
+      "display_name": "Cola TV",
+      "initial": "C",
+      "logo": "",
+      "playlist": "colatv.m3u",
+      "ok": true,
+      "stale": false,
+      "error": "",
+      "match_count": 0,
+      "stream_count": 0,
+      "leagues": []
     },
     {
       "id": "phalangtv",
