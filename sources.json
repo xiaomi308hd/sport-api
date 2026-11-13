@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T11:59:01.091315+00:00",
+  "updated_at": "2026-11-13T12:02:45.477484+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -3001,28 +3001,9 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 21,
-      "stream_count": 21,
+      "match_count": 20,
+      "stream_count": 20,
       "leagues": [
-        {
-          "name": "Mongolia Premier League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-zp5rzgh3jp92q82",
-              "title": "Deren FC vs Central Stallions",
-              "home": "Deren FC",
-              "away": "Central Stallions",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhxeyvqvy9/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghpzyvq82w/image/small",
-              "time": "2026-11-13T15:00:00+07:00",
-              "time_label": "13/11 15:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
         {
           "name": "Indian Bangalore Super Division",
           "logo": "",
