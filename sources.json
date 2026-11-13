@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:06:58.906143+00:00",
+  "updated_at": "2026-11-13T19:10:42.411783+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -338,7 +338,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/350035841e1182bf4389c52752d8bd0d.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -351,7 +351,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/430fda3112134b44b54eeba89eec5189.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -364,7 +364,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/275612d39c2aacdf7b64836df54b9229.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
@@ -2707,8 +2707,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 44,
-      "stream_count": 48,
+      "match_count": 46,
+      "stream_count": 50,
       "leagues": [
         {
           "name": "Niger Premier League",
@@ -3291,6 +3291,38 @@
               "time": "2026-11-14T01:00:00+07:00",
               "time_label": "14/11 01:00",
               "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "CONCACAF Nations League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-23xmvkh675o8qg8",
+              "title": "Puerto Rico vs Dominica",
+              "home": "Puerto Rico",
+              "away": "Dominica",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zh3p9gql07/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhlw2dqwzv/image/small",
+              "time": "2026-11-14T02:00:00+07:00",
+              "time_label": "14/11 02:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-y0or5jh87ploqwz",
+              "title": "Bermuda vs St. Lucia",
+              "home": "Bermuda",
+              "away": "St. Lucia",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhv80krepz/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hoepdqo9j/image/small",
+              "time": "2026-11-14T02:00:00+07:00",
+              "time_label": "14/11 02:00",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
