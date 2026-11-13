@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:51:31.540214+00:00",
+  "updated_at": "2026-11-13T17:55:19.555924+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1361,7 +1361,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 332,
+      "stream_count": 331,
       "leagues": [
         {
           "name": "Cúp Quốc gia Châu Phi",
@@ -1529,19 +1529,6 @@
           "name": "Euro U21",
           "logo": "https://img.cltvap.cc/football/competition/0f2d2e79833b106e3c0407d4c7131307.png!w80",
           "matches": [
-            {
-              "id": "mhd-match-o07dnindn95fmkn",
-              "title": "Thổ Nhĩ Kỳ U21 vs Cộng hòa Séc U21",
-              "home": "Thổ Nhĩ Kỳ U21",
-              "away": "Cộng hòa Séc U21",
-              "home_logo": "https://img.cltvap.cc/football/team/f1a2987a8ae3620ed2ed5462e0e80f5e.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/9cc25407f209e031babdac7d3c520ccb.png!w80",
-              "time": "2026-11-13T23:00:00+07:00",
-              "time_label": "13/11 23:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
             {
               "id": "mhd-match-vrqwni0o0p0u4qn",
               "title": "Phần Lan U21 vs Ireland U21",
@@ -2184,6 +2171,19 @@
               "away": "Detroit Pistons",
               "home_logo": "https://img.cltvap.cc/basketball/team/ff7ccef6a6b79c6417ee8367946b0aec.png!w80",
               "away_logo": "https://img.cltvap.cc/basketball/team/3f82122a48e98eaccc5e71307eba801a.png!w80",
+              "time": "2026-11-15T08:00:00+07:00",
+              "time_label": "15/11 08:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-ndkzysnp64psx73",
+              "title": "Memphis Grizzlies vs Brooklyn Nets",
+              "home": "Memphis Grizzlies",
+              "away": "Brooklyn Nets",
+              "home_logo": "https://img.cltvap.cc/basketball/team/5150102b33043405b63b2e7c72759fa8.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/4150a647c6e381a69980e98bb86582a5.png!w80",
               "time": "2026-11-15T08:00:00+07:00",
               "time_label": "15/11 08:00",
               "status": "scheduled",
