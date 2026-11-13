@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:55:35.780269+00:00",
+  "updated_at": "2026-11-13T15:59:18.009118+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1426,7 +1426,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 320,
+      "stream_count": 327,
       "leagues": [
         {
           "name": "Giao hữu Quốc tế",
@@ -1683,7 +1683,7 @@
               "time_label": "13/11 23:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-63kv9igdp0pcx7e",
@@ -1696,7 +1696,7 @@
               "time_label": "13/11 23:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-vrqwni4wd6wc4qn",
@@ -1709,7 +1709,7 @@
               "time_label": "13/11 23:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-9gklzi1gx94fm7x",
@@ -1722,7 +1722,7 @@
               "time_label": "13/11 23:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-ndqmliw1e54urkv",
@@ -1735,7 +1735,7 @@
               "time_label": "13/11 23:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-8lk2direz9mfz73",
@@ -1748,7 +1748,7 @@
               "time_label": "13/11 23:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-jek33i8l4yzt9ko",
@@ -1845,7 +1845,7 @@
               "time_label": "13/11 23:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-vrqwni0o0p0u4qn",
@@ -1856,7 +1856,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/c940e50f90b9e73f42045c05d49c6e17.png!w80",
               "time": "2026-11-13T23:15:00+07:00",
               "time_label": "13/11 23:15",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             }
