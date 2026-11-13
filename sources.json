@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T18:48:20.072645+00:00",
+  "updated_at": "2026-11-13T18:51:59.541066+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1729,32 +1729,6 @@
               "status": "live",
               "score": "",
               "stream_count": 4
-            },
-            {
-              "id": "mhd-match-8lk2ys6zg92hz73",
-              "title": "Panathinaikos vs FC Barcelona",
-              "home": "Panathinaikos",
-              "away": "FC Barcelona",
-              "home_logo": "https://img.cltvap.cc/basketball/team/7f30c3037b96ac022fb9a48e792c058e.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/c58b246977aedc725c11d4daa97fb02f.png!w80",
-              "time": "2026-11-14T02:15:00+07:00",
-              "time_label": "14/11 02:15",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-8lk2ys6zg0wuz73",
-              "title": "Lyon-Villeurbanne vs Besiktas Basketball",
-              "home": "Lyon-Villeurbanne",
-              "away": "Besiktas Basketball",
-              "home_logo": "https://img.cltvap.cc/basketball/team/4660d3b4854deac4eadf6c9212f18f34.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/89aedb476d2e17575a159bfdca4886e3.png!w80",
-              "time": "2026-11-14T02:30:00+07:00",
-              "time_label": "14/11 02:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
             }
           ]
         },
@@ -2149,6 +2123,19 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 3
+            },
+            {
+              "id": "mhd-match-ndkz6i3y3xofxq3",
+              "title": "Kataller Toyama vs Tokushima",
+              "home": "Kataller Toyama",
+              "away": "Tokushima",
+              "home_logo": "https://img.cltvap.cc/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/16abd42b0f397022049d05f786a6182d.png!w80",
+              "time": "2026-11-15T12:00:00+07:00",
+              "time_label": "15/11 12:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
             }
           ]
         },
@@ -2191,6 +2178,19 @@
               "away_logo": "https://img.cltvap.cc/basketball/team/30683c359531664a5b97f129c047fcdc.png!w80",
               "time": "2026-11-14T14:30:00+07:00",
               "time_label": "14/11 14:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-jr7o9s3gpm5ig70",
+              "title": "Goyang Carrot Jumpers vs Wonju Dongbu Promy",
+              "home": "Goyang Carrot Jumpers",
+              "away": "Wonju Dongbu Promy",
+              "home_logo": "https://img.cltvap.cc/basketball/team/4a5ba2f4b39c4cb6db259ed9fb916da1.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/e94f441698752284a7b2f6c37ea3aee6.png!w80",
+              "time": "2026-11-15T12:00:00+07:00",
+              "time_label": "15/11 12:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
