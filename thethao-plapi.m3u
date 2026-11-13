@@ -1,13 +1,22 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-23xmvkhy3kjxqg8" tvg-name="FC Ulaanbaatar vs Hunters FC - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhe68lqwzv/image/small" group-title="Mongolia Premier League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",FC Ulaanbaatar vs Hunters FC | 13/11 12:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-1l4rjnhn699vm7v" tvg-name="ATM vs Kelantan City - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlopoqwzv/image/small" group-title="Malaysia A1 Semi-Pro League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",ATM vs Kelantan City | 13/11 15:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/31a352d2fdae127422d96dd7a75fe703/playlist.m3u8
+https://lilive1.eu.cc/live/d4d4ab574fb1693f174dc2a30baf41fa/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-2y8m4zhv3e47ql0" tvg-name="Ayeyawady Utd U20 vs Mahar United U20 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09h1n4nrz84/image/small" group-title="Myanmar U20 League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Ayeyawady Utd U20 vs Mahar United U20 | 13/11 16:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/f77d011e609ae44f523d65c3ebc6efa4/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-3glrw7h4w7e9qdy" tvg-name="Parikrma FC vs Hal FC - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh1g6wqwzv/image/small" group-title="Indian Bangalore Super Division" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Parikrma FC vs Hal FC | 13/11 15:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/ea5dd2e4709d5cd4e01385c2db1c1fae/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-4jwq2ghgo815m0v" tvg-name="Oakleigh Cannons vs Marconi Stallions - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkh39x2qg8n/image/small" group-title="Aus Champ" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Oakleigh Cannons vs Marconi Stallions | 13/11 15:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/66d30d232512c8866ef18ec1fc17beec/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-5d97a319a00749128aee3ea339d42477" tvg-name="IBK Women vs Hungkuk Women - Phá Làng TV - HD1" tvg-logo="https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png" group-title="Volleyball League Women" x-source="phalangtv" x-sport="VOLLEYBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",IBK Women vs Hungkuk Women | 13/11 17:00 | Phá Làng TV | HD1
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://pull.digitalcdn.net/live/4aa8c78f96524fcbabdc1c16bf271f04/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8yomo4hy7656q0j" tvg-name="Dagon Star U20 vs Yangon City U20 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryoh2k1lq1zp/image/small" group-title="Myanmar U20 League" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Dagon Star U20 vs Yangon City U20 | 13/11 16:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/fd02ca788bbe6fb582fe18b286864bf0/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-dj2ryoh7k9d7q1z" tvg-name="Persiba Bantul vs Gresik United - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7h1lzgqdyj/image/small" group-title="Indo D4" x-source="phalangtv" x-sport="FOOTBALL" x-source-name="Phá Làng TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Persiba Bantul vs Gresik United | 13/11 15:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/a28eba4cf57d171d6d414ad381a46fd4/playlist.m3u8
