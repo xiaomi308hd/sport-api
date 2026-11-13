@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:01:37.454054+00:00",
+  "updated_at": "2026-11-13T15:05:21.323894+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134307_d40d1826.png",
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
-              "status": "2h",
+              "status": "ft",
               "score": "",
               "stream_count": 9
             },
@@ -257,26 +257,13 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 83,
-      "stream_count": 168,
+      "match_count": 82,
+      "stream_count": 166,
       "leagues": [
         {
           "name": "CAF Africa Cup of Nations",
           "logo": "",
           "matches": [
-            {
-              "id": "",
-              "title": "Comoros vs Republic of the Congo",
-              "home": "Comoros",
-              "away": "Republic of the Congo",
-              "home_logo": "https://img.cltvap.cc/football/team/b26f48bd4e40423148b0089092638919.png",
-              "away_logo": "https://img.cltvap.cc/football/team/360c19682e81f21d55846685c1701179.png",
-              "time": "2026-11-13T20:00:00+07:00",
-              "time_label": "13/11 20:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 2
-            },
             {
               "id": "",
               "title": "Zambia vs Burundi",
@@ -1718,19 +1705,6 @@
               "stream_count": 4
             },
             {
-              "id": "mhd-match-jek33im6pzwt9ko",
-              "title": "Iraq vs Liban",
-              "home": "Iraq",
-              "away": "Liban",
-              "home_logo": "https://img.cltvap.cc/football/team/cc40d06ff0a16a793d066dbfa2917bab.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/a576eafbce762079f7d1f77fca1c5cc2.png!w80",
-              "time": "2026-11-13T22:00:00+07:00",
-              "time_label": "13/11 22:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 3
-            },
-            {
               "id": "mhd-match-63kv9i6m6e0fx7e",
               "title": "Kuwait vs Syria",
               "home": "Kuwait",
@@ -2335,6 +2309,19 @@
               "away_logo": "https://img.cltvap.cc/basketball/team/319e03be75fee4098a83b1d0e01940b7.png!w80",
               "time": "2026-11-14T10:30:00+07:00",
               "time_label": "14/11 10:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-o17p8sywngmsykj",
+              "title": "New Orleans Pelicans vs Denver Nuggets",
+              "home": "New Orleans Pelicans",
+              "away": "Denver Nuggets",
+              "home_logo": "https://img.cltvap.cc/basketball/team/2602b893bb3f8d381a5b0d978fad74e1.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/403a12aa187f47045c18d137cd8103dc.png!w80",
+              "time": "2026-11-15T07:00:00+07:00",
+              "time_label": "15/11 07:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
@@ -3163,7 +3150,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hp4kq0j6/image/small",
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
@@ -3176,7 +3163,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghj23vq82w/image/small",
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
