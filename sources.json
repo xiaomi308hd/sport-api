@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:32:40.919009+00:00",
+  "updated_at": "2026-11-13T15:36:20.228030+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -40,7 +40,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134250_2a12c2b6.png",
               "time": "2026-11-13T21:45:00+07:00",
               "time_label": "13/11 21:45",
-              "status": "1h",
+              "status": "ht",
               "score": "",
               "stream_count": 9
             },
@@ -1752,7 +1752,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/2c677b17efb13fe6ec91b3c0bb38934d.png!w80",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -1849,7 +1849,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/9cc25407f209e031babdac7d3c520ccb.png!w80",
               "time": "2026-11-13T23:00:00+07:00",
               "time_label": "13/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -2902,8 +2902,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 34,
-      "stream_count": 36,
+      "match_count": 35,
+      "stream_count": 37,
       "leagues": [
         {
           "name": "Hunan Football League",
@@ -3106,6 +3106,19 @@
               "time": "2026-11-13T20:00:00+07:00",
               "time_label": "13/11 20:00",
               "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-4jwq2ghnl212m0v",
+              "title": "Nigeria vs Tanzania",
+              "home": "Nigeria",
+              "away": "Tanzania",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zhlo0ql07/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hov17qo9j/image/small",
+              "time": "2026-11-13T23:00:00+07:00",
+              "time_label": "13/11 23:00",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
