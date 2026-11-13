@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:59:25.356146+00:00",
+  "updated_at": "2026-11-13T09:02:29.804542+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -943,8 +943,8 @@
               "time": "",
               "time_label": "",
               "status": "2",
-              "score": "0 - 0 - 0 - 1 - 1 - 0 - 0 - 1 - 1 - 0 - 0 - 1 - 0 - 0",
-              "stream_count": 3
+              "score": "0 - 0 - 0 - 1 - 1 - 0 - 0 - 2 - 2 - 0 - 0 - 1 - 0 - 0",
+              "stream_count": 4
             },
             {
               "id": "mhd-match-jek33imx2yrh9ko",
@@ -975,7 +975,7 @@
               "time": "",
               "time_label": "",
               "status": "2",
-              "score": "7 - 0 - 0 - 0 - 0 - 10 - 0 - 0 - 0 - 0",
+              "score": "9 - 0 - 0 - 0 - 0 - 14 - 0 - 0 - 0 - 0",
               "stream_count": 4
             },
             {
@@ -2343,7 +2343,7 @@
         }
       ],
       "match_count": 100,
-      "stream_count": 315
+      "stream_count": 316
     }
   ]
 }
