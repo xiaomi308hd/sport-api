@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:55:06.877071+00:00",
+  "updated_at": "2026-11-13T19:58:42.255323+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1238,7 +1238,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 330,
+      "stream_count": 331,
       "leagues": [
         {
           "name": "Giao hữu Quốc tế",
@@ -1456,7 +1456,7 @@
               "time_label": "14/11 03:00",
               "status": "scheduled",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-oj7x9ixog8ec47g",
@@ -2834,7 +2834,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwgz5qdyj/image/small",
               "time": "2026-11-14T03:00:00+07:00",
               "time_label": "14/11 03:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
@@ -3053,7 +3053,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7php53lm2wd/image/small",
               "time": "2026-11-14T03:00:00+07:00",
               "time_label": "14/11 03:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             },
@@ -3066,7 +3066,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hol38qdyj/image/small",
               "time": "2026-11-14T03:00:00+07:00",
               "time_label": "14/11 03:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
@@ -3418,7 +3418,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h56nlmojx/image/small",
               "time": "2026-11-14T03:00:00+07:00",
               "time_label": "14/11 03:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
@@ -3437,7 +3437,7 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zh90gql07/image/small",
               "time": "2026-11-14T03:00:00+07:00",
               "time_label": "14/11 03:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
