@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T14:20:51.675467+00:00",
+  "updated_at": "2026-11-13T14:24:32.585858+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -459,8 +459,8 @@
               "away": "Honduras",
               "home_logo": "https://img.cltvap.cc/football/team/1b141c19b8516ff9a26065d66ecd7146.png",
               "away_logo": "https://img.cltvap.cc/football/team/570197ce24c78651ca363a146213ba08.png",
-              "time": "2026-11-13T21:15:00+07:00",
-              "time_label": "13/11 21:15",
+              "time": "2026-11-13T21:10:00+07:00",
+              "time_label": "13/11 21:10",
               "status": "live",
               "score": "",
               "stream_count": 2
@@ -487,7 +487,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/46901c88777c4076bcf2ea240223deed.png",
               "time": "2026-11-13T21:45:00+07:00",
               "time_label": "13/11 21:45",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 2
             },
