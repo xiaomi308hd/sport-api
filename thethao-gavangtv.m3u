@@ -1,20 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-2de5819c1665" tvg-name="Nigeria vs Tanzania - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/7967d550a306a50276991b19ddb4d72e.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Nigeria vs Tanzania | 13/11 23:00 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/300523.m3u8
-#EXTINF:-1 tvg-id="mhd-match-2de5819c1665" tvg-name="Nigeria vs Tanzania - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/7967d550a306a50276991b19ddb4d72e.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Nigeria vs Tanzania | 13/11 23:00 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/300523.flv
-#EXTINF:-1 tvg-id="mhd-match-818b015b8bd5" tvg-name="South Africa vs Kenya - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/f5537e8960824e848e5a9bac16514483.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",South Africa vs Kenya | 13/11 23:00 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/796315.m3u8
-#EXTINF:-1 tvg-id="mhd-match-818b015b8bd5" tvg-name="South Africa vs Kenya - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/f5537e8960824e848e5a9bac16514483.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",South Africa vs Kenya | 13/11 23:00 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/796315.flv
 #EXTINF:-1 tvg-id="mhd-match-1f0ce5fcdf8c" tvg-name="Tunisia vs Libya - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/7cb09c45e2124a08ac950d31c7ebe0a6.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Tunisia vs Libya | 13/11 23:00 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/289650.m3u8
 #EXTINF:-1 tvg-id="mhd-match-1f0ce5fcdf8c" tvg-name="Tunisia vs Libya - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/7cb09c45e2124a08ac950d31c7ebe0a6.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Tunisia vs Libya | 13/11 23:00 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/289650.flv
-#EXTINF:-1 tvg-id="mhd-match-03c82fdfd260" tvg-name="Cabo Verde vs Liberia - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/3367956ae5c44991af49e1e2137f415b.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Cabo Verde vs Liberia | 13/11 23:00 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/303098.m3u8
-#EXTINF:-1 tvg-id="mhd-match-03c82fdfd260" tvg-name="Cabo Verde vs Liberia - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/3367956ae5c44991af49e1e2137f415b.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Cabo Verde vs Liberia | 13/11 23:00 | Gà Vàng TV | Live
-https://live2.zktsva.app/live/303098.flv
 #EXTINF:-1 tvg-id="mhd-match-4a8246552204" tvg-name="Kuwait vs Syria - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/29a83a8a9641bb860a679d7e5ba52d26.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Kuwait vs Syria | 13/11 23:30 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/301238.m3u8
 #EXTINF:-1 tvg-id="mhd-match-4a8246552204" tvg-name="Kuwait vs Syria - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/29a83a8a9641bb860a679d7e5ba52d26.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Kuwait vs Syria | 13/11 23:30 | Gà Vàng TV | Live
@@ -27,6 +15,10 @@ https://live2.zktsva.app/live/741294.flv
 https://live2.zktsva.app/live/301263.m3u8
 #EXTINF:-1 tvg-id="mhd-match-0e2b51dea74d" tvg-name="Mali vs Rwanda - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/0a94eea42ecd117d87eb79c61bdd656e.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Mali vs Rwanda | 14/11 02:00 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/301263.flv
+#EXTINF:-1 tvg-id="mhd-match-9de318263953" tvg-name="Egypt vs Malawi - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/52655c6b9f28486b9e478bd9711428cd.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Egypt vs Malawi | 14/11 02:00 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/303098.m3u8
+#EXTINF:-1 tvg-id="mhd-match-9de318263953" tvg-name="Egypt vs Malawi - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/52655c6b9f28486b9e478bd9711428cd.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Egypt vs Malawi | 14/11 02:00 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/303098.flv
 #EXTINF:-1 tvg-id="mhd-match-98f549878a8b" tvg-name="Netherlands vs Greece - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/a48ca99e1c924c90a9a1d2a95841df1c.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Netherlands vs Greece | 14/11 02:45 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/294335.m3u8
 #EXTINF:-1 tvg-id="mhd-match-98f549878a8b" tvg-name="Netherlands vs Greece - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/a48ca99e1c924c90a9a1d2a95841df1c.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Netherlands vs Greece | 14/11 02:45 | Gà Vàng TV | Live
@@ -39,6 +31,14 @@ https://live2.zktsva.app/live/304565.flv
 https://live2.zktsva.app/live/432017.m3u8
 #EXTINF:-1 tvg-id="mhd-match-ddf53a8c30b7" tvg-name="Slovenia vs Switzerland - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/e4ba31fba036a999321d5460f7f2d1d1.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Slovenia vs Switzerland | 14/11 02:45 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/432017.flv
+#EXTINF:-1 tvg-id="mhd-match-93bc553763e1" tvg-name="Slovakia vs Faroe Islands - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/e2fcc738438c4e7ca4b605ef8764db73.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Slovakia vs Faroe Islands | 14/11 02:45 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/300523.m3u8
+#EXTINF:-1 tvg-id="mhd-match-93bc553763e1" tvg-name="Slovakia vs Faroe Islands - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/e2fcc738438c4e7ca4b605ef8764db73.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Slovakia vs Faroe Islands | 14/11 02:45 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/300523.flv
+#EXTINF:-1 tvg-id="mhd-match-30f63f68a1e3" tvg-name="Bulgaria vs Iceland - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/3c057cb2b41f22c0e740974d7a428918.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Bulgaria vs Iceland | 14/11 02:45 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/796315.m3u8
+#EXTINF:-1 tvg-id="mhd-match-30f63f68a1e3" tvg-name="Bulgaria vs Iceland - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/3c057cb2b41f22c0e740974d7a428918.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Bulgaria vs Iceland | 14/11 02:45 | Gà Vàng TV | Live
+https://live2.zktsva.app/live/796315.flv
 #EXTINF:-1 tvg-id="mhd-match-b286921cc7e5" tvg-name="Morocco vs Niger - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/85a768d7c6a14d51b24bcb19c280b4c6.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Morocco vs Niger | 14/11 03:00 | Gà Vàng TV | Live
 https://live2.zktsva.app/live/307240.m3u8
 #EXTINF:-1 tvg-id="mhd-match-b286921cc7e5" tvg-name="Morocco vs Niger - Gà Vàng TV - Live" tvg-logo="https://img.cltvap.cc/football/team/85a768d7c6a14d51b24bcb19c280b4c6.png" group-title="Gà Vàng TV" x-source="gavangtv" x-sport="FOOTBALL",Morocco vs Niger | 14/11 03:00 | Gà Vàng TV | Live

@@ -1,12 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-63kv9igdp0pcx7e" tvg-name="Nigeria vs Tanzania - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Nigeria vs Tanzania | 13/11 23:00 | ColaTV | Live
-https://live2.hztx2020.com/live/14021509_303dac7422e78a3a5be20c6fcfbd8ce1_autoChange.m3u8?auth_key=1794607061-0-0-ed71ae4d98a7b3601fdb34176327acfa
-#EXTINF:-1 tvg-id="mhd-match-63kv9igdp0pcx7e" tvg-name="Nigeria vs Tanzania - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Nigeria vs Tanzania | 13/11 23:00 | ColaTV | Live
-https://live05.wecile.app/live/08552895.m3u8
-#EXTINF:-1 tvg-id="mhd-match-63kv9igdp0pcx7e" tvg-name="Nigeria vs Tanzania - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Nigeria vs Tanzania | 13/11 23:00 | ColaTV | Live
-https://live05.yefpwmc.app/live/08552895_tsc.m3u8
-#EXTINF:-1 tvg-id="mhd-match-63kv9igdp0pcx7e" tvg-name="Nigeria vs Tanzania - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Nigeria vs Tanzania | 13/11 23:00 | ColaTV | Live
-https://live05.wecile.app/live/08552895.flv
 #EXTINF:-1 tvg-id="mhd-match-jek33i8m0z0a9ko" tvg-name="ĐTQG Moldova vs ĐTQG Kazakhstan - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Moldova vs ĐTQG Kazakhstan | 14/11 00:00 | ColaTV | Live
 https://live.hztx2020.com/live/13590605_a62e8accb8f7e4de78c5d4cef470c141_autoChange.m3u8?auth_key=1794607068-0-0-9e859b969a8622126d816debe8cece90
 #EXTINF:-1 tvg-id="mhd-match-jek33i8m0z0a9ko" tvg-name="ĐTQG Moldova vs ĐTQG Kazakhstan - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Moldova vs ĐTQG Kazakhstan | 14/11 00:00 | ColaTV | Live
@@ -15,14 +7,6 @@ https://live05.wecile.app/live/14830711.m3u8
 https://live05.yefpwmc.app/live/14830711_tsc.m3u8
 #EXTINF:-1 tvg-id="mhd-match-jek33i8m0z0a9ko" tvg-name="ĐTQG Moldova vs ĐTQG Kazakhstan - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Moldova vs ĐTQG Kazakhstan | 14/11 00:00 | ColaTV | Live
 https://live05.wecile.app/live/14830711.flv
-#EXTINF:-1 tvg-id="mhd-match-9gklzi1gx94fm7x" tvg-name="Cape Verde vs Cộng hòa Liberia - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Cape Verde vs Cộng hòa Liberia | 13/11 23:00 | ColaTV | Live
-https://live4.hztx2020.com/live/14021496_dddac94a1e7dbbdabca056e05c5fbf3f_autoChange.m3u8?auth_key=1794607068-0-0-6f61bfc6bc8fd75ddc59fa0495c5116e
-#EXTINF:-1 tvg-id="mhd-match-9gklzi1gx94fm7x" tvg-name="Cape Verde vs Cộng hòa Liberia - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Cape Verde vs Cộng hòa Liberia | 13/11 23:00 | ColaTV | Live
-https://live05.wecile.app/live/02456966.m3u8
-#EXTINF:-1 tvg-id="mhd-match-9gklzi1gx94fm7x" tvg-name="Cape Verde vs Cộng hòa Liberia - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Cape Verde vs Cộng hòa Liberia | 13/11 23:00 | ColaTV | Live
-https://live05.yefpwmc.app/live/02456966_tsc.m3u8
-#EXTINF:-1 tvg-id="mhd-match-9gklzi1gx94fm7x" tvg-name="Cape Verde vs Cộng hòa Liberia - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Cape Verde vs Cộng hòa Liberia | 13/11 23:00 | ColaTV | Live
-https://live05.wecile.app/live/02456966.flv
 #EXTINF:-1 tvg-id="mhd-match-jr7owipegn3ugq0" tvg-name="Tunisia vs ĐTQG Libya - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Tunisia vs ĐTQG Libya | 13/11 23:00 | ColaTV | Live
 https://live5.hztx2020.com/live/14021512_d2a0d52bfafc13dd9a00f6a4f53828e1_autoChange.m3u8?auth_key=1794607068-0-0-a938470590bfafc130f4501719743a45
 #EXTINF:-1 tvg-id="mhd-match-jr7owipegn3ugq0" tvg-name="Tunisia vs ĐTQG Libya - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Tunisia vs ĐTQG Libya | 13/11 23:00 | ColaTV | Live
@@ -31,22 +15,6 @@ https://live05.wecile.app/live/18812304.m3u8
 https://live05.yefpwmc.app/live/18812304_tsc.m3u8
 #EXTINF:-1 tvg-id="mhd-match-jr7owipegn3ugq0" tvg-name="Tunisia vs ĐTQG Libya - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Tunisia vs ĐTQG Libya | 13/11 23:00 | ColaTV | Live
 https://live05.wecile.app/live/18812304.flv
-#EXTINF:-1 tvg-id="mhd-match-ndqmliw1e54urkv" tvg-name="Nam Phi vs Đội tuyển bóng đá quốc gia Kenya - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Nam Phi vs Đội tuyển bóng đá quốc gia Kenya | 13/11 23:00 | ColaTV | Live
-https://live.hztx2020.com/live/14021511_4ae47ee3554600c84caafaee0e2b5311_autoChange.m3u8?auth_key=1794607033-0-0-4074cdc24c9260175472f00019b58859
-#EXTINF:-1 tvg-id="mhd-match-ndqmliw1e54urkv" tvg-name="Nam Phi vs Đội tuyển bóng đá quốc gia Kenya - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Nam Phi vs Đội tuyển bóng đá quốc gia Kenya | 13/11 23:00 | ColaTV | Live
-https://live05.wecile.app/live/75748097.m3u8
-#EXTINF:-1 tvg-id="mhd-match-ndqmliw1e54urkv" tvg-name="Nam Phi vs Đội tuyển bóng đá quốc gia Kenya - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Nam Phi vs Đội tuyển bóng đá quốc gia Kenya | 13/11 23:00 | ColaTV | Live
-https://live05.yefpwmc.app/live/75748097_tsc.m3u8
-#EXTINF:-1 tvg-id="mhd-match-ndqmliw1e54urkv" tvg-name="Nam Phi vs Đội tuyển bóng đá quốc gia Kenya - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Nam Phi vs Đội tuyển bóng đá quốc gia Kenya | 13/11 23:00 | ColaTV | Live
-https://live05.wecile.app/live/75748097.flv
-#EXTINF:-1 tvg-id="mhd-match-8lk2direz9mfz73" tvg-name="Gabon vs Lesotho - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Gabon vs Lesotho | 13/11 23:00 | ColaTV | Live
-https://live3.hztx2020.com/live/14021501_81340cdaba292f983b8833fd1240031f_autoChange.m3u8?auth_key=1794607068-0-0-3ad0a00345201e70b5ffb73ccf3606e5
-#EXTINF:-1 tvg-id="mhd-match-8lk2direz9mfz73" tvg-name="Gabon vs Lesotho - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Gabon vs Lesotho | 13/11 23:00 | ColaTV | Live
-https://live05.wecile.app/live/33860426.m3u8
-#EXTINF:-1 tvg-id="mhd-match-8lk2direz9mfz73" tvg-name="Gabon vs Lesotho - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Gabon vs Lesotho | 13/11 23:00 | ColaTV | Live
-https://live05.yefpwmc.app/live/33860426_tsc.m3u8
-#EXTINF:-1 tvg-id="mhd-match-8lk2direz9mfz73" tvg-name="Gabon vs Lesotho - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Gabon vs Lesotho | 13/11 23:00 | ColaTV | Live
-https://live05.wecile.app/live/33860426.flv
 #EXTINF:-1 tvg-id="mhd-match-vrqwni0o0p0u4qn" tvg-name="Phần Lan U21 vs Ireland U21 - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/0f2d2e79833b106e3c0407d4c7131307.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Phần Lan U21 vs Ireland U21 | 13/11 23:15 | ColaTV | Live
 https://live2.hztx2020.com/live/14582685_5d08884e7c7119f3dbf7a0373843084f_autoChange.m3u8?auth_key=1794606080-0-0-6c56a5a03c4be35b735004083b6c61e0
 #EXTINF:-1 tvg-id="mhd-match-vrqwni0o0p0u4qn" tvg-name="Phần Lan U21 vs Ireland U21 - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/0f2d2e79833b106e3c0407d4c7131307.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Phần Lan U21 vs Ireland U21 | 13/11 23:15 | ColaTV | Live
@@ -103,6 +71,12 @@ https://live05.wecile.app/live/07808742.m3u8
 https://live05.yefpwmc.app/live/07808742_tsc.m3u8
 #EXTINF:-1 tvg-id="mhd-match-o07dnindnp3bmkn" tvg-name="Tây Ban Nha U21 vs Japan U21 - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Tây Ban Nha U21 vs Japan U21 | 14/11 01:00 | ColaTV | Live
 https://live05.wecile.app/live/07808742.flv
+#EXTINF:-1 tvg-id="mhd-match-jek33i8l4yzt9ko" tvg-name="Ai Cập vs Malawi - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Ai Cập vs Malawi | 14/11 02:00 | ColaTV | Live
+https://live05.wecile.app/live/02456966.m3u8
+#EXTINF:-1 tvg-id="mhd-match-jek33i8l4yzt9ko" tvg-name="Ai Cập vs Malawi - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Ai Cập vs Malawi | 14/11 02:00 | ColaTV | Live
+https://live05.yefpwmc.app/live/02456966_tsc.m3u8
+#EXTINF:-1 tvg-id="mhd-match-jek33i8l4yzt9ko" tvg-name="Ai Cập vs Malawi - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Ai Cập vs Malawi | 14/11 02:00 | ColaTV | Live
+https://live05.wecile.app/live/02456966.flv
 #EXTINF:-1 tvg-id="mhd-match-8lk2ys6zg92hz73" tvg-name="Panathinaikos vs FC Barcelona - ColaTV - Live" tvg-logo="https://img.cltvap.cc/basketball/competition/3ffc7c468bbf72b4e7f86e468351272d.png!w80" group-title="ColaTV" x-source="colatv" x-sport="BASKETBALL",Panathinaikos vs FC Barcelona | 14/11 02:15 | ColaTV | Live
 https://live05.wecile.app/live/82054853.m3u8
 #EXTINF:-1 tvg-id="mhd-match-8lk2ys6zg92hz73" tvg-name="Panathinaikos vs FC Barcelona - ColaTV - Live" tvg-logo="https://img.cltvap.cc/basketball/competition/3ffc7c468bbf72b4e7f86e468351272d.png!w80" group-title="ColaTV" x-source="colatv" x-sport="BASKETBALL",Panathinaikos vs FC Barcelona | 14/11 02:15 | ColaTV | Live
@@ -115,6 +89,24 @@ https://live05.wecile.app/live/07428422.m3u8
 https://live05.yefpwmc.app/live/07428422_tsc.m3u8
 #EXTINF:-1 tvg-id="mhd-match-wv78xiv19lvuokr" tvg-name="ĐTQG Hà Lan vs CLB Greece - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Hà Lan vs CLB Greece | 14/11 02:45 | ColaTV | Live
 https://live05.wecile.app/live/07428422.flv
+#EXTINF:-1 tvg-id="mhd-match-edq09il2j32teqx" tvg-name="Serbia vs Đức - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Serbia vs Đức | 14/11 02:45 | ColaTV | Live
+https://live05.wecile.app/live/08552895.m3u8
+#EXTINF:-1 tvg-id="mhd-match-edq09il2j32teqx" tvg-name="Serbia vs Đức - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Serbia vs Đức | 14/11 02:45 | ColaTV | Live
+https://live05.yefpwmc.app/live/08552895_tsc.m3u8
+#EXTINF:-1 tvg-id="mhd-match-edq09il2j32teqx" tvg-name="Serbia vs Đức - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Serbia vs Đức | 14/11 02:45 | ColaTV | Live
+https://live05.wecile.app/live/08552895.flv
+#EXTINF:-1 tvg-id="mhd-match-69759igr9mdagk2" tvg-name="Slovenia vs Thụy Sĩ - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Slovenia vs Thụy Sĩ | 14/11 02:45 | ColaTV | Live
+https://live05.wecile.app/live/75748097.m3u8
+#EXTINF:-1 tvg-id="mhd-match-69759igr9mdagk2" tvg-name="Slovenia vs Thụy Sĩ - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Slovenia vs Thụy Sĩ | 14/11 02:45 | ColaTV | Live
+https://live05.yefpwmc.app/live/75748097_tsc.m3u8
+#EXTINF:-1 tvg-id="mhd-match-69759igr9mdagk2" tvg-name="Slovenia vs Thụy Sĩ - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Slovenia vs Thụy Sĩ | 14/11 02:45 | ColaTV | Live
+https://live05.wecile.app/live/75748097.flv
+#EXTINF:-1 tvg-id="mhd-match-ndqmliw96lrfrkv" tvg-name="Andorra vs Gibraltar - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Andorra vs Gibraltar | 14/11 02:45 | ColaTV | Live
+https://live05.wecile.app/live/33860426.m3u8
+#EXTINF:-1 tvg-id="mhd-match-ndqmliw96lrfrkv" tvg-name="Andorra vs Gibraltar - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Andorra vs Gibraltar | 14/11 02:45 | ColaTV | Live
+https://live05.yefpwmc.app/live/33860426_tsc.m3u8
+#EXTINF:-1 tvg-id="mhd-match-ndqmliw96lrfrkv" tvg-name="Andorra vs Gibraltar - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",Andorra vs Gibraltar | 14/11 02:45 | ColaTV | Live
+https://live05.wecile.app/live/33860426.flv
 #EXTINF:-1 tvg-id="mhd-match-j374oi04xjpigqo" tvg-name="ĐTQG Liechtenstein vs Azerbaijan - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Liechtenstein vs Azerbaijan | 14/11 02:45 | ColaTV | Live
 https://live05.wecile.app/live/87547578.m3u8
 #EXTINF:-1 tvg-id="mhd-match-j374oi04xjpigqo" tvg-name="ĐTQG Liechtenstein vs Azerbaijan - ColaTV - Live" tvg-logo="https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80" group-title="ColaTV" x-source="colatv" x-sport="FOOTBALL",ĐTQG Liechtenstein vs Azerbaijan | 14/11 02:45 | ColaTV | Live
