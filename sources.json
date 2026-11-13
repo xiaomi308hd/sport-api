@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T16:14:15.762636+00:00",
+  "updated_at": "2026-11-13T16:18:03.068183+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -2883,8 +2883,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 38,
-      "stream_count": 41,
+      "match_count": 39,
+      "stream_count": 42,
       "leagues": [
         {
           "name": "Indian League Division 1",
@@ -3238,6 +3238,19 @@
           "name": "UEFA European U21 Championship qualification",
           "logo": "",
           "matches": [
+            {
+              "id": "mhd-match-965mkyh878dkr1g",
+              "title": "Thổ Nhĩ Kỳ U21 vs CH Séc U21",
+              "home": "Thổ Nhĩ Kỳ U21",
+              "away": "CH Séc U21",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4vn3moep/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8gh696r6od/image/small",
+              "time": "2026-11-13T23:00:00+07:00",
+              "time_label": "13/11 23:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
             {
               "id": "mhd-match-y39mp1hd3dgdmoj",
               "title": "Phần Lan U21 vs Ireland U21",
