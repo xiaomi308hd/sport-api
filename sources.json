@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T04:33:21.809635+00:00",
+  "updated_at": "2026-11-13T04:37:00.725931+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -14,25 +14,6 @@
       "match_count": 20,
       "stream_count": 180,
       "leagues": [
-        {
-          "name": "Hạng 2 Mexico",
-          "logo": "https://media.chuoichientv.net/media/20251115_120046_00fdc725.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Atlético Morelia vs Leones Negros",
-              "home": "Atlético Morelia",
-              "away": "Leones Negros",
-              "home_logo": "https://media.chuoichientv.net/media/20261113_010321_8e04f517.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_144123_02a20436.png",
-              "time": "2026-11-13T09:00:00+07:00",
-              "time_label": "13/11 09:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
         {
           "name": "Ngoại Hạng Mông Cổ",
           "logo": "https://media.chuoichientv.net/media/20251115_115953_8128716e.png",
@@ -310,6 +291,25 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132742_666d88b2.png",
               "time": "2026-11-14T09:00:00+07:00",
               "time_label": "14/11 09:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "A-League Women",
+          "logo": "https://media.chuoichientv.net/media/20251115_111532_af6fdb08.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Melbourne Victory W vs Adelaide United W",
+              "home": "Melbourne Victory W",
+              "away": "Adelaide United W",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_133805_bcff7572.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133803_b1fa7a37.png",
+              "time": "2026-11-14T11:00:00+07:00",
+              "time_label": "14/11 11:00",
               "status": "ns",
               "score": "",
               "stream_count": 9

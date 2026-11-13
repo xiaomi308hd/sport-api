@@ -1,13 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-126c4b7b414e" tvg-name="Atlético Morelia vs Leones Negros - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120046_00fdc725.png" group-title="Hạng 2 Mexico" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Atlético Morelia vs Leones Negros | 13/11 09:00 | Chuối Kem | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-126c4b7b414e" tvg-name="Atlético Morelia vs Leones Negros - Chuối Kem - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120046_00fdc725.png" group-title="Hạng 2 Mexico" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Atlético Morelia vs Leones Negros | 13/11 09:00 | Chuối Kem | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-126c4b7b414e" tvg-name="Atlético Morelia vs Leones Negros - Chuối Kem - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120046_00fdc725.png" group-title="Hạng 2 Mexico" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Atlético Morelia vs Leones Negros | 13/11 09:00 | Chuối Kem | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-e8b2718ef9e2" tvg-name="Ulaanbaatar vs Hunters - Chuối Chao - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115953_8128716e.png" group-title="Ngoại Hạng Mông Cổ" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Ulaanbaatar vs Hunters | 13/11 12:00 | Chuối Chao | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
@@ -17,6 +8,15 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-e8b2718ef9e2" tvg-name="Ulaanbaatar vs Hunters - Chuối Chao - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115953_8128716e.png" group-title="Ngoại Hạng Mông Cổ" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Ulaanbaatar vs Hunters | 13/11 12:00 | Chuối Chao | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-2c72c04c82a8" tvg-name="Deren vs Tuv Azarganuud - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115953_8128716e.png" group-title="Ngoại Hạng Mông Cổ" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Deren vs Tuv Azarganuud | 13/11 15:00 | Chuối Kem | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-2c72c04c82a8" tvg-name="Deren vs Tuv Azarganuud - Chuối Kem - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115953_8128716e.png" group-title="Ngoại Hạng Mông Cổ" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Deren vs Tuv Azarganuud | 13/11 15:00 | Chuối Kem | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-2c72c04c82a8" tvg-name="Deren vs Tuv Azarganuud - Chuối Kem - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115953_8128716e.png" group-title="Ngoại Hạng Mông Cổ" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Deren vs Tuv Azarganuud | 13/11 15:00 | Chuối Kem | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-46b69734a3ee" tvg-name="Oakleigh Cannons vs Marconi Stallions - Chuối Già - HD1" tvg-logo="https://media.api-sports.io/football/leagues/1202.png" group-title="Australian Championship" x-source="chuoichientv" x-sport="FOOTBALL" x-source-name="Chuối Chiên TV" x-source-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Oakleigh Cannons vs Marconi Stallions | 13/11 15:30 | Chuối Già | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8
