@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:59:18.009118+00:00",
+  "updated_at": "2026-11-13T16:03:03.522186+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -2896,26 +2896,193 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 34,
-      "stream_count": 36,
+      "match_count": 37,
+      "stream_count": 40,
       "leagues": [
         {
-          "name": "International Friendly",
+          "name": "Indian League Division 1",
           "logo": "",
           "matches": [
             {
-              "id": "mhd-match-l5ergphk0yvyr8k",
-              "title": "Singapore vs Paraguay",
-              "home": "Singapore",
-              "away": "Paraguay",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwk9zqdyj/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hg02q86p/image/small",
-              "time": "2026-11-13T19:00:00+07:00",
-              "time_label": "13/11 19:00",
+              "id": "mhd-match-2y8m4zhv3jp8ql0",
+              "title": "Shillong Lajong FC vs Sreenidi Deccan",
+              "home": "Shillong Lajong FC",
+              "away": "Sreenidi Deccan",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh4no6m0ve/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hydx0qdyj/image/small",
+              "time": "2026-11-13T20:00:00+07:00",
+              "time_label": "13/11 20:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "CAF Africa Cup of Nations",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-965mkyhkpvzjr1g",
+              "title": "Comoros vs CH Congo",
+              "home": "Comoros",
+              "away": "CH Congo",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdehnxynr510/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hp4kq0j6/image/small",
+              "time": "2026-11-13T20:00:00+07:00",
+              "time_label": "13/11 20:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
+            {
+              "id": "mhd-match-dn1m1ghl6joemoe",
+              "title": "Zambia vs Burundi",
+              "home": "Zambia",
+              "away": "Burundi",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhjkzqg8n/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghj23vq82w/image/small",
+              "time": "2026-11-13T20:00:00+07:00",
+              "time_label": "13/11 20:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-n54qllhnv0dwqvy",
+              "title": "Mozambique vs Ethiopia",
+              "home": "Mozambique",
+              "away": "Ethiopia",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhonjm7vx/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhv82vrepz/image/small",
+              "time": "2026-11-13T20:00:00+07:00",
+              "time_label": "13/11 20:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-1l4rjnh9v7eom7v",
+              "title": "Gabon vs Lesotho",
+              "home": "Gabon",
+              "away": "Lesotho",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllh68wqvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkh3963qg8n/image/small",
+              "time": "2026-11-13T23:00:00+07:00",
+              "time_label": "13/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-3glrw7hnd8l7qdy",
+              "title": "Cabo Verde vs Liberia",
+              "home": "Cabo Verde",
+              "away": "Liberia",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghdpdr6od/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhj4eqg8n/image/small",
+              "time": "2026-11-13T23:00:00+07:00",
+              "time_label": "13/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-4jwq2ghnl212m0v",
+              "title": "Nigeria vs Tanzania",
+              "home": "Nigeria",
+              "away": "Tanzania",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zhlo0ql07/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hov17qo9j/image/small",
+              "time": "2026-11-13T23:00:00+07:00",
+              "time_label": "13/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "mhd-match-k82rekhglk8zrep",
+              "title": "Nam Phi vs Kenya",
+              "home": "Nam Phi",
+              "away": "Kenya",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpwnm7vx/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh4v65r6od/image/small",
+              "time": "2026-11-13T23:00:00+07:00",
+              "time_label": "13/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-y39mp1h67l97moj",
+              "title": "Burkina Faso vs Mauritania",
+              "home": "Burkina Faso",
+              "away": "Mauritania",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzghelgq82w/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8o26q86p/image/small",
+              "time": "2026-11-13T23:00:00+07:00",
+              "time_label": "13/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-jw2r09hk8zpwrz8",
+              "title": "Ma Rốc vs Niger",
+              "home": "Ma Rốc",
+              "away": "Niger",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nh9nzmd7o/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwgz5qdyj/image/small",
+              "time": "2026-11-14T03:00:00+07:00",
+              "time_label": "14/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Czech Third League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-dn1m1ghljxj1moe",
+              "title": "Sigma Olomouc B vs Brno B",
+              "home": "Sigma Olomouc B",
+              "away": "Brno B",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhvvx4repz/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergpho3zkr8k0/image/small",
+              "time": "2026-11-13T20:00:00+07:00",
+              "time_label": "13/11 20:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Indian Women's League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-4wyrn4hy85w3q86",
+              "title": "Nữ East Bengal vs Gokulam Kerala Fc(w)",
+              "home": "Nữ East Bengal",
+              "away": "Gokulam Kerala Fc(w)",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hjp2lqo9j/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhxy50qvy9/image/small",
+              "time": "2026-11-13T20:30:00+07:00",
+              "time_label": "13/11 20:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "International Friendly",
+          "logo": "",
+          "matches": [
             {
               "id": "mhd-match-2y8m4zhv345zql0",
               "title": "UAE vs Honduras",
@@ -3016,134 +3183,6 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hol38qdyj/image/small",
               "time": "2026-11-14T03:00:00+07:00",
               "time_label": "14/11 03:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Indian League Division 1",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-2y8m4zhv3jp8ql0",
-              "title": "Shillong Lajong FC vs Sreenidi Deccan",
-              "home": "Shillong Lajong FC",
-              "away": "Sreenidi Deccan",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh4no6m0ve/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hydx0qdyj/image/small",
-              "time": "2026-11-13T20:00:00+07:00",
-              "time_label": "13/11 20:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "CAF Africa Cup of Nations",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-965mkyhkpvzjr1g",
-              "title": "Comoros vs CH Congo",
-              "home": "Comoros",
-              "away": "CH Congo",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdehnxynr510/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hp4kq0j6/image/small",
-              "time": "2026-11-13T20:00:00+07:00",
-              "time_label": "13/11 20:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-dn1m1ghl6joemoe",
-              "title": "Zambia vs Burundi",
-              "home": "Zambia",
-              "away": "Burundi",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhjkzqg8n/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghj23vq82w/image/small",
-              "time": "2026-11-13T20:00:00+07:00",
-              "time_label": "13/11 20:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-n54qllhnv0dwqvy",
-              "title": "Mozambique vs Ethiopia",
-              "home": "Mozambique",
-              "away": "Ethiopia",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhonjm7vx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhv82vrepz/image/small",
-              "time": "2026-11-13T20:00:00+07:00",
-              "time_label": "13/11 20:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-4jwq2ghnl212m0v",
-              "title": "Nigeria vs Tanzania",
-              "home": "Nigeria",
-              "away": "Tanzania",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zhlo0ql07/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hov17qo9j/image/small",
-              "time": "2026-11-13T23:00:00+07:00",
-              "time_label": "13/11 23:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-jw2r09hk8zpwrz8",
-              "title": "Ma Rốc vs Niger",
-              "home": "Ma Rốc",
-              "away": "Niger",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nh9nzmd7o/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwgz5qdyj/image/small",
-              "time": "2026-11-14T03:00:00+07:00",
-              "time_label": "14/11 03:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Czech Third League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-dn1m1ghljxj1moe",
-              "title": "Sigma Olomouc B vs Brno B",
-              "home": "Sigma Olomouc B",
-              "away": "Brno B",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhvvx4repz/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergpho3zkr8k0/image/small",
-              "time": "2026-11-13T20:00:00+07:00",
-              "time_label": "13/11 20:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Indian Women's League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-4wyrn4hy85w3q86",
-              "title": "Nữ East Bengal vs Gokulam Kerala Fc(w)",
-              "home": "Nữ East Bengal",
-              "away": "Gokulam Kerala Fc(w)",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hjp2lqo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhxy50qvy9/image/small",
-              "time": "2026-11-13T20:30:00+07:00",
-              "time_label": "13/11 20:30",
               "status": "scheduled",
               "score": "",
               "stream_count": 1

@@ -1,4 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="mhd-match-1l4rjnh9v7eom7v" tvg-name="Gabon vs Lesotho - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllh68wqvy9/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Gabon vs Lesotho | 13/11 23:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/ea3524b2198ba598190f00cc86f2d257/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-23xmvkh6y1n2qg8" tvg-name="Scotland vs Bắc Macedonia - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9k82rekh4kkrepz/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Scotland vs Bắc Macedonia | 14/11 02:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/ba8023dd3feda5ab6c5d25447a9f9bf6/playlist.m3u8
@@ -14,12 +17,18 @@ https://lilive1.eu.cc/live/d23be918ed4f61c96fb336fcadffa491/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-318q66hx8y5lqo9" tvg-name="Liechtenstein vs Azerbaijan - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd4kr6od/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Liechtenstein vs Azerbaijan | 14/11 02:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/15d6be224883db470ccb132bbec6758a/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-3glrw7hnd8l7qdy" tvg-name="Cabo Verde vs Liberia - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghdpdr6od/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Cabo Verde vs Liberia | 13/11 23:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/f60f07f34f9a7598b9ff4cbedc2777c8/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-4jwq2ghngy3jm0v" tvg-name="Slovakia vs Faroe Islands - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66h916qo9j/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Slovakia vs Faroe Islands | 14/11 02:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/031e3101c06896599f17e8ee2d0e3043/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-4jwq2ghnl212m0v" tvg-name="Nigeria vs Tanzania - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zhlo0ql07/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Nigeria vs Tanzania | 13/11 23:00 | Phá Làng TV | HD1
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://pull.digitalcdn.net/live/314d1540b6ea42b08c42da41ded63816/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-4jwq2ghnl212m0v" tvg-name="Nigeria vs Tanzania - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zhlo0ql07/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Nigeria vs Tanzania | 13/11 23:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/9b1e55c491b8fee7fc2fcb9572181679/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-4wyrn4hy85w3q86" tvg-name="Nữ East Bengal vs Gokulam Kerala Fc(w) - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hjp2lqo9j/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Nữ East Bengal vs Gokulam Kerala Fc(w) | 13/11 20:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/fa3d930e85046c2a93e3fb92ee086c93/playlist.m3u8
@@ -77,9 +86,9 @@ https://lilive1.eu.cc/live/4f3bdf54763b62154fbe4d1a80333c29/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-k82rekhglj5vrep" tvg-name="Sahl Horan SC vs Al Sareeh - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryoh21pzq1zp/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Sahl Horan SC vs Al Sareeh | 13/11 22:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/40451266a8e4de8bc43dc7c9fa84e144/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-l5ergphk0yvyr8k" tvg-name="Singapore vs Paraguay - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwk9zqdyj/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Singapore vs Paraguay | 13/11 19:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-k82rekhglk8zrep" tvg-name="Nam Phi vs Kenya - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpwnm7vx/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Nam Phi vs Kenya | 13/11 23:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/d127c526682e1967402db3743b9d4970/playlist.m3u8
+https://lilive1.eu.cc/live/120bca625172d1604d4ad7b67ee7752d/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-n54qllhn4go4qvy" tvg-name="Serbia vs Đức - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9k82rekhd7prepz/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Serbia vs Đức | 14/11 02:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/f1fcec689269dcd7dae60a7a33b23fa2/playlist.m3u8
@@ -95,6 +104,9 @@ https://lilive1.eu.cc/live/836d9855dc00ccb9b6181a2ccf988886/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-y39mp1h67exvmoj" tvg-name="Jerash Club vs Ittihad Al-Ramtha SC - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhye75repz/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Jerash Club vs Ittihad Al-Ramtha SC | 13/11 22:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/813cc134d0f6a2429c70a63ed207607e/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-y39mp1h67l97moj" tvg-name="Burkina Faso vs Mauritania - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzghelgq82w/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Burkina Faso vs Mauritania | 13/11 23:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/1805aa9ea9542cce6a4e495615572cd5/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-y39mp1h6dg22moj" tvg-name="Bulgaria vs Iceland - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7h5j7qdyj/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Bulgaria vs Iceland | 14/11 02:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/8b9bc16092d19da394b88511831c1c34/playlist.m3u8
