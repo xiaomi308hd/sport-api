@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T09:40:38.076354+00:00",
+  "updated_at": "2026-11-13T09:42:39.511420+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -59,7 +59,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141412_24481446.png",
               "time": "2026-11-13T15:30:00+07:00",
               "time_label": "13/11 15:30",
-              "status": "ht",
+              "status": "2h",
               "score": "",
               "stream_count": 9
             }
@@ -1866,7 +1866,7 @@
       "display_name": "Cola TV",
       "initial": "C",
       "logo": "",
-      "playlist": "colatv.m3u",
+      "playlist": "thethao-colatv.m3u",
       "ok": true,
       "stale": false,
       "error": "",
