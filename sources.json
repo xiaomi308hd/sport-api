@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:33:20.483265+00:00",
+  "updated_at": "2026-11-13T19:36:58.012203+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -266,11 +266,11 @@
           "matches": [
             {
               "id": "",
-              "title": "Netherlands vs Greece",
-              "home": "Netherlands",
-              "away": "Greece",
-              "home_logo": "https://img.cltvap.cc/football/team/a48ca99e1c924c90a9a1d2a95841df1c.png",
-              "away_logo": "https://img.cltvap.cc/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png",
+              "title": "Serbia vs Germany",
+              "home": "Serbia",
+              "away": "Germany",
+              "home_logo": "https://img.cltvap.cc/football/team/059bbd8df7767d3bc7829e3735c221e2.png",
+              "away_logo": "https://img.cltvap.cc/football/team/761ccf19be6a4fdf81880acadb81aa4c.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
               "status": "live",
@@ -279,11 +279,11 @@
             },
             {
               "id": "",
-              "title": "Serbia vs Germany",
-              "home": "Serbia",
-              "away": "Germany",
-              "home_logo": "https://img.cltvap.cc/football/team/059bbd8df7767d3bc7829e3735c221e2.png",
-              "away_logo": "https://img.cltvap.cc/football/team/761ccf19be6a4fdf81880acadb81aa4c.png",
+              "title": "Netherlands vs Greece",
+              "home": "Netherlands",
+              "away": "Greece",
+              "home_logo": "https://img.cltvap.cc/football/team/a48ca99e1c924c90a9a1d2a95841df1c.png",
+              "away_logo": "https://img.cltvap.cc/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
               "status": "live",
@@ -1225,27 +1225,8 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 322,
+      "stream_count": 321,
       "leagues": [
-        {
-          "name": "EuroLeague",
-          "logo": "https://img.cltvap.cc/basketball/competition/3ffc7c468bbf72b4e7f86e468351272d.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-527rjswd02ei4ke",
-              "title": "Anadolu Efes S.K. vs Virtus Pallacanestro Bologna",
-              "home": "Anadolu Efes S.K.",
-              "away": "Virtus Pallacanestro Bologna",
-              "home_logo": "https://img.cltvap.cc/basketball/team/a2e19c2b6ed3efe3ee5c58bdf9a87ee3.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/54019fa403eae4a98efc46cab4badde8.png!w80",
-              "time": "2026-11-14T00:30:00+07:00",
-              "time_label": "14/11 00:30",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            }
-          ]
-        },
         {
           "name": "Giao hữu Quốc tế",
           "logo": "https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png!w80",
@@ -1510,12 +1491,12 @@
           "logo": "https://img.cltvap.cc/football/competition/245bff452fbdc34d417164e361097ae7.png!w80",
           "matches": [
             {
-              "id": "mhd-match-wv78xiv19lvuokr",
-              "title": "ĐTQG Hà Lan vs CLB Greece",
-              "home": "ĐTQG Hà Lan",
-              "away": "CLB Greece",
-              "home_logo": "https://img.cltvap.cc/football/team/fb9d433088a21464e7d634c4e190b31a.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png!w80",
+              "id": "mhd-match-edq09il2j32teqx",
+              "title": "Serbia vs Đức",
+              "home": "Serbia",
+              "away": "Đức",
+              "home_logo": "https://img.cltvap.cc/football/team/059bbd8df7767d3bc7829e3735c221e2.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/5856c2f4a854359864b18f9aed3f8874.png!w80",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
               "status": "live",
@@ -1523,12 +1504,12 @@
               "stream_count": 3
             },
             {
-              "id": "mhd-match-edq09il2j32teqx",
-              "title": "Serbia vs Đức",
-              "home": "Serbia",
-              "away": "Đức",
-              "home_logo": "https://img.cltvap.cc/football/team/059bbd8df7767d3bc7829e3735c221e2.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/5856c2f4a854359864b18f9aed3f8874.png!w80",
+              "id": "mhd-match-wv78xiv19lvuokr",
+              "title": "ĐTQG Hà Lan vs CLB Greece",
+              "home": "ĐTQG Hà Lan",
+              "away": "CLB Greece",
+              "home_logo": "https://img.cltvap.cc/football/team/fb9d433088a21464e7d634c4e190b31a.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png!w80",
               "time": "2026-11-14T02:45:00+07:00",
               "time_label": "14/11 02:45",
               "status": "live",
@@ -2118,6 +2099,19 @@
               "away": "Busan KTF Sonicboom",
               "home_logo": "https://img.cltvap.cc/basketball/team/b3a61f88692a8a3836f3b93ba65b98da.png!w80",
               "away_logo": "https://img.cltvap.cc/basketball/team/624b1a84ff50919f44835640108bdd42.png!w80",
+              "time": "2026-11-15T14:30:00+07:00",
+              "time_label": "15/11 14:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-8lk2ys6zr46tz73",
+              "title": "KCC Egis vs Incheon",
+              "home": "KCC Egis",
+              "away": "Incheon",
+              "home_logo": "https://img.cltvap.cc/basketball/team/0add24fc964de3ea25e83417aa301f81.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/64656d413393bbf84730b123a43cb876.png!w80",
               "time": "2026-11-15T14:30:00+07:00",
               "time_label": "15/11 14:30",
               "status": "scheduled",
