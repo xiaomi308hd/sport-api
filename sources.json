@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T01:30:25.982477+00:00",
+  "updated_at": "2026-11-13T01:33:58.083581+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -12,7 +12,7 @@
       "stale": false,
       "error": "",
       "match_count": 20,
-      "stream_count": 78,
+      "stream_count": 180,
       "leagues": [
         {
           "name": "VĐQG Colombia",
@@ -80,7 +80,7 @@
               "time_label": "13/11 15:00",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             }
           ]
         },
@@ -99,7 +99,7 @@
               "time_label": "13/11 15:30",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -112,7 +112,7 @@
               "time_label": "13/11 15:30",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             }
           ]
         },
@@ -131,7 +131,7 @@
               "time_label": "13/11 19:00",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -144,7 +144,7 @@
               "time_label": "13/11 21:00",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -157,7 +157,7 @@
               "time_label": "13/11 21:30",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -170,7 +170,7 @@
               "time_label": "13/11 21:45",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -183,7 +183,7 @@
               "time_label": "14/11 06:00",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             }
           ]
         },
@@ -202,7 +202,7 @@
               "time_label": "13/11 20:00",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -215,7 +215,7 @@
               "time_label": "13/11 20:00",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -228,7 +228,7 @@
               "time_label": "13/11 23:00",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -241,7 +241,7 @@
               "time_label": "13/11 23:00",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             }
           ]
         },
@@ -260,7 +260,7 @@
               "time_label": "14/11 00:00",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -273,7 +273,7 @@
               "time_label": "14/11 02:45",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -286,7 +286,7 @@
               "time_label": "14/11 02:45",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -299,7 +299,7 @@
               "time_label": "14/11 02:45",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             },
             {
               "id": "",
@@ -312,7 +312,7 @@
               "time_label": "14/11 02:45",
               "status": "ns",
               "score": "",
-              "stream_count": 3
+              "stream_count": 9
             }
           ]
         }
