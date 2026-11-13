@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:56:00.109541+00:00",
+  "updated_at": "2026-11-13T12:59:41.123898+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1552,6 +1552,25 @@
       "stream_count": 323,
       "leagues": [
         {
+          "name": "Iraq Premier Division",
+          "logo": "https://img.cltvap.cc/football/competition/5adb2d4375de9c327908adfa21164f24.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-jr7owiy6wn4fgq0",
+              "title": "Al-Hudod vs Al Hashd Al Shade",
+              "home": "Al-Hudod",
+              "away": "Al Hashd Al Shade",
+              "home_logo": "https://img.cltvap.cc/football/team/a9771cfd2f98c1f300531a2383686a91.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/f3ad765e4b612e149053843357cddeac.png!w80",
+              "time": "2026-11-13T18:00:00+07:00",
+              "time_label": "13/11 18:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
           "name": "Giao hữu các CLB quốc tế",
           "logo": "https://img.cltvap.cc/football/competition/2440249cd19586c39de8e05d55cc6b0d.png!w80",
           "matches": [
@@ -1793,7 +1812,7 @@
               "time_label": "14/11 19:00",
               "status": "scheduled",
               "score": "",
-              "stream_count": 6
+              "stream_count": 3
             },
             {
               "id": "mhd-match-vrqwni0or62u4qn",
@@ -1845,7 +1864,7 @@
               "time_label": "14/11 22:00",
               "status": "scheduled",
               "score": "",
-              "stream_count": 6
+              "stream_count": 3
             }
           ]
         },
@@ -1864,7 +1883,7 @@
               "time_label": "13/11 20:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-edq09il6r9eseqx",
@@ -1877,7 +1896,7 @@
               "time_label": "13/11 20:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-g6763i5gz0dbo7r",
@@ -1890,7 +1909,7 @@
               "time_label": "13/11 20:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-jr7owipegn3ugq0",
@@ -2799,7 +2818,7 @@
               "time_label": "14/11 16:00",
               "status": "scheduled",
               "score": "",
-              "stream_count": 3
+              "stream_count": 6
             },
             {
               "id": "mhd-match-ezk96ijnm0wi1kn",
@@ -2932,19 +2951,6 @@
               "away_logo": "https://img.cltvap.cc/football/team/87b05db9f90fc41e0faa409474ada50c.png!w80",
               "time": "2026-11-15T00:30:00+07:00",
               "time_label": "15/11 00:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-xvkjoi8pvnji879",
-              "title": "R. Oviedo vs CLB Girona",
-              "home": "R. Oviedo",
-              "away": "CLB Girona",
-              "home_logo": "https://img.cltvap.cc/football/team/21551996567bcd206ee574043d509a84.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/006ce259b33ef72dd5570cfa8dc39f38.png!w80",
-              "time": "2026-11-15T03:00:00+07:00",
-              "time_label": "15/11 03:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
