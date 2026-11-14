@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:33:04.432775+00:00",
+  "updated_at": "2026-11-14T01:36:37.534896+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -2736,8 +2736,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 12,
-      "stream_count": 12,
+      "match_count": 13,
+      "stream_count": 13,
       "leagues": [
         {
           "name": "International Friendly",
@@ -2859,6 +2859,25 @@
               "away": "Auckland City",
               "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hlldjrz84/image/small",
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh478ym0ve/image/small",
+              "time": "2026-11-14T08:00:00+07:00",
+              "time_label": "14/11 08:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "New Zealand Women's Premier Division",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-dj2ryoh7kldkq1z",
+              "title": "Nữ Waterside Karori vs Nữ Auckland United",
+              "home": "Nữ Waterside Karori",
+              "away": "Nữ Auckland United",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh1d0pryk0/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdeh6kp0r510/image/small",
               "time": "2026-11-14T08:00:00+07:00",
               "time_label": "14/11 08:00",
               "status": "scheduled",
