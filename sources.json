@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:15:15.882167+00:00",
+  "updated_at": "2026-11-14T01:18:50.779970+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -40,6 +40,19 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_144421_29dc3af1.png",
               "time": "2026-11-14T15:00:00+07:00",
               "time_label": "14/11 15:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "",
+              "title": "Việt Nam vs South Korea",
+              "home": "Việt Nam",
+              "away": "South Korea",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png",
+              "time": "2026-11-14T15:30:00+07:00",
+              "time_label": "14/11 15:30",
               "status": "ns",
               "score": "",
               "stream_count": 3
@@ -269,19 +282,6 @@
               "away": "Ukraine",
               "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134252_884d8f9e.png",
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125459_fd6a0e94.png",
-              "time": "2026-11-15T02:45:00+07:00",
-              "time_label": "15/11 02:45",
-              "status": "ns",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "",
-              "title": "Sweden vs Bosnia & Herzegovina",
-              "home": "Sweden",
-              "away": "Bosnia & Herzegovina",
-              "home_logo": "https://media.chuoichientv.net/media/20250825_180323_118bdf95.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png",
               "time": "2026-11-15T02:45:00+07:00",
               "time_label": "15/11 02:45",
               "status": "ns",
@@ -1236,7 +1236,7 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 324,
+      "stream_count": 325,
       "leagues": [
         {
           "name": "Giao hữu Quốc tế",
@@ -1467,7 +1467,7 @@
               "time_label": "14/11 08:30",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-vrqw9s9dz9du47n",
@@ -2736,8 +2736,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 11,
-      "stream_count": 11,
+      "match_count": 12,
+      "stream_count": 12,
       "leagues": [
         {
           "name": "MEX Liga Premier",
@@ -2861,6 +2861,25 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhex8km7vx/image/small",
               "time": "2026-11-14T07:30:00+07:00",
               "time_label": "14/11 07:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "New Zealand Football Championship",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-8yomo4hyev6xq0j",
+              "title": "Wellington Phoenix (R) vs Auckland City",
+              "home": "Wellington Phoenix (R)",
+              "away": "Auckland City",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hlldjrz84/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh478ym0ve/image/small",
+              "time": "2026-11-14T08:00:00+07:00",
+              "time_label": "14/11 08:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
