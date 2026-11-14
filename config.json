@@ -1,5 +1,6 @@
 
 {
+  "source_logo_base": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main",
   "output_file": "thethao.m3u",
   "epg_file": "epg.xml",
   "sources_file": "sources.json",
@@ -60,6 +61,7 @@
 {
   "id": "colatv",
   "name": "ColaTV",
+  "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/colatv.png",
   "url": "https://api.gvapi.cc/api/matches",
   "method": "GET",
   "parser": "colatv",
