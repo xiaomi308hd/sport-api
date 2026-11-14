@@ -1,49 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-65a796c7b7a8" tvg-name="Serbia vs Germany - Trốc Tru - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Serbia vs Germany | 14/11 02:45 | Trốc Tru | HD1
+#EXTINF:-1 tvg-id="mhd-match-0438d071bb72" tvg-name="Colombia vs Chile - Trốc Tru - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Colombia vs Chile | 14/11 07:00 | Trốc Tru | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-65a796c7b7a8" tvg-name="Serbia vs Germany - Trốc Tru - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Serbia vs Germany | 14/11 02:45 | Trốc Tru | HD2
+#EXTINF:-1 tvg-id="mhd-match-0438d071bb72" tvg-name="Colombia vs Chile - Trốc Tru - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Colombia vs Chile | 14/11 07:00 | Trốc Tru | HD2
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-65a796c7b7a8" tvg-name="Serbia vs Germany - Trốc Tru - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Serbia vs Germany | 14/11 02:45 | Trốc Tru | FHD
+#EXTINF:-1 tvg-id="mhd-match-0438d071bb72" tvg-name="Colombia vs Chile - Trốc Tru - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Colombia vs Chile | 14/11 07:00 | Trốc Tru | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1fad7bda8300" tvg-name="Netherlands vs Greece - Chuối Nhỏ - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Netherlands vs Greece | 14/11 02:45 | Chuối Nhỏ | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1fad7bda8300" tvg-name="Netherlands vs Greece - Chuối Nhỏ - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Netherlands vs Greece | 14/11 02:45 | Chuối Nhỏ | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-1fad7bda8300" tvg-name="Netherlands vs Greece - Chuối Nhỏ - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Netherlands vs Greece | 14/11 02:45 | Chuối Nhỏ | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-32552baf63ca" tvg-name="Slovenia vs Faroe Islands - Chuối Lá - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Slovenia vs Faroe Islands | 14/11 02:45 | Chuối Lá | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-32552baf63ca" tvg-name="Slovenia vs Faroe Islands - Chuối Lá - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Slovenia vs Faroe Islands | 14/11 02:45 | Chuối Lá | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-32552baf63ca" tvg-name="Slovenia vs Faroe Islands - Chuối Lá - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Slovenia vs Faroe Islands | 14/11 02:45 | Chuối Lá | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-b6133c8fd717" tvg-name="Scotland vs FYR Macedonia - Chuối Già - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Scotland vs FYR Macedonia | 14/11 02:45 | Chuối Già | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-b6133c8fd717" tvg-name="Scotland vs FYR Macedonia - Chuối Già - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Scotland vs FYR Macedonia | 14/11 02:45 | Chuối Già | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-b6133c8fd717" tvg-name="Scotland vs FYR Macedonia - Chuối Già - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Scotland vs FYR Macedonia | 14/11 02:45 | Chuối Già | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-a8f3c728ca0e" tvg-name="Argentina vs Uruguay - Chuối Chao - HD1" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Argentina vs Uruguay | 14/11 06:00 | Chuối Chao | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-a8f3c728ca0e" tvg-name="Argentina vs Uruguay - Chuối Chao - HD2" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Argentina vs Uruguay | 14/11 06:00 | Chuối Chao | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-a8f3c728ca0e" tvg-name="Argentina vs Uruguay - Chuối Chao - FHD" tvg-logo="https://media.api-sports.io/football/leagues/10.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Argentina vs Uruguay | 14/11 06:00 | Chuối Chao | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-962fc497dcb4" tvg-name="Guatemala vs Canada - Chuối Tây - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120026_f5783203.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Guatemala vs Canada | 14/11 09:00 | Chuối Tây | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
@@ -80,3 +44,30 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-5ac65c0fc70b" tvg-name="Okayama Seagulls W vs NEC Red Rockets W - Chuối Lửa - FHD" tvg-logo="https://media.chuoichientv.net/media/20260508_185415_1b4dab26.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="VOLLEYBALL",Okayama Seagulls W vs NEC Red Rockets W | 14/11 12:05 | Chuối Lửa | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-4d2ceeda43e0" tvg-name="Central Coast Mariners W vs Perth Glory FC W - Chuối Chao - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_111532_af6fdb08.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Central Coast Mariners W vs Perth Glory FC W | 14/11 13:00 | Chuối Chao | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-4d2ceeda43e0" tvg-name="Central Coast Mariners W vs Perth Glory FC W - Chuối Chao - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_111532_af6fdb08.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Central Coast Mariners W vs Perth Glory FC W | 14/11 13:00 | Chuối Chao | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-4d2ceeda43e0" tvg-name="Central Coast Mariners W vs Perth Glory FC W - Chuối Chao - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_111532_af6fdb08.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Central Coast Mariners W vs Perth Glory FC W | 14/11 13:00 | Chuối Chao | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8fc7e3468dc9" tvg-name="India U17 vs Guam U17 - Chuối Nhỏ - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_120250_dac8ca8d.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",India U17 vs Guam U17 | 14/11 14:30 | Chuối Nhỏ | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8fc7e3468dc9" tvg-name="India U17 vs Guam U17 - Chuối Nhỏ - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_120250_dac8ca8d.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",India U17 vs Guam U17 | 14/11 14:30 | Chuối Nhỏ | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8fc7e3468dc9" tvg-name="India U17 vs Guam U17 - Chuối Nhỏ - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_120250_dac8ca8d.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",India U17 vs Guam U17 | 14/11 14:30 | Chuối Nhỏ | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-85cdce526b76" tvg-name="Bayswater City vs Sydney Olympic - Chuối Già - HD1" tvg-logo="https://media.api-sports.io/football/leagues/1202.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Bayswater City vs Sydney Olympic | 14/11 15:30 | Chuối Già | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-85cdce526b76" tvg-name="Bayswater City vs Sydney Olympic - Chuối Già - HD2" tvg-logo="https://media.api-sports.io/football/leagues/1202.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Bayswater City vs Sydney Olympic | 14/11 15:30 | Chuối Già | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-85cdce526b76" tvg-name="Bayswater City vs Sydney Olympic - Chuối Già - FHD" tvg-logo="https://media.api-sports.io/football/leagues/1202.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Bayswater City vs Sydney Olympic | 14/11 15:30 | Chuối Già | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
