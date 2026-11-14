@@ -1,46 +1,67 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-1l4rjnh9nowpm7v" tvg-name="Kosovo vs Israel - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohke43q1zp/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Kosovo vs Israel | 14/11 21:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-1l4rjnh9nowpm7v" tvg-name="Kosovo vs Israel - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohke43q1zp/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Kosovo vs Israel | 14/11 21:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/77ce4f2945813413800ad53bb60721ad/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-3glrw7h4wln6qdy" tvg-name="Argentina vs Uruguay - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kdj2ryoh868q1zp/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Argentina vs Uruguay | 14/11 06:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-1l4rjnhn6gwdm7v" tvg-name="Soles de Sonora vs Cobras Futbol Premier - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghxexyr6od/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Soles de Sonora vs Cobras Futbol Premier | 14/11 09:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/0744b783d49350766ea3bb8fe913489b/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-4jwq2ghn3og9m0v" tvg-name="Nữ Manchester Utd vs Nữ Crystal Palace - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhyxl9repz/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Nữ Manchester Utd vs Nữ Crystal Palace | 14/11 19:45 | Phá Làng TV | Live
+https://lilive1.eu.cc/live/40c9ad562c2f47e8ac330c187f1c3e7b/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-2y8m4zhv0xg5ql0" tvg-name="Nhật Bản vs Brazil - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hooj2qo9j/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nhật Bản vs Brazil | 14/11 17:15 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/4b32513ac7b656c03da8da8b1276bc38/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-318q66h8odz4qo9" tvg-name="FC Basara Hyogo vs Aries Tokyo - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhvpnkryk0/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",FC Basara Hyogo vs Aries Tokyo | 14/11 08:45 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/e12ecfe7e902220d4e874bc37baafba7/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-4jwq2ghn3og9m0v" tvg-name="Nữ Manchester Utd vs Nữ Crystal Palace - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhyxl9repz/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ Manchester Utd vs Nữ Crystal Palace | 14/11 19:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/4b624c3aafcde57f904da8affddae1bf/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-4wyrn4h6nxjkq86" tvg-name="Internacional de Bogotá vs Ind. Santa Fe - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph635m2wd/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Internacional de Bogotá vs Ind. Santa Fe | 14/11 08:30 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-4wyrn4h6nxjkq86" tvg-name="Internacional de Bogotá vs Ind. Santa Fe - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph635m2wd/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Internacional de Bogotá vs Ind. Santa Fe | 14/11 08:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/607914f2d5f21f6f027313c0e79b555b/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-4wyrn4hy8553q86" tvg-name="Nữ Lexington SC vs Nữ Fort Lauderdale Utd - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whg0g8ryox/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Nữ Lexington SC vs Nữ Fort Lauderdale Utd | 14/11 07:30 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-4wyrn4hy8553q86" tvg-name="Nữ Lexington SC vs Nữ Fort Lauderdale Utd - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whg0g8ryox/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ Lexington SC vs Nữ Fort Lauderdale Utd | 14/11 07:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/1de5a466fd5b81d8dfaa96ec012e949b/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-8yomo4hyev6xq0j" tvg-name="Wellington Phoenix (R) vs Auckland City - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09hlldjrz84/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Wellington Phoenix (R) vs Auckland City | 14/11 08:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-4wyrn4hy8563q86" tvg-name="Club Sure vs Gambeta - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whgeworyox/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Club Sure vs Gambeta | 14/11 08:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/8f86d343f38f25cfb741eba3c7fe97c2/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8yomo4hyev6xq0j" tvg-name="Wellington Phoenix (R) vs Auckland City - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09hlldjrz84/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Wellington Phoenix (R) vs Auckland City | 14/11 08:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/993fd10b399bce427296fda9ef810e8a/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-dj2ryoh7kldkq1z" tvg-name="Nữ Waterside Karori vs Nữ Auckland United - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh1d0pryk0/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Nữ Waterside Karori vs Nữ Auckland United | 14/11 08:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-d2e3aad598f1402184fa1974fa8b9467" tvg-name="Hisamitsu Springs Women vs PFU Blue Cats Women - Phá Làng TV - HD1" tvg-logo="https://static.flashscore.com/res/image/data/djDTeKyB-v3YmnHll.png" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Hisamitsu Springs Women vs PFU Blue Cats Women | 14/11 11:05 | Phá Làng TV | HD1
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://pull.digitalcdn.net/live/d89c28ea55644340998c08079d4f4a96/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-dj2ryoh7kldkq1z" tvg-name="Nữ Waterside Karori vs Nữ Auckland United - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh1d0pryk0/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ Waterside Karori vs Nữ Auckland United | 14/11 08:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/6ebf070a33dc1c6572827dfb72b6abe1/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-dj2ryoh7v4j1q1z" tvg-name="Colombia vs Chile - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7h5y7qdyj/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Colombia vs Chile | 14/11 07:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-dj2ryoh7v4j1q1z" tvg-name="Colombia vs Chile - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7h5y7qdyj/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Colombia vs Chile | 14/11 07:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/0e9807566fbeda1e47d7a55ee171078b/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-l5ergphko73pr8k" tvg-name="French Saint Martin vs El Salvador - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1ghe35kmoep/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",French Saint Martin vs El Salvador | 14/11 06:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-dn1m1gh94p53moe" tvg-name="Guatemala vs Canada - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hpwjq0j6/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Guatemala vs Canada | 14/11 09:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/2d3d49060b84aaa286679e6642d0c200/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-l7oqdehgvg8jr51" tvg-name="Criacao Shinjuku vs Briobecca Urayasu - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhj3kkryk0/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Criacao Shinjuku vs Briobecca Urayasu | 14/11 11:00 | Phá Làng TV | Live
+https://lilive1.eu.cc/live/e0cb4d85e765f2d1fc74638df7cd6871/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-jw2r09h5lgkerz8" tvg-name="Caballeros de Cordoba vs FC Sozca - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hjovnqo9j/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Caballeros de Cordoba vs FC Sozca | 14/11 09:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/2155875076f82908103f96d61bab7fc2/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-l7oqdehgvg8jr51" tvg-name="Criacao Shinjuku vs Briobecca Urayasu - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhj3kkryk0/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Criacao Shinjuku vs Briobecca Urayasu | 14/11 11:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/6458dc1e5793c97159f34c3ac5b3925f/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-l7oqdehjn96dr51" tvg-name="Montserrat vs Nicaragua - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllh2wo6qvy9/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Montserrat vs Nicaragua | 14/11 07:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-l7oqdehjn96dr51" tvg-name="Montserrat vs Nicaragua - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllh2wo6qvy9/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Montserrat vs Nicaragua | 14/11 07:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/ba29b5ebe4c2ef9b865972fb9aa279bf/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-vjxm8ghk42ewr6o" tvg-name="Ecuador vs Costa Rica - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7h2z5qdyj/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Ecuador vs Costa Rica | 14/11 07:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-n54qllh42wvgqvy" tvg-name="SONIO Takamatsu vs Tokyo United - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohn8dkq1zp/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",SONIO Takamatsu vs Tokyo United | 14/11 08:45 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/c5521210c20d52abfa1600dbe8f75114/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-vjxm8ghe1vlkr6o" tvg-name="Tauro FC vs Alianza FC - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllh2nd1qvy9/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Tauro FC vs Alianza FC | 14/11 08:30 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/8b29909d6b99a9dcea6f6c7eae49a7b2/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-vjxm8ghk42ewr6o" tvg-name="Ecuador vs Costa Rica - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7h2z5qdyj/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Ecuador vs Costa Rica | 14/11 07:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/06204bb7419ec28303805fe0a6838f0a/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-x7lm7phjdj9gm2w" tvg-name="RB Omiya Ardija vs M. Yamagata - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghle0m0ve/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",RB Omiya Ardija vs M. Yamagata | 14/11 12:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-x7lm7phjdj9gm2w" tvg-name="RB Omiya Ardija vs M. Yamagata - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghle0m0ve/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",RB Omiya Ardija vs M. Yamagata | 14/11 12:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/471395fcd3e32fd10389402fe23ca4ce/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-x7lm7phxk5j3m2w" tvg-name="Peru vs Bolivia - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9dn1m1gh6kkmoep/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Peru vs Bolivia | 14/11 08:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-x7lm7phxk5j3m2w" tvg-name="Peru vs Bolivia - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9dn1m1gh6kkmoep/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Peru vs Bolivia | 14/11 08:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/20ece04249a85162dfbab82c3961589b/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-zp5rzghgly30q82" tvg-name="Nữ Chelsea vs Nữ Manchester City - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hlo5qo9j/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL",Nữ Chelsea vs Nữ Manchester City | 14/11 20:30 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-y0or5jh9lw7kqwz" tvg-name="ASC Hokkaido vs Veroskronos Tsuno - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnhe6ygm7vx/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",ASC Hokkaido vs Veroskronos Tsuno | 14/11 08:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/690c4872e45f7597e0f25ac0fb6a80e1/playlist.m3u8
+https://lilive1.eu.cc/live/0c0681d5a7f322c80b3bc6e2cc002729/playlist.m3u8
