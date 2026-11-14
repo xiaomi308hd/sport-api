@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:11:43.648105+00:00",
+  "updated_at": "2026-11-14T01:15:15.882167+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,8 +11,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 11,
-      "stream_count": 63,
+      "match_count": 20,
+      "stream_count": 96,
       "leagues": [
         {
           "name": "Giao Hữu Quốc Tế",
@@ -27,7 +27,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132811_2544daac.png",
               "time": "2026-11-14T07:00:00+07:00",
               "time_label": "14/11 07:00",
-              "status": "ht",
+              "status": "2h",
               "score": "",
               "stream_count": 9
             },
@@ -69,6 +69,19 @@
               "status": "ns",
               "score": "",
               "stream_count": 3
+            },
+            {
+              "id": "",
+              "title": "U23 Vietnam vs U23 Qatar",
+              "home": "U23 Vietnam",
+              "away": "U23 Qatar",
+              "home_logo": "https://media.chuoichientv.net/media/20250902_190503_cfcedb98.png",
+              "away_logo": "https://media.chuoichientv.net/media/20250902_191040_54e0d85a.png",
+              "time": "2026-11-14T19:00:00+07:00",
+              "time_label": "14/11 19:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
             }
           ]
         },
@@ -187,6 +200,128 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_141341_d6126770.png",
               "time": "2026-11-14T15:30:00+07:00",
               "time_label": "14/11 15:30",
+              "status": "ns",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
+          "name": "UEFA Nations League",
+          "logo": "https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Kosovo vs Israel",
+              "home": "Kosovo",
+              "away": "Israel",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134300_f5f28cb7.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134301_856f2abf.png",
+              "time": "2026-11-14T21:00:00+07:00",
+              "time_label": "14/11 21:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "",
+              "title": "Norway vs Wales",
+              "home": "Norway",
+              "away": "Wales",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250715_194710_e484b2d5.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134251_66ec2f9b.png",
+              "time": "2026-11-15T00:00:00+07:00",
+              "time_label": "15/11 00:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "",
+              "title": "Georgia vs Hungary",
+              "home": "Georgia",
+              "away": "Hungary",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125506_b2c0a574.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png",
+              "time": "2026-11-15T00:00:00+07:00",
+              "time_label": "15/11 00:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "",
+              "title": "Portugal vs Denmark",
+              "home": "Portugal",
+              "away": "Denmark",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125456_dde261ec.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125453_4487c0dd.png",
+              "time": "2026-11-15T02:45:00+07:00",
+              "time_label": "15/11 02:45",
+              "status": "ns",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "",
+              "title": "Northern Ireland vs Ukraine",
+              "home": "Northern Ireland",
+              "away": "Ukraine",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134252_884d8f9e.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125459_fd6a0e94.png",
+              "time": "2026-11-15T02:45:00+07:00",
+              "time_label": "15/11 02:45",
+              "status": "ns",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "",
+              "title": "Sweden vs Bosnia & Herzegovina",
+              "home": "Sweden",
+              "away": "Bosnia & Herzegovina",
+              "home_logo": "https://media.chuoichientv.net/media/20250825_180323_118bdf95.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png",
+              "time": "2026-11-15T02:45:00+07:00",
+              "time_label": "15/11 02:45",
+              "status": "ns",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
+          "name": "La Liga 2",
+          "logo": "https://media.api-sports.io/football/leagues/141.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Real Sociedad II vs Sporting Gijon",
+              "home": "Real Sociedad II",
+              "away": "Sporting Gijon",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_140020_f23143f4.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133421_7b891bfa.png",
+              "time": "2026-11-14T22:15:00+07:00",
+              "time_label": "14/11 22:15",
+              "status": "ns",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
+          "name": "Africa Cup of Nations - Qualification",
+          "logo": "https://media.chuoichientv.net/media/20251115_120144_c5f585be.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Uganda vs Botswana",
+              "home": "Uganda",
+              "away": "Botswana",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_132802_272fef9c.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132803_4828aa10.png",
+              "time": "2026-11-14T23:00:00+07:00",
+              "time_label": "14/11 23:00",
               "status": "ns",
               "score": "",
               "stream_count": 3
@@ -2602,7 +2737,7 @@
       "stale": false,
       "error": "",
       "match_count": 11,
-      "stream_count": 12,
+      "stream_count": 11,
       "leagues": [
         {
           "name": "MEX Liga Premier",
@@ -2636,9 +2771,9 @@
               "away_logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hln7qo9j/image/small",
               "time": "2026-11-14T06:00:00+07:00",
               "time_label": "14/11 06:00",
-              "status": "live",
+              "status": "scheduled",
               "score": "",
-              "stream_count": 2
+              "stream_count": 1
             },
             {
               "id": "mhd-match-dj2ryoh7v4j1q1z",

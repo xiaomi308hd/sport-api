@@ -71,3 +71,12 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-85cdce526b76" tvg-name="Bayswater City vs Sydney Olympic - Chuối Già - FHD" tvg-logo="https://media.api-sports.io/football/leagues/1202.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Bayswater City vs Sydney Olympic | 14/11 15:30 | Chuối Già | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-430fca2735f3" tvg-name="Norway vs Wales - Chuối Lá - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Norway vs Wales | 15/11 00:00 | Chuối Lá | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-430fca2735f3" tvg-name="Norway vs Wales - Chuối Lá - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Norway vs Wales | 15/11 00:00 | Chuối Lá | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-430fca2735f3" tvg-name="Norway vs Wales - Chuối Lá - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115700_a0fcd4fe.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL",Norway vs Wales | 15/11 00:00 | Chuối Lá | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
