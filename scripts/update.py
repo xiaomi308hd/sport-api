@@ -111,46 +111,65 @@ def first_value(*values):
 
 
 def parse_datetime(value):
-    if not value:
+    if value is None or value == "":
         return None
 
-    if isinstance(value, (int, float)):
-        try:
+    try:
+        # Hỗ trợ Unix timestamp dạng số hoặc chuỗi số.
+        if isinstance(value, (int, float)):
+            timestamp = float(value)
+
+        elif isinstance(value, str):
+            value = value.strip()
+
+            if re.fullmatch(r"\d{9,16}", value):
+                timestamp = float(value)
+            else:
+                timestamp = None
+
+        else:
+            timestamp = None
+
+        if timestamp is not None:
+            # Tự nhận diện giây hoặc mili giây.
+            if timestamp > 9999999999:
+                timestamp /= 1000
+
             return datetime.fromtimestamp(
-                value / 1000 if value > 9999999999 else value,
+                timestamp,
                 tz=timezone.utc
             )
-        except Exception:
-            return None
 
-    value = clean(value)
+        # Xử lý chuỗi ISO 8601.
+        if isinstance(value, str):
+            dt = datetime.fromisoformat(
+                value.replace("Z", "+00:00")
+            )
 
-    try:
-        result = datetime.fromisoformat(
-            value.replace("Z", "+00:00")
-        )
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
 
-        if result.tzinfo is None:
-            result = result.replace(tzinfo=timezone.utc)
+            return dt
 
-        return result
-
-    except Exception:
+    except (ValueError, TypeError, OverflowError, OSError):
         pass
 
-    formats = [
+    # Các định dạng ngày giờ phổ biến.
+    for fmt in (
         "%Y-%m-%d %H:%M:%S",
         "%Y-%m-%d %H:%M",
         "%Y/%m/%d %H:%M:%S",
         "%Y/%m/%d %H:%M",
-    ]
-
-    for fmt in formats:
+        "%d-%m-%Y %H:%M:%S",
+        "%d-%m-%Y %H:%M"
+    ):
         try:
-            return datetime.strptime(value, fmt).replace(
-                tzinfo=timezone.utc
-            )
-        except Exception:
+            return datetime.strptime(
+                str(value).strip(),
+                fmt
+            ).replace(tzinfo=timezone.utc)
+
+        except (ValueError, TypeError):
             continue
 
     return None
@@ -935,12 +954,17 @@ def parse_gavang_match(item, api):
 
     return {
         "externalId": clean(item.get("id")),
-        "matchTime": clean(
-            first_value(
-                item.get("startTime"),
-                item.get("matchTime"),
-                item.get("date")
-            )
+        "matchTime": first_value(
+            item.get("startTime"),
+            item.get("matchTime"),
+            item.get("match_time"),
+            item.get("start_date"),
+            item.get("start_at"),
+            item.get("matchDate"),
+            item.get("match_date"),
+            item.get("date"),
+            item.get("timestamp"),
+            item.get("time")
         ),
         "status": clean(item.get("status")),
         "teams": {
