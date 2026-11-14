@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:43:23.273221+00:00",
+  "updated_at": "2026-11-14T01:59:39.447729+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -111,7 +111,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132742_666d88b2.png",
               "time": "2026-11-14T09:00:00+07:00",
               "time_label": "14/11 09:00",
-              "status": "ns",
+              "status": "live",
               "score": "",
               "stream_count": 9
             }
@@ -1236,8 +1236,170 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 325,
+      "stream_count": 326,
       "leagues": [
+        {
+          "name": "Hiệp hội Bóng rổ Quốc gia",
+          "logo": "https://img.cltvap.cc/basketball/competition/061f5ab5b1a975fc1004529ec3f11fca.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-34kgps1lw1gieko",
+              "title": "Indiana Pacers vs New York Knicks",
+              "home": "Indiana Pacers",
+              "away": "New York Knicks",
+              "home_logo": "https://img.cltvap.cc/basketball/team/6f313b682482799762cf60dbc30dbfae.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
+              "time": "2026-11-14T07:00:00+07:00",
+              "time_label": "14/11 07:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 4
+            },
+            {
+              "id": "mhd-match-63kvlsop2oeux7e",
+              "title": "Chicago Bulls vs Atlanta Hawks",
+              "home": "Chicago Bulls",
+              "away": "Atlanta Hawks",
+              "home_logo": "https://img.cltvap.cc/basketball/team/f15ed15d914b6a608e9a396f03c755b0.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/4e67b14905a05af9e1bd04406bf8690f.png!w80",
+              "time": "2026-11-14T08:00:00+07:00",
+              "time_label": "14/11 08:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 4
+            },
+            {
+              "id": "mhd-match-8lk2ys6zy6waz73",
+              "title": "Miami Heat vs Cleveland Cavaliers",
+              "home": "Miami Heat",
+              "away": "Cleveland Cavaliers",
+              "home_logo": "https://img.cltvap.cc/basketball/team/ff7ccef6a6b79c6417ee8367946b0aec.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png!w80",
+              "time": "2026-11-14T08:00:00+07:00",
+              "time_label": "14/11 08:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 4
+            },
+            {
+              "id": "mhd-match-o07dzsmrgm9smkn",
+              "title": "Houston Rockets vs Utah Jazz",
+              "home": "Houston Rockets",
+              "away": "Utah Jazz",
+              "home_logo": "https://img.cltvap.cc/basketball/team/bcfe797437f18526ff4e62177021f638.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/8c88df221129169246c5b8a82955fa34.png!w80",
+              "time": "2026-11-14T08:30:00+07:00",
+              "time_label": "14/11 08:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 4
+            },
+            {
+              "id": "mhd-match-vrqw9s9dz9du47n",
+              "title": "San Antonio Spurs vs Golden State Warriors",
+              "home": "San Antonio Spurs",
+              "away": "Golden State Warriors",
+              "home_logo": "https://img.cltvap.cc/basketball/team/5305d1a7b721b5bef418041eff53ba82.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/df3f6f8bb17fd1c618f60f0b14637140.png!w80",
+              "time": "2026-11-14T09:30:00+07:00",
+              "time_label": "14/11 09:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-ndqmrs3eg3larkv",
+              "title": "Sacramento Kings vs Portland Trail Blazers",
+              "home": "Sacramento Kings",
+              "away": "Portland Trail Blazers",
+              "home_logo": "https://img.cltvap.cc/basketball/team/1fc010aba7ac510b5364e5f76ca4f060.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/4512175b1415f69816e816160093bcc0.png!w80",
+              "time": "2026-11-14T10:00:00+07:00",
+              "time_label": "14/11 10:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-j374ws9gw92hgko",
+              "title": "Los Angeles Clippers vs Oklahoma City Thunder",
+              "home": "Los Angeles Clippers",
+              "away": "Oklahoma City Thunder",
+              "home_logo": "https://img.cltvap.cc/basketball/team/848b21021b2a1db7bde95ea52a1e021b.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/319e03be75fee4098a83b1d0e01940b7.png!w80",
+              "time": "2026-11-14T10:30:00+07:00",
+              "time_label": "14/11 10:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-o17p8sywngmsykj",
+              "title": "New Orleans Pelicans vs Denver Nuggets",
+              "home": "New Orleans Pelicans",
+              "away": "Denver Nuggets",
+              "home_logo": "https://img.cltvap.cc/basketball/team/2602b893bb3f8d381a5b0d978fad74e1.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/403a12aa187f47045c18d137cd8103dc.png!w80",
+              "time": "2026-11-15T07:00:00+07:00",
+              "time_label": "15/11 07:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-jr7o9s3gm94cg70",
+              "title": "Cleveland Cavaliers vs Dallas Mavericks",
+              "home": "Cleveland Cavaliers",
+              "away": "Dallas Mavericks",
+              "home_logo": "https://img.cltvap.cc/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/42d7b5ec22b2eb411d68f94a04eab742.png!w80",
+              "time": "2026-11-15T07:30:00+07:00",
+              "time_label": "15/11 07:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-9gkl6s6xp22tmkx",
+              "title": "Miami Heat vs Detroit Pistons",
+              "home": "Miami Heat",
+              "away": "Detroit Pistons",
+              "home_logo": "https://img.cltvap.cc/basketball/team/ff7ccef6a6b79c6417ee8367946b0aec.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/3f82122a48e98eaccc5e71307eba801a.png!w80",
+              "time": "2026-11-15T08:00:00+07:00",
+              "time_label": "15/11 08:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-ndkzysnp64psx73",
+              "title": "Memphis Grizzlies vs Brooklyn Nets",
+              "home": "Memphis Grizzlies",
+              "away": "Brooklyn Nets",
+              "home_logo": "https://img.cltvap.cc/basketball/team/5150102b33043405b63b2e7c72759fa8.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/4150a647c6e381a69980e98bb86582a5.png!w80",
+              "time": "2026-11-15T08:00:00+07:00",
+              "time_label": "15/11 08:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-527rjswd62gt4ke",
+              "title": "Minnesota Timberwolves vs Chicago Bulls",
+              "home": "Minnesota Timberwolves",
+              "away": "Chicago Bulls",
+              "home_logo": "https://img.cltvap.cc/basketball/team/38794d0ac418d8f2d03bd17a2623f3ed.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/f15ed15d914b6a608e9a396f03c755b0.png!w80",
+              "time": "2026-11-15T08:00:00+07:00",
+              "time_label": "15/11 08:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
         {
           "name": "Giao hữu Quốc tế",
           "logo": "https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png!w80",
@@ -1414,168 +1576,6 @@
           ]
         },
         {
-          "name": "Hiệp hội Bóng rổ Quốc gia",
-          "logo": "https://img.cltvap.cc/basketball/competition/061f5ab5b1a975fc1004529ec3f11fca.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-34kgps1lw1gieko",
-              "title": "Indiana Pacers vs New York Knicks",
-              "home": "Indiana Pacers",
-              "away": "New York Knicks",
-              "home_logo": "https://img.cltvap.cc/basketball/team/6f313b682482799762cf60dbc30dbfae.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
-              "time": "2026-11-14T07:00:00+07:00",
-              "time_label": "14/11 07:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
-            {
-              "id": "mhd-match-63kvlsop2oeux7e",
-              "title": "Chicago Bulls vs Atlanta Hawks",
-              "home": "Chicago Bulls",
-              "away": "Atlanta Hawks",
-              "home_logo": "https://img.cltvap.cc/basketball/team/f15ed15d914b6a608e9a396f03c755b0.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/4e67b14905a05af9e1bd04406bf8690f.png!w80",
-              "time": "2026-11-14T08:00:00+07:00",
-              "time_label": "14/11 08:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
-            {
-              "id": "mhd-match-8lk2ys6zy6waz73",
-              "title": "Miami Heat vs Cleveland Cavaliers",
-              "home": "Miami Heat",
-              "away": "Cleveland Cavaliers",
-              "home_logo": "https://img.cltvap.cc/basketball/team/ff7ccef6a6b79c6417ee8367946b0aec.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png!w80",
-              "time": "2026-11-14T08:00:00+07:00",
-              "time_label": "14/11 08:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
-            {
-              "id": "mhd-match-o07dzsmrgm9smkn",
-              "title": "Houston Rockets vs Utah Jazz",
-              "home": "Houston Rockets",
-              "away": "Utah Jazz",
-              "home_logo": "https://img.cltvap.cc/basketball/team/bcfe797437f18526ff4e62177021f638.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/8c88df221129169246c5b8a82955fa34.png!w80",
-              "time": "2026-11-14T08:30:00+07:00",
-              "time_label": "14/11 08:30",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
-            {
-              "id": "mhd-match-vrqw9s9dz9du47n",
-              "title": "San Antonio Spurs vs Golden State Warriors",
-              "home": "San Antonio Spurs",
-              "away": "Golden State Warriors",
-              "home_logo": "https://img.cltvap.cc/basketball/team/5305d1a7b721b5bef418041eff53ba82.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/df3f6f8bb17fd1c618f60f0b14637140.png!w80",
-              "time": "2026-11-14T09:30:00+07:00",
-              "time_label": "14/11 09:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-ndqmrs3eg3larkv",
-              "title": "Sacramento Kings vs Portland Trail Blazers",
-              "home": "Sacramento Kings",
-              "away": "Portland Trail Blazers",
-              "home_logo": "https://img.cltvap.cc/basketball/team/1fc010aba7ac510b5364e5f76ca4f060.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/4512175b1415f69816e816160093bcc0.png!w80",
-              "time": "2026-11-14T10:00:00+07:00",
-              "time_label": "14/11 10:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-j374ws9gw92hgko",
-              "title": "Los Angeles Clippers vs Oklahoma City Thunder",
-              "home": "Los Angeles Clippers",
-              "away": "Oklahoma City Thunder",
-              "home_logo": "https://img.cltvap.cc/basketball/team/848b21021b2a1db7bde95ea52a1e021b.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/319e03be75fee4098a83b1d0e01940b7.png!w80",
-              "time": "2026-11-14T10:30:00+07:00",
-              "time_label": "14/11 10:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-o17p8sywngmsykj",
-              "title": "New Orleans Pelicans vs Denver Nuggets",
-              "home": "New Orleans Pelicans",
-              "away": "Denver Nuggets",
-              "home_logo": "https://img.cltvap.cc/basketball/team/2602b893bb3f8d381a5b0d978fad74e1.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/403a12aa187f47045c18d137cd8103dc.png!w80",
-              "time": "2026-11-15T07:00:00+07:00",
-              "time_label": "15/11 07:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-jr7o9s3gm94cg70",
-              "title": "Cleveland Cavaliers vs Dallas Mavericks",
-              "home": "Cleveland Cavaliers",
-              "away": "Dallas Mavericks",
-              "home_logo": "https://img.cltvap.cc/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/42d7b5ec22b2eb411d68f94a04eab742.png!w80",
-              "time": "2026-11-15T07:30:00+07:00",
-              "time_label": "15/11 07:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-9gkl6s6xp22tmkx",
-              "title": "Miami Heat vs Detroit Pistons",
-              "home": "Miami Heat",
-              "away": "Detroit Pistons",
-              "home_logo": "https://img.cltvap.cc/basketball/team/ff7ccef6a6b79c6417ee8367946b0aec.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/3f82122a48e98eaccc5e71307eba801a.png!w80",
-              "time": "2026-11-15T08:00:00+07:00",
-              "time_label": "15/11 08:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-ndkzysnp64psx73",
-              "title": "Memphis Grizzlies vs Brooklyn Nets",
-              "home": "Memphis Grizzlies",
-              "away": "Brooklyn Nets",
-              "home_logo": "https://img.cltvap.cc/basketball/team/5150102b33043405b63b2e7c72759fa8.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/4150a647c6e381a69980e98bb86582a5.png!w80",
-              "time": "2026-11-15T08:00:00+07:00",
-              "time_label": "15/11 08:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-527rjswd62gt4ke",
-              "title": "Minnesota Timberwolves vs Chicago Bulls",
-              "home": "Minnesota Timberwolves",
-              "away": "Chicago Bulls",
-              "home_logo": "https://img.cltvap.cc/basketball/team/38794d0ac418d8f2d03bd17a2623f3ed.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/f15ed15d914b6a608e9a396f03c755b0.png!w80",
-              "time": "2026-11-15T08:00:00+07:00",
-              "time_label": "15/11 08:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
-        {
           "name": "Liên minh bóng đá quốc gia châu Mỹ",
           "logo": "https://img.cltvap.cc/football/competition/5fa8174c859d9a2ca7c3fdfd333b0d13.png!w80",
           "matches": [
@@ -1590,7 +1590,7 @@
               "time_label": "14/11 09:00",
               "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-ndqmli9x3rzarkv",
