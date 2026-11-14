@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:40:10.089509+00:00",
+  "updated_at": "2026-11-14T01:43:23.273221+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -1588,7 +1588,7 @@
               "away_logo": "https://img.cltvap.cc/football/team/7e19999864bb17b5cf10e68e3c7e6276.png!w80",
               "time": "2026-11-14T09:00:00+07:00",
               "time_label": "14/11 09:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             },
@@ -2736,8 +2736,8 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 13,
-      "stream_count": 13,
+      "match_count": 15,
+      "stream_count": 15,
       "leagues": [
         {
           "name": "International Friendly",
@@ -2900,6 +2900,44 @@
               "time": "2026-11-14T08:30:00+07:00",
               "time_label": "14/11 08:30",
               "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Japanese Football League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-l7oqdehgvg8jr51",
+              "title": "Criacao Shinjuku vs Briobecca Urayasu",
+              "home": "Criacao Shinjuku",
+              "away": "Briobecca Urayasu",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhj3kkryk0/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8dw2q86p/image/small",
+              "time": "2026-11-14T11:00:00+07:00",
+              "time_label": "14/11 11:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Japanese J2 League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-x7lm7phjdj9gm2w",
+              "title": "RB Omiya Ardija vs M. Yamagata",
+              "home": "RB Omiya Ardija",
+              "away": "M. Yamagata",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghle0m0ve/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nho18md7o/image/small",
+              "time": "2026-11-14T12:00:00+07:00",
+              "time_label": "14/11 12:00",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
