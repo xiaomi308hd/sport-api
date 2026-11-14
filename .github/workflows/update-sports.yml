@@ -1,13 +1,15 @@
 name: Update MHD Sports M3U + XMLTV EPG
 
-# Cron của GitHub hay trễ hoặc bị bỏ lượt, nên workflow tự chạy VÒNG LẶP:
-# mỗi lượt chạy ~50 phút, cứ 3 phút cập nhật một lần rồi tự kích hoạt lượt kế tiếp.
-# Cron chỉ còn là dự phòng để khởi động lại nếu chuỗi bị đứt.
+# Chế độ TIẾT KIỆM PHÚT ACTIONS: mỗi lần chạy chỉ cập nhật 1 vòng rồi tắt (~1 phút),
+# do cron kích hoạt. Không còn vòng lặp 50 phút (loại này chạy liên tục nên ngốn hết phút
+# miễn phí của repo Private, dẫn tới lỗi "recent account payments have failed...").
+# Repo Private chỉ có 2000 phút/tháng: 30 phút/lần ≈ 1500 phút/tháng.
+# Nếu chuyển repo sang Public (Actions miễn phí) có thể đổi cron thành "*/10 * * * *".
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,22,37,52 * * * *"
+    - cron: "*/30 * * * *"
   push:
     paths:
       - "config.json"
@@ -29,7 +31,7 @@ jobs:
     timeout-minutes: 58
     env:
       GH_TOKEN: ${{ github.token }}
-      LOOP: ${{ github.event_name != 'push' && '1' || '0' }}
+      LOOP: "0"
       LOOP_SECONDS: "3000"
       INTERVAL_SECONDS: "180"
       M3U_DEST_REPO: ${{ vars.M3U_DEST_REPO || 'xiaomi308hd/hinh-nen' }}
@@ -46,7 +48,6 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          python -m pip install --upgrade pip
           python -m pip install certifi
 
       # Optional: checkout a second repository that will host the public playlist.
