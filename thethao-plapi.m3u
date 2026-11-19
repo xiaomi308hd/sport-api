@@ -1,43 +1,91 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-2y8m4zhv0248ql0" tvg-name="Preston Lions vs South Hobart - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkynxm2wd/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Preston Lions vs South Hobart | 19/11 15:30 | Phá Làng TV | HD1
+#EXTINF:-1 tvg-id="mhd-match-23xmvkh6lj42qg8" tvg-name="Argentina U17 vs Australia U17 - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h7jp3q0j6/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Argentina U17 vs Australia U17 | 19/11 23:00 | Phá Làng TV | HD1
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://pull.digitalcdn.net/live/7c79f29788fd4f43858df4e2e3dc02f6/index.m3u8
-#EXTINF:-1 tvg-id="mhd-match-2y8m4zhv0248ql0" tvg-name="Preston Lions vs South Hobart - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkynxm2wd/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Preston Lions vs South Hobart | 19/11 15:30 | Phá Làng TV | Live
+https://pull.digitalcdn.net/live/133cccd9a2b146ebad805730c63258ba/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-23xmvkh6lj42qg8" tvg-name="Argentina U17 vs Australia U17 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h7jp3q0j6/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Argentina U17 vs Australia U17 | 19/11 23:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/b40bd62c7dac73a3ded4c24b412dfce8/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-3glrw7h4w2xyqdy" tvg-name="Myanmar Universitet vs Nay Pyi Taw FC - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdeh6g9vr510/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Myanmar Universitet vs Nay Pyi Taw FC | 19/11 16:00 | Phá Làng TV | Live
+https://lilive1.eu.cc/live/aa2c952ebf9c2cf21d51d43e9dff49df/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-23xmvkhyv5eoqg8" tvg-name="Al-Ain FC vs Al-Dhafra - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h850yq86p/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Al-Ain FC vs Al-Dhafra | 19/11 22:25 | Phá Làng TV | HD1
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/ef7ead722da7e050fe620bb4b86fd20a/playlist.m3u8
+https://pull.digitalcdn.net/live/17c8d81a9b0146e1a99b1cac3251f87f/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-23xmvkhyv5eoqg8" tvg-name="Al-Ain FC vs Al-Dhafra - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h850yq86p/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Al-Ain FC vs Al-Dhafra | 19/11 22:25 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/9fc1d87a76c52d43deff40273b077503/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-2y8m4zhv37kzql0" tvg-name="ND Beltinci vs NK Publikum Celje - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh4w4gqwzv/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",ND Beltinci vs NK Publikum Celje | 19/11 19:30 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/785757be88b338bcc02af3b65e76cb51/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-318q66hx3p62qo9" tvg-name="Mozambique U17 vs Đan Mạch U17 - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkh1jyqg8n/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Mozambique U17 vs Đan Mạch U17 | 19/11 22:00 | Phá Làng TV | HD1
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://pull.digitalcdn.net/live/8fdd1f25eb3a43dcb84b864f5240907b/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-318q66hx3p62qo9" tvg-name="Mozambique U17 vs Đan Mạch U17 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkh1jyqg8n/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Mozambique U17 vs Đan Mạch U17 | 19/11 22:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/fef0531dae4918907f83330cc7411784/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-318q66hx3pjlqo9" tvg-name="Ai Cập U17 vs Hy Lạp U17 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh55jemd7o/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Ai Cập U17 vs Hy Lạp U17 | 19/11 23:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/874f47c09f080269499fe747f487d815/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-4wyrn4h65n98q86" tvg-name="Pháp U17 vs Haiti U17 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh6zpem7vx/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Pháp U17 vs Haiti U17 | 19/11 20:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/b451b4495c473bc1d73ce2f442b1569c/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-707bb9c1d1b04f7fb83474c45ff29253" tvg-name="Hungkuk Womon vs GS Caltex Womon - Phá Làng TV - HD1" tvg-logo="https://img0.aiscore.com/volleyball/team/7c125325ea334416e9274666b17df6fb.png!w80" group-title="Phá Làng TV" x-source="phalangtv" x-sport="VOLLEYBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Hungkuk Womon vs GS Caltex Womon | 19/11 17:00 | Phá Làng TV | HD1
+#EXTINF:-1 tvg-id="mhd-match-4wyrn4hy8nn0q86" tvg-name="EL Masry vs Asyut Petroleum - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hoj5zqo9j/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",EL Masry vs Asyut Petroleum | 19/11 22:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://pull.digitalcdn.net/live/a623619be2be4682aa6c2290c068a034/index.m3u8
-#EXTINF:-1 tvg-id="mhd-match-8yomo4hyew50q0j" tvg-name="Queensland Lions SC vs Wollongong Wolves - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhe5wqg8n/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Queensland Lions SC vs Wollongong Wolves | 19/11 15:30 | Phá Làng TV | Live
+https://lilive1.eu.cc/live/797be2db13426a72f8cdab00ce9822bb/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-4wyrn4hyzej8q86" tvg-name="Nữ Austria Wien vs Nữ Bayern Munchen - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh3n0dqwzv/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ Austria Wien vs Nữ Bayern Munchen | 20/11 00:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/ac6231169f7850d0f253a0f1985b7633/playlist.m3u8
+https://lilive1.eu.cc/live/029158a1db80bb48e061fcc8c4bb88f4/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-56c929a186a643168a185a0c903d866d" tvg-name="Zeren Spor Womon vs Galatasaray Womon - Phá Làng TV - HD1" tvg-logo="https://img0.aiscore.com/volleyball/team/54fc4aabcc2beabb25eee5af3ee4b164.png!w80" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Zeren Spor Womon vs Galatasaray Womon | 19/11 23:00 | Phá Làng TV | HD1
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://pull.digitalcdn.net/live/36e12b440c2a495da2a4507f0e2ba668/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-6ypq3nhvpo1gmd7" tvg-name="Qatar U17 vs Panama U17 - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhpzjqwzv/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Qatar U17 vs Panama U17 | 19/11 22:30 | Phá Làng TV | HD1
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://pull.digitalcdn.net/live/51e5c3e4a0ed41e789ef88cbc2e89d40/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-6ypq3nhvpo1gmd7" tvg-name="Qatar U17 vs Panama U17 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhpzjqwzv/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Qatar U17 vs Panama U17 | 19/11 22:30 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/b01fdf7957834329ee93c0da46e7c851/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8yomo4hy78dzq0j" tvg-name="Roltek Dob vs Bistrica - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllh23vyqvy9/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Roltek Dob vs Bistrica | 19/11 19:30 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/fe6caaec4d8bf055f1483ce400ebc7de/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-965mkyhky0ler1g" tvg-name="Xorazm Urganch vs Buxoro FK - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkwz1m2wd/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Xorazm Urganch vs Buxoro FK | 19/11 21:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/21ace08984f1749f84292c2a8375b210/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-dj2ryoh7vywnq1z" tvg-name="Nữ Benfica vs Nữ AS Roma - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh0l3xmd7o/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ Benfica vs Nữ AS Roma | 20/11 03:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/4a9cb490d888a179b66591537aebeffc/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-dj2ryohl38wpq1z" tvg-name="Công An Hà Nội vs Johor Darul Takzim - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkho9w9qg8n/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Công An Hà Nội vs Johor Darul Takzim | 19/11 19:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/c99eec16e2dbb0c925d1889d846d1e0f/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-dn1m1gh94xj6moe" tvg-name="Al Jazeera vs Hay Al‑Amir Hasan - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66ho7g5qo9j/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Al Jazeera vs Hay Al‑Amir Hasan | 19/11 23:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/aec0277e7c4c53b1b9d2ceec8c4a9398/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-jw2r09h54nexrz8" tvg-name="Nữ Arsenal vs Nữ Lyon - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohkj30q1zp/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ Arsenal vs Nữ Lyon | 20/11 03:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/fa5fe06fff4e8593eead8d7d5e9d9ab1/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-k82rekhg5egkrep" tvg-name="Ghaz Al Shamal vs Al Karkh - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7ph96k8m2wd/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Ghaz Al Shamal vs Al Karkh | 19/11 23:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/76fa24ee962b4ff9c13dfd6495584d8e/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-l5ergph4w708r8k" tvg-name="Termez Surkhon vs FK Andijon - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/965mkyh798vr1ge/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Termez Surkhon vs FK Andijon | 19/11 20:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/882ba84bed28934d943460603f3e1c85/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-n54qllh42wkvqvy" tvg-name="Hal FC vs Real Bengaluru - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hvgkeq0j6/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Hal FC vs Real Bengaluru | 19/11 17:25 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-l5ergphk03z3r8k" tvg-name="Nữ Paris FC vs Nữ HB Koge - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h27n8q0j6/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ Paris FC vs Nữ HB Koge | 20/11 00:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/7d2541c51fd4d664f8faaf54460a7781/playlist.m3u8
+https://lilive1.eu.cc/live/808f7b2c872c2c8fc53a8564f27d58f7/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-l5ergphko66yr8k" tvg-name="Arab Contractors vs Alqana - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh44zor6od/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Arab Contractors vs Alqana | 19/11 22:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/10456b3eb588bfc0dec765628a45cbe4/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-l7oqdehgz23er51" tvg-name="Fredericia vs Hillerod Fodbold - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/yl5ergph6wkr8k0/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Fredericia vs Hillerod Fodbold | 20/11 01:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/7b83df2b89ebea9cf7d857a5ff03df30/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-l7oqdehjy6v0r51" tvg-name="Nữ Barcelona vs Nữ Servette - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h81p9q86p/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Nữ Barcelona vs Nữ Servette | 20/11 03:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/f6184b425fbe756186cd7ceb16b7cdb0/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-n54qllh450l2qvy" tvg-name="Al-Wasl vs Hatta - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwnkkqdyj/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Al-Wasl vs Hatta | 19/11 19:45 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/739583c0caf94cee13e6f994bcb87c41/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-vjxm8ghk4dypr6o" tvg-name="Manaw FC vs Enjoy Brother FC - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7php4d5m2wd/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Manaw FC vs Enjoy Brother FC | 19/11 16:00 | Phá Làng TV | Live
+#EXTINF:-1 tvg-id="mhd-match-pxwrxlhy0overyk" tvg-name="Ả Rập Xê Út U17 vs Uruguay U17 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8vy5q86p/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Ả Rập Xê Út U17 vs Uruguay U17 | 19/11 21:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/59cd261b5ba5ec1d753dab31bafa59b8/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-y0or5jh9lpjdqwz" tvg-name="Battambang vs Siem Reap - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh3vx0moep/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Battambang vs Siem Reap | 19/11 16:30 | Phá Làng TV | Live
+https://lilive1.eu.cc/live/b898835c4f508b318c2e2675298db56d/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-y0or5jh9l4ozqwz" tvg-name="Samaleshwari SC vs Nagaland - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh19zvql07/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Samaleshwari SC vs Nagaland | 19/11 20:00 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/d56a7cca541fe7e5d4ee471e720d4d74/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-y0or5jh9lw0vqwz" tvg-name="Technico FF vs Kickstart Karnataka - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh144vmd7o/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Technico FF vs Kickstart Karnataka | 19/11 15:00 | Phá Làng TV | Live
-#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
-https://lilive1.eu.cc/live/dbc8b1584b6bdcc0fc0b898f1a9fee7b/playlist.m3u8
+https://lilive1.eu.cc/live/0b93848ff5ece086053014ed5de7c41f/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-y39mp1h6en0kmoj" tvg-name="Hàn Quốc U17 vs Uganda U17 - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlx6eqwzv/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Hàn Quốc U17 vs Uganda U17 | 19/11 20:30 | Phá Làng TV | Live
 #EXTVLCOPT:http-referrer=https://sv1.phalang.net/
 https://lilive1.eu.cc/live/4602fdfd70964feeaade860d0de7629e/playlist.m3u8
