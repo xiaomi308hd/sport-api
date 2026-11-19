@@ -1,31 +1,46 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-318q66hx3p62qo9" tvg-name="Mozambique U17 vs Đan Mạch U17 - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/685d3703a0b1410dc3bf2280eb5a15ec.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Mozambique U17 vs Đan Mạch U17 | 19/11 22:00 | 69 BONG | Default
-#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6Mwe5ZuQXtEkqLxrs6.m3u8?txSecret=d64f2d8f69529674753e236cb8a5fa75&txTime=6AFFC9F3
-#EXTINF:-1 tvg-id="mhd-match-4wyrn4hy8nn0q86" tvg-name="El Masry vs Asyut Petroleum - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/37ba92a7284f471683e5089a19da39a5.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",El Masry vs Asyut Petroleum | 19/11 22:00 | 69 BONG | Default
-#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6Mxk4S1wSxfNZxwTx8.m3u8?txSecret=8430520c8a409a40068f500604eab088&txTime=6AFFC9F3
-#EXTINF:-1 tvg-id="mhd-match-l5ergphko66yr8k" tvg-name="Arab Contractors vs CLB Olympic El Qanal - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/5001f3461f97fc8f251c2ccaa73d76bc.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Arab Contractors vs CLB Olympic El Qanal | 19/11 22:00 | 69 BONG | Default
-#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6Mxk4S1wSvTthV7YoE.m3u8?txSecret=c1fc7a7091c0ca000b9f0030127a961d&txTime=6AFFC9F3
-#EXTINF:-1 tvg-id="mhd-match-23xmvkhyv5eoqg8" tvg-name="Al Ain vs CLB Al Dhafra - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/8872919405e0076fb753ae6492a0a2db.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Al Ain vs CLB Al Dhafra | 19/11 22:25 | 69 BONG | Default
-#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6MxjK1E2t3bS3EUcHr.m3u8?txSecret=e55b4059d2d76f7b32af63e1cd3c482a&txTime=6AFFC9F3
-#EXTINF:-1 tvg-id="mhd-match-6ypq3nhvpo1gmd7" tvg-name="Qatar U17 vs PanamaU17 - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/a159b2e2c6b3cb7bf0e92eb43fe27bdd.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Qatar U17 vs PanamaU17 | 19/11 22:30 | 69 BONG | Default
-#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6Mwe5ZsuZGezx2Jau2.m3u8?txSecret=e3b9065db5c64684220544428440d097&txTime=6AFFC9F3
-#EXTINF:-1 tvg-id="mhd-match-zp5rzghgk7neq82" tvg-name="Al Ahli Doha vs Al Shamal - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/af47207f36a49c89502312138e54f6a7.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Al Ahli Doha vs Al Shamal | 19/11 22:30 | 69 BONG | Default
-#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6MwarK5ojccvGy2zGL.m3u8?txSecret=405de021fb06f7e00fa7838646cb8bba&txTime=6AFFC9F3
-#EXTINF:-1 tvg-id="mhd-match-318q66hx3pjlqo9" tvg-name="Ai Cập U17 vs Hy Lạp U17 - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Ai Cập U17 vs Hy Lạp U17 | 19/11 23:00 | 69 BONG | Default
-#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6Mwe5Zsuiw8XtMyH1e.m3u8?txSecret=eb7668097368ba50203f26979576e5fd&txTime=6AFFC9F3
-#EXTINF:-1 tvg-id="mhd-match-k82rekhg5egkrep" tvg-name="Ghaz Al Shamal vs Al Karkh - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/21f6e246791eccf1b9b3822f8d08c8d4.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Ghaz Al Shamal vs Al Karkh | 19/11 23:00 | 69 BONG | Default
-#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6Mxj4cwE4KdGi5982p.m3u8?txSecret=835fa80073db6c8a530281a2c8bd4dde&txTime=6AFFC9F3
-#EXTINF:-1 tvg-id="mhd-match-dn1m1gh94xj6moe" tvg-name="Al Jazeera Amman vs Hay Al‑Amir Hasan - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/4826e757ca880807dcdd0227f4641292.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Al Jazeera Amman vs Hay Al‑Amir Hasan | 19/11 23:00 | 69 BONG | Default
-#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6Mxk46Wwv2amimMU36.m3u8?txSecret=24877f29a31f01939e749de1478ad2b2&txTime=6AFFC9F3
 #EXTINF:-1 tvg-id="mhd-match-l7oqdehgz23er51" tvg-name="Fredericia vs Hillerod - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/6c0f09fbcfbc1f95a5ee2450b78aa494.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Fredericia vs Hillerod | 20/11 01:00 | 69 BONG | Default
 #EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6MwdpnrcSohwbvuZoi.m3u8?txSecret=f26479ecb7d076398a7ffc88f15f08ec&txTime=6AFFC9F3
+http://live.cds78y11d.org/live/sd-6MwdpnrcSohwbvuZoi.m3u8?txSecret=3bb6611e701bda975d4f75e68e06c574&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-y0or5jh9lkkpqwz" tvg-name="Orebro Nữ vs Rosengard Nữ - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/2dd2468e02e71821f2f40c3ece2d96e3.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Orebro Nữ vs Rosengard Nữ | 20/11 00:00 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6Mxk4S2hmG9LJF5mhe.m3u8?txSecret=f4b9f51827bada29651b60f77e0400c4&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-4wyrn4hyzej8q86" tvg-name="Áo Vienna phụ nữ vs CLB nữ Bayern Munchen - 69 BONG - EN-High" tvg-logo="https://static.wex1sora.com/thesports/football/team/c3d5e5a2e5a77d9dd041948e18c17ac9.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Áo Vienna phụ nữ vs CLB nữ Bayern Munchen | 20/11 00:45 | 69 BONG | EN-High
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/hd-en-6MxjZPMxC1sTCTu916.m3u8?txSecret=3664cf428d709d5f1d2300e9ddc265c5&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-4wyrn4hyzej8q86" tvg-name="Áo Vienna phụ nữ vs CLB nữ Bayern Munchen - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/c3d5e5a2e5a77d9dd041948e18c17ac9.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Áo Vienna phụ nữ vs CLB nữ Bayern Munchen | 20/11 00:45 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6MxjZPMxC1sTCTu916.m3u8?txSecret=89bf1cbafeceffbb51bd24fe9ca637d4&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-l5ergphk03z3r8k" tvg-name="Paris FC Nữ vs Koge Nữ - 69 BONG - EN-High" tvg-logo="https://static.wex1sora.com/thesports/football/team/31dc5c767bfeeba8745f8170e7c278e4.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Paris FC Nữ vs Koge Nữ | 20/11 00:45 | 69 BONG | EN-High
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/hd-en-6MxjZPMxC8TtouNtTn.m3u8?txSecret=0ae573bb679eb94d11b226a25c589a8a&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-l5ergphk03z3r8k" tvg-name="Paris FC Nữ vs Koge Nữ - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/31dc5c767bfeeba8745f8170e7c278e4.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Paris FC Nữ vs Koge Nữ | 20/11 00:45 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6MxjZPMxC8TtouNtTn.m3u8?txSecret=adba713ae371a1108558f4b66087b29a&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-4jwq2ghg4ywkm0v" tvg-name="ZED FC vs Smouha - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/2859c6dc44290631fe151b7d306dfde6.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",ZED FC vs Smouha | 20/11 01:00 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6Mxk4S5dYVGE58dx6Q.m3u8?txSecret=845c04c8b5ac776fd86a988362fc5aad&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-l5ergphkox6dr8k" tvg-name="Ferro Carril Oeste phụ nữ vs River Plate Nữ - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/76be6bdf36aa4845026e4848a4379b8d.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Ferro Carril Oeste phụ nữ vs River Plate Nữ | 20/11 01:00 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6Mxjoey9rGPUDtfanG.m3u8?txSecret=13bdf47b59d4afb1edd347ba502d6d0c&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-dj2ryoh7vywnq1z" tvg-name="CF Benfica Nữ vs AS Roma Nữ - 69 BONG - EN-High" tvg-logo="https://static.wex1sora.com/thesports/football/team/09c9433cfa1c306e6b774a272da7f5a9.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",CF Benfica Nữ vs AS Roma Nữ | 20/11 03:00 | 69 BONG | EN-High
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/hd-en-6MxjZPMxBZVgkhz9AL.m3u8?txSecret=424948408e4d78cad6211204681429bc&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-dj2ryoh7vywnq1z" tvg-name="CF Benfica Nữ vs AS Roma Nữ - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/09c9433cfa1c306e6b774a272da7f5a9.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",CF Benfica Nữ vs AS Roma Nữ | 20/11 03:00 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6MxjZPMxBZVgkhz9AL.m3u8?txSecret=defc6b78a36a45e8a73e988b98ca725e&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-jw2r09h54nexrz8" tvg-name="Arsenal Nữ vs CLB nữ Lyon - 69 BONG - EN-High" tvg-logo="https://static.wex1sora.com/thesports/football/team/2aa5a3b72ceba3ed418620e786a00669.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Arsenal Nữ vs CLB nữ Lyon | 20/11 03:00 | 69 BONG | EN-High
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/hd-en-6MxjZPMxC6GQwRYyJt.m3u8?txSecret=a46b93224c7f1bce068e863d3b1161a3&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-jw2r09h54nexrz8" tvg-name="Arsenal Nữ vs CLB nữ Lyon - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/2aa5a3b72ceba3ed418620e786a00669.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Arsenal Nữ vs CLB nữ Lyon | 20/11 03:00 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6MxjZPMxC6GQwRYyJt.m3u8?txSecret=1f9b112fb93cf6af88642fbb87f445f0&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-l7oqdehjy6v0r51" tvg-name="Barcelona Nữ vs Servette Geneve FC Nữ - 69 BONG - EN-High" tvg-logo="https://static.wex1sora.com/thesports/football/team/be5c66e50a48d9ae3c4132aa1a3b3a32.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Barcelona Nữ vs Servette Geneve FC Nữ | 20/11 03:00 | 69 BONG | EN-High
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/hd-en-6MxjZPMxBbhAdBp4KE.m3u8?txSecret=de73f45c5fc2a24710a37856b31007b1&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-l7oqdehjy6v0r51" tvg-name="Barcelona Nữ vs Servette Geneve FC Nữ - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/be5c66e50a48d9ae3c4132aa1a3b3a32.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Barcelona Nữ vs Servette Geneve FC Nữ | 20/11 03:00 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6MxjZPMxBbhAdBp4KE.m3u8?txSecret=9b966da1bb5d4ef3cb808b7ef82b5e3d&txTime=6AFFED3A
+#EXTINF:-1 tvg-id="mhd-match-23xmvkh65l3oqg8" tvg-name="Kuching City FC vs Melaka FC - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/3f0555f143e8fbb10c32c68bd7714638.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Kuching City FC vs Melaka FC | 21/03 19:15 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6MwarpVCXyDozttoj2.m3u8?txSecret=316d78f030f3497273c2f42e5f29112f&txTime=6AFFED3A

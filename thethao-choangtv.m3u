@@ -1,4 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-choangtv-10458" tvg-name="Shayne Acebar vs Kenjie Reyes - BLV Kèn Kèn - Live" tvg-logo="https://cdn-choangtv.com/img/logo/1795095817590_Screenshot 2026-11-19 180441.png" group-title="ChoangTV" x-source="choangtv" x-sport="BILLIARDS",Shayne Acebar vs Kenjie Reyes | 19/11 20:43 | BLV Kèn Kèn | Live
+#EXTINF:-1 tvg-id="mhd-match-choangtv-10459" tvg-name="Kenneth vs owat - BLV Tào A Man - Live" tvg-logo="https://cdn-choangtv.com/img/logo/1795106048277_Screenshot 2026-11-19 180441.png" group-title="ChoangTV" x-source="choangtv" x-sport="BILLIARDS",Kenneth vs owat | 19/11 23:33 | BLV Tào A Man | Live
 #EXTVLCOPT:http-referrer=https://choangtv25.com/
-https://cdn.sports-cas889abxfileposo.site/live/live10458/index.m3u8
+https://cdn.sports-cas889abxfileposo.site/live/live10459/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-choangtv-10461" tvg-name="tùng kều vs duy tân - BLV Kèn Kèn - Live" tvg-logo="https://cdn-choangtv.com/img/logo/1795110084203_Screenshot 2026-11-19 180418.png" group-title="ChoangTV" x-source="choangtv" x-sport="BILLIARDS",tùng kều vs duy tân | 20/11 00:40 | BLV Kèn Kèn | Live
+#EXTVLCOPT:http-referrer=https://choangtv25.com/
+https://cdn.sports-cas889abxfileposo.site/live/live10461/index.m3u8
