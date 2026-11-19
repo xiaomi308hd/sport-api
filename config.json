@@ -1,0 +1,232 @@
+{
+  "source_logo_base": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main",
+  "output_file": "thethao.m3u",
+  "epg_file": "epg.xml",
+  "sources_file": "sources.json",
+  "request_timeout_seconds": 25,
+  "request_retries": 2,
+  "apis": [
+    {
+      "name": "ChuoiChienTV",
+      "id": "chuoichientv",
+      "display_name": "Chuối Chiên TV",
+      "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",
+      "playlist_file": "thethao-chuoichientv.m3u",
+      "enabled": true,
+      "method": "GET",
+      "url": "https://api-v2.chuoichientv.net/v2/matches",
+      "default_stream_referer": "https://live11.chuoichientv.me/",
+      "headers": {
+        "Accept": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://live11.chuoichientv.me/",
+        "Origin": "https://live11.chuoichientv.me"
+      },
+      "parser": "chuoichientv",
+      "params": {
+        "type": "live",
+        "page": 1,
+        "limit": 500
+      },
+      "params_variants": [
+        {
+          "type": "live",
+          "page": 1,
+          "limit": 500
+        },
+        {
+          "type": "blv",
+          "page": 1,
+          "limit": 500
+        }
+      ]
+    },
+    {
+      "name": "GaVangTV",
+      "id": "gavangtv",
+      "display_name": "Gà Vàng TV",
+      "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/gavangtv.png",
+      "playlist_file": "thethao-gavangtv.m3u",
+      "enabled": true,
+      "method": "GET",
+      "url": "https://gavangtv-api.adviceme.io/api/v1/matches",
+      "headers": {
+        "Accept": "application/json",
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "id": "colatv",
+      "name": "ColaTV",
+      "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/colatv.png",
+      "url": "https://api.gvapi.cc/api/matches",
+      "method": "GET",
+      "parser": "colatv",
+      "headers": {
+        "Accept": "application/json",
+        "User-Agent": "Mozilla/5.0"
+      },
+      "playlist_file": "thethao-colatv.m3u",
+      "stream_format_priority": [
+        "m3u8",
+        "flv"
+      ]
+    },
+    {
+      "name": "PhaLangTV",
+      "id": "phalangtv",
+      "display_name": "Phá Làng TV",
+      "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",
+      "playlist_file": "thethao-plapi.m3u",
+      "enabled": true,
+      "api_type": "plapi_graph",
+      "method": "POST",
+      "url": "https://api.plapi202624081158.com/matches/graph",
+      "headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Referer": "https://phalang2.tv/",
+        "Origin": "https://phalang2.tv",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+      },
+      "body": {
+        "fields": [],
+        "queries": [],
+        "limit": 50,
+        "page": 1,
+        "order_asc": null,
+        "order_desc": null,
+        "query_or": false,
+        "is_count": false,
+        "ignore_fields": []
+      },
+      "pagination": {
+        "enabled": true,
+        "page_param": "page",
+        "limit_param": "limit",
+        "start_page": 1,
+        "limit": 50,
+        "max_pages": 100
+      },
+      "match_detail_url": "https://api.plapi202624081158.com/match/{id}",
+      "match_live_url": "https://api.plapi202624081158.com/match/{id}/live",
+      "league_url": "https://api.plapi202624081158.com/matches/league",
+      "detail_method": "GET",
+      "live_method": "GET",
+      "stream_priority": [
+        "hd_1",
+        "hd_2",
+        "sd_1",
+        "sd_2",
+        "source"
+      ],
+      "default_stream_referer": "",
+      "stream_referer": "https://sv1.phalang.net/",
+      "referer_self_origin": false,
+      "referer_by_host": {}
+    },
+    {
+      "name": "XoiLacTV",
+      "id": "xoilac",
+      "display_name": "Xôi Lạc TV",
+      "logo": "",
+      "playlist_file": "thethao-xoilac.m3u",
+      "enabled": true,
+      "method": "GET",
+      "url": "https://api.gvapi.cc/api/matches",
+      "parser": "colatv",
+      "cache_bust_param": "t",
+      "headers": {
+        "Accept": "application/json",
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "GioVangTV",
+      "id": "giovang",
+      "display_name": "Giờ Vàng TV",
+      "logo": "",
+      "playlist_file": "thethao-giovang.m3u",
+      "enabled": true,
+      "method": "GET",
+      "url": "https://live-api.keonhacaitp.one/storage/livestream/all.json",
+      "parser": "giovangtv",
+      "headers": {
+        "Accept": "application/json",
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "Bong69TV",
+      "id": "bong69",
+      "display_name": "Bóng 69 TV",
+      "logo": "",
+      "playlist_file": "thethao-bong69.m3u",
+      "enabled": true,
+      "method": "GET",
+      "url": "https://bongtvrtm.com/gateway-api/sp/sports/v3/anon/match/global",
+      "parser": "bong69tv",
+      "params": {
+        "pageNo": 1,
+        "pageSize": 10
+      },
+      "pagination": {
+        "enabled": false
+      },
+      "headers": {
+        "Accept": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://bongtvrtm.com/",
+        "Origin": "https://bongtvrtm.com"
+      },
+      "stream_referer": "https://bongtvrtm.com/",
+      "referer_self_origin": false
+    },
+    {
+      "name": "ChoangTV",
+      "id": "choangtv",
+      "display_name": "ChoangTV",
+      "logo": "",
+      "playlist_file": "thethao-choangtv.m3u",
+      "enabled": true,
+      "method": "GET",
+      "url": "https://api.choangtv25.com/matchSchedule/getList",
+      "detail_url": "https://api.choangtv25.com/matchSchedule/getDetail",
+      "parser": "generic",
+      "date_param": "date",
+      "dynamic_date_param": "date",
+      "detail_id_param": "matchId",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9,vi-VN;q=0.8,fr-FR;q=0.6,fr;q=0.5",
+        "Origin": "https://choangtv25.com",
+        "Referer": "https://choangtv25.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+      },
+      "default_stream_referer": "https://choangtv25.com/",
+      "stream_referer": "https://choangtv25.com/",
+      "referer_self_origin": false
+    }
+  ],
+  "stream_header_rules": [
+    {
+      "host": "gckc0525.edgemaxcdn.org",
+      "headers": {
+        "Referer": "https://fhd-01.cctvsignal.xyz/"
+      }
+    },
+    {
+      "host": "stm9ee346727718.stream.hdplaylink.com",
+      "headers": {
+        "Referer": "https://fhd-01.cctvsignal.xyz/"
+      }
+    }
+  ],
+  "auto_detect_referers": true,
+  "referer_candidates": [],
+  "include_stream_groups": [
+    "blvs",
+    "blvs_bonglau",
+    "blvs_nguoitho"
+  ]
+}

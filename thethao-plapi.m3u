@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="mhd-match-2y8m4zhv0248ql0" tvg-name="Preston Lions vs South Hobart - Phá Làng TV - HD1" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkynxm2wd/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Preston Lions vs South Hobart | 19/11 15:30 | Phá Làng TV | HD1
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://pull.digitalcdn.net/live/7c79f29788fd4f43858df4e2e3dc02f6/index.m3u8
+#EXTINF:-1 tvg-id="mhd-match-n54qllh42wkvqvy" tvg-name="Hal FC vs Real Bengaluru - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hvgkeq0j6/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Hal FC vs Real Bengaluru | 19/11 17:25 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/7d2541c51fd4d664f8faaf54460a7781/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-x7lm7phxk251m2w" tvg-name="Bangalore Dream United vs FC Agniputhra - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh95xzryk0/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Bangalore Dream United vs FC Agniputhra | 19/11 12:25 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/fe5804736f1a3bbbbc4793a66f1052f7/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-y0or5jh9lw0vqwz" tvg-name="Technico FF vs Kickstart Karnataka - Phá Làng TV - Live" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh144vmd7o/image/small" group-title="Phá Làng TV" x-source="phalangtv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",Technico FF vs Kickstart Karnataka | 19/11 15:00 | Phá Làng TV | Live
+#EXTVLCOPT:http-referrer=https://sv1.phalang.net/
+https://lilive1.eu.cc/live/dbc8b1584b6bdcc0fc0b898f1a9fee7b/playlist.m3u8
