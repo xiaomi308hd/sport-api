@@ -1,49 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-c88995b5aa1c" tvg-name="Austria Wien W vs Bayern Munich W - Chuối Tây - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Austria Wien W vs Bayern Munich W | 20/11 00:45 | Chuối Tây | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-c88995b5aa1c" tvg-name="Austria Wien W vs Bayern Munich W - Chuối Tây - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Austria Wien W vs Bayern Munich W | 20/11 00:45 | Chuối Tây | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-c88995b5aa1c" tvg-name="Austria Wien W vs Bayern Munich W - Chuối Tây - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Austria Wien W vs Bayern Munich W | 20/11 00:45 | Chuối Tây | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-ef6e5366d22d" tvg-name="Paris FC W vs Køge - Chuối Lửa - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Paris FC W vs Køge | 20/11 00:45 | Chuối Lửa | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-ef6e5366d22d" tvg-name="Paris FC W vs Køge - Chuối Lửa - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Paris FC W vs Køge | 20/11 00:45 | Chuối Lửa | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-ef6e5366d22d" tvg-name="Paris FC W vs Køge - Chuối Lửa - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Paris FC W vs Køge | 20/11 00:45 | Chuối Lửa | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-2eb8d3f1a4bd" tvg-name="Arsenal W vs Lyon W - Chuối Già - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Arsenal W vs Lyon W | 20/11 03:00 | Chuối Già | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-2eb8d3f1a4bd" tvg-name="Arsenal W vs Lyon W - Chuối Già - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Arsenal W vs Lyon W | 20/11 03:00 | Chuối Già | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-2eb8d3f1a4bd" tvg-name="Arsenal W vs Lyon W - Chuối Già - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Arsenal W vs Lyon W | 20/11 03:00 | Chuối Già | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-a827a6ef739b" tvg-name="Barcelona W vs Servette Chênois W - Chuối Chao - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Barcelona W vs Servette Chênois W | 20/11 03:00 | Chuối Chao | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-a827a6ef739b" tvg-name="Barcelona W vs Servette Chênois W - Chuối Chao - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Barcelona W vs Servette Chênois W | 20/11 03:00 | Chuối Chao | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-a827a6ef739b" tvg-name="Barcelona W vs Servette Chênois W - Chuối Chao - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115838_f553e052.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Barcelona W vs Servette Chênois W | 20/11 03:00 | Chuối Chao | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-512251d0320b" tvg-name="Vasco DA Gama vs Internacional - Trốc Tru - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_112437_72cab226.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Vasco DA Gama vs Internacional | 20/11 05:30 | Trốc Tru | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-512251d0320b" tvg-name="Vasco DA Gama vs Internacional - Trốc Tru - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_112437_72cab226.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Vasco DA Gama vs Internacional | 20/11 05:30 | Trốc Tru | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-512251d0320b" tvg-name="Vasco DA Gama vs Internacional - Trốc Tru - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_112437_72cab226.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Vasco DA Gama vs Internacional | 20/11 05:30 | Trốc Tru | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-61fda924657f" tvg-name="Sao Paulo vs Fluminense - Chuối Sấy - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_112437_72cab226.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Sao Paulo vs Fluminense | 20/11 07:30 | Chuối Sấy | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
@@ -53,6 +8,15 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-61fda924657f" tvg-name="Sao Paulo vs Fluminense - Chuối Sấy - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_112437_72cab226.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Sao Paulo vs Fluminense | 20/11 07:30 | Chuối Sấy | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-e41e39dd563f" tvg-name="Seattle Sounders vs Real Salt Lake - Trốc Tru - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115514_4b79fc56.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Seattle Sounders vs Real Salt Lake | 20/11 10:00 | Trốc Tru | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-e41e39dd563f" tvg-name="Seattle Sounders vs Real Salt Lake - Trốc Tru - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115514_4b79fc56.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Seattle Sounders vs Real Salt Lake | 20/11 10:00 | Trốc Tru | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-e41e39dd563f" tvg-name="Seattle Sounders vs Real Salt Lake - Trốc Tru - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115514_4b79fc56.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Seattle Sounders vs Real Salt Lake | 20/11 10:00 | Trốc Tru | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-7d50cd55c46b" tvg-name="Western Sydney Wanderers W vs Wellington Phoenix W - Chuối Kem - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_111532_af6fdb08.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Western Sydney Wanderers W vs Wellington Phoenix W | 20/11 12:50 | Chuối Kem | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
@@ -62,3 +26,57 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-7d50cd55c46b" tvg-name="Western Sydney Wanderers W vs Wellington Phoenix W - Chuối Kem - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_111532_af6fdb08.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Western Sydney Wanderers W vs Wellington Phoenix W | 20/11 12:50 | Chuối Kem | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-ecf5b6ce2302" tvg-name="PSS Sleman vs Arema FC - Chuối Nhỏ - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115658_47d5d299.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",PSS Sleman vs Arema FC | 20/11 15:30 | Chuối Nhỏ | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-ecf5b6ce2302" tvg-name="PSS Sleman vs Arema FC - Chuối Nhỏ - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115658_47d5d299.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",PSS Sleman vs Arema FC | 20/11 15:30 | Chuối Nhỏ | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-ecf5b6ce2302" tvg-name="PSS Sleman vs Arema FC - Chuối Nhỏ - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115658_47d5d299.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",PSS Sleman vs Arema FC | 20/11 15:30 | Chuối Nhỏ | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8afe53581dff" tvg-name="Western Sydney Wanderers vs Adelaide United - Chuối Lá - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115449_831c0031.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Western Sydney Wanderers vs Adelaide United | 20/11 15:40 | Chuối Lá | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8afe53581dff" tvg-name="Western Sydney Wanderers vs Adelaide United - Chuối Lá - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115449_831c0031.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Western Sydney Wanderers vs Adelaide United | 20/11 15:40 | Chuối Lá | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-8afe53581dff" tvg-name="Western Sydney Wanderers vs Adelaide United - Chuối Lá - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115449_831c0031.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Western Sydney Wanderers vs Adelaide United | 20/11 15:40 | Chuối Lá | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-fa8b227b0947" tvg-name="Negeri Sembilan vs Kuching FA - Chuối Tây - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_112807_cc897047.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Negeri Sembilan vs Kuching FA | 20/11 15:45 | Chuối Tây | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-fa8b227b0947" tvg-name="Negeri Sembilan vs Kuching FA - Chuối Tây - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_112807_cc897047.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Negeri Sembilan vs Kuching FA | 20/11 15:45 | Chuối Tây | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-fa8b227b0947" tvg-name="Negeri Sembilan vs Kuching FA - Chuối Tây - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_112807_cc897047.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Negeri Sembilan vs Kuching FA | 20/11 15:45 | Chuối Tây | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-2caec63511b8" tvg-name="Thanh Hóa vs Hoang Anh Gia Lai - Chuối Già - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115528_e3fc33af.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Thanh Hóa vs Hoang Anh Gia Lai | 20/11 17:00 | Chuối Già | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-2caec63511b8" tvg-name="Thanh Hóa vs Hoang Anh Gia Lai - Chuối Già - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115528_e3fc33af.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Thanh Hóa vs Hoang Anh Gia Lai | 20/11 17:00 | Chuối Già | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-2caec63511b8" tvg-name="Thanh Hóa vs Hoang Anh Gia Lai - Chuối Già - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115528_e3fc33af.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Thanh Hóa vs Hoang Anh Gia Lai | 20/11 17:00 | Chuối Già | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-451da6656528" tvg-name="TP. Hồ Chí Minh vs Thai Nguyen - Chuối Chao - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115933_f82a4e9f.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",TP. Hồ Chí Minh vs Thai Nguyen | 20/11 17:00 | Chuối Chao | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-451da6656528" tvg-name="TP. Hồ Chí Minh vs Thai Nguyen - Chuối Chao - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115933_f82a4e9f.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",TP. Hồ Chí Minh vs Thai Nguyen | 20/11 17:00 | Chuối Chao | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-451da6656528" tvg-name="TP. Hồ Chí Minh vs Thai Nguyen - Chuối Chao - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115933_f82a4e9f.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",TP. Hồ Chí Minh vs Thai Nguyen | 20/11 17:00 | Chuối Chao | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-231050df4ee4" tvg-name="Côte d'Ivoire U17 vs Uzbekistan U17 - Chuối Lửa - HD1" tvg-logo="https://media.api-sports.io/football/leagues/587.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Côte d'Ivoire U17 vs Uzbekistan U17 | 20/11 23:00 | Chuối Lửa | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-231050df4ee4" tvg-name="Côte d'Ivoire U17 vs Uzbekistan U17 - Chuối Lửa - HD2" tvg-logo="https://media.api-sports.io/football/leagues/587.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Côte d'Ivoire U17 vs Uzbekistan U17 | 20/11 23:00 | Chuối Lửa | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-231050df4ee4" tvg-name="Côte d'Ivoire U17 vs Uzbekistan U17 - Chuối Lửa - FHD" tvg-logo="https://media.api-sports.io/football/leagues/587.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Côte d'Ivoire U17 vs Uzbekistan U17 | 20/11 23:00 | Chuối Lửa | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
