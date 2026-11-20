@@ -126,22 +126,6 @@
       "referer_by_host": {}
     },
     {
-      "name": "XoiLacTV",
-      "id": "xoilac",
-      "display_name": "Xôi Lạc TV",
-      "logo": "",
-      "playlist_file": "thethao-xoilac.m3u",
-      "enabled": true,
-      "method": "GET",
-      "url": "https://api.gvapi.cc/api/matches",
-      "parser": "colatv",
-      "cache_bust_param": "t",
-      "headers": {
-        "Accept": "application/json",
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
       "name": "GioVangTV",
       "id": "giovang",
       "display_name": "Giờ Vàng TV",
