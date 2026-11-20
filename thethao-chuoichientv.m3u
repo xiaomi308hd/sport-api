@@ -1,13 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-61fda924657f" tvg-name="Sao Paulo vs Fluminense - Chuối Sấy - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_112437_72cab226.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Sao Paulo vs Fluminense | 20/11 07:30 | Chuối Sấy | HD1
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-61fda924657f" tvg-name="Sao Paulo vs Fluminense - Chuối Sấy - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_112437_72cab226.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Sao Paulo vs Fluminense | 20/11 07:30 | Chuối Sấy | HD2
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8
-#EXTINF:-1 tvg-id="mhd-match-61fda924657f" tvg-name="Sao Paulo vs Fluminense - Chuối Sấy - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_112437_72cab226.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Sao Paulo vs Fluminense | 20/11 07:30 | Chuối Sấy | FHD
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-e41e39dd563f" tvg-name="Seattle Sounders vs Real Salt Lake - Trốc Tru - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115514_4b79fc56.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Seattle Sounders vs Real Salt Lake | 20/11 10:00 | Trốc Tru | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
@@ -71,6 +62,15 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-451da6656528" tvg-name="TP. Hồ Chí Minh vs Thai Nguyen - Chuối Chao - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115933_f82a4e9f.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",TP. Hồ Chí Minh vs Thai Nguyen | 20/11 17:00 | Chuối Chao | FHD
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-5339d2a37006" tvg-name="Viettel vs Song Lam Nghe An - Chuối Sấy - HD1" tvg-logo="https://media.chuoichientv.net/media/20251115_115528_e3fc33af.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Viettel vs Song Lam Nghe An | 20/11 19:15 | Chuối Sấy | HD1
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-5339d2a37006" tvg-name="Viettel vs Song Lam Nghe An - Chuối Sấy - HD2" tvg-logo="https://media.chuoichientv.net/media/20251115_115528_e3fc33af.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Viettel vs Song Lam Nghe An | 20/11 19:15 | Chuối Sấy | HD2
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="mhd-match-5339d2a37006" tvg-name="Viettel vs Song Lam Nghe An - Chuối Sấy - FHD" tvg-logo="https://media.chuoichientv.net/media/20251115_115528_e3fc33af.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Viettel vs Song Lam Nghe An | 20/11 19:15 | Chuối Sấy | FHD
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 #EXTINF:-1 tvg-id="mhd-match-231050df4ee4" tvg-name="Côte d'Ivoire U17 vs Uzbekistan U17 - Chuối Lửa - HD1" tvg-logo="https://media.api-sports.io/football/leagues/587.png" group-title="Chuối Chiên TV" x-source="chuoichientv" x-sport="FOOTBALL" group-logo="https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/chuoichientv.png",Côte d'Ivoire U17 vs Uzbekistan U17 | 20/11 23:00 | Chuối Lửa | HD1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8

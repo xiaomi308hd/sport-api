@@ -1,19 +1,31 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="mhd-match-dn1m1ghlp472moe" tvg-name="CLB Sao Paulo vs Fluminense RJ - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/a6bce9adfac7903426bed2b253991a18.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",CLB Sao Paulo vs Fluminense RJ | 20/11 07:30 | 69 BONG | Default
+#EXTINF:-1 tvg-id="mhd-match-3glrw7hnd6gkqdy" tvg-name="Đông Á Thanh Hóa vs Hoàng Anh Gia Lai - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/df2ae58b9e658494b940b0bd782901b8.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Đông Á Thanh Hóa vs Hoàng Anh Gia Lai | 20/11 17:00 | 69 BONG | Default
 #EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6MvZ6LzfNXxMCRVGyz.m3u8?txSecret=05311fcc3fca850af114ffefc73eaca7&txTime=6B00531B
-#EXTINF:-1 tvg-id="mhd-match-zp5rzgh3jgweq82" tvg-name="Orlando City vs CLB Cincinnati - 69 BONG - EN-High" tvg-logo="https://static.wex1sora.com/thesports/football/team/1d14acf20b6647d3bf1f70959a875c8f.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Orlando City vs CLB Cincinnati | 20/11 07:40 | 69 BONG | EN-High
+http://live.cds78y11d.org/live/sd-6MxipEp4QLiQN5dNzg.m3u8?txSecret=ee45712cce1fc99b71a986a1c7d4aea9&txTime=6B005BFD
+#EXTINF:-1 tvg-id="mhd-match-vjxm8ghk4ellr6o" tvg-name="Seattle Sounders vs Real Salt Lake - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/88620f5162fd07e31d46b44f848bd9e5.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Seattle Sounders vs Real Salt Lake | 20/11 10:00 | 69 BONG | Default
 #EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/hd-en-6Mxk49izPKDawK4XoA.m3u8?txSecret=e561d172f2f6087861dc4df4cfa96c93&txTime=6B00531B
-#EXTINF:-1 tvg-id="mhd-match-zp5rzgh3jgweq82" tvg-name="Orlando City vs CLB Cincinnati - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/1d14acf20b6647d3bf1f70959a875c8f.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Orlando City vs CLB Cincinnati | 20/11 07:40 | 69 BONG | Default
+http://live.cds78y11d.org/live/sd-6Mxk49iyihWw4SDgVa.m3u8?txSecret=3c77c67710757798d8e400e31aa00ff9&txTime=6B005BFD
+#EXTINF:-1 tvg-id="mhd-match-l7oqdehg7gkgr51" tvg-name="U17 Singapore vs Palestine U17 - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/72fb22982ac69857cb2432f13589836e.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",U17 Singapore vs Palestine U17 | 20/11 14:30 | 69 BONG | Default
 #EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6Mxk49izPKDawK4XoA.m3u8?txSecret=7375caabad1a233c0557419b77ffdbcf&txTime=6B00531B
-#EXTINF:-1 tvg-id="mhd-match-23xmvkhy303zqg8" tvg-name="Cartagena vs Tigres - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/8eaf7a1c977421912b949fb270d3365a.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Cartagena vs Tigres | 20/11 07:45 | 69 BONG | Default
+http://live.cds78y11d.org/live/sd-6MxipaQEquJ19MD7X2.m3u8?txSecret=fa8f0117c5f473f006c76810495caa16&txTime=6B005BFD
+#EXTINF:-1 tvg-id="mhd-match-4wyrn4hyzjvgq86" tvg-name="Sydney Utd vs Sutherland Sharks - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/46b5efbabf41728dff2b74619bfb8802.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Sydney Utd vs Sutherland Sharks | 20/11 15:30 | 69 BONG | Default
 #EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6Mxk4GExNDFs7KdfgQ.m3u8?txSecret=cc81a549f0d5ac81f8c4bfecabf343c0&txTime=6B00531B
-#EXTINF:-1 tvg-id="mhd-match-n54qllh42z2wqvy" tvg-name="Valledupar FC vs Deportes Quindio - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/aac05c0fbd8ec8adb8da8345d288bb07.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Valledupar FC vs Deportes Quindio | 20/11 07:45 | 69 BONG | Default
+http://live.cds78y11d.org/live/sd-6MxjJwvpLJ3N6Pobsz.m3u8?txSecret=519008681e7b80e6caad571fd71e1229&txTime=6B005BFD
+#EXTINF:-1 tvg-id="mhd-match-dn1m1gh9v585moe" tvg-name="South Melbourne vs Canberra Croatia - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/0e8a5b04bcb76a376d0f0ddf9f54fbaa.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",South Melbourne vs Canberra Croatia | 20/11 15:30 | 69 BONG | Default
 #EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6Mxk4GExNFTLyoTaqJ.m3u8?txSecret=3d4ea3a38dbdce4fe8a6cc911daba3cf&txTime=6B00531B
-#EXTINF:-1 tvg-id="mhd-match-23xmvkh65l3oqg8" tvg-name="Kuching City FC vs Melaka FC - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/3f0555f143e8fbb10c32c68bd7714638.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Kuching City FC vs Melaka FC | 21/03 19:15 | 69 BONG | Default
+http://live.cds78y11d.org/live/sd-6MxjJwvpLLEqxsdX2t.m3u8?txSecret=64d4b45015bf28210304767b5f99d45b&txTime=6B005BFD
+#EXTINF:-1 tvg-id="mhd-match-l7oqdehgpxvxr51" tvg-name="Negeri Sembilan vs Kuching City FC - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/81f5727743f8759ae7a99b8d7f2557e3.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Negeri Sembilan vs Kuching City FC | 20/11 15:45 | 69 BONG | Default
 #EXTVLCOPT:http-referrer=https://bongtvrtm.com/
-http://live.cds78y11d.org/live/sd-6MwarpVCXyDozttoj2.m3u8?txSecret=10b70a637e950f1a022e89e7cc0f2aaf&txTime=6B00531B
+http://live.cds78y11d.org/live/sd-6MwarpUT3c8iFWpo1e.m3u8?txSecret=438bd1a75cb32aec6ccb06e59fdd4a5b&txTime=6B005BFD
+#EXTINF:-1 tvg-id="mhd-match-k82rekhgl7ovrep" tvg-name="Qusar Shahdagh vs Gabriel FC - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/e7fcb477b12cf7fa73ebaa19d43cad23.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Qusar Shahdagh vs Gabriel FC | 20/11 17:00 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6MxjZ72mqR4MCHDvVz.m3u8?txSecret=abb0d56c30b276f0217f8a0128d1fd51&txTime=6B005BFD
+#EXTINF:-1 tvg-id="mhd-match-y39mp1h672yvmoj" tvg-name="Al Shimali vs CLB Zaqatala - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/62df271d4693324655e258e10b20b913.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Al Shimali vs CLB Zaqatala | 20/11 17:00 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6MxjZ72mqTFq4m3qet.m3u8?txSecret=fcde7c36ef3c077814d6a3471c25172c&txTime=6B005BFD
+#EXTINF:-1 tvg-id="mhd-match-318q66hxlyz8qo9" tvg-name="Bà Rịa Vũng Tàu vs Thai Nguyen - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/5bc47b0c1409c6deb22abf1bf86f1ef0.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Bà Rịa Vũng Tàu vs Thai Nguyen | 20/11 17:00 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6MxjZDduPJ22yL21hW.m3u8?txSecret=d7b9eb282f961ed98c8db5ca9de33cdd&txTime=6B005BFD
+#EXTINF:-1 tvg-id="mhd-match-2y8m4zh5op51ql0" tvg-name="Mil-Mugan FK vs Zira FK - 69 BONG - Default" tvg-logo="https://static.wex1sora.com/thesports/football/team/78d040926970a0ccc54c3b1f13a6d568.png" group-title="Bóng 69 TV" x-source="bong69" x-sport="FOOTBALL",Mil-Mugan FK vs Zira FK | 20/11 17:30 | 69 BONG | Default
+#EXTVLCOPT:http-referrer=https://bongtvrtm.com/
+http://live.cds78y11d.org/live/sd-6MwarYAjfap19d9ioN.m3u8?txSecret=76320e6200592b996b861983bafd3599&txTime=6B005BFD
