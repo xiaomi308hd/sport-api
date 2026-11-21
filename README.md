@@ -159,3 +159,7 @@ URL nguồn công khai dành cho MHD Sports:
 - **Chuối Chiên TV** có parser riêng (`parser: "chuoichientv"`): đọc các nhóm BLV `blvs`, `blvs_bonglau`, `blvs_nguoitho` (và mọi khoá bắt đầu bằng `blvs`), mỗi BLV lấy luồng từ `streams/links/sources` hoặc khoá chất lượng `hd1/hd2/fhd/...`. `params_variants` gọi API với từng bộ tham số (`type=live`, `type=blv`) rồi gộp trận trùng `id`; một biến thể lỗi không làm hỏng cả nguồn. Nếu có bản ghi mà không đọc được luồng nào, log in ra danh sách khoá của bản ghi đầu để chỉnh parser.
 - **Phá Làng TV**: gắn Referer theo thứ tự `referer_by_host` → `stream_referer` → `referer_self_origin`. Referer do API tự trả trong `stream.headers` luôn được giữ. Khi biết đúng trang player của Phá Làng, điền vào `stream_referer` (vd `"https://ten-mien-player/"`).
 - **`x-sport`**: mỗi dòng `#EXTINF` có thêm `x-sport="FOOTBALL|BASKETBALL|VOLLEYBALL|TENNIS|BADMINTON"` để app lọc môn chính xác; môn ngoài danh sách (cricket, bóng bầu dục...) thì không ghi.
+
+## Team-logo metadata for MHD Sports match cards
+
+Generated `#EXTINF` rows include `x-home-logo`, `x-away-logo`, `x-home-name`, `x-away-name`, and `x-league` when available from the normalized match data. These fields let MHD Sports render two separate team crests, team names, and the competition name without changing the broadcaster grouping or stream URL/header behavior.

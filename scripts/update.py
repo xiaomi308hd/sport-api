@@ -2536,7 +2536,12 @@ def stream_extinf(match, broadcaster, stream, api_logo=""):
         'group-title="{}"'.format(m3u_escape(source.get("name") or league)),
         'x-source="{}"'.format(
             m3u_escape(source.get("id") or broadcaster)
-        )
+        ),
+        'x-home-logo="{}"'.format(m3u_escape(teams["home"].get("logo"))),
+        'x-away-logo="{}"'.format(m3u_escape(teams["away"].get("logo"))),
+        'x-league="{}"'.format(m3u_escape(league)),
+        'x-home-name="{}"'.format(m3u_escape(teams["home"].get("name"))),
+        'x-away-name="{}"'.format(m3u_escape(teams["away"].get("name")))
     ]
 
     sport = match_sport(match)
