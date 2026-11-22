@@ -2509,14 +2509,14 @@ def stream_extinf(match, broadcaster, stream, api_logo=""):
         ) if part
     )
 
-        # Chọn logo đại diện trận đấu.
-        logo = first_value(
-            match["league"].get("logo"),
-            teams["home"].get("logo"),
-            teams["away"].get("logo"),
-            source.get("logo"),
-            api_logo
-        )
+    # Chọn logo đại diện trận đấu.
+    logo = first_value(
+        match["league"].get("logo"),
+        teams["home"].get("logo"),
+        teams["away"].get("logo"),
+        source.get("logo"),
+        api_logo
+    )
         # Giữ nguyên cơ chế của các nguồn khác.
         logo = first_value(
             match["league"].get("logo"),
