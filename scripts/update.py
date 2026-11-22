@@ -2509,17 +2509,14 @@ def stream_extinf(match, broadcaster, stream, api_logo=""):
         ) if part
     )
 
-    # Chọn logo đại diện trận đấu.
-    # Riêng Bong69TV: tuyệt đối không lấy logo giải đấu.
-    if source.get("id") == "bong69":
+        # Chọn logo đại diện trận đấu.
         logo = first_value(
-            teams["away"].get("logo"),
+            match["league"].get("logo"),
             teams["home"].get("logo"),
-            match.get("logo"),
+            teams["away"].get("logo"),
             source.get("logo"),
             api_logo
         )
-    else:
         # Giữ nguyên cơ chế của các nguồn khác.
         logo = first_value(
             match["league"].get("logo"),
