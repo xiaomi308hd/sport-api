@@ -2517,15 +2517,6 @@ def stream_extinf(match, broadcaster, stream, api_logo=""):
         source.get("logo"),
         api_logo
     )
-        # Giữ nguyên cơ chế của các nguồn khác.
-        logo = first_value(
-            match["league"].get("logo"),
-            teams["home"].get("logo"),
-            teams["away"].get("logo"),
-            source.get("logo"),
-            api_logo
-        )
-
     attributes = [
         'tvg-id="{}"'.format(m3u_escape(match_tvg_id(match))),
         'tvg-name="{}"'.format(m3u_escape(tvg_name)),
