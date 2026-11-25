@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T04:46:03.514864+00:00",
+  "updated_at": "2026-11-25T16:42:14.158132+00:00",
   "sources": [
     {
       "id": "chuoichientv",
@@ -11,22 +11,22 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 20,
-      "stream_count": 180,
+      "match_count": 12,
+      "stream_count": 108,
       "leagues": [
         {
-          "name": "Major League Soccer",
-          "logo": "https://media.chuoichientv.net/media/20251115_115514_4b79fc56.png",
+          "name": "World Cup - U17",
+          "logo": "https://media.api-sports.io/football/leagues/587.png",
           "matches": [
             {
               "id": "",
-              "title": "San Jose Earthquakes vs Houston Dynamo",
-              "home": "San Jose Earthquakes",
-              "away": "Houston Dynamo",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_131600_44f931ad.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_131602_a260dca9.png",
-              "time": "2026-11-25T10:00:00+07:00",
-              "time_label": "25/11 10:00",
+              "title": "Australia U17 vs Mozambique U17",
+              "home": "Australia U17",
+              "away": "Mozambique U17",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_145018_2a12c2b6.png",
+              "away_logo": "https://media.api-sports.io/football/teams/27742.png",
+              "time": "2026-11-25T22:30:00+07:00",
+              "time_label": "25/11 22:30",
               "status": "2h",
               "score": "",
               "stream_count": 9
@@ -39,32 +39,6 @@
           "matches": [
             {
               "id": "",
-              "title": "Melbourne Victory vs Viettel",
-              "home": "Melbourne Victory",
-              "away": "Viettel",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_130440_bcff7572.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_132405_d46c909a.png",
-              "time": "2026-11-25T14:45:00+07:00",
-              "time_label": "25/11 14:45",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Persib Bandung vs FC Seoul",
-              "home": "Persib Bandung",
-              "away": "FC Seoul",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134451_f0892f53.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133956_15774ffd.png",
-              "time": "2026-11-25T19:15:00+07:00",
-              "time_label": "25/11 19:15",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
               "title": "Al Faisaly vs Al-Rayyan SC",
               "home": "Al Faisaly",
               "away": "Al-Rayyan SC",
@@ -72,135 +46,7 @@
               "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_130843_fb02d191.png",
               "time": "2026-11-25T23:00:00+07:00",
               "time_label": "25/11 23:00",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
-        {
-          "name": "League Cup Indonesia",
-          "logo": "https://media.api-sports.io/football/leagues/1250.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Persiku Kudus vs PSIM Yogyakarta",
-              "home": "Persiku Kudus",
-              "away": "PSIM Yogyakarta",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_140545_b2214cbb.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_140537_8be207a1.png",
-              "time": "2026-11-25T15:30:00+07:00",
-              "time_label": "25/11 15:30",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
-        {
-          "name": "AFC Champions League",
-          "logo": "https://media.chuoichientv.net/media/20251115_115610_bd9cc718.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Gamba Osaka vs Port FC",
-              "home": "Gamba Osaka",
-              "away": "Port FC",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_132412_e5fc55e1.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_131734_5b38fa5e.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Kashima vs Jeonbuk Motors",
-              "home": "Kashima",
-              "away": "Jeonbuk Motors",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_132411_ccc1be3a.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_133955_c8eda616.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
-        {
-          "name": "UEFA Youth League",
-          "logo": "https://media.chuoichientv.net/media/20251115_115647_d5a8433f.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Sabah U19 vs Barcelona U19",
-              "home": "Sabah U19",
-              "away": "Barcelona U19",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134446_02762456.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134407_0863f8f9.png",
-              "time": "2026-11-25T18:00:00+07:00",
-              "time_label": "25/11 18:00",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Sporting CP U19 vs Manchester United U19",
-              "home": "Sporting CP U19",
-              "away": "Manchester United U19",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_134424_7eae2211.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_134419_6dff7e1a.png",
-              "time": "2026-11-25T20:00:00+07:00",
-              "time_label": "25/11 20:00",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            }
-          ]
-        },
-        {
-          "name": "World Cup - U17",
-          "logo": "https://media.api-sports.io/football/leagues/587.png",
-          "matches": [
-            {
-              "id": "",
-              "title": "Ecuador U17 vs Korea Republic U17",
-              "home": "Ecuador U17",
-              "away": "Korea Republic U17",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_145006_d11dcb2d.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_145019_41fa3ef6.png",
-              "time": "2026-11-25T19:30:00+07:00",
-              "time_label": "25/11 19:30",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Uruguay U17 vs France U17",
-              "home": "Uruguay U17",
-              "away": "France U17",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_145009_4c096ae9.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_144523_e304fc82.png",
-              "time": "2026-11-25T20:30:00+07:00",
-              "time_label": "25/11 20:30",
-              "status": "ns",
-              "score": "",
-              "stream_count": 9
-            },
-            {
-              "id": "",
-              "title": "Denmark U17 vs Argentina U17",
-              "home": "Denmark U17",
-              "away": "Argentina U17",
-              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_144533_426eb2ea.png",
-              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_145005_8b725321.png",
-              "time": "2026-11-25T22:30:00+07:00",
-              "time_label": "25/11 22:30",
-              "status": "ns",
+              "status": "1h",
               "score": "",
               "stream_count": 9
             }
@@ -315,6 +161,44 @@
               "stream_count": 9
             }
           ]
+        },
+        {
+          "name": "VĐQG Brazil",
+          "logo": "https://media.chuoichientv.net/media/20251115_112437_72cab226.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Atletico-MG vs Corinthians",
+              "home": "Atletico-MG",
+              "away": "Corinthians",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png",
+              "away_logo": "https://media.chuoichientv.net/media/uploads/20250623_125537_cd0ff28f.png",
+              "time": "2026-11-26T06:00:00+07:00",
+              "time_label": "26/11 06:00",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
+        },
+        {
+          "name": "VĐQG Colombia",
+          "logo": "https://media.chuoichientv.net/media/20251115_112742_6ed73c4f.png",
+          "matches": [
+            {
+              "id": "",
+              "title": "Atletico Nacional vs Independiente Medellín",
+              "home": "Atletico Nacional",
+              "away": "Independiente Medellín",
+              "home_logo": "https://media.chuoichientv.net/media/uploads/20250623_133535_bc746ccd.png",
+              "away_logo": "https://media.chuoichientv.net/media/20260930_011303_48ab49d9.png",
+              "time": "2026-11-26T08:30:00+07:00",
+              "time_label": "26/11 08:30",
+              "status": "ns",
+              "score": "",
+              "stream_count": 9
+            }
+          ]
         }
       ]
     },
@@ -328,364 +212,48 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 67,
-      "stream_count": 140,
+      "match_count": 44,
+      "stream_count": 94,
       "leagues": [
         {
-          "name": "United States Major League Soccer",
+          "name": "Russian Cup",
           "logo": "",
           "matches": [
             {
               "id": "",
-              "title": "San Jose Earthquakes vs Houston Dynamo",
-              "home": "San Jose Earthquakes",
-              "away": "Houston Dynamo",
-              "home_logo": "https://img.cltvap.cc/football/team/7079d708b4e391c0c26b20da7b2fb32c.png",
-              "away_logo": "https://img.cltvap.cc/football/team/2d21e6bbd505075b1bc6df8b5a887e8f.png",
-              "time": "2026-11-25T10:30:00+07:00",
-              "time_label": "25/11 10:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "AFC Champions League Two",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Melbourne Victory vs The Cong-Viettel",
-              "home": "Melbourne Victory",
-              "away": "The Cong-Viettel",
-              "home_logo": "https://img.cltvap.cc/football/team/c540f8f279c09a2a3df1cbbfe82d7184.png",
-              "away_logo": "https://img.cltvap.cc/football/team/840e2d7165cf2a34ec6c65a1fd9b58a9.png",
-              "time": "2026-11-25T14:45:00+07:00",
-              "time_label": "25/11 14:45",
+              "title": "Akhmat Grozny vs FK Krasnodar",
+              "home": "Akhmat Grozny",
+              "away": "FK Krasnodar",
+              "home_logo": "https://img.cltvap.cc/football/team/553ebe5306456914b5574aa8ef0eaf0f.png",
+              "away_logo": "https://img.cltvap.cc/football/team/f48a781b76e04c7a50ea2136cb37ab87.png",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 2
             },
             {
               "id": "",
-              "title": "Persib Bandung vs FC Seoul",
-              "home": "Persib Bandung",
-              "away": "FC Seoul",
-              "home_logo": "https://img.cltvap.cc/football/team/b2004093bf25a5a8d1768970d6e49d71.png",
-              "away_logo": "https://img.cltvap.cc/football/team/ad010af729c420626d1865ad744168d3.png",
-              "time": "2026-11-25T19:15:00+07:00",
-              "time_label": "25/11 19:15",
+              "title": "FC Orenburg vs Spartak Moscow",
+              "home": "FC Orenburg",
+              "away": "Spartak Moscow",
+              "home_logo": "https://img.cltvap.cc/football/team/6d81ef01fa7aaedf7144c933bdcc62d8.png",
+              "away_logo": "https://img.cltvap.cc/football/team/6a9b2566ec86f4ec7d2b1d222b44a423.png",
+              "time": "2026-11-26T21:00:00+07:00",
+              "time_label": "26/11 21:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 2
             },
             {
               "id": "",
-              "title": "Nasaf Qarshi vs Al Khaldiya",
-              "home": "Nasaf Qarshi",
-              "away": "Al Khaldiya",
-              "home_logo": "https://img.cltvap.cc/football/team/bef3a45bcf56447c8acfb7b077820022.png",
-              "away_logo": "https://img.cltvap.cc/football/team/648d61541736aa2c89fc96fcb19ac852.png",
-              "time": "2026-11-25T20:45:00+07:00",
-              "time_label": "25/11 20:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Al Kuwait SC vs Al Wahda(UAE)",
-              "home": "Al Kuwait SC",
-              "away": "Al Wahda(UAE)",
-              "home_logo": "https://img.cltvap.cc/football/team/b292fe77f1c6c63d12782e565ea3e92f.png",
-              "away_logo": "https://img.cltvap.cc/football/team/21da55d164e80f29bdfd9f8cef55a76b.png",
-              "time": "2026-11-25T23:00:00+07:00",
-              "time_label": "25/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Al-Jazira(UAE) vs Gol Gohar FC",
-              "home": "Al-Jazira(UAE)",
-              "away": "Gol Gohar FC",
-              "home_logo": "https://img.cltvap.cc/football/team/9352b8e0b9515b84abf716a32c42777e.png",
-              "away_logo": "https://img.cltvap.cc/football/team/69625f17e031ad1fcb33823338b74d95.png",
-              "time": "2026-11-25T23:00:00+07:00",
-              "time_label": "25/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Al-Muharraq vs Arkadag FK",
-              "home": "Al-Muharraq",
-              "away": "Arkadag FK",
-              "home_logo": "https://img.cltvap.cc/football/team/4e9422ab24a8dff2521be20e1c129f20.png",
-              "away_logo": "https://img.cltvap.cc/football/team/aad022bfac5c480bed8d0dc2a710281e.png",
-              "time": "2026-11-25T23:00:00+07:00",
-              "time_label": "25/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Al-Faisaly Amman vs Al-Rayyan Sports Club",
-              "home": "Al-Faisaly Amman",
-              "away": "Al-Rayyan Sports Club",
-              "home_logo": "https://img.cltvap.cc/football/team/d73fc6a782904bb6819be4e0e86e8a55.png",
-              "away_logo": "https://img.cltvap.cc/football/team/d36d53da32742efb1d00f27e959603a0.png",
-              "time": "2026-11-25T23:00:00+07:00",
-              "time_label": "25/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Tampines Rovers FC vs Shanghai Shenhua",
-              "home": "Tampines Rovers FC",
-              "away": "Shanghai Shenhua",
-              "home_logo": "https://img.cltvap.cc/football/team/23dc72567ad2999491dfe56b50f7df62.png",
-              "away_logo": "https://img.cltvap.cc/football/team/e8327d4681b4a73c83be9fe087b30721.png",
-              "time": "2026-11-26T17:00:00+07:00",
-              "time_label": "26/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Gangwon FC vs Kitchee",
-              "home": "Gangwon FC",
-              "away": "Kitchee",
-              "home_logo": "https://img.cltvap.cc/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
-              "away_logo": "https://img.cltvap.cc/football/team/8d9561a580262bbe28642af67c42cf83.png",
-              "time": "2026-11-26T17:00:00+07:00",
-              "time_label": "26/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Kuching City FC vs Phnom Penh Crown FC",
-              "home": "Kuching City FC",
-              "away": "Phnom Penh Crown FC",
-              "home_logo": "https://img.cltvap.cc/football/team/81f5727743f8759ae7a99b8d7f2557e3.png",
-              "away_logo": "https://img.cltvap.cc/football/team/03dd1707147dbd5897a8dcae40991e2c.png",
-              "time": "2026-11-26T17:00:00+07:00",
-              "time_label": "26/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "BG Pathum United vs Lion City Sailors",
-              "home": "BG Pathum United",
-              "away": "Lion City Sailors",
-              "home_logo": "https://img.cltvap.cc/football/team/12fe4d3ee5c01134d48584015c4646f3.png",
-              "away_logo": "https://img.cltvap.cc/football/team/a17724405028a3e21a2a2372736aa757.png",
-              "time": "2026-11-26T19:15:00+07:00",
-              "time_label": "26/11 19:15",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Tai Po vs Adelaide United",
-              "home": "Tai Po",
-              "away": "Adelaide United",
-              "home_logo": "https://img.cltvap.cc/football/team/df5e92ce4493d63214e8036ad15c1915.png",
-              "away_logo": "https://img.cltvap.cc/football/team/a27d297d3cfaa7a71ce91a3fa0d40dbf.png",
-              "time": "2026-11-26T19:15:00+07:00",
-              "time_label": "26/11 19:15",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Preah Khan Reach Svay Rieng FC vs Machida Zelvia",
-              "home": "Preah Khan Reach Svay Rieng FC",
-              "away": "Machida Zelvia",
-              "home_logo": "https://img.cltvap.cc/football/team/8b784b23ff2eac9bbdb4437cbc291d52.png",
-              "away_logo": "https://img.cltvap.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png",
-              "time": "2026-11-26T19:15:00+07:00",
-              "time_label": "26/11 19:15",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "Japanese J1 League",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Mito Hollyhock vs Tokyo Verdy",
-              "home": "Mito Hollyhock",
-              "away": "Tokyo Verdy",
-              "home_logo": "https://img.cltvap.cc/football/team/9ead844240532c4e12d3eb45d2087924.png",
-              "away_logo": "https://img.cltvap.cc/football/team/2a8adb34e764602183a7bee8f51726e4.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "FC Tokyo vs Sanfrecce Hiroshima",
-              "home": "FC Tokyo",
-              "away": "Sanfrecce Hiroshima",
-              "home_logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png",
-              "away_logo": "https://img.cltvap.cc/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Okayama vs Shimizu S-Pulse",
-              "home": "Okayama",
-              "away": "Shimizu S-Pulse",
-              "home_logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-              "away_logo": "https://img.cltvap.cc/football/team/fa4105f0408ef893d941e70ae003ab4c.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Avispa Fukuoka vs Yokohama F. Marinos",
-              "home": "Avispa Fukuoka",
-              "away": "Yokohama F. Marinos",
-              "home_logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-              "away_logo": "https://img.cltvap.cc/football/team/78ddaaa79d9502f5e2df0fbb6261f937.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "JEF United Ichihara Chiba vs Nagoya Grampus",
-              "home": "JEF United Ichihara Chiba",
-              "away": "Nagoya Grampus",
-              "home_logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-              "away_logo": "https://img.cltvap.cc/football/team/32aa68e1fa3d62dad572d19b21a09353.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "V-Varen Nagasaki vs Kawasaki Frontale",
-              "home": "V-Varen Nagasaki",
-              "away": "Kawasaki Frontale",
-              "home_logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png",
-              "away_logo": "https://img.cltvap.cc/football/team/937795c0851c1e794e96a5cb660fcd59.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Urawa Red Diamonds vs Cerezo Osaka",
-              "home": "Urawa Red Diamonds",
-              "away": "Cerezo Osaka",
-              "home_logo": "https://img.cltvap.cc/football/team/ca15e36551392e8c99b53b5b2f8531d3.png",
-              "away_logo": "https://img.cltvap.cc/football/team/ab10ee503e539e55a9a11a9ff202405a.png",
-              "time": "2026-11-25T17:30:00+07:00",
-              "time_label": "25/11 17:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "AFC Champions League Elite",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Gamba Osaka vs Port FC",
-              "home": "Gamba Osaka",
-              "away": "Port FC",
-              "home_logo": "https://img.cltvap.cc/football/team/91008a96b5de8c75376d17057f89890e.png",
-              "away_logo": "https://img.cltvap.cc/football/team/fb00f7ae0bf4530e86baf7bec110f69f.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Kashima Antlers vs Jeonbuk Hyundai Motors",
-              "home": "Kashima Antlers",
-              "away": "Jeonbuk Hyundai Motors",
-              "home_logo": "https://img.cltvap.cc/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
-              "away_logo": "https://img.cltvap.cc/football/team/ee2117f952745163fecfa4b74a6a2bea.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "Serbian Mozzart Bet Superliga",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Radnicki Nis vs FK Zeleznicar Pancevo",
-              "home": "Radnicki Nis",
-              "away": "FK Zeleznicar Pancevo",
-              "home_logo": "https://img.cltvap.cc/football/team/794c52e40471e247cc8e50dc33841c1d.png",
-              "away_logo": "https://img.cltvap.cc/football/team/5a4205b9ee3d49c60df7bf22bc2e2203.png",
-              "time": "2026-11-25T19:00:00+07:00",
-              "time_label": "25/11 19:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "IDN LC",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Bali United vs Barito Putera",
-              "home": "Bali United",
-              "away": "Barito Putera",
-              "home_logo": "https://img.cltvap.cc/football/team/09fe2ecf88f68970da755f8655d5da8a.png",
-              "away_logo": "https://img.cltvap.cc/football/team/631d7950b866054f174c8d7389418f3b.png",
-              "time": "2026-11-25T19:00:00+07:00",
-              "time_label": "25/11 19:00",
+              "title": "Dynamo Moscow vs Fakel Voronezh",
+              "home": "Dynamo Moscow",
+              "away": "Fakel Voronezh",
+              "home_logo": "https://img.cltvap.cc/football/team/e990f1f508004c8784be082e68ae1bff.png",
+              "away_logo": "https://img.cltvap.cc/football/team/d4aace06743a4a5df8221771f870f077.png",
+              "time": "2026-11-26T23:30:00+07:00",
+              "time_label": "26/11 23:30",
               "status": "scheduled",
               "score": "",
               "stream_count": 2
@@ -696,84 +264,6 @@
           "name": "FIFA U17 World Cup",
           "logo": "",
           "matches": [
-            {
-              "id": "",
-              "title": "Ecuador U17 vs South Korea U17",
-              "home": "Ecuador U17",
-              "away": "South Korea U17",
-              "home_logo": "https://img.cltvap.cc/football/team/4bcd83a98bc4ee323ec93c0f0e704d04.png",
-              "away_logo": "https://img.cltvap.cc/football/team/6581bc34692022be4c21d98778e33df0.png",
-              "time": "2026-11-25T19:30:00+07:00",
-              "time_label": "25/11 19:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Uganda U17 vs New Caledonia U17",
-              "home": "Uganda U17",
-              "away": "New Caledonia U17",
-              "home_logo": "https://img.cltvap.cc/football/team/81f7acabd411274fcf65ce2070ed568a.png",
-              "away_logo": "https://img.cltvap.cc/football/team/0cb656f78993ef2542ab838079ec9426.png",
-              "time": "2026-11-25T19:30:00+07:00",
-              "time_label": "25/11 19:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Haiti U17 vs Saudi Arabia U17",
-              "home": "Haiti U17",
-              "away": "Saudi Arabia U17",
-              "home_logo": "https://img.cltvap.cc/football/team/087bc7552322045ad94868390dce5b37.png",
-              "away_logo": "https://img.cltvap.cc/football/team/cf372cbe6eae54c6a6dfb3ebbcdc3404.png",
-              "time": "2026-11-25T20:30:00+07:00",
-              "time_label": "25/11 20:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Uruguay U17 vs France U17",
-              "home": "Uruguay U17",
-              "away": "France U17",
-              "home_logo": "https://img.cltvap.cc/football/team/3068cfc254b9a77c7eac84c9565eeeab.png",
-              "away_logo": "https://img.cltvap.cc/football/team/8eb4b4c01bf3375828c5494c2f6e7685.png",
-              "time": "2026-11-25T20:30:00+07:00",
-              "time_label": "25/11 20:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Greece U17 vs Qatar U17",
-              "home": "Greece U17",
-              "away": "Qatar U17",
-              "home_logo": "https://img.cltvap.cc/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png",
-              "away_logo": "https://img.cltvap.cc/football/team/7303a103c93fea0445384d6ff3f3d1b9.png",
-              "time": "2026-11-25T21:30:00+07:00",
-              "time_label": "25/11 21:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Panama U17 vs Egypt U17",
-              "home": "Panama U17",
-              "away": "Egypt U17",
-              "home_logo": "https://img.cltvap.cc/football/team/a159b2e2c6b3cb7bf0e92eb43fe27bdd.png",
-              "away_logo": "https://img.cltvap.cc/football/team/65a579da11fa712149bca347ecfcb208.png",
-              "time": "2026-11-25T21:30:00+07:00",
-              "time_label": "25/11 21:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
             {
               "id": "",
               "title": "Denmark U17 vs Argentina U17",
@@ -907,18 +397,135 @@
           ]
         },
         {
-          "name": "UEFA Youth League",
+          "name": "AFC Champions League Two",
           "logo": "",
           "matches": [
             {
               "id": "",
-              "title": "Sporting CP U19 vs Manchester United U19",
-              "home": "Sporting CP U19",
-              "away": "Manchester United U19",
-              "home_logo": "https://img.cltvap.cc/football/team/0e1d190df124492ca435fd0ce683a75c.png",
-              "away_logo": "https://img.cltvap.cc/football/team/44eb7130030b0be19a244dbf1927561f.png",
-              "time": "2026-11-25T20:00:00+07:00",
-              "time_label": "25/11 20:00",
+              "title": "Al Kuwait SC vs Al Wahda(UAE)",
+              "home": "Al Kuwait SC",
+              "away": "Al Wahda(UAE)",
+              "home_logo": "https://img.cltvap.cc/football/team/b292fe77f1c6c63d12782e565ea3e92f.png",
+              "away_logo": "https://img.cltvap.cc/football/team/21da55d164e80f29bdfd9f8cef55a76b.png",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Al-Jazira(UAE) vs Gol Gohar FC",
+              "home": "Al-Jazira(UAE)",
+              "away": "Gol Gohar FC",
+              "home_logo": "https://img.cltvap.cc/football/team/9352b8e0b9515b84abf716a32c42777e.png",
+              "away_logo": "https://img.cltvap.cc/football/team/69625f17e031ad1fcb33823338b74d95.png",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Al-Muharraq vs Arkadag FK",
+              "home": "Al-Muharraq",
+              "away": "Arkadag FK",
+              "home_logo": "https://img.cltvap.cc/football/team/4e9422ab24a8dff2521be20e1c129f20.png",
+              "away_logo": "https://img.cltvap.cc/football/team/aad022bfac5c480bed8d0dc2a710281e.png",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Al-Faisaly Amman vs Al-Rayyan Sports Club",
+              "home": "Al-Faisaly Amman",
+              "away": "Al-Rayyan Sports Club",
+              "home_logo": "https://img.cltvap.cc/football/team/d73fc6a782904bb6819be4e0e86e8a55.png",
+              "away_logo": "https://img.cltvap.cc/football/team/d36d53da32742efb1d00f27e959603a0.png",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Tampines Rovers FC vs Shanghai Shenhua",
+              "home": "Tampines Rovers FC",
+              "away": "Shanghai Shenhua",
+              "home_logo": "https://img.cltvap.cc/football/team/23dc72567ad2999491dfe56b50f7df62.png",
+              "away_logo": "https://img.cltvap.cc/football/team/e8327d4681b4a73c83be9fe087b30721.png",
+              "time": "2026-11-26T17:00:00+07:00",
+              "time_label": "26/11 17:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Gangwon FC vs Kitchee",
+              "home": "Gangwon FC",
+              "away": "Kitchee",
+              "home_logo": "https://img.cltvap.cc/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
+              "away_logo": "https://img.cltvap.cc/football/team/8d9561a580262bbe28642af67c42cf83.png",
+              "time": "2026-11-26T17:00:00+07:00",
+              "time_label": "26/11 17:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Kuching City FC vs Phnom Penh Crown FC",
+              "home": "Kuching City FC",
+              "away": "Phnom Penh Crown FC",
+              "home_logo": "https://img.cltvap.cc/football/team/81f5727743f8759ae7a99b8d7f2557e3.png",
+              "away_logo": "https://img.cltvap.cc/football/team/03dd1707147dbd5897a8dcae40991e2c.png",
+              "time": "2026-11-26T17:00:00+07:00",
+              "time_label": "26/11 17:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "BG Pathum United vs Lion City Sailors",
+              "home": "BG Pathum United",
+              "away": "Lion City Sailors",
+              "home_logo": "https://img.cltvap.cc/football/team/12fe4d3ee5c01134d48584015c4646f3.png",
+              "away_logo": "https://img.cltvap.cc/football/team/a17724405028a3e21a2a2372736aa757.png",
+              "time": "2026-11-26T19:15:00+07:00",
+              "time_label": "26/11 19:15",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Tai Po vs Adelaide United",
+              "home": "Tai Po",
+              "away": "Adelaide United",
+              "home_logo": "https://img.cltvap.cc/football/team/df5e92ce4493d63214e8036ad15c1915.png",
+              "away_logo": "https://img.cltvap.cc/football/team/a27d297d3cfaa7a71ce91a3fa0d40dbf.png",
+              "time": "2026-11-26T19:15:00+07:00",
+              "time_label": "26/11 19:15",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "",
+              "title": "Preah Khan Reach Svay Rieng FC vs Machida Zelvia",
+              "home": "Preah Khan Reach Svay Rieng FC",
+              "away": "Machida Zelvia",
+              "home_logo": "https://img.cltvap.cc/football/team/8b784b23ff2eac9bbdb4437cbc291d52.png",
+              "away_logo": "https://img.cltvap.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png",
+              "time": "2026-11-26T19:15:00+07:00",
+              "time_label": "26/11 19:15",
               "status": "scheduled",
               "score": "",
               "stream_count": 2
@@ -931,19 +538,6 @@
           "matches": [
             {
               "id": "",
-              "title": "Kazma vs Erbil SC",
-              "home": "Kazma",
-              "away": "Erbil SC",
-              "home_logo": "https://img.cltvap.cc/football/team/49c8ec5cda0bdb751d50095676d88e8d.png",
-              "away_logo": "https://img.cltvap.cc/football/team/3a52398498773a8ed0006583046d8050.png",
-              "time": "2026-11-25T21:00:00+07:00",
-              "time_label": "25/11 21:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
               "title": "Qatar Sports Club vs Al-Nasr Dubai",
               "home": "Qatar Sports Club",
               "away": "Al-Nasr Dubai",
@@ -951,51 +545,6 @@
               "away_logo": "https://img.cltvap.cc/football/team/5e5f56f16382d66ff8bcdb20bd309169.png",
               "time": "2026-11-26T00:00:00+07:00",
               "time_label": "26/11 00:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "Russian Cup",
-          "logo": "",
-          "matches": [
-            {
-              "id": "",
-              "title": "Akhmat Grozny vs FK Krasnodar",
-              "home": "Akhmat Grozny",
-              "away": "FK Krasnodar",
-              "home_logo": "https://img.cltvap.cc/football/team/553ebe5306456914b5574aa8ef0eaf0f.png",
-              "away_logo": "https://img.cltvap.cc/football/team/f48a781b76e04c7a50ea2136cb37ab87.png",
-              "time": "2026-11-25T22:00:00+07:00",
-              "time_label": "25/11 22:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "FC Orenburg vs Spartak Moscow",
-              "home": "FC Orenburg",
-              "away": "Spartak Moscow",
-              "home_logo": "https://img.cltvap.cc/football/team/6d81ef01fa7aaedf7144c933bdcc62d8.png",
-              "away_logo": "https://img.cltvap.cc/football/team/6a9b2566ec86f4ec7d2b1d222b44a423.png",
-              "time": "2026-11-26T21:00:00+07:00",
-              "time_label": "26/11 21:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "",
-              "title": "Dynamo Moscow vs Fakel Voronezh",
-              "home": "Dynamo Moscow",
-              "away": "Fakel Voronezh",
-              "home_logo": "https://img.cltvap.cc/football/team/4f2e51a4694f68360a19648b651b30ca.png",
-              "away_logo": "https://img.cltvap.cc/football/team/d4aace06743a4a5df8221771f870f077.png",
-              "time": "2026-11-26T23:30:00+07:00",
-              "time_label": "26/11 23:30",
               "status": "scheduled",
               "score": "",
               "stream_count": 2
@@ -1038,7 +587,7 @@
               "home": "Atletico Madrid",
               "away": "Viking",
               "home_logo": "https://img.cltvap.cc/football/team/10cc5b7340144b8eb8238166e64bd62f.png",
-              "away_logo": "https://img.cltvap.cc/football/team/2fa0840e0cb77fd66f104fa932302a72.png",
+              "away_logo": "https://img.cltvap.cc/football/team/b637f7ccc5e84fe4a4c3e822d2123333.png",
               "time": "2026-11-26T03:00:00+07:00",
               "time_label": "26/11 03:00",
               "status": "scheduled",
@@ -1323,163 +872,21 @@
       "stale": false,
       "error": "",
       "match_count": 100,
-      "stream_count": 321,
+      "stream_count": 329,
       "leagues": [
         {
-          "name": "Giải bóng đá hạng ba Nhật Bản",
-          "logo": "https://img.cltvap.cc/football/competition/86e0ba5b90deead69f3d7f7ffe3e7289.png!w80",
+          "name": "Giải Ngoại hạng Ai Cập",
+          "logo": "https://img.cltvap.cc/football/competition/c840aa9f8b4c65b1441bb36459a40642.png!w80",
           "matches": [
             {
-              "id": "mhd-match-m2q15izxzypce76",
-              "title": "FC Ryukyu vs Roasso Kumamoto",
-              "home": "FC Ryukyu",
-              "away": "Roasso Kumamoto",
-              "home_logo": "https://img.cltvap.cc/football/team/78032edddbd8c3c0c21c79f259b2185a.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/809e95942827f1fca7b6c5cffd4777cb.png!w80",
-              "time": "2026-11-25T10:00:00+07:00",
-              "time_label": "25/11 10:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
-            {
-              "id": "mhd-match-zrkn6i4g464hwql",
-              "title": "Giravanz Kitakyushu vs Kanazawa",
-              "home": "Giravanz Kitakyushu",
-              "away": "Kanazawa",
-              "home_logo": "https://img.cltvap.cc/football/team/fefa11f94d0efff34a0f98ee4440a34b.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/646d000d7498d416110aad94ff53e8fb.png!w80",
-              "time": "2026-11-25T12:00:00+07:00",
-              "time_label": "25/11 12:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
-        {
-          "name": "Hiệp hội Bóng rổ Quốc gia",
-          "logo": "https://img.cltvap.cc/basketball/competition/061f5ab5b1a975fc1004529ec3f11fca.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-ndkzysnp6ljix73",
-              "title": "Denver Nuggets vs Dallas Mavericks",
-              "home": "Denver Nuggets",
-              "away": "Dallas Mavericks",
-              "home_logo": "https://img.cltvap.cc/basketball/team/403a12aa187f47045c18d137cd8103dc.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/42d7b5ec22b2eb411d68f94a04eab742.png!w80",
-              "time": "2026-11-25T10:00:00+07:00",
-              "time_label": "25/11 10:00",
-              "status": "live",
-              "score": "",
-              "stream_count": 4
-            },
-            {
-              "id": "mhd-match-527rjswd6nwh4ke",
-              "title": "Philadelphia 76ers vs Miami Heat",
-              "home": "Philadelphia 76ers",
-              "away": "Miami Heat",
-              "home_logo": "https://img.cltvap.cc/basketball/team/06e7bde6cca98873fe971fad4e67a9b6.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/ff7ccef6a6b79c6417ee8367946b0aec.png!w80",
-              "time": "2026-11-26T05:00:00+07:00",
-              "time_label": "26/11 05:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-34kgps1lwzgseko",
-              "title": "Oklahoma City Thunder vs Minnesota Timberwolves",
-              "home": "Oklahoma City Thunder",
-              "away": "Minnesota Timberwolves",
-              "home_logo": "https://img.cltvap.cc/basketball/team/319e03be75fee4098a83b1d0e01940b7.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/38794d0ac418d8f2d03bd17a2623f3ed.png!w80",
-              "time": "2026-11-26T07:30:00+07:00",
-              "time_label": "26/11 07:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-edq0esdrn4lfekx",
-              "title": "New York Knicks vs Cleveland Cavaliers",
-              "home": "New York Knicks",
-              "away": "Cleveland Cavaliers",
-              "home_logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png!w80",
-              "time": "2026-11-26T07:30:00+07:00",
-              "time_label": "26/11 07:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-6975lsnp0lxcgk2",
-              "title": "Memphis Grizzlies vs Los Angeles Clippers",
-              "home": "Memphis Grizzlies",
-              "away": "Los Angeles Clippers",
-              "home_logo": "https://img.cltvap.cc/basketball/team/5150102b33043405b63b2e7c72759fa8.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/848b21021b2a1db7bde95ea52a1e021b.png!w80",
-              "time": "2026-11-26T08:00:00+07:00",
-              "time_label": "26/11 08:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-63kvlsop2xetx7e",
-              "title": "Houston Rockets vs Phoenix suns",
-              "home": "Houston Rockets",
-              "away": "Phoenix suns",
-              "home_logo": "https://img.cltvap.cc/basketball/team/bcfe797437f18526ff4e62177021f638.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/da3c882a7e0bc592b4c1ba9d8c5fb68d.png!w80",
-              "time": "2026-11-26T08:30:00+07:00",
-              "time_label": "26/11 08:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-o07dzsmrgw9bmkn",
-              "title": "Portland Trail Blazers vs San Antonio Spurs",
-              "home": "Portland Trail Blazers",
-              "away": "San Antonio Spurs",
-              "home_logo": "https://img.cltvap.cc/basketball/team/4512175b1415f69816e816160093bcc0.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/5305d1a7b721b5bef418041eff53ba82.png!w80",
-              "time": "2026-11-26T10:00:00+07:00",
-              "time_label": "26/11 10:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-jek3psd41vwt9qo",
-              "title": "Golden State Warriors vs Sacramento Kings",
-              "home": "Golden State Warriors",
-              "away": "Sacramento Kings",
-              "home_logo": "https://img.cltvap.cc/basketball/team/df3f6f8bb17fd1c618f60f0b14637140.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/1fc010aba7ac510b5364e5f76ca4f060.png!w80",
-              "time": "2026-11-26T10:00:00+07:00",
-              "time_label": "26/11 10:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
-        {
-          "name": "Major League Soccer",
-          "logo": "https://img.cltvap.cc/football/competition/d2fe5be131ad888084f50d6af533570c.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-jek33im68v4i9ko",
-              "title": "San Jose Earthquakes vs Houston Dynamo",
-              "home": "San Jose Earthquakes",
-              "away": "Houston Dynamo",
-              "home_logo": "https://img.cltvap.cc/football/team/7079d708b4e391c0c26b20da7b2fb32c.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/2d21e6bbd505075b1bc6df8b5a887e8f.png!w80",
-              "time": "2026-11-25T10:30:00+07:00",
-              "time_label": "25/11 10:30",
+              "id": "mhd-match-edq09il3je6ieqx",
+              "title": "El Gaish vs Modern Sport FC",
+              "home": "El Gaish",
+              "away": "Modern Sport FC",
+              "home_logo": "https://img.cltvap.cc/football/team/bacc15441ed99eaad038d4ceb86751d6.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/53f4bc55c48cd39be78fa4fa69645f31.png!w80",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
               "status": "live",
               "score": "",
               "stream_count": 4
@@ -1487,373 +894,76 @@
           ]
         },
         {
-          "name": "NCAA",
-          "logo": "https://img.cltvap.cc/basketball/competition/b60c026d0c03af082035714ac096d1b0.png!w80",
+          "name": "Giải đấu Liên minh Trẻ Câu lạc bộ Châu Âu",
+          "logo": "https://img.cltvap.cc/football/competition/fd18fea857fdfad33df41c112d4455a1.png!w80",
           "matches": [
             {
-              "id": "mhd-match-wv784sx0w31boqr",
-              "title": "Kansas State vs Gonzaga",
-              "home": "Kansas State",
-              "away": "Gonzaga",
-              "home_logo": "https://img.cltvap.cc/basketball/team/0d1160c94e4741bebc26b0ae59731b7d.png!w80",
-              "away_logo": "https://img.cltvap.cc/basketball/team/81d05cf71ab862a1e98df0da269e1fe8.png!w80",
-              "time": "2026-11-25T12:30:00+07:00",
-              "time_label": "25/11 12:30",
-              "status": "scheduled",
+              "id": "mhd-match-vmqy9iv2vvnfgk9",
+              "title": "Paris Saint Germain U19 vs AS Roma U19",
+              "home": "Paris Saint Germain U19",
+              "away": "AS Roma U19",
+              "home_logo": "https://img.cltvap.cc/football/team/a19104d7fe30a4a261411778eebba452.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/a5f78d25cf21309ea257f28343efad5f.png!w80",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             }
           ]
         },
         {
-          "name": "AFC Giải vô địch Champions 2",
-          "logo": "https://img.cltvap.cc/football/competition/9a22d840df32761c127c5cd106203ccf.png!w80",
+          "name": "cúp Nga",
+          "logo": "https://img.cltvap.cc/football/competition/e0c9159f947b299772f5caa7ae4bf376.png!w80",
           "matches": [
             {
-              "id": "mhd-match-ndkz6i3ego6txq3",
-              "title": "Melbourne Victory vs Thể Công - Viettel",
-              "home": "Melbourne Victory",
-              "away": "Thể Công - Viettel",
-              "home_logo": "https://img.cltvap.cc/football/team/04230721124ae33d7fb527413b54106f.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/840e2d7165cf2a34ec6c65a1fd9b58a9.png!w80",
-              "time": "2026-11-25T14:45:00+07:00",
-              "time_label": "25/11 14:45",
+              "id": "mhd-match-g6763i58002io7r",
+              "title": "FK Makhachkala vs CLB Baltika",
+              "home": "FK Makhachkala",
+              "away": "CLB Baltika",
+              "home_logo": "https://img.cltvap.cc/football/team/26cece8c2572a1d82b90fefc2c71e8ad.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/d113e6038e09c80bc50d4b20871a2d06.png!w80",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 4
+            },
+            {
+              "id": "mhd-match-j374oi0m55etgqo",
+              "title": "Akhmat Grozny vs Krasnodar",
+              "home": "Akhmat Grozny",
+              "away": "Krasnodar",
+              "home_logo": "https://img.cltvap.cc/football/team/dfb637acd761b88a27e200393e29319f.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/ee170662c1911f3d2f7746f6539f2604.png!w80",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 4
+            },
+            {
+              "id": "mhd-match-ndkz6i30grdaxq3",
+              "title": "Rubin Kazan vs CLB Rodina Moskva",
+              "home": "Rubin Kazan",
+              "away": "CLB Rodina Moskva",
+              "home_logo": "https://img.cltvap.cc/football/team/db58fdf26d9c934236772a9721fa750b.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/f5ff010dcc2e753de549a98ba989e356.png!w80",
+              "time": "2026-11-26T00:30:00+07:00",
+              "time_label": "26/11 00:30",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
             },
             {
-              "id": "mhd-match-ndkz6i3ego2hxq3",
-              "title": "CLB Persib Bandung vs CLB Seoul",
-              "home": "CLB Persib Bandung",
-              "away": "CLB Seoul",
-              "home_logo": "https://img.cltvap.cc/football/team/b2004093bf25a5a8d1768970d6e49d71.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/ad010af729c420626d1865ad744168d3.png!w80",
-              "time": "2026-11-25T19:15:00+07:00",
-              "time_label": "25/11 19:15",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-9gklzi1z9ymfm7x",
-              "title": "CLB Nasaf Qarshi vs Al Khaldiya",
-              "home": "CLB Nasaf Qarshi",
-              "away": "Al Khaldiya",
-              "home_logo": "https://img.cltvap.cc/football/team/bef3a45bcf56447c8acfb7b077820022.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/648d61541736aa2c89fc96fcb19ac852.png!w80",
-              "time": "2026-11-25T20:45:00+07:00",
-              "time_label": "25/11 20:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-ndkz6i3eg86fxq3",
-              "title": "Al Kuwait vs Al Wahda",
-              "home": "Al Kuwait",
-              "away": "Al Wahda",
-              "home_logo": "https://img.cltvap.cc/football/team/b292fe77f1c6c63d12782e565ea3e92f.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/da5a07224920e4856d3b14e7e1a86741.png!w80",
-              "time": "2026-11-25T23:00:00+07:00",
-              "time_label": "25/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-xvkjoi8ego9i879",
-              "title": "Al-Muharraq vs FC bạn bè",
-              "home": "Al-Muharraq",
-              "away": "FC bạn bè",
-              "home_logo": "https://img.cltvap.cc/football/team/4e9422ab24a8dff2521be20e1c129f20.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/aad022bfac5c480bed8d0dc2a710281e.png!w80",
-              "time": "2026-11-25T23:00:00+07:00",
-              "time_label": "25/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-8lk2dirjvodtz73",
-              "title": "Al Jazira vs Gol Gohar",
-              "home": "Al Jazira",
-              "away": "Gol Gohar",
-              "home_logo": "https://img.cltvap.cc/football/team/9352b8e0b9515b84abf716a32c42777e.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/69625f17e031ad1fcb33823338b74d95.png!w80",
-              "time": "2026-11-25T23:00:00+07:00",
-              "time_label": "25/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-edq09ilv854heqx",
-              "title": "Al-Faisaly Amman vs Al Rayyan",
-              "home": "Al-Faisaly Amman",
-              "away": "Al Rayyan",
-              "home_logo": "https://img.cltvap.cc/football/team/d73fc6a782904bb6819be4e0e86e8a55.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/d36d53da32742efb1d00f27e959603a0.png!w80",
-              "time": "2026-11-25T23:00:00+07:00",
-              "time_label": "25/11 23:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-jek33i823e2i9ko",
-              "title": "Kuching City FC vs Phnom Penh Crown",
-              "home": "Kuching City FC",
-              "away": "Phnom Penh Crown",
-              "home_logo": "https://img.cltvap.cc/football/team/81f5727743f8759ae7a99b8d7f2557e3.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/03dd1707147dbd5897a8dcae40991e2c.png!w80",
-              "time": "2026-11-26T17:00:00+07:00",
-              "time_label": "26/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-527r3i4omjru47e",
-              "title": "CLB Tampines vs Shanghai Shenhua",
-              "home": "CLB Tampines",
-              "away": "Shanghai Shenhua",
-              "home_logo": "https://img.cltvap.cc/football/team/23dc72567ad2999491dfe56b50f7df62.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/e8327d4681b4a73c83be9fe087b30721.png!w80",
-              "time": "2026-11-26T17:00:00+07:00",
-              "time_label": "26/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-34kgmior0x6ceko",
-              "title": "Gangwon vs CLB Kitchee",
-              "home": "Gangwon",
-              "away": "CLB Kitchee",
-              "home_logo": "https://img.cltvap.cc/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/8d9561a580262bbe28642af67c42cf83.png!w80",
-              "time": "2026-11-26T17:00:00+07:00",
-              "time_label": "26/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-63kv9ig139yux7e",
-              "title": "Pathum United vs Lion City",
-              "home": "Pathum United",
-              "away": "Lion City",
-              "home_logo": "https://img.cltvap.cc/football/team/12fe4d3ee5c01134d48584015c4646f3.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/a17724405028a3e21a2a2372736aa757.png!w80",
-              "time": "2026-11-26T19:15:00+07:00",
-              "time_label": "26/11 19:15",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-o17pjio231yby7j",
-              "title": "Vikingur Reykjavik Nữ vs Machida",
-              "home": "Vikingur Reykjavik Nữ",
-              "away": "Machida",
-              "home_logo": "https://img.cltvap.cc/football/team/8b784b23ff2eac9bbdb4437cbc291d52.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png!w80",
-              "time": "2026-11-26T19:15:00+07:00",
-              "time_label": "26/11 19:15",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-j374oi025zdcgqo",
-              "title": "Wofoo Tai Po vs CLB Adelaide United",
-              "home": "Wofoo Tai Po",
-              "away": "CLB Adelaide United",
-              "home_logo": "https://img.cltvap.cc/football/team/df5e92ce4493d63214e8036ad15c1915.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/e5f515e5720cd281a1a53ce2950992b1.png!w80",
-              "time": "2026-11-26T19:15:00+07:00",
-              "time_label": "26/11 19:15",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
-        {
-          "name": "Giải vô địch quốc gia Nhật Bản",
-          "logo": "https://img.cltvap.cc/football/competition/0b94ee2f9f985a845d1b32ad271758f9.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-vrqwni45ggjb4qn",
-              "title": "Fagiano Okayama vs Shimizu S-Pulse",
-              "home": "Fagiano Okayama",
-              "away": "Shimizu S-Pulse",
-              "home_logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/fa4105f0408ef893d941e70ae003ab4c.png!w80",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-9gklzi1e459im7x",
-              "title": "V Varen Nagasaki vs Kawasaki Frontale",
-              "home": "V Varen Nagasaki",
-              "away": "Kawasaki Frontale",
-              "home_logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/937795c0851c1e794e96a5cb660fcd59.png!w80",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-9gklzi1e419tm7x",
-              "title": "Avispa Fukuoka vs Yokohama F. Marinos",
-              "home": "Avispa Fukuoka",
-              "away": "Yokohama F. Marinos",
-              "home_logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/78ddaaa79d9502f5e2df0fbb6261f937.png!w80",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-vrqwni45g4jh4qn",
-              "title": "Chiba vs Nagoya Grampus",
-              "home": "Chiba",
-              "away": "Nagoya Grampus",
-              "home_logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/32aa68e1fa3d62dad572d19b21a09353.png!w80",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-63kv9igexx5ax7e",
-              "title": "CLB Tokyo vs Sanfrecce Hiroshima",
-              "home": "CLB Tokyo",
-              "away": "Sanfrecce Hiroshima",
-              "home_logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/c81d5ff7a33a4f6a9312a8703f619352.png!w80",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-l6kegi8nwm5uv75",
-              "title": "Mito Hollyhock vs Tokyo Verdy",
-              "home": "Mito Hollyhock",
-              "away": "Tokyo Verdy",
-              "home_logo": "https://img.cltvap.cc/football/team/9ead844240532c4e12d3eb45d2087924.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/2a8adb34e764602183a7bee8f51726e4.png!w80",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-edq09il14ldueqx",
-              "title": "Urawa Reds vs Cerezo Osaka",
-              "home": "Urawa Reds",
-              "away": "Cerezo Osaka",
-              "home_logo": "https://img.cltvap.cc/football/team/ca15e36551392e8c99b53b5b2f8531d3.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/ab10ee503e539e55a9a11a9ff202405a.png!w80",
-              "time": "2026-11-25T17:30:00+07:00",
-              "time_label": "25/11 17:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
-        {
-          "name": "AFC Giải vô địch Champions Elite",
-          "logo": "https://img.cltvap.cc/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-oj7x9ix480mi47g",
-              "title": "Gamba Osaka vs Port FC",
-              "home": "Gamba Osaka",
-              "away": "Port FC",
-              "home_logo": "https://img.cltvap.cc/football/team/91008a96b5de8c75376d17057f89890e.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/fb00f7ae0bf4530e86baf7bec110f69f.png!w80",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-edq09ilv8ovieqx",
-              "title": "Kashima Antlers vs CLB Jeonbuk Hyundai Motors",
-              "home": "Kashima Antlers",
-              "away": "CLB Jeonbuk Hyundai Motors",
-              "home_logo": "https://img.cltvap.cc/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/ee2117f952745163fecfa4b74a6a2bea.png!w80",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
-        {
-          "name": "IDN LC",
-          "logo": "https://img.cltvap.cc/football/competition/f16c5b8d46462e283da33408bca4ec17.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-wv78xi1pen1uokr",
-              "title": "Arema Malang vs Adhyaksa FC Banten",
-              "home": "Arema Malang",
-              "away": "Adhyaksa FC Banten",
-              "home_logo": "https://img.cltvap.cc/football/team/55cba4a142146e2cdc317d21eb4daf76.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/c8fc1bb845b85502f27270af01647337.png!w80",
-              "time": "2026-11-25T19:00:00+07:00",
-              "time_label": "25/11 19:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-jr7owiy6m21agq0",
-              "title": "Bali United vs Barito Putera",
-              "home": "Bali United",
-              "away": "Barito Putera",
-              "home_logo": "https://img.cltvap.cc/football/team/09fe2ecf88f68970da755f8655d5da8a.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/631d7950b866054f174c8d7389418f3b.png!w80",
-              "time": "2026-11-25T19:00:00+07:00",
-              "time_label": "25/11 19:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
-        {
-          "name": "Giải bóng đá Serbia",
-          "logo": "https://img.cltvap.cc/football/competition/f44ac8f0aaac57bc25888ee6916c1741.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-ezk96i3rp6pf1kn",
-              "title": "Radnicki Nis vs FK Zeleznicar Pancevo",
-              "home": "Radnicki Nis",
-              "away": "FK Zeleznicar Pancevo",
-              "home_logo": "https://img.cltvap.cc/football/team/794c52e40471e247cc8e50dc33841c1d.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/5a4205b9ee3d49c60df7bf22bc2e2203.png!w80",
-              "time": "2026-11-25T19:00:00+07:00",
-              "time_label": "25/11 19:00",
+              "id": "mhd-match-9gklzi1d9v5im7x",
+              "title": "Gazovik Orenburg vs Spartak",
+              "home": "Gazovik Orenburg",
+              "away": "Spartak",
+              "home_logo": "https://img.cltvap.cc/football/team/0f5f64c52541a333596d8892b25aa310.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/b989806732eaf15246ab56e07d0b8a2e.png!w80",
+              "time": "2026-11-26T21:00:00+07:00",
+              "time_label": "26/11 21:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
@@ -1865,84 +975,6 @@
           "logo": "https://img.cltvap.cc/football/competition/8f1cede667dd40babe801d43821420aa.png!w80",
           "matches": [
             {
-              "id": "mhd-match-l6kegi805mwuv75",
-              "title": "Uganda U17 vs New Caledonia U17",
-              "home": "Uganda U17",
-              "away": "New Caledonia U17",
-              "home_logo": "https://img.cltvap.cc/football/team/81f7acabd411274fcf65ce2070ed568a.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/0cb656f78993ef2542ab838079ec9426.png!w80",
-              "time": "2026-11-25T19:30:00+07:00",
-              "time_label": "25/11 19:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-63kv9igwlvdix7e",
-              "title": "Ecuador U17 vs Hàn Quốc U17",
-              "home": "Ecuador U17",
-              "away": "Hàn Quốc U17",
-              "home_logo": "https://img.cltvap.cc/football/team/4bcd83a98bc4ee323ec93c0f0e704d04.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/6581bc34692022be4c21d98778e33df0.png!w80",
-              "time": "2026-11-25T19:30:00+07:00",
-              "time_label": "25/11 19:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-wv78xivgrerbokr",
-              "title": "Uruguay U17 vs Pháp U17",
-              "home": "Uruguay U17",
-              "away": "Pháp U17",
-              "home_logo": "https://img.cltvap.cc/football/team/3068cfc254b9a77c7eac84c9565eeeab.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/8eb4b4c01bf3375828c5494c2f6e7685.png!w80",
-              "time": "2026-11-25T20:30:00+07:00",
-              "time_label": "25/11 20:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-o07dni58zgdimkn",
-              "title": "Haiti U17 vs Ả Rập Saudi U17",
-              "home": "Haiti U17",
-              "away": "Ả Rập Saudi U17",
-              "home_logo": "https://img.cltvap.cc/football/team/087bc7552322045ad94868390dce5b37.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/cf372cbe6eae54c6a6dfb3ebbcdc3404.png!w80",
-              "time": "2026-11-25T20:30:00+07:00",
-              "time_label": "25/11 20:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-jek33i8nw1xt9ko",
-              "title": "Hy Lạp U17 vs Qatar U17",
-              "home": "Hy Lạp U17",
-              "away": "Qatar U17",
-              "home_logo": "https://img.cltvap.cc/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/7303a103c93fea0445384d6ff3f3d1b9.png!w80",
-              "time": "2026-11-25T21:30:00+07:00",
-              "time_label": "25/11 21:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-o17pjio8dnouy7j",
-              "title": "PanamaU17 vs Ai Cập U17",
-              "home": "PanamaU17",
-              "away": "Ai Cập U17",
-              "home_logo": "https://img.cltvap.cc/football/team/a159b2e2c6b3cb7bf0e92eb43fe27bdd.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/65a579da11fa712149bca347ecfcb208.png!w80",
-              "time": "2026-11-25T21:30:00+07:00",
-              "time_label": "25/11 21:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
               "id": "mhd-match-8lk2dirwlnjtz73",
               "title": "Đan Mạch U17 vs Argentina U17",
               "home": "Đan Mạch U17",
@@ -1951,9 +983,9 @@
               "away_logo": "https://img.cltvap.cc/football/team/7d44a77ef7bf7d809287828b992f3007.png!w80",
               "time": "2026-11-25T22:30:00+07:00",
               "time_label": "25/11 22:30",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-xvkjoi83pz8f879",
@@ -1964,9 +996,9 @@
               "away_logo": "https://img.cltvap.cc/football/team/d3b8cf8b9c797942fe68565e4ed2d8c3.png!w80",
               "time": "2026-11-25T22:30:00+07:00",
               "time_label": "25/11 22:30",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-vmqy9ivo5zlsgk9",
@@ -2075,192 +1107,135 @@
           ]
         },
         {
-          "name": "Giải đấu Liên minh Trẻ Câu lạc bộ Châu Âu",
-          "logo": "https://img.cltvap.cc/football/competition/fd18fea857fdfad33df41c112d4455a1.png!w80",
+          "name": "AFC Giải vô địch Champions 2",
+          "logo": "https://img.cltvap.cc/football/competition/9a22d840df32761c127c5cd106203ccf.png!w80",
           "matches": [
             {
-              "id": "mhd-match-9gklzi1g115fm7x",
-              "title": "Sporting CP U19 vs Manchester United U19",
-              "home": "Sporting CP U19",
-              "away": "Manchester United U19",
-              "home_logo": "https://img.cltvap.cc/football/team/fdd4da5bb1bc131fdc2f771f786420c8.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/44eb7130030b0be19a244dbf1927561f.png!w80",
-              "time": "2026-11-25T20:00:00+07:00",
-              "time_label": "25/11 20:00",
+              "id": "mhd-match-ndkz6i3eg86fxq3",
+              "title": "Al Kuwait vs Al Wahda",
+              "home": "Al Kuwait",
+              "away": "Al Wahda",
+              "home_logo": "https://img.cltvap.cc/football/team/b292fe77f1c6c63d12782e565ea3e92f.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/da5a07224920e4856d3b14e7e1a86741.png!w80",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-xvkjoi8ego9i879",
+              "title": "Al-Muharraq vs Arkadag FK",
+              "home": "Al-Muharraq",
+              "away": "Arkadag FK",
+              "home_logo": "https://img.cltvap.cc/football/team/4e9422ab24a8dff2521be20e1c129f20.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/aad022bfac5c480bed8d0dc2a710281e.png!w80",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-8lk2dirjvodtz73",
+              "title": "Al Jazira vs Gol Gohar",
+              "home": "Al Jazira",
+              "away": "Gol Gohar",
+              "home_logo": "https://img.cltvap.cc/football/team/9352b8e0b9515b84abf716a32c42777e.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/69625f17e031ad1fcb33823338b74d95.png!w80",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-edq09ilv854heqx",
+              "title": "Al-Faisaly Amman vs Al Rayyan",
+              "home": "Al-Faisaly Amman",
+              "away": "Al Rayyan",
+              "home_logo": "https://img.cltvap.cc/football/team/d73fc6a782904bb6819be4e0e86e8a55.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/d36d53da32742efb1d00f27e959603a0.png!w80",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 4
+            },
+            {
+              "id": "mhd-match-jek33i823e2i9ko",
+              "title": "Kuching City FC vs Phnom Penh Crown",
+              "home": "Kuching City FC",
+              "away": "Phnom Penh Crown",
+              "home_logo": "https://img.cltvap.cc/football/team/81f5727743f8759ae7a99b8d7f2557e3.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/03dd1707147dbd5897a8dcae40991e2c.png!w80",
+              "time": "2026-11-26T17:00:00+07:00",
+              "time_label": "26/11 17:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
             },
             {
-              "id": "mhd-match-m2q15izozz1be76",
-              "title": "Club Brugge U19 vs Liverpool U19",
-              "home": "Club Brugge U19",
-              "away": "Liverpool U19",
-              "home_logo": "https://img.cltvap.cc/football/team/2949f63aa1981975fdb031ffabd20eeb.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/739d0996bb928d288e8cd91ff93832bb.png!w80",
-              "time": "2026-11-25T21:00:00+07:00",
-              "time_label": "25/11 21:00",
+              "id": "mhd-match-527r3i4omjru47e",
+              "title": "CLB Tampines vs Shanghai Shenhua",
+              "home": "CLB Tampines",
+              "away": "Shanghai Shenhua",
+              "home_logo": "https://img.cltvap.cc/football/team/23dc72567ad2999491dfe56b50f7df62.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/e8327d4681b4a73c83be9fe087b30721.png!w80",
+              "time": "2026-11-26T17:00:00+07:00",
+              "time_label": "26/11 17:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
             },
             {
-              "id": "mhd-match-oj7x9ixoxx0i47g",
-              "title": "Tiểu U19 vs Bayern U19",
-              "home": "Tiểu U19",
-              "away": "Bayern U19",
-              "home_logo": "https://img.cltvap.cc/football/team/ada208e7101560665bdcb350110f7fe3.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/4f4aae5e4a7655d1651159a883f55478.png!w80",
-              "time": "2026-11-25T21:00:00+07:00",
-              "time_label": "25/11 21:00",
+              "id": "mhd-match-34kgmior0x6ceko",
+              "title": "Gangwon vs CLB Kitchee",
+              "home": "Gangwon",
+              "away": "CLB Kitchee",
+              "home_logo": "https://img.cltvap.cc/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/8d9561a580262bbe28642af67c42cf83.png!w80",
+              "time": "2026-11-26T17:00:00+07:00",
+              "time_label": "26/11 17:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
             },
             {
-              "id": "mhd-match-vmqy9iv2vvnfgk9",
-              "title": "Paris Saint Germain U19 vs AS Roma Youth",
-              "home": "Paris Saint Germain U19",
-              "away": "AS Roma Youth",
-              "home_logo": "https://img.cltvap.cc/football/team/a19104d7fe30a4a261411778eebba452.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/a5f78d25cf21309ea257f28343efad5f.png!w80",
-              "time": "2026-11-25T22:00:00+07:00",
-              "time_label": "25/11 22:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
-        {
-          "name": "Giải bóng đá câu lạc bộ Vịnh",
-          "logo": "https://img.cltvap.cc/football/competition/2a207dc75e6d4da43885870f6cd152d7.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-xvkjoi2r4vrt879",
-              "title": "Kazma SC vs Erbil",
-              "home": "Kazma SC",
-              "away": "Erbil",
-              "home_logo": "https://img.cltvap.cc/football/team/49c8ec5cda0bdb751d50095676d88e8d.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/3a52398498773a8ed0006583046d8050.png!w80",
-              "time": "2026-11-25T21:00:00+07:00",
-              "time_label": "25/11 21:00",
+              "id": "mhd-match-63kv9ig139yux7e",
+              "title": "Pathum United vs Lion City",
+              "home": "Pathum United",
+              "away": "Lion City",
+              "home_logo": "https://img.cltvap.cc/football/team/12fe4d3ee5c01134d48584015c4646f3.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/a17724405028a3e21a2a2372736aa757.png!w80",
+              "time": "2026-11-26T19:15:00+07:00",
+              "time_label": "26/11 19:15",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
             },
             {
-              "id": "mhd-match-xvkjoi2r45rt879",
-              "title": "Shab Hadramawt vs Al-Shabab",
-              "home": "Shab Hadramawt",
-              "away": "Al-Shabab",
-              "home_logo": "https://img.cltvap.cc/football/team/027f6ca62481fb9c052f5022f166b850.jfif!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/7238b4b0d6c0b9514b00455e7a021221.png!w80",
-              "time": "2026-11-25T22:30:00+07:00",
-              "time_label": "25/11 22:30",
+              "id": "mhd-match-o17pjio231yby7j",
+              "title": "Vikingur Reykjavik Nữ vs Machida",
+              "home": "Vikingur Reykjavik Nữ",
+              "away": "Machida",
+              "home_logo": "https://img.cltvap.cc/football/team/8b784b23ff2eac9bbdb4437cbc291d52.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png!w80",
+              "time": "2026-11-26T19:15:00+07:00",
+              "time_label": "26/11 19:15",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
             },
             {
-              "id": "mhd-match-34kgmigvjdzbeko",
-              "title": "Qatar SC vs Al Nasr Dubai",
-              "home": "Qatar SC",
-              "away": "Al Nasr Dubai",
-              "home_logo": "https://img.cltvap.cc/football/team/6bd99a31fd562a9e6b1db99d42d40b34.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/2011473c10a119e01f2085bb836b62b2.png!w80",
-              "time": "2026-11-26T00:00:00+07:00",
-              "time_label": "26/11 00:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
-        {
-          "name": "Giải Ngoại hạng Ai Cập",
-          "logo": "https://img.cltvap.cc/football/competition/c840aa9f8b4c65b1441bb36459a40642.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-edq09il3je6ieqx",
-              "title": "El Gaish vs FC tương lai",
-              "home": "El Gaish",
-              "away": "FC tương lai",
-              "home_logo": "https://img.cltvap.cc/football/team/bacc15441ed99eaad038d4ceb86751d6.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/53f4bc55c48cd39be78fa4fa69645f31.png!w80",
-              "time": "2026-11-25T22:00:00+07:00",
-              "time_label": "25/11 22:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            }
-          ]
-        },
-        {
-          "name": "cúp Nga",
-          "logo": "https://img.cltvap.cc/football/competition/e0c9159f947b299772f5caa7ae4bf376.png!w80",
-          "matches": [
-            {
-              "id": "mhd-match-g6763i58002io7r",
-              "title": "FK Makhachkala vs CLB Baltika",
-              "home": "FK Makhachkala",
-              "away": "CLB Baltika",
-              "home_logo": "https://img.cltvap.cc/football/team/26cece8c2572a1d82b90fefc2c71e8ad.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/d113e6038e09c80bc50d4b20871a2d06.png!w80",
-              "time": "2026-11-25T22:00:00+07:00",
-              "time_label": "25/11 22:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-j374oi0m55etgqo",
-              "title": "Akhmat Grozny vs Krasnodar",
-              "home": "Akhmat Grozny",
-              "away": "Krasnodar",
-              "home_logo": "https://img.cltvap.cc/football/team/dfb637acd761b88a27e200393e29319f.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/ee170662c1911f3d2f7746f6539f2604.png!w80",
-              "time": "2026-11-25T22:00:00+07:00",
-              "time_label": "25/11 22:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-63kv9igl331fx7e",
-              "title": "Lokomotiv vs Câu lạc bộ bóng đá Rostov",
-              "home": "Lokomotiv",
-              "away": "Câu lạc bộ bóng đá Rostov",
-              "home_logo": "https://img.cltvap.cc/football/team/5517b8865aa5280667bd899f6810d466.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/1279b7ad21c72f2ab7bda8b972c2858e.png!w80",
-              "time": "2026-11-25T23:30:00+07:00",
-              "time_label": "25/11 23:30",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-ndkz6i30grdaxq3",
-              "title": "Rubin Kazan vs CLB Rodina Moskva",
-              "home": "Rubin Kazan",
-              "away": "CLB Rodina Moskva",
-              "home_logo": "https://img.cltvap.cc/football/team/db58fdf26d9c934236772a9721fa750b.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/f5ff010dcc2e753de549a98ba989e356.png!w80",
-              "time": "2026-11-26T00:45:00+07:00",
-              "time_label": "26/11 00:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 3
-            },
-            {
-              "id": "mhd-match-9gklzi1d9v5im7x",
-              "title": "Gazovik Orenburg vs Spartak",
-              "home": "Gazovik Orenburg",
-              "away": "Spartak",
-              "home_logo": "https://img.cltvap.cc/football/team/0f5f64c52541a333596d8892b25aa310.png!w80",
-              "away_logo": "https://img.cltvap.cc/football/team/b989806732eaf15246ab56e07d0b8a2e.png!w80",
-              "time": "2026-11-26T21:00:00+07:00",
-              "time_label": "26/11 21:00",
+              "id": "mhd-match-j374oi025zdcgqo",
+              "title": "Wofoo Tai Po vs CLB Adelaide United",
+              "home": "Wofoo Tai Po",
+              "away": "CLB Adelaide United",
+              "home_logo": "https://img.cltvap.cc/football/team/df5e92ce4493d63214e8036ad15c1915.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/e5f515e5720cd281a1a53ce2950992b1.png!w80",
+              "time": "2026-11-26T19:15:00+07:00",
+              "time_label": "26/11 19:15",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
@@ -2280,9 +1255,9 @@
               "away_logo": "https://img.cltvap.cc/basketball/team/a7fa7e5d59e7754105e602d0065c0b4d.png!w80",
               "time": "2026-11-25T23:00:00+07:00",
               "time_label": "25/11 23:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
-              "stream_count": 3
+              "stream_count": 4
             },
             {
               "id": "mhd-match-j374ws9g82yigko",
@@ -2313,19 +1288,19 @@
           ]
         },
         {
-          "name": "Serbia Cup",
-          "logo": "https://img.cltvap.cc/volleyball/competition/66cf27b0d740a548a335a5971bdd1f13.png",
+          "name": "Giải bóng đá câu lạc bộ Vịnh",
+          "logo": "https://img.cltvap.cc/football/competition/2a207dc75e6d4da43885870f6cd152d7.png!w80",
           "matches": [
             {
-              "id": "mhd-match-ndqm9imgo0pcrkv",
-              "title": "Crvena zvezda vs Gornji Milanovac",
-              "home": "Crvena zvezda",
-              "away": "Gornji Milanovac",
-              "home_logo": "https://img.cltvap.cc/volleyball/team/0723d29de445c3b324f01ad19ccb15bf.png!w80",
-              "away_logo": "https://img.cltvap.cc/volleyball/team/011abc8fe2b635afe06216398fd964e8.png!w80",
+              "id": "mhd-match-34kgmigvjdzbeko",
+              "title": "Qatar SC vs Al Nasr Dubai",
+              "home": "Qatar SC",
+              "away": "Al Nasr Dubai",
+              "home_logo": "https://img.cltvap.cc/football/team/6bd99a31fd562a9e6b1db99d42d40b34.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/2011473c10a119e01f2085bb836b62b2.png!w80",
               "time": "2026-11-26T00:00:00+07:00",
               "time_label": "26/11 00:00",
-              "status": "scheduled",
+              "status": "live",
               "score": "",
               "stream_count": 3
             }
@@ -2455,6 +1430,103 @@
           ]
         },
         {
+          "name": "Hiệp hội Bóng rổ Quốc gia",
+          "logo": "https://img.cltvap.cc/basketball/competition/061f5ab5b1a975fc1004529ec3f11fca.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-527rjswd6nwh4ke",
+              "title": "Philadelphia 76ers vs Miami Heat",
+              "home": "Philadelphia 76ers",
+              "away": "Miami Heat",
+              "home_logo": "https://img.cltvap.cc/basketball/team/06e7bde6cca98873fe971fad4e67a9b6.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/ff7ccef6a6b79c6417ee8367946b0aec.png!w80",
+              "time": "2026-11-26T05:00:00+07:00",
+              "time_label": "26/11 05:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-34kgps1lwzgseko",
+              "title": "Oklahoma City Thunder vs Minnesota Timberwolves",
+              "home": "Oklahoma City Thunder",
+              "away": "Minnesota Timberwolves",
+              "home_logo": "https://img.cltvap.cc/basketball/team/319e03be75fee4098a83b1d0e01940b7.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/38794d0ac418d8f2d03bd17a2623f3ed.png!w80",
+              "time": "2026-11-26T07:30:00+07:00",
+              "time_label": "26/11 07:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-edq0esdrn4lfekx",
+              "title": "New York Knicks vs Cleveland Cavaliers",
+              "home": "New York Knicks",
+              "away": "Cleveland Cavaliers",
+              "home_logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png!w80",
+              "time": "2026-11-26T07:30:00+07:00",
+              "time_label": "26/11 07:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-6975lsnp0lxcgk2",
+              "title": "Memphis Grizzlies vs Los Angeles Clippers",
+              "home": "Memphis Grizzlies",
+              "away": "Los Angeles Clippers",
+              "home_logo": "https://img.cltvap.cc/basketball/team/5150102b33043405b63b2e7c72759fa8.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/848b21021b2a1db7bde95ea52a1e021b.png!w80",
+              "time": "2026-11-26T08:00:00+07:00",
+              "time_label": "26/11 08:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-63kvlsop2xetx7e",
+              "title": "Houston Rockets vs Phoenix suns",
+              "home": "Houston Rockets",
+              "away": "Phoenix suns",
+              "home_logo": "https://img.cltvap.cc/basketball/team/bcfe797437f18526ff4e62177021f638.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/da3c882a7e0bc592b4c1ba9d8c5fb68d.png!w80",
+              "time": "2026-11-26T08:30:00+07:00",
+              "time_label": "26/11 08:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-o07dzsmrgw9bmkn",
+              "title": "Portland Trail Blazers vs San Antonio Spurs",
+              "home": "Portland Trail Blazers",
+              "away": "San Antonio Spurs",
+              "home_logo": "https://img.cltvap.cc/basketball/team/4512175b1415f69816e816160093bcc0.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/5305d1a7b721b5bef418041eff53ba82.png!w80",
+              "time": "2026-11-26T10:00:00+07:00",
+              "time_label": "26/11 10:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-jek3psd41vwt9qo",
+              "title": "Golden State Warriors vs Sacramento Kings",
+              "home": "Golden State Warriors",
+              "away": "Sacramento Kings",
+              "home_logo": "https://img.cltvap.cc/basketball/team/df3f6f8bb17fd1c618f60f0b14637140.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/1fc010aba7ac510b5364e5f76ca4f060.png!w80",
+              "time": "2026-11-26T10:00:00+07:00",
+              "time_label": "26/11 10:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
           "name": "Giải bóng đá Hạng nhất Brasil",
           "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png!w80",
           "matches": [
@@ -2467,6 +1539,19 @@
               "away_logo": "https://img.cltvap.cc/football/team/aa4d61da1df31972e52e1e62f90ec558.png!w80",
               "time": "2026-11-26T06:00:00+07:00",
               "time_label": "26/11 06:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-wv78xivxp5pbokr",
+              "title": "CLB Sao Paulo vs Remo Belem (PA)",
+              "home": "CLB Sao Paulo",
+              "away": "Remo Belem (PA)",
+              "home_logo": "https://img.cltvap.cc/football/team/31f5171de0e1404fdebcef19cd7cd409.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/fb9a4cf4290646122b3afe17bd914737.png!w80",
+              "time": "2026-11-27T06:00:00+07:00",
+              "time_label": "27/11 06:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
@@ -2584,6 +1669,19 @@
               "time_label": "26/11 18:00",
               "status": "scheduled",
               "score": "",
+              "stream_count": 6
+            },
+            {
+              "id": "mhd-match-9gkl6s68vpoamkx",
+              "title": "Indonesia vs Thái Lan",
+              "home": "Indonesia",
+              "away": "Thái Lan",
+              "home_logo": "https://img.cltvap.cc/basketball/team/8d4aca15bee632dc0709e24152c7f529.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/3eb1aaf546afafbaedf7aa8298be7c9c.png!w80",
+              "time": "2026-11-27T15:00:00+07:00",
+              "time_label": "27/11 15:00",
+              "status": "scheduled",
+              "score": "",
               "stream_count": 3
             }
           ]
@@ -2668,6 +1766,45 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 3
+            },
+            {
+              "id": "mhd-match-63kvlsonpjyfx7e",
+              "title": "Liban vs Nhật Bản",
+              "home": "Liban",
+              "away": "Nhật Bản",
+              "home_logo": "https://img.cltvap.cc/basketball/team/01fbdbd570011d3ff9420955163f2cbf.jpg!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/174ead45f85e0d25654016139877b60d.png!w80",
+              "time": "2026-11-27T02:00:00+07:00",
+              "time_label": "27/11 02:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-l6kersmd2evbvq5",
+              "title": "Jordan vs New Zealand",
+              "home": "Jordan",
+              "away": "New Zealand",
+              "home_logo": "https://img.cltvap.cc/basketball/team/ad269016d377a139581206b40ad4a941.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/36b43a11e800e4a319f3753945fc1944.jpg!w80",
+              "time": "2026-11-27T13:00:00+07:00",
+              "time_label": "27/11 13:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-ezk90sp925yb1kn",
+              "title": "Iran vs Australia",
+              "home": "Iran",
+              "away": "Australia",
+              "home_logo": "https://img.cltvap.cc/basketball/team/77418e1cfd63306bf63717d76c23e910.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/6bf25bb8aa9416845d5932da2d3d0201.png!w80",
+              "time": "2026-11-27T16:00:00+07:00",
+              "time_label": "27/11 16:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
             }
           ]
         },
@@ -2684,6 +1821,110 @@
               "away_logo": "https://img.cltvap.cc/football/team/0ffb7ffab7e1720c91427e75b4a50ace.png!w80",
               "time": "2026-11-26T22:30:00+07:00",
               "time_label": "26/11 22:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-oj7x9ix4o9ea47g",
+              "title": "Câu lạc bộ AFC Ajax vs Thun",
+              "home": "Câu lạc bộ AFC Ajax",
+              "away": "Thun",
+              "home_logo": "https://img.cltvap.cc/football/team/187929503752357480bce47813a9741f.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/d4f6838e12860d6a2965457859657006.png!w80",
+              "time": "2026-11-27T00:45:00+07:00",
+              "time_label": "27/11 00:45",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-oj7x9ix4oyef47g",
+              "title": "CLB Hearts vs AS Monaco",
+              "home": "CLB Hearts",
+              "away": "AS Monaco",
+              "home_logo": "https://img.cltvap.cc/football/team/eaf06359f42dcf69c7ac660731511239.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/693af0d277fe3179594695614dce8666.png!w80",
+              "time": "2026-11-27T00:45:00+07:00",
+              "time_label": "27/11 00:45",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-zrkn6i4zj3vswql",
+              "title": "Brighton & Hove Albion FC vs Univ. Craiova",
+              "home": "Brighton & Hove Albion FC",
+              "away": "Univ. Craiova",
+              "home_logo": "https://img.cltvap.cc/football/team/9b43a690d5a09f1e319f036821e8e1d3.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/d8fef73043961d11ed61a37476a54568.png!w80",
+              "time": "2026-11-27T00:45:00+07:00",
+              "time_label": "27/11 00:45",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-oj7x9ix4o0xs47g",
+              "title": "Saburtalo Tbilisi vs Getafe CF",
+              "home": "Saburtalo Tbilisi",
+              "away": "Getafe CF",
+              "home_logo": "https://img.cltvap.cc/football/team/e80d49b16e8a1ea6b6d38643e1d429b0.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/36bf5bf0c8fdf08c1270124808f060e1.png!w80",
+              "time": "2026-11-27T00:45:00+07:00",
+              "time_label": "27/11 00:45",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-edq09ilv69eheqx",
+              "title": "Borac Banja Luka vs Atalanta B.C.",
+              "home": "Borac Banja Luka",
+              "away": "Atalanta B.C.",
+              "home_logo": "https://img.cltvap.cc/football/team/538d312c2512ebda3129f105db04e5e5.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/45c9647899b8bf2fb6f988c6c33b964c.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-vrqwni4xw6wu4qn",
+              "title": "Braga vs CLB KuPs",
+              "home": "Braga",
+              "away": "CLB KuPs",
+              "home_logo": "https://img.cltvap.cc/football/team/1fe75f826dab40e6e89cbe961c7e9116.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/1fced0158de1169e9bc3209f4ab98e84.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-ezk96i3v40vc1kn",
+              "title": "KAA Gent vs Câu lạc bộ Bóng đá Sao Đỏ",
+              "home": "KAA Gent",
+              "away": "Câu lạc bộ Bóng đá Sao Đỏ",
+              "home_logo": "https://img.cltvap.cc/football/team/59e9be1ed056bdc0025f6064316485fe.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/61a1f9406cde098a265280a3683da9b7.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-9gklzi1zgn4im7x",
+              "title": "SC Freiburg vs Twente",
+              "home": "SC Freiburg",
+              "away": "Twente",
+              "home_logo": "https://img.cltvap.cc/football/team/6508946c9a5fe22a8784b905b25e8c79.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/7a2d0c79dd5d8589167c88684ac55aca.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 3
@@ -2784,6 +2025,308 @@
               "status": "scheduled",
               "score": "",
               "stream_count": 3
+            },
+            {
+              "id": "mhd-match-9gklzi1zgy9im7x",
+              "title": "Besiktas JK vs Hapoel Beer Sheva",
+              "home": "Besiktas JK",
+              "away": "Hapoel Beer Sheva",
+              "home_logo": "https://img.cltvap.cc/football/team/83ba0474d144e49f060789cfa904e226.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/8ec7fbdf73ede9a83738f1382bcc1353.png!w80",
+              "time": "2026-11-27T00:45:00+07:00",
+              "time_label": "27/11 00:45",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-vmqy9ivg2p8ugk9",
+              "title": "Crystal Palace vs Real Sociedad",
+              "home": "Crystal Palace",
+              "away": "Real Sociedad",
+              "home_logo": "https://img.cltvap.cc/football/team/42396d18444156e640c37476c2b41b93.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/579db6e95905545973035e6eab8df2cd.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-jr7owip5ez3tgq0",
+              "title": "Olympique Lyonnais vs Lillestrom",
+              "home": "Olympique Lyonnais",
+              "away": "Lillestrom",
+              "home_logo": "https://img.cltvap.cc/football/team/92fb3cf79ea2ba919b94b04668e13491.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/f46fa570a21dc0f62e327d211a98ebaa.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-vmqy9ivg28zhgk9",
+              "title": "Juventus F.C. vs Omonia",
+              "home": "Juventus F.C.",
+              "away": "Omonia",
+              "home_logo": "https://img.cltvap.cc/football/team/dc0e43b95c6676c54415bac168472aa4.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/21fdafedb4eed8612da51c6c236b3d63.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-vrqwni4xwnws4qn",
+              "title": "TSG 1899 Hoffenheim vs Sturm Graz",
+              "home": "TSG 1899 Hoffenheim",
+              "away": "Sturm Graz",
+              "home_logo": "https://img.cltvap.cc/football/team/72ab7862a610b350aef7650ec0e06e06.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/4cc9044aed34f71c4e79bd260ea938fb.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-527r3i4o8v3i47e",
+              "title": "Ferencvarosi TC vs Celje",
+              "home": "Ferencvarosi TC",
+              "away": "Celje",
+              "home_logo": "https://img.cltvap.cc/football/team/202e45f30a94193466ba2ae8a96e7685.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/a893553fb0ef04426d914ac3eb07433b.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-ndqmliwr1j0srkv",
+              "title": "Sparta vs AZ Alkmaar",
+              "home": "Sparta",
+              "away": "AZ Alkmaar",
+              "home_logo": "https://img.cltvap.cc/football/team/5b8479ebddd13feeef3165a1393aad19.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/e52b745126bbb6bdddc90b91b44413ae.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-jr7owip5evwtgq0",
+              "title": "Sunderland vs Jagiellonia Bialystok",
+              "home": "Sunderland",
+              "away": "Jagiellonia Bialystok",
+              "home_logo": "https://img.cltvap.cc/football/team/957bdc50c307e2a9b526b34b3792da1a.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/b0fa01690e4a5c944c861b245b42d5b4.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-63kv9ig1d2mtx7e",
+              "title": "Torreense vs Celtic",
+              "home": "Torreense",
+              "away": "Celtic",
+              "home_logo": "https://img.cltvap.cc/football/team/3555977b288a6b8b02f876b0e5a1da53.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/4952d00987ef86afeda3204d66ac3fd6.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-o07dni5xj1xamkn",
+              "title": "CLB NEC Nijmegen vs Stade Rennais",
+              "home": "CLB NEC Nijmegen",
+              "away": "Stade Rennais",
+              "home_logo": "https://img.cltvap.cc/football/team/d22de494a1ff648e90892c249c5aed12.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/eab8f0e847742fd328bb581299bd99ca.png!w80",
+              "time": "2026-11-27T03:00:00+07:00",
+              "time_label": "27/11 03:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
+          "name": "NCAA",
+          "logo": "https://img.cltvap.cc/basketball/competition/b60c026d0c03af082035714ac096d1b0.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-wv784sxlzp2hoqr",
+              "title": "UCLA vs St. Marys (CA)",
+              "home": "UCLA",
+              "away": "St. Marys (CA)",
+              "home_logo": "https://img.cltvap.cc/basketball/team/22914374027227fe756f0efab86a7b53.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/3f23c2d4ed0305800353a8799c2a4830.png!w80",
+              "time": "2026-11-27T05:00:00+07:00",
+              "time_label": "27/11 05:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-edq0esd3r6wiekx",
+              "title": "LSU vs Southern Methodist",
+              "home": "LSU",
+              "away": "Southern Methodist",
+              "home_logo": "https://img.cltvap.cc/basketball/team/dca2c70b3ed5afb137fc366112f1a05c.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/b6598f6b6b25ce122c0d7a8af14c2926.png!w80",
+              "time": "2026-11-27T07:00:00+07:00",
+              "time_label": "27/11 07:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-ndkzysnwymeax73",
+              "title": "UC Davis vs Jacksonville State",
+              "home": "UC Davis",
+              "away": "Jacksonville State",
+              "home_logo": "https://img.cltvap.cc/basketball/team/998d252d8a644c3193e8f96740c8e198.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/a0140431f709cb7d7caab1b9cadbb9ec.png!w80",
+              "time": "2026-11-27T08:00:00+07:00",
+              "time_label": "27/11 08:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            },
+            {
+              "id": "mhd-match-o17p8syxm6ghykj",
+              "title": "Nebraska O. vs Pacific",
+              "home": "Nebraska O.",
+              "away": "Pacific",
+              "home_logo": "https://img.cltvap.cc/basketball/team/f1dff0ffc4b6490aa244f2fd040be5ba.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/402e4e3d93de592a0bb7cc75e9418e33.png!w80",
+              "time": "2026-11-27T10:30:00+07:00",
+              "time_label": "27/11 10:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
+          "name": "Giải Vô địch Bóng đá Quốc gia Mexico",
+          "logo": "https://img.cltvap.cc/football/competition/324d7a463a24c4cd35ef83456a1b8d05.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-jek33im6l63s9ko",
+              "title": "Club Leon vs Cruz Azul",
+              "home": "Club Leon",
+              "away": "Cruz Azul",
+              "home_logo": "https://img.cltvap.cc/football/team/4695f653aca6ac49ff2baa4a961fa67b.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/2addd50487c8f61276d5fff8714f6a5c.png!w80",
+              "time": "2026-11-27T10:10:00+07:00",
+              "time_label": "27/11 10:10",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
+          "name": "Giải Bóng Rổ Chuyên Nghiệp Nữ Úc",
+          "logo": "https://img.cltvap.cc/basketball/competition/adfacd9ff5bd3d2c98649d33a48acd92.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-o17p8syg54luykj",
+              "title": "UC Capitals Women vs Melbourne Boomers Nữ",
+              "home": "UC Capitals Women",
+              "away": "Melbourne Boomers Nữ",
+              "home_logo": "https://img.cltvap.cc/basketball/team/0bf8d00e9a4df141d819d0be02302d42.png!w80",
+              "away_logo": "https://img.cltvap.cc/basketball/team/fe4551d50f277a51e90aa7ed33eaa721.png!w80",
+              "time": "2026-11-27T15:00:00+07:00",
+              "time_label": "27/11 15:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
+          "name": "Aus Champ",
+          "logo": "https://img.cltvap.cc/football/competition/24c4935c711f8829dafcea8715df5702.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-ndkz6i2z5o5sxq3",
+              "title": "CLB Broadmeadow Magic vs CLB Queensland Lions SC",
+              "home": "CLB Broadmeadow Magic",
+              "away": "CLB Queensland Lions SC",
+              "home_logo": "https://img.cltvap.cc/football/team/4f0ff310b253f34bfd414c5b2502082c.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png!w80",
+              "time": "2026-11-27T15:30:00+07:00",
+              "time_label": "27/11 15:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
+          "name": "Giải Bóng đá Hạng Nhất Quốc Gia Việt Nam",
+          "logo": "https://img.cltvap.cc/football/competition/0edff1472edca4aeeec7534f0bceb230.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-edq09il6wyrbeqx",
+              "title": "Huế vs Đồng Tâm Long An",
+              "home": "Huế",
+              "away": "Đồng Tâm Long An",
+              "home_logo": "https://img.cltvap.cc/football/team/d183acf4e1500de34a9bb72ff77f2ecc.jpg!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/347d428c24e85dbda67f7817e7d80ebf.png!w80",
+              "time": "2026-11-27T15:30:00+07:00",
+              "time_label": "27/11 15:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
+          "name": "Giải vô địch quốc gia Úc",
+          "logo": "https://img.cltvap.cc/football/competition/76722a157176d354a952c671bb46cc7e.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-69759igp30pigk2",
+              "title": "CLB Macarthur vs Clb Melbourne city",
+              "home": "CLB Macarthur",
+              "away": "Clb Melbourne city",
+              "home_logo": "https://img.cltvap.cc/football/team/d7c8728e57f2aec43b46422d3d37ab9e.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/36806061ca70613f4c30f1211ee0b1ba.png!w80",
+              "time": "2026-11-27T15:40:00+07:00",
+              "time_label": "27/11 15:40",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
+            }
+          ]
+        },
+        {
+          "name": "Giải Bóng đá Ngoại hạng Azerbaijan",
+          "logo": "https://img.cltvap.cc/football/competition/fef1f81febbe012e11f987726f8fef15.png!w80",
+          "matches": [
+            {
+              "id": "mhd-match-527r3i4dl4nf47e",
+              "title": "Mil-Mugan FK vs Safa Baku",
+              "home": "Mil-Mugan FK",
+              "away": "Safa Baku",
+              "home_logo": "https://img.cltvap.cc/football/team/22fa18548e3651bad37de2fb9fcad603.png!w80",
+              "away_logo": "https://img.cltvap.cc/football/team/898fe8e20ed784971f120533baec32f2.png!w80",
+              "time": "2026-11-27T17:30:00+07:00",
+              "time_label": "27/11 17:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 3
             }
           ]
         }
@@ -2796,91 +2339,411 @@
       "initial": "P",
       "logo": "https://raw.githubusercontent.com/xiaomi308hd/thumbnail/main/phalangtv.png",
       "playlist": "thethao-plapi.m3u",
-      "ok": false,
-      "stale": true,
-      "error": "HTTP 522: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-522/\",\"title\":\"Error 522: Connection timed out\",\"status\":522,\"detail\":\"Cloudflare could not establish a TCP connection to the origin server. The TCP handshake timed out, which m",
-      "match_count": 28,
-      "stream_count": 28,
+      "ok": true,
+      "stale": false,
+      "error": "",
+      "match_count": 39,
+      "stream_count": 41,
       "leagues": [
         {
-          "name": "Italian Serie B",
+          "name": "UEFA Youth League",
           "logo": "",
           "matches": [
             {
-              "id": "mhd-match-pxwrxlhy4765ryk",
-              "title": "Juve Stabia vs Catanzaro",
-              "home": "Juve Stabia",
-              "away": "Catanzaro",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/9dn1m1gh60kmoep/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/vl7oqdehwlor510/image/small",
-              "time": "2026-11-25T01:00:00+07:00",
-              "time_label": "25/11 01:00",
+              "id": "mhd-match-3glrw7hndnn4qdy",
+              "title": "Sporting CP U19 vs Manchester Utd U19",
+              "home": "Sporting CP U19",
+              "away": "Manchester Utd U19",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllh2zlwqvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhlnx2qwzv/image/small",
+              "time": "2026-11-25T20:00:00+07:00",
+              "time_label": "25/11 20:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-2y8m4zh5on2xql0",
-              "title": "Cesena vs Ascoli",
-              "home": "Cesena",
-              "away": "Ascoli",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh6nlq1zp/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7h2ldqdyj/image/small",
-              "time": "2026-11-25T02:00:00+07:00",
-              "time_label": "25/11 02:00",
+              "id": "mhd-match-l7oqdehg7ggdr51",
+              "title": "Club Brugge U19 vs Liverpool U19",
+              "home": "Club Brugge U19",
+              "away": "Liverpool U19",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hnd66rz84/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7pho54xm2wd/image/small",
+              "time": "2026-11-25T21:00:00+07:00",
+              "time_label": "25/11 21:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-3glrw7hn80xnqdy",
-              "title": "Vicenza vs Carrarese",
-              "home": "Vicenza",
-              "away": "Carrarese",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vl7oqdehw3zr510/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhg2y2ryk0/image/small",
-              "time": "2026-11-25T02:00:00+07:00",
-              "time_label": "25/11 02:00",
+              "id": "mhd-match-8yomo4h1n11gq0j",
+              "title": "PSG U19 vs AS Roma U19",
+              "home": "PSG U19",
+              "away": "AS Roma U19",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4lg8moep/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh4l31m0ve/image/small",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-6ypq3nhv9g27md7",
-              "title": "ACD Virtus Entella vs Verona",
-              "home": "ACD Virtus Entella",
-              "away": "Verona",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hee4qo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzghkgdq82w/image/small",
-              "time": "2026-11-25T02:00:00+07:00",
-              "time_label": "25/11 02:00",
+              "id": "mhd-match-jw2r09hk8kkprz8",
+              "title": "Atletico Madrid U19 vs Viking U19",
+              "home": "Atletico Madrid U19",
+              "away": "Viking U19",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zhjxw0ql07/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66h04y7qo9j/image/small",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Indian League Division 1",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-965mkyh874oxr1g",
+              "title": "Shillong Lajong FC vs Nagaland",
+              "home": "Shillong Lajong FC",
+              "away": "Nagaland",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh4no6m0ve/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hv5deqo9j/image/small",
+              "time": "2026-11-25T20:00:00+07:00",
+              "time_label": "25/11 20:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "FIFA U17 World Cup",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-965mkyhk0x57r1g",
+              "title": "Haiti U17 vs Ả Rập Xê Út U17",
+              "home": "Haiti U17",
+              "away": "Ả Rập Xê Út U17",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hw62wqdyj/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8vy5q86p/image/small",
+              "time": "2026-11-25T20:30:00+07:00",
+              "time_label": "25/11 20:30",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-dj2ryohlo5w5q1z",
-              "title": "Benevento vs Empoli",
-              "home": "Benevento",
-              "away": "Empoli",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hpjvq86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhoddm7vx/image/small",
-              "time": "2026-11-25T02:00:00+07:00",
-              "time_label": "25/11 02:00",
+              "id": "mhd-match-y0or5jh8wk6kqwz",
+              "title": "Uruguay U17 vs Pháp U17",
+              "home": "Uruguay U17",
+              "away": "Pháp U17",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh46o0m0ve/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh6zpem7vx/image/small",
+              "time": "2026-11-25T20:30:00+07:00",
+              "time_label": "25/11 20:30",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-y0or5jh8pjvwqwz",
-              "title": "Palermo vs Südtirol",
-              "home": "Palermo",
-              "away": "Südtirol",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllh6wkqvy9/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdehn445r510/image/small",
-              "time": "2026-11-25T02:00:00+07:00",
-              "time_label": "25/11 02:00",
+              "id": "mhd-match-6ypq3nhvpoevmd7",
+              "title": "Panama U17 vs Ai Cập U17",
+              "home": "Panama U17",
+              "away": "Ai Cập U17",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh09vjmd7o/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh55jemd7o/image/small",
+              "time": "2026-11-25T21:30:00+07:00",
+              "time_label": "25/11 21:30",
               "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-ednm9whwp4x8ryo",
+              "title": "Hy Lạp U17 vs Qatar U17",
+              "home": "Hy Lạp U17",
+              "away": "Qatar U17",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh4586r6od/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gy0or5jhpzjqwzv/image/small",
+              "time": "2026-11-25T21:30:00+07:00",
+              "time_label": "25/11 21:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-1l4rjnh9d028m7v",
+              "title": "Đan Mạch U17 vs Argentina U17",
+              "home": "Đan Mạch U17",
+              "away": "Argentina U17",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhljpeqwzv/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4h7jp3q0j6/image/small",
+              "time": "2026-11-25T22:30:00+07:00",
+              "time_label": "25/11 22:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 2
+            },
+            {
+              "id": "mhd-match-jw2r09hkgv6krz8",
+              "title": "Australia U17 vs Mozambique U17",
+              "home": "Australia U17",
+              "away": "Mozambique U17",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hw0jyqdyj/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkh1jyqg8n/image/small",
+              "time": "2026-11-25T22:30:00+07:00",
+              "time_label": "25/11 22:30",
+              "status": "live",
+              "score": "",
+              "stream_count": 2
+            }
+          ]
+        },
+        {
+          "name": "Italian Serie C",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-l5ergph49v37r8k",
+              "title": "Audace Cerignola vs Inter Milan U23",
+              "home": "Audace Cerignola",
+              "away": "Inter Milan U23",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhy9x7repz/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh1pnymoep/image/small",
+              "time": "2026-11-25T20:30:00+07:00",
+              "time_label": "25/11 20:30",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "AFC Champions League Two",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-3glrw7hnxl10qdy",
+              "title": "Nasaf Qarshi vs Al Khaldiya",
+              "home": "Nasaf Qarshi",
+              "away": "Al Khaldiya",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phl2gm2wd/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohg20wq1zp/image/small",
+              "time": "2026-11-25T20:45:00+07:00",
+              "time_label": "25/11 20:45",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-1l4rjnh9831gm7v",
+              "title": "Al Jazira vs Gol Gohar FC",
+              "home": "Al Jazira",
+              "away": "Gol Gohar FC",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhgzperyk0/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whknnwryox/image/small",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-jw2r09hkepxlrz8",
+              "title": "Al Muharraq vs Arkadag FK",
+              "home": "Al Muharraq",
+              "away": "Arkadag FK",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyhv8vr1ge/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghx4gjq82w/image/small",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-n54qllhnlkx7qvy",
+              "title": "Al-Faisaly Amman vs Al-Rayyan SC",
+              "home": "Al-Faisaly Amman",
+              "away": "Al-Rayyan SC",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hl4lprz84/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h391pmojx/image/small",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-vjxm8ghen2g3r6o",
+              "title": "Al Kuwait SC vs Al-Wahda FC",
+              "home": "Al Kuwait SC",
+              "away": "Al-Wahda FC",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hl21grz84/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh4152m0ve/image/small",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-pxwrxlhy6292ryk",
+              "title": "Al Taawoun vs Al Nahda",
+              "home": "Al Taawoun",
+              "away": "Al Nahda",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghj93nq82w/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkh3403qg8n/image/small",
+              "time": "2026-11-26T01:15:00+07:00",
+              "time_label": "26/11 01:15",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "GCC Champions League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-jw2r09h54o94rz8",
+              "title": "Kazma vs Erbil",
+              "home": "Kazma",
+              "away": "Erbil",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllh2d7pqvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhlejwqwzv/image/small",
+              "time": "2026-11-25T21:00:00+07:00",
+              "time_label": "25/11 21:00",
+              "status": "scheduled",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Russian Cup",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-318q66hxp77vqo9",
+              "title": "Terek Grozny vs FK Krasnodar",
+              "home": "Terek Grozny",
+              "away": "FK Krasnodar",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/9dn1m1ghd6wmoep/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hn20q86p/image/small",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-dn1m1ghlzoo3moe",
+              "title": "Dynamo Makhachkala vs Baltika Kaliningrad",
+              "home": "Dynamo Makhachkala",
+              "away": "Baltika Kaliningrad",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghz9dyq82w/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh484pr6od/image/small",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Portuguese U23 League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-6ypq3nhvjn8jmd7",
+              "title": "Famalicao U23 vs Gil Vicente U23",
+              "home": "Famalicao U23",
+              "away": "Gil Vicente U23",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghz9gvq82w/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghp83dr6od/image/small",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-k82rekhg7xl7rep",
+              "title": "Moreirense U23 vs Penafiel U23",
+              "home": "Moreirense U23",
+              "away": "Penafiel U23",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whenjeryox/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh1287m0ve/image/small",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Slovenia Cup",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-965mkyh87wvdr1g",
+              "title": "Tabor Sezana vs NK Fuzinar",
+              "home": "Tabor Sezana",
+              "away": "NK Fuzinar",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhv153repz/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllh2z6pqvy9/image/small",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Georgia Erovnuli Liga",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-dn1m1ghl24nxmoe",
+              "title": "FC Metalurgi Rustavi vs FC Meshakhte Tkibuli",
+              "home": "FC Metalurgi Rustavi",
+              "away": "FC Meshakhte Tkibuli",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkh3xzzqg8n/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zh327jql07/image/small",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
+              "score": "",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Russian First League",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-k82rekhgpvxgrep",
+              "title": "FC KAMAZ vs Yenisey",
+              "home": "FC KAMAZ",
+              "away": "Yenisey",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/yl5ergphz7kr8k0/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhg81gryk0/image/small",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
@@ -2891,27 +2754,33 @@
           "logo": "",
           "matches": [
             {
-              "id": "mhd-match-vjxm8ghezd71r6o",
-              "title": "EL Masry vs Asyut Petroleum",
-              "home": "EL Masry",
-              "away": "Asyut Petroleum",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hoj5zqo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh0e0zmd7o/image/small",
-              "time": "2026-11-25T01:00:00+07:00",
-              "time_label": "25/11 01:00",
-              "status": "scheduled",
+              "id": "mhd-match-n54qllhnogwvqvy",
+              "title": "Talaea El Gaish vs Future FC",
+              "home": "Talaea El Gaish",
+              "away": "Future FC",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh4830r6od/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4h2kddq0j6/image/small",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "live",
               "score": "",
               "stream_count": 1
-            },
+            }
+          ]
+        },
+        {
+          "name": "Saudi Arabia Division 1",
+          "logo": "",
+          "matches": [
             {
-              "id": "mhd-match-y0or5jh82ywvqwz",
-              "title": "Arab Contractors vs Alqana",
-              "home": "Arab Contractors",
-              "away": "Alqana",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh44zor6od/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hpdjq0j6/image/small",
-              "time": "2026-11-25T01:00:00+07:00",
-              "time_label": "25/11 01:00",
+              "id": "mhd-match-vjxm8ghe1z7dr6o",
+              "title": "Al Ula FC vs Al-Adalah",
+              "home": "Al Ula FC",
+              "away": "Al-Adalah",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhvjo0ryk0/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhv2k2repz/image/small",
+              "time": "2026-11-25T22:10:00+07:00",
+              "time_label": "25/11 22:10",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
@@ -2919,160 +2788,37 @@
           ]
         },
         {
-          "name": "AFC Champions League Elite",
+          "name": "Champions League Women - Vòng 1",
           "logo": "",
           "matches": [
             {
-              "id": "mhd-match-3glrw7hnxllnqdy",
-              "title": "Al Nassr vs Al Sadd",
-              "home": "Al Nassr",
-              "away": "Al Sadd",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hoklkqo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhdn6ryk0/image/small",
-              "time": "2026-11-25T01:15:00+07:00",
-              "time_label": "25/11 01:15",
-              "status": "scheduled",
+              "id": "mhd-match-45b299122a0e467a9e6c2da1994fb296",
+              "title": "Vakifbank Women vs Asterix Avo Women",
+              "home": "Vakifbank Women",
+              "away": "Asterix Avo Women",
+              "home_logo": "https://static.flashscore.com/res/image/data/YRICRqzB-A3UKTsyj.png",
+              "away_logo": "https://static.flashscore.com/res/image/data/Yu96ScBr-Uui6MKoK.png",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
               "score": "",
               "stream_count": 1
             }
           ]
         },
         {
-          "name": "English Football League Championship",
+          "name": "Kuwaiti Emir Cup",
           "logo": "",
           "matches": [
             {
-              "id": "mhd-match-318q66hxpv0vqo9",
-              "title": "Sheffield United vs Southampton",
-              "home": "Sheffield United",
-              "away": "Southampton",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hjx1q0j6/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/jednm9whlperyox/image/small",
-              "time": "2026-11-25T02:45:00+07:00",
-              "time_label": "25/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-4wyrn4h6ndevq86",
-              "title": "Bristol City vs Wrexham",
-              "home": "Bristol City",
-              "away": "Wrexham",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhzyoqg8n/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nholnmd7o/image/small",
-              "time": "2026-11-25T02:45:00+07:00",
-              "time_label": "25/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-965mkyhkx34lr1g",
-              "title": "Charlton Athletic vs Lincoln City",
-              "home": "Charlton Athletic",
-              "away": "Lincoln City",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzghedzq82w/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/z318q66h9goqo9j/image/small",
-              "time": "2026-11-25T02:45:00+07:00",
-              "time_label": "25/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-jw2r09hkvxnprz8",
-              "title": "Middlesbrough vs Swansea City",
-              "home": "Middlesbrough",
-              "away": "Swansea City",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhy90qvy9/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7ph6jzm2wd/image/small",
-              "time": "2026-11-25T02:45:00+07:00",
-              "time_label": "25/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-k82rekhg4y99rep",
-              "title": "Portsmouth vs West Ham",
-              "home": "Portsmouth",
-              "away": "West Ham",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/9k82rekhdj6repz/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gy0or5jhdwxqwzv/image/small",
-              "time": "2026-11-25T02:45:00+07:00",
-              "time_label": "25/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-l5ergph46v3pr8k",
-              "title": "Cardiff City vs Preston North",
-              "home": "Cardiff City",
-              "away": "Preston North",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhwenryk0/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8gho0nr6od/image/small",
-              "time": "2026-11-25T02:45:00+07:00",
-              "time_label": "25/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-y39mp1h6nj53moj",
-              "title": "Norwich City vs QPR",
-              "home": "Norwich City",
-              "away": "QPR",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/8y39mp1h8epmojx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/yl5ergphj16r8k0/image/small",
-              "time": "2026-11-25T02:45:00+07:00",
-              "time_label": "25/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-dn1m1ghlzne3moe",
-              "title": "Wolverhampton vs Derby County",
-              "home": "Wolverhampton",
-              "away": "Derby County",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7he51qdyj/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8y39mp1h8wjmojx/image/small",
-              "time": "2026-11-25T03:00:00+07:00",
-              "time_label": "25/11 03:00",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "English Football League One",
-          "logo": "",
-          "matches": [
-            {
-              "id": "mhd-match-3glrw7hn5kd1qdy",
-              "title": "Blackpool vs Leicester",
-              "home": "Blackpool",
-              "away": "Leicester",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/gy0or5jhd9xqwzv/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hjonq0j6/image/small",
-              "time": "2026-11-25T02:45:00+07:00",
-              "time_label": "25/11 02:45",
-              "status": "scheduled",
-              "score": "",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-4wyrn4h6nzjxq86",
-              "title": "Bradford City vs Barnsley",
-              "home": "Bradford City",
-              "away": "Barnsley",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8gholnr6od/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhy42qvy9/image/small",
-              "time": "2026-11-25T02:45:00+07:00",
-              "time_label": "25/11 02:45",
+              "id": "mhd-match-l5ergphko1d7r8k",
+              "title": "Al Qadisiya SC vs Al Fahaheel SC",
+              "home": "Al Qadisiya SC",
+              "away": "Al Fahaheel SC",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/z318q66he8lqo9j/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh422em0ve/image/small",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
@@ -3084,131 +2830,119 @@
           "logo": "",
           "matches": [
             {
-              "id": "mhd-match-1l4rjnh98o4lm7v",
-              "title": "Man City vs Napoli",
-              "home": "Man City",
-              "away": "Napoli",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzghvdoq82w/image/small",
-              "time": "2026-11-25T03:00:00+07:00",
-              "time_label": "25/11 03:00",
+              "id": "mhd-match-l5ergph4zx4xr8k",
+              "title": "Sabah FK vs Barcelona",
+              "home": "Sabah FK",
+              "away": "Barcelona",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkhddk0qg8n/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4h127q86p/image/small",
+              "time": "2026-11-26T00:45:00+07:00",
+              "time_label": "26/11 00:45",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-23xmvkh6e1ywqg8",
-              "title": "Slovan Bratislava vs Real Betis",
-              "home": "Slovan Bratislava",
-              "away": "Real Betis",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nhyy4md7o/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhz9nqg8n/image/small",
-              "time": "2026-11-25T03:00:00+07:00",
-              "time_label": "25/11 03:00",
+              "id": "mhd-match-x7lm7phjlyx9m2w",
+              "title": "Slavia vs Villarreal",
+              "home": "Slavia",
+              "away": "Villarreal",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/vl7oqdehk56r510/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hvwwrz84/image/small",
+              "time": "2026-11-26T00:45:00+07:00",
+              "time_label": "26/11 00:45",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-965mkyhkjd11r1g",
-              "title": "Arsenal vs Dortmund",
-              "home": "Arsenal",
-              "away": "Dortmund",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hdd1qo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzghe4nq82w/image/small",
-              "time": "2026-11-25T03:00:00+07:00",
-              "time_label": "25/11 03:00",
+              "id": "mhd-match-6ypq3nhv2yk0md7",
+              "title": "Shakhtar Donetsk vs Fenerbahce",
+              "home": "Shakhtar Donetsk",
+              "away": "Fenerbahce",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4h1p1q86p/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nhdpymd7o/image/small",
+              "time": "2026-11-26T03:00:00+07:00",
+              "time_label": "26/11 03:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-jw2r09hkey03rz8",
-              "title": "Como vs AEK Athens",
-              "home": "Como",
-              "away": "AEK Athens",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hnz4q0j6/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9y8ql07/image/small",
-              "time": "2026-11-25T03:00:00+07:00",
-              "time_label": "25/11 03:00",
+              "id": "mhd-match-8yomo4h1wl3eq0j",
+              "title": "LOSC vs Bayern Munich",
+              "home": "LOSC",
+              "away": "Bayern Munich",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7h2pdqdyj/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/yl5ergphjy2r8k0/image/small",
+              "time": "2026-11-26T03:00:00+07:00",
+              "time_label": "26/11 03:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-n54qllhnlgnkqvy",
-              "title": "RB Leipzig vs Lens",
-              "home": "RB Leipzig",
-              "away": "Lens",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hdleqo9j/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/jednm9wh4jjryox/image/small",
-              "time": "2026-11-25T03:00:00+07:00",
-              "time_label": "25/11 03:00",
+              "id": "mhd-match-965mkyhkjdo1r1g",
+              "title": "Club Brugge vs Liverpool",
+              "home": "Club Brugge",
+              "away": "Liverpool",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghowor6od/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhw8gryk0/image/small",
+              "time": "2026-11-26T03:00:00+07:00",
+              "time_label": "26/11 03:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-x7lm7phjly39m2w",
-              "title": "Feyenoord vs FC Porto",
-              "home": "Feyenoord",
-              "away": "FC Porto",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghdeom0ve/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhwl4ryk0/image/small",
-              "time": "2026-11-25T03:00:00+07:00",
-              "time_label": "25/11 03:00",
-              "status": "live",
+              "id": "mhd-match-ednm9whwjy57ryo",
+              "title": "SCP vs Man Utd",
+              "home": "SCP",
+              "away": "Man Utd",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhyydqvy9/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyh98gr1ge/image/small",
+              "time": "2026-11-26T03:00:00+07:00",
+              "time_label": "26/11 03:00",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             },
             {
-              "id": "mhd-match-zp5rzghgnvg4q82",
-              "title": "Real Madrid vs PSV Eindhoven",
-              "home": "Real Madrid",
-              "away": "PSV Eindhoven",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4h111q86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7h5klqdyj/image/small",
-              "time": "2026-11-25T03:00:00+07:00",
-              "time_label": "25/11 03:00",
+              "id": "mhd-match-jw2r09hkey93rz8",
+              "title": "Atl. Madrid vs Viking",
+              "home": "Atl. Madrid",
+              "away": "Viking",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghodjr6od/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/9dn1m1ghz8emoep/image/small",
+              "time": "2026-11-26T03:00:00+07:00",
+              "time_label": "26/11 03:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Scottish Premiership",
-          "logo": "",
-          "matches": [
+            },
             {
-              "id": "mhd-match-pxwrxlhyw0ygryk",
-              "title": "Rangers vs Aberdeen",
-              "home": "Rangers",
-              "away": "Aberdeen",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh0ydq1zp/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hd2jqo9j/image/small",
-              "time": "2026-11-25T03:00:00+07:00",
-              "time_label": "25/11 03:00",
+              "id": "mhd-match-k82rekhg5p0erep",
+              "title": "Inter vs Stuttgart",
+              "home": "Inter",
+              "away": "Stuttgart",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/9dn1m1ghzl2moep/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phd7em2wd/image/small",
+              "time": "2026-11-26T03:00:00+07:00",
+              "time_label": "26/11 03:00",
               "status": "scheduled",
               "score": "",
               "stream_count": 1
-            }
-          ]
-        },
-        {
-          "name": "Brazilian Serie A",
-          "logo": "",
-          "matches": [
+            },
             {
-              "id": "mhd-match-l7oqdehg8ne8r51",
-              "title": "Chapecoense SC vs Palmeiras",
-              "home": "Chapecoense SC",
-              "away": "Palmeiras",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghjj5m0ve/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh993q82w/image/small",
-              "time": "2026-11-25T04:00:00+07:00",
-              "time_label": "25/11 04:00",
-              "status": "live",
+              "id": "mhd-match-l7oqdehgvwo5r51",
+              "title": "PSG vs AS Roma",
+              "home": "PSG",
+              "away": "AS Roma",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hv44rz84/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phel7m2wd/image/small",
+              "time": "2026-11-26T03:00:00+07:00",
+              "time_label": "26/11 03:00",
+              "status": "scheduled",
               "score": "",
               "stream_count": 1
             }
@@ -3372,7 +3106,7 @@
               "away_logo": "https://images.keovip88.net/images/teams/port-fc.png",
               "time": "2026-11-25T17:00:00+07:00",
               "time_label": "25/11 17:00",
-              "status": "Chưa bắt đầu",
+              "status": "Kết thúc",
               "score": "",
               "stream_count": 2
             },
@@ -3385,7 +3119,7 @@
               "away_logo": "https://images.keovip88.net/images/teams/jeonbuk-hyundai-motors.png",
               "time": "2026-11-25T17:00:00+07:00",
               "time_label": "25/11 17:00",
-              "status": "Chưa bắt đầu",
+              "status": "Kết thúc",
               "score": "",
               "stream_count": 2
             }
@@ -3733,7 +3467,7 @@
               "away_logo": "https://images.keovip88.net/images/teams/south-korea-u17.png",
               "time": "2026-11-25T19:30:00+07:00",
               "time_label": "25/11 19:30",
-              "status": "Chưa bắt đầu",
+              "status": "Kết thúc",
               "score": "",
               "stream_count": 2
             },
@@ -3746,20 +3480,7 @@
               "away_logo": "https://images.keovip88.net/images/teams/france-u17.png",
               "time": "2026-11-25T20:30:00+07:00",
               "time_label": "25/11 20:30",
-              "status": "Chưa bắt đầu",
-              "score": "",
-              "stream_count": 2
-            },
-            {
-              "id": "mhd-match-6a1393a75618a0eb770ad62c",
-              "title": "Denmark U17 vs Argentina U17",
-              "home": "Denmark U17",
-              "away": "Argentina U17",
-              "home_logo": "https://images.keovip88.net/images/teams/denmark-u17.png",
-              "away_logo": "https://images.keovip88.net/images/teams/argentina-u17.png",
-              "time": "2026-11-25T22:30:00+07:00",
-              "time_label": "25/11 22:30",
-              "status": "Chưa bắt đầu",
+              "status": "Kết thúc",
               "score": "",
               "stream_count": 2
             },
@@ -3895,7 +3616,7 @@
               "away_logo": "https://images.keovip88.net/images/teams/fc-seoul.png",
               "time": "2026-11-25T19:15:00+07:00",
               "time_label": "25/11 19:15",
-              "status": "Chưa bắt đầu",
+              "status": "Kết thúc",
               "score": "",
               "stream_count": 2
             },
@@ -4216,6 +3937,19 @@
               "status": "Chưa bắt đầu",
               "score": "",
               "stream_count": 2
+            },
+            {
+              "id": "mhd-match-6a93737afccd5ecc44060e61",
+              "title": "Atletico Madrid vs Viking",
+              "home": "Atletico Madrid",
+              "away": "Viking",
+              "home_logo": "https://images.keovip88.net/images/teams/atletico-madrid.png",
+              "away_logo": "https://images.keovip88.net/images/teams/viking.png",
+              "time": "2026-11-26T03:00:00+07:00",
+              "time_label": "26/11 03:00",
+              "status": "Chưa bắt đầu",
+              "score": "",
+              "stream_count": 2
             }
           ]
         },
@@ -4232,7 +3966,7 @@
               "away_logo": "https://images.keovip88.net/images/teams/cerezo-osaka.png",
               "time": "2026-11-25T17:30:00+07:00",
               "time_label": "25/11 17:30",
-              "status": "Chưa bắt đầu",
+              "status": "Kết thúc",
               "score": "",
               "stream_count": 2
             }
@@ -4251,7 +3985,7 @@
               "away_logo": "https://images.keovip88.net/images/teams/birmingham-city.png",
               "time": "2026-11-26T02:45:00+07:00",
               "time_label": "26/11 02:45",
-              "status": "Chưa bắt đầu",
+              "status": "Kết thúc",
               "score": "",
               "stream_count": 2
             },
@@ -4589,40 +4323,116 @@
       "stream_count": 14,
       "leagues": [
         {
-          "name": "Giải bóng đá hạng ba Nhật Bản",
-          "logo": "https://static.wex1sora.com/thesports/football/competition/86e0ba5b90deead69f3d7f7ffe3e7289.png",
+          "name": "Giải Ngoại hạng Ai Cập",
+          "logo": "https://static.wex1sora.com/thesports/football/competition/c840aa9f8b4c65b1441bb36459a40642.png",
           "matches": [
             {
-              "id": "mhd-match-l7oqdehgzgpor51",
-              "title": "FC Ryukyu vs Roasso Kumamoto",
-              "home": "FC Ryukyu",
-              "away": "Roasso Kumamoto",
-              "home_logo": "https://static.wex1sora.com/thesports/football/team/78032edddbd8c3c0c21c79f259b2185a.png",
-              "away_logo": "https://static.wex1sora.com/thesports/football/team/809e95942827f1fca7b6c5cffd4777cb.png",
-              "time": "2026-11-25T10:00:00+07:00",
-              "time_label": "25/11 10:00",
+              "id": "mhd-match-n54qllhnogwvqvy",
+              "title": "El Gaish vs FC tương lai",
+              "home": "El Gaish",
+              "away": "FC tương lai",
+              "home_logo": "https://static.wex1sora.com/thesports/football/team/bacc15441ed99eaad038d4ceb86751d6.png",
+              "away_logo": "https://static.wex1sora.com/thesports/football/team/53f4bc55c48cd39be78fa4fa69645f31.png",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
               "status": "4",
-              "score": "1-1",
+              "score": "0-0",
               "stream_count": 1
             }
           ]
         },
         {
-          "name": "Major League Soccer",
-          "logo": "https://static.wex1sora.com/thesports/football/competition/d2fe5be131ad888084f50d6af533570c.png",
+          "name": "Giải Vô địch Quốc gia Georgia",
+          "logo": "https://static.wex1sora.com/thesports/football/competition/20add0f0000a914f2e9179af8b4ce8bc.png",
           "matches": [
             {
-              "id": "mhd-match-ednm9wh5kw7nryo",
-              "title": "San Jose Earthquakes vs Houston Dynamo",
-              "home": "San Jose Earthquakes",
-              "away": "Houston Dynamo",
-              "home_logo": "https://static.wex1sora.com/thesports/football/team/7079d708b4e391c0c26b20da7b2fb32c.png",
-              "away_logo": "https://static.wex1sora.com/thesports/football/team/2d21e6bbd505075b1bc6df8b5a887e8f.png",
-              "time": "2026-11-25T10:30:00+07:00",
-              "time_label": "25/11 10:30",
+              "id": "mhd-match-dn1m1ghl24nxmoe",
+              "title": "CLB Metalurgi Rustavi vs Fc Meshakhte Tkibuli",
+              "home": "CLB Metalurgi Rustavi",
+              "away": "Fc Meshakhte Tkibuli",
+              "home_logo": "https://static.wex1sora.com/thesports/football/team/cc6d0105f751057a74ad7580822737f7.png",
+              "away_logo": "https://static.wex1sora.com/thesports/football/team/6c4026b1738fc21db081f031cf8c8d39.png",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
               "status": "4",
-              "score": "2-0",
-              "stream_count": 2
+              "score": "2-1",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Russian Cup",
+          "logo": "https://static.wex1sora.com/thesports/football/competition/f5470371fbfd2700042bdc9801f08bab.png",
+          "matches": [
+            {
+              "id": "mhd-match-318q66hxp77vqo9",
+              "title": "Akhmat Grozny vs Krasnodar",
+              "home": "Akhmat Grozny",
+              "away": "Krasnodar",
+              "home_logo": "https://static.wex1sora.com/thesports/football/team/553ebe5306456914b5574aa8ef0eaf0f.png",
+              "away_logo": "https://static.wex1sora.com/thesports/football/team/f48a781b76e04c7a50ea2136cb37ab87.png",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "4",
+              "score": "0-2",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Giải Bóng đá Quốc gia Nga",
+          "logo": "https://static.wex1sora.com/thesports/football/competition/c3ca567177713d1924f670d62e5f9da9.png",
+          "matches": [
+            {
+              "id": "mhd-match-k82rekhgpvxgrep",
+              "title": "Kamaz Naberezhnye Chelny vs Yenisey Krasnoyarsk",
+              "home": "Kamaz Naberezhnye Chelny",
+              "away": "Yenisey Krasnoyarsk",
+              "home_logo": "https://static.wex1sora.com/thesports/football/team/eba225b968ea660af2261349aa0d5aa5.png",
+              "away_logo": "https://static.wex1sora.com/thesports/football/team/60b57ab9fe74604224f9835b289a64dd.png",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "4",
+              "score": "1-2",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "Giải đấu Liên minh Trẻ Câu lạc bộ Châu Âu",
+          "logo": "https://static.wex1sora.com/thesports/football/competition/b4064f618a064f1b909cf2897ea8521b.png",
+          "matches": [
+            {
+              "id": "mhd-match-jw2r09hk8kkprz8",
+              "title": "Atletico Madrid U19 vs Viking U19",
+              "home": "Atletico Madrid U19",
+              "away": "Viking U19",
+              "home_logo": "https://static.wex1sora.com/thesports/football/team/dd126282a3ed968b622055c808ad82c4.png",
+              "away_logo": "https://static.wex1sora.com/thesports/football/team/e2c508f509234c63bc8f757789bf0ec8.png",
+              "time": "2026-11-25T22:00:00+07:00",
+              "time_label": "25/11 22:00",
+              "status": "4",
+              "score": "1-0",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "World Cup U17",
+          "logo": "https://static.wex1sora.com/thesports/football/competition/8f1cede667dd40babe801d43821420aa.png",
+          "matches": [
+            {
+              "id": "mhd-match-jw2r09hkgv6krz8",
+              "title": "Úc U17 vs Mozambique U17",
+              "home": "Úc U17",
+              "away": "Mozambique U17",
+              "home_logo": "https://static.wex1sora.com/thesports/football/team/2d8fe42de2f833581faa077f788329fa.png",
+              "away_logo": "https://static.wex1sora.com/thesports/football/team/d3b8cf8b9c797942fe68565e4ed2d8c3.png",
+              "time": "2026-11-25T22:30:00+07:00",
+              "time_label": "25/11 22:30",
+              "status": "4",
+              "score": "1-2",
+              "stream_count": 1
             }
           ]
         },
@@ -4631,120 +4441,56 @@
           "logo": "https://static.wex1sora.com/thesports/football/competition/9a22d840df32761c127c5cd106203ccf.png",
           "matches": [
             {
-              "id": "mhd-match-vjxm8ghen283r6o",
-              "title": "Melbourne Victory vs Thể Công - Viettel",
-              "home": "Melbourne Victory",
-              "away": "Thể Công - Viettel",
-              "home_logo": "https://static.wex1sora.com/thesports/football/team/c540f8f279c09a2a3df1cbbfe82d7184.png",
-              "away_logo": "https://static.wex1sora.com/thesports/football/team/840e2d7165cf2a34ec6c65a1fd9b58a9.png",
-              "time": "2026-11-25T14:45:00+07:00",
-              "time_label": "25/11 14:45",
-              "status": "scheduled",
-              "score": "0-0",
-              "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "AFC Giải vô địch Champions Elite",
-          "logo": "https://static.wex1sora.com/thesports/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
-          "matches": [
-            {
-              "id": "mhd-match-2y8m4zh524pvql0",
-              "title": "Gamba Osaka vs Port FC",
-              "home": "Gamba Osaka",
-              "away": "Port FC",
-              "home_logo": "https://static.wex1sora.com/thesports/football/team/91008a96b5de8c75376d17057f89890e.png",
-              "away_logo": "https://static.wex1sora.com/thesports/football/team/fb00f7ae0bf4530e86baf7bec110f69f.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
+              "id": "mhd-match-vjxm8ghen2g3r6o",
+              "title": "Al Kuwait vs Al Wahda",
+              "home": "Al Kuwait",
+              "away": "Al Wahda",
+              "home_logo": "https://static.wex1sora.com/thesports/football/team/b292fe77f1c6c63d12782e565ea3e92f.png",
+              "away_logo": "https://static.wex1sora.com/thesports/football/team/21da55d164e80f29bdfd9f8cef55a76b.png",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
               "score": "0-0",
               "stream_count": 2
             },
             {
-              "id": "mhd-match-n54qllhnlkzlqvy",
-              "title": "Kashima Antlers vs CLB Jeonbuk Hyundai Motors",
-              "home": "Kashima Antlers",
-              "away": "CLB Jeonbuk Hyundai Motors",
-              "home_logo": "https://static.wex1sora.com/thesports/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
-              "away_logo": "https://static.wex1sora.com/thesports/football/team/ee2117f952745163fecfa4b74a6a2bea.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "0-0",
+              "id": "mhd-match-1l4rjnh9831gm7v",
+              "title": "Al Jazira vs Gol Gohar",
+              "home": "Al Jazira",
+              "away": "Gol Gohar",
+              "home_logo": "https://static.wex1sora.com/thesports/football/team/9352b8e0b9515b84abf716a32c42777e.png",
+              "away_logo": "https://static.wex1sora.com/thesports/football/team/69625f17e031ad1fcb33823338b74d95.png",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "1-0",
               "stream_count": 2
-            }
-          ]
-        },
-        {
-          "name": "Giải vô địch quốc gia Nhật Bản",
-          "logo": "https://static.wex1sora.com/thesports/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "matches": [
-            {
-              "id": "mhd-match-4jwq2ghndeewm0v",
-              "title": "CLB Tokyo vs Sanfrecce Hiroshima",
-              "home": "CLB Tokyo",
-              "away": "Sanfrecce Hiroshima",
-              "home_logo": "https://static.wex1sora.com/thesports/football/team/333df39860930a21cf72b4e9664723ab.png",
-              "away_logo": "https://static.wex1sora.com/thesports/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "0-0",
-              "stream_count": 1
             },
             {
-              "id": "mhd-match-l5ergph4jwl6r8k",
-              "title": "Mito Hollyhock vs Tokyo Verdy",
-              "home": "Mito Hollyhock",
-              "away": "Tokyo Verdy",
-              "home_logo": "https://static.wex1sora.com/thesports/football/team/9ead844240532c4e12d3eb45d2087924.png",
-              "away_logo": "https://static.wex1sora.com/thesports/football/team/2a8adb34e764602183a7bee8f51726e4.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "0-0",
-              "stream_count": 1
+              "id": "mhd-match-jw2r09hkepxlrz8",
+              "title": "Al-Muharraq vs FC bạn bè",
+              "home": "Al-Muharraq",
+              "away": "FC bạn bè",
+              "home_logo": "https://static.wex1sora.com/thesports/football/team/4e9422ab24a8dff2521be20e1c129f20.png",
+              "away_logo": "https://static.wex1sora.com/thesports/football/team/aad022bfac5c480bed8d0dc2a710281e.png",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "1-2",
+              "stream_count": 2
             },
             {
-              "id": "mhd-match-3glrw7hne74lqdy",
-              "title": "V Varen Nagasaki vs Kawasaki Frontale",
-              "home": "V Varen Nagasaki",
-              "away": "Kawasaki Frontale",
-              "home_logo": "https://static.wex1sora.com/thesports/football/team/b28ace839956d8eacce11926ea5e43b3.png",
-              "away_logo": "https://static.wex1sora.com/thesports/football/team/937795c0851c1e794e96a5cb660fcd59.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "0-0",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-3glrw7hne7nlqdy",
-              "title": "Avispa Fukuoka vs Yokohama F. Marinos",
-              "home": "Avispa Fukuoka",
-              "away": "Yokohama F. Marinos",
-              "home_logo": "https://static.wex1sora.com/thesports/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-              "away_logo": "https://static.wex1sora.com/thesports/football/team/78ddaaa79d9502f5e2df0fbb6261f937.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "0-0",
-              "stream_count": 1
-            },
-            {
-              "id": "mhd-match-y39mp1h68z6nmoj",
-              "title": "Chiba vs Nagoya Grampus",
-              "home": "Chiba",
-              "away": "Nagoya Grampus",
-              "home_logo": "https://static.wex1sora.com/thesports/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-              "away_logo": "https://static.wex1sora.com/thesports/football/team/32aa68e1fa3d62dad572d19b21a09353.png",
-              "time": "2026-11-25T17:00:00+07:00",
-              "time_label": "25/11 17:00",
-              "status": "scheduled",
-              "score": "0-0",
-              "stream_count": 1
+              "id": "mhd-match-n54qllhnlkx7qvy",
+              "title": "Al-Faisaly Amman vs Al Rayyan",
+              "home": "Al-Faisaly Amman",
+              "away": "Al Rayyan",
+              "home_logo": "https://static.wex1sora.com/thesports/football/team/d73fc6a782904bb6819be4e0e86e8a55.png",
+              "away_logo": "https://static.wex1sora.com/thesports/football/team/d36d53da32742efb1d00f27e959603a0.png",
+              "time": "2026-11-25T23:00:00+07:00",
+              "time_label": "25/11 23:00",
+              "status": "live",
+              "score": "0-1",
+              "stream_count": 2
             }
           ]
         }
@@ -4760,24 +4506,69 @@
       "ok": true,
       "stale": false,
       "error": "",
-      "match_count": 1,
-      "stream_count": 1,
+      "match_count": 4,
+      "stream_count": 4,
       "leagues": [
         {
-          "name": "2026 獨牙橫琴中式九球公開賽",
+          "name": "phi bịp",
           "logo": "",
           "matches": [
             {
-              "id": "mhd-match-choangtv-10607",
-              "title": "Xue Zhenqi vs Ko Pin-Yi",
-              "home": "Xue Zhenqi",
-              "away": "Ko Pin-Yi",
-              "home_logo": "https://cdn-choangtv.com/img/logo/1795576569303_Screenshot 2026-11-25 101558.png",
-              "away_logo": "https://cdn-choangtv.com/img/logo/1795576568957_Screenshot 2026-11-25 101605.png",
-              "time": "2026-11-25T11:00:00+07:00",
-              "time_label": "25/11 11:00",
+              "id": "mhd-match-choangtv-10626",
+              "title": "ANTON RAGA vs KYLE AMOROTO",
+              "home": "ANTON RAGA",
+              "away": "KYLE AMOROTO",
+              "home_logo": "https://cdn-choangtv.com/img/logo/1795624041673_Screenshot 2026-11-24 165734.png",
+              "away_logo": "https://cdn-choangtv.com/img/logo/1795624044656_Screenshot 2026-11-24 165734.png",
+              "time": "2026-11-25T00:00:00+07:00",
+              "time_label": "25/11 00:00",
               "status": "live",
-              "score": "25-9",
+              "score": "2-3",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-choangtv-10623",
+              "title": "OWAT LUZON vs KENKEN MARBEL",
+              "home": "OWAT LUZON",
+              "away": "KENKEN MARBEL",
+              "home_logo": "https://cdn-choangtv.com/img/logo/1795614948356_Screenshot 2026-11-24 165734.png",
+              "away_logo": "https://cdn-choangtv.com/img/logo/1795614950962_Screenshot 2026-11-24 165734.png",
+              "time": "2026-11-25T20:55:00+07:00",
+              "time_label": "25/11 20:55",
+              "status": "live",
+              "score": "12-13",
+              "stream_count": 1
+            }
+          ]
+        },
+        {
+          "name": "san antonio",
+          "logo": "",
+          "matches": [
+            {
+              "id": "mhd-match-choangtv-10624",
+              "title": "Kristina Tkach vs Xiaofang Fu",
+              "home": "Kristina Tkach",
+              "away": "Xiaofang Fu",
+              "home_logo": "https://cdn-choangtv.com/img/logo/1795617743693_Screenshot 2026-11-25 214217.png",
+              "away_logo": "https://cdn-choangtv.com/img/logo/1795617761787_Screenshot 2026-11-25 214236.png",
+              "time": "2026-11-25T21:42:00+07:00",
+              "time_label": "25/11 21:42",
+              "status": "live",
+              "score": "0-1",
+              "stream_count": 1
+            },
+            {
+              "id": "mhd-match-choangtv-10625",
+              "title": "Linnea Hjalmarström vs Margarita Fefilova",
+              "home": "Linnea Hjalmarström",
+              "away": "Margarita Fefilova",
+              "home_logo": "https://cdn-choangtv.com/img/logo/1795617841851_Screenshot 2026-11-25 214356.png",
+              "away_logo": "https://cdn-choangtv.com/img/logo/1795617859092_Screenshot 2026-11-25 214413.png",
+              "time": "2026-11-25T21:43:00+07:00",
+              "time_label": "25/11 21:43",
+              "status": "live",
+              "score": "1-1",
               "stream_count": 1
             }
           ]
