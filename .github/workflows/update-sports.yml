@@ -7,7 +7,7 @@ name: Update MHD Sports M3U + XMLTV EPG
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "17 */2 * * *"
   push:
     paths:
       - "config.json"
